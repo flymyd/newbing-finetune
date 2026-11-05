@@ -1,0 +1,17 @@
+{"repair_attempted": 4, "unresolved": 1, "corrected_needs_reverification": 1}
+{"repair_attempted": 6, "unresolved": 2, "corrected_needs_reverification": 2}
+{"repair_attempted": 8, "unresolved": 3, "corrected_needs_reverification": 3}
+{"repair_attempted": 10, "unresolved": 4, "corrected_needs_reverification": 4}
+{"repair_attempted": 12, "unresolved": 5, "corrected_needs_reverification": 5}
+{"repair_attempted": 14, "unresolved": 6, "corrected_needs_reverification": 6}
+{"repair_attempted": 15, "unresolved": 6, "corrected_needs_reverification": 6, "failed_or_deferred": 1}
+{"repair_attempted": 16, "unresolved": 6, "corrected_needs_reverification": 7, "failed_or_deferred": 1}
+{"repair_attempted": 17, "unresolved": 6, "corrected_needs_reverification": 8, "failed_or_deferred": 1}
+{"repair_attempted": 18, "unresolved": 6, "corrected_needs_reverification": 8, "failed_or_deferred": 2}
+{"repair_attempted": 19, "unresolved": 6, "corrected_needs_reverification": 9, "failed_or_deferred": 2}
+{"repair_attempted": 21, "unresolved": 7, "corrected_needs_reverification": 10, "failed_or_deferred": 2}
+{
+  "unresolved": 7,
+  "corrected_needs_reverification": 10,
+  "failed_or_deferred": 2
+}

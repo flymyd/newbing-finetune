@@ -1,0 +1,46 @@
+{"processed": 25, "retry_wait": 25}
+{"processed": 50, "retry_wait": 50}
+{"processed": 75, "retry_wait": 75}
+{"processed": 100, "retry_wait": 100}
+{"processed": 125, "retry_wait": 125}
+{"processed": 150, "retry_wait": 150}
+{"processed": 175, "retry_wait": 175}
+{"processed": 200, "retry_wait": 200}
+{"processed": 225, "retry_wait": 225}
+{"processed": 250, "retry_wait": 250}
+{"processed": 275, "retry_wait": 275}
+{"processed": 300, "retry_wait": 300}
+{"processed": 325, "retry_wait": 325}
+{"processed": 350, "retry_wait": 350}
+{"processed": 375, "retry_wait": 372, "failed_terminal": 3}
+{"processed": 400, "retry_wait": 372, "failed_terminal": 28}
+{"processed": 425, "retry_wait": 372, "failed_terminal": 53}
+{"processed": 450, "retry_wait": 372, "failed_terminal": 78}
+{"processed": 475, "retry_wait": 372, "failed_terminal": 103}
+{"processed": 500, "retry_wait": 372, "failed_terminal": 128}
+{"processed": 525, "retry_wait": 372, "failed_terminal": 153}
+{"processed": 550, "retry_wait": 372, "failed_terminal": 178}
+{"processed": 575, "retry_wait": 372, "failed_terminal": 203}
+{"processed": 600, "retry_wait": 372, "failed_terminal": 228}
+{"processed": 625, "retry_wait": 372, "failed_terminal": 253}
+{"processed": 650, "retry_wait": 372, "failed_terminal": 278}
+{"processed": 675, "retry_wait": 372, "failed_terminal": 303}
+{"processed": 700, "retry_wait": 372, "failed_terminal": 328}
+{"processed": 725, "retry_wait": 372, "failed_terminal": 353}
+{"processed": 750, "retry_wait": 372, "failed_terminal": 378}
+{"processed": 775, "retry_wait": 372, "failed_terminal": 403}
+{"processed": 800, "retry_wait": 372, "failed_terminal": 428}
+{"processed": 825, "retry_wait": 372, "failed_terminal": 453}
+{"processed": 850, "retry_wait": 372, "failed_terminal": 478}
+{"processed": 875, "retry_wait": 372, "failed_terminal": 503}
+{"processed": 900, "retry_wait": 372, "failed_terminal": 528}
+{"processed": 925, "retry_wait": 372, "failed_terminal": 553}
+{"processed": 950, "retry_wait": 372, "failed_terminal": 578}
+{"processed": 975, "retry_wait": 372, "failed_terminal": 603}
+{"processed": 1000, "retry_wait": 372, "failed_terminal": 628}
+{"processed": 1025, "retry_wait": 372, "failed_terminal": 653}
+{
+  "retry_wait": 373,
+  "failed_terminal": 659,
+  "succeeded": 2
+}

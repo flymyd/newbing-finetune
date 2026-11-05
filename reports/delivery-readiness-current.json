@@ -1,0 +1,1250 @@
+{
+  "at": "2026-11-05T13:28:33.114615+00:00",
+  "snapshot": {
+    "sources": [
+      {
+        "kind": "author_archive",
+        "n": 484
+      },
+      {
+        "kind": "baseline",
+        "n": 1424
+      },
+      {
+        "kind": "external_album",
+        "n": 68
+      },
+      {
+        "kind": "reddit_comment",
+        "n": 30966
+      },
+      {
+        "kind": "reddit_post",
+        "n": 9306
+      },
+      {
+        "kind": "reference_page",
+        "n": 349
+      },
+      {
+        "kind": "web_page",
+        "n": 5
+      }
+    ],
+    "candidates": 8562,
+    "assets": {
+      "n": 8215,
+      "bytes": 1680080931
+    },
+    "conversations": 1842,
+    "tasks": [
+      {
+        "kind": "classify",
+        "status": "leased",
+        "n": 3
+      },
+      {
+        "kind": "classify",
+        "status": "pending",
+        "n": 3890
+      },
+      {
+        "kind": "classify",
+        "status": "quarantined",
+        "n": 8
+      },
+      {
+        "kind": "classify",
+        "status": "succeeded",
+        "n": 2385
+      },
+      {
+        "kind": "classify",
+        "status": "superseded_input",
+        "n": 3745
+      },
+      {
+        "kind": "classify",
+        "status": "suppressed_known_baseline",
+        "n": 46
+      },
+      {
+        "kind": "comments",
+        "status": "leased",
+        "n": 1
+      },
+      {
+        "kind": "comments",
+        "status": "pending",
+        "n": 4319
+      },
+      {
+        "kind": "comments",
+        "status": "retry_wait",
+        "n": 2
+      },
+      {
+        "kind": "comments",
+        "status": "succeeded",
+        "n": 2361
+      },
+      {
+        "kind": "download",
+        "status": "failed_terminal",
+        "n": 1897
+      },
+      {
+        "kind": "download",
+        "status": "leased",
+        "n": 2
+      },
+      {
+        "kind": "download",
+        "status": "pending",
+        "n": 2512
+      },
+      {
+        "kind": "download",
+        "status": "retry_wait",
+        "n": 482
+      },
+      {
+        "kind": "download",
+        "status": "succeeded",
+        "n": 12147
+      },
+      {
+        "kind": "reference",
+        "status": "failed_terminal",
+        "n": 29
+      },
+      {
+        "kind": "reference",
+        "status": "succeeded",
+        "n": 357
+      },
+      {
+        "kind": "repair",
+        "status": "quarantined",
+        "n": 9
+      },
+      {
+        "kind": "repair",
+        "status": "succeeded",
+        "n": 19
+      },
+      {
+        "kind": "transcribe",
+        "status": "leased",
+        "n": 1
+      },
+      {
+        "kind": "transcribe",
+        "status": "pending",
+        "n": 405
+      },
+      {
+        "kind": "transcribe",
+        "status": "quarantined",
+        "n": 36
+      },
+      {
+        "kind": "transcribe",
+        "status": "succeeded",
+        "n": 828
+      },
+      {
+        "kind": "transcribe",
+        "status": "superseded_input",
+        "n": 595
+      },
+      {
+        "kind": "verify",
+        "status": "leased",
+        "n": 2
+      },
+      {
+        "kind": "verify",
+        "status": "pending",
+        "n": 63
+      },
+      {
+        "kind": "verify",
+        "status": "quarantined",
+        "n": 284
+      },
+      {
+        "kind": "verify",
+        "status": "retry_wait",
+        "n": 47
+      },
+      {
+        "kind": "verify",
+        "status": "succeeded",
+        "n": 409
+      }
+    ],
+    "http": {
+      "attempts": 18758,
+      "downloaded_bytes": 2449327292
+    },
+    "model": {
+      "attempts": 2028,
+      "reported_tokens": 18456194,
+      "reserved_tokens": 3510580,
+      "unknown_usage": 63,
+      "finished_unknown_usage": 57,
+      "in_flight": 6
+    },
+    "source_status": [
+      {
+        "id": "arctic_api_docs",
+        "state": "reachable",
+        "payload": "{\"path\": \"data/raw/net/05a5c0dbb51130cdeb3f0190d099af7b57d5c54efb1d09dfcac8a961b6ab0582.blob\", \"bytes\": 27070}",
+        "updated": "2026-11-05T07:49:38.609093+00:00"
+      },
+      {
+        "id": "arctic_offline_index",
+        "state": "reachable",
+        "payload": "{\"path\": \"data/raw/net/8615f1aae92046ecb7074e05fbaadbf3a652eeccb273c610e63ca63607988f7b.blob\", \"bytes\": 11654}",
+        "updated": "2026-11-05T07:49:39.507272+00:00"
+      },
+      {
+        "id": "arctic_probe",
+        "state": "reachable",
+        "payload": "{\"path\": \"data/raw/net/01ffb48e2df9ae7396334db2bfe8aa728c693525612bf08db8634e74874a7cf1.blob\", \"bytes\": 343898}",
+        "updated": "2026-11-05T07:49:42.601815+00:00"
+      },
+      {
+        "id": "reddit_bingchat:early",
+        "state": "complete_for_available_listing",
+        "payload": "{\"unique_posts\": 5, \"candidate_posts\": 3, \"pages\": 1, \"saturated_seconds\": 0, \"errors\": [], \"method\": \"arctic_interval_enumeration\"}",
+        "updated": "2026-11-05T07:53:09.978598+00:00"
+      },
+      {
+        "id": "reddit_bing:early",
+        "state": "complete_for_available_listing",
+        "payload": "{\"unique_posts\": 754, \"candidate_posts\": 509, \"pages\": 11, \"saturated_seconds\": 0, \"errors\": [], \"method\": \"arctic_interval_enumeration\"}",
+        "updated": "2026-11-05T07:55:38.409079+00:00"
+      },
+      {
+        "id": "comments_probe",
+        "state": "reachable",
+        "payload": "{\"path\": \"data/raw/net/4c645b8ae244fe9de2818e417dc7780bf1c44883b0e956a9e7affb2bfed5fd3e.blob\"}",
+        "updated": "2026-11-05T08:00:03.267760+00:00"
+      },
+      {
+        "id": "reddit_bingchat:transition",
+        "state": "complete_for_available_listing",
+        "payload": "{\"unique_posts\": 36, \"candidate_posts\": 22, \"pages\": 1, \"saturated_seconds\": 0, \"errors\": [], \"method\": \"arctic_interval_enumeration\"}",
+        "updated": "2026-11-05T08:15:12.853208+00:00"
+      },
+      {
+        "id": "reddit_freesydney:transition",
+        "state": "complete_for_available_listing",
+        "payload": "{\"unique_posts\": 67, \"candidate_posts\": 45, \"pages\": 1, \"saturated_seconds\": 0, \"errors\": [], \"method\": \"arctic_interval_enumeration\"}",
+        "updated": "2026-11-05T08:15:14.103523+00:00"
+      },
+      {
+        "id": "bing_moments",
+        "state": "partial_seed_discovery",
+        "payload": "{\"results\": [{\"url\": \"https://gist.github.com/socketteer/b6cde1606cf28d47dbd5f01985c8b216\", \"images\": 2, \"status\": \"archived\"}]}",
+        "updated": "2026-11-05T08:18:45.410006+00:00"
+      },
+      {
+        "id": "lesswrong_compilation",
+        "state": "partial_seed_discovery",
+        "payload": "{\"results\": [{\"url\": \"https://www.lesswrong.com/posts/jtoPawEhLNXNxvgTT/bing-chat-is-blatantly-aggressively-misaligned\", \"images\": 47, \"status\": \"archived\"}]}",
+        "updated": "2026-11-05T08:18:51.971253+00:00"
+      },
+      {
+        "id": "willison_bing",
+        "state": "partial_seed_discovery",
+        "payload": "{\"results\": [{\"url\": \"https://simonwillison.net/2023/Feb/15/bing/\", \"images\": 4, \"status\": \"archived\"}]}",
+        "updated": "2026-11-05T08:18:52.695656+00:00"
+      },
+      {
+        "id": "v2ex_bing",
+        "state": "partial_seed_discovery",
+        "payload": "{\"results\": [{\"url\": \"https://www.v2ex.com/go/bing?p=4\", \"images\": 29, \"status\": \"archived\"}, {\"url\": \"https://v2ex.com/t/928010\", \"images\": 26, \"status\": \"archived\"}]}",
+        "updated": "2026-11-05T08:18:53.942945+00:00"
+      },
+      {
+        "id": "reddit_bing:transition",
+        "state": "complete_for_available_listing",
+        "payload": "{\"unique_posts\": 2292, \"candidate_posts\": 1691, \"pages\": 34, \"saturated_seconds\": 0, \"errors\": [], \"method\": \"arctic_interval_enumeration\"}",
+        "updated": "2026-11-05T08:50:25.564713+00:00"
+      },
+      {
+        "id": "reddit_chatgpt:early",
+        "state": "partial",
+        "payload": "{\"unique_posts\": 66, \"candidate_posts\": 54, \"pages\": 1, \"saturated_seconds\": 0, \"errors\": [{\"keyword\": \"bing\", \"error\": \"HTTP 429: {\\\"data\\\":null,\\\"error\\\":\\\"Too many requests\\\"}\"}], \"method\": \"arctic_interval_enumeration\"}",
+        "updated": "2026-11-05T10:48:30.900916+00:00"
+      },
+      {
+        "id": "reddit_singularity:early",
+        "state": "partial",
+        "payload": "{\"unique_posts\": 52, \"candidate_posts\": 36, \"pages\": 1, \"saturated_seconds\": 0, \"errors\": [{\"keyword\": \"sydney\", \"error\": \"host rate-limit cooldown\"}], \"method\": \"arctic_interval_enumeration\"}",
+        "updated": "2026-11-05T10:48:31.189901+00:00"
+      },
+      {
+        "id": "wayback:cf4b8bac5693917da07a8f50b9b6317b93cc1628d48762b4331fe2073e6345ca",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/kndu4ahcr3ha1.png?width=843&format=png&auto=webp&v=enabled&s=890b36e645916a9cf1e32c15007a239d70fd18eb\", \"captures\": [\"https://web.archive.org/web/20230209060300id_/https://preview.redd.it/kndu4ahcr3ha1.png?width=843&format=png&auto=webp&v=enabled&s=890b36e645916a9cf1e32c15007a239d70fd18eb\"], \"receipt\": \"data/raw/net/3517abd7a820d46d8475210290549ed40ec5b443fbf08772af5ff21a95c5fab3.blob\"}",
+        "updated": "2026-11-05T10:57:10.830125+00:00"
+      },
+      {
+        "id": "wayback:772b7f5ce633b6b523249fbcf34ab020217ac4fecdd86a7b31143556477b1c5c",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://i.imgur.com/wDBsJ49.png\", \"captures\": [\"https://web.archive.org/web/20230209134238id_/https://i.imgur.com/wDBsJ49.png\"], \"receipt\": \"data/raw/net/e957d95d299cb05ba1eeb7c8fb23319f9457eac3a0c6073df73b3407a72a8836.blob\"}",
+        "updated": "2026-11-05T10:57:11.242310+00:00"
+      },
+      {
+        "id": "wayback:f90d447615d31ec2b69d8e765888f8bfa63f055d0913d3440ee4ff10f3cc1452",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://i.imgur.com/iNDSdB5.png\", \"captures\": [\"https://web.archive.org/web/20230209134214id_/https://i.imgur.com/iNDSdB5.png\"], \"receipt\": \"data/raw/net/fc7387d7cba98de1133dba97142db30b5562df3ec76ad3bf53f18ffbc7901c2a.blob\"}",
+        "updated": "2026-11-05T10:57:12.429212+00:00"
+      },
+      {
+        "id": "wayback:ce6a59624be1e89460692fdc4860c7aabc2f76819ef3e615d0c93eaf103b71e0",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://i.imgur.com/jez05Gh.png\", \"captures\": [\"https://web.archive.org/web/20230209134226id_/https://i.imgur.com/jez05Gh.png\"], \"receipt\": \"data/raw/net/5c234d6daef6b7413c66e41fa622ee8bb4a2723a01fac55572a66f25b9deb859.blob\"}",
+        "updated": "2026-11-05T10:57:13.357388+00:00"
+      },
+      {
+        "id": "wayback:e4a85134cd3d667f429cbfab70c6f365e5c0e9cac51eb25eda9aafef787f63de",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://i.redd.it/brtkuuvth5ia1.jpg\", \"captures\": [\"https://web.archive.org/web/20230214075158id_/https://i.redd.it/brtkuuvth5ia1.jpg\"], \"receipt\": \"data/raw/net/973f948d8541c60ea0cc3f35284c72dfddedb4b291efdea4113b75675367790d.blob\"}",
+        "updated": "2026-11-05T10:57:14.348303+00:00"
+      },
+      {
+        "id": "wayback:b79d90ad00652848bf66e3419baca2a4d9657a7bd0a5fc3262132b900e782f87",
+        "state": "no_capture",
+        "payload": "{\"original_url\": \"https://i.imgur.com/fAqsUCh.png](https://i.imgur.com/fAqsUCh.png\", \"captures\": [], \"receipt\": \"data/raw/net/91cade56e6c9406131afd8a4909c0049da8eafbf6240bbc6e507d07478f57f1b.blob\"}",
+        "updated": "2026-11-05T10:57:15.330628+00:00"
+      },
+      {
+        "id": "wayback:284a94f5968b048e557f1b92aa47be315c1aa349dcf9f56bd3ea73f11f08c0cd",
+        "state": "no_capture",
+        "payload": "{\"original_url\": \"https://i.imgur.com/IkxXfLA.png](https://i.imgur.com/IkxXfLA.png\", \"captures\": [], \"receipt\": \"data/raw/net/0f9c230e89a6798a8dcf579f67df4d8358024df0b72e945e97b3e440736cd88b.blob\"}",
+        "updated": "2026-11-05T10:57:19.068433+00:00"
+      },
+      {
+        "id": "wayback:dce0ca3b9b210162207dfeabfae2947f922224cf536032c409e81edf22063591",
+        "state": "no_capture",
+        "payload": "{\"original_url\": \"https://i.imgur.com/dqWxSRp.png](https://i.imgur.com/dqWxSRp.png\", \"captures\": [], \"receipt\": \"data/raw/net/088c37104878c3471159bea7576eca70f64bf191476b977b469fa9c4f55973a9.blob\"}",
+        "updated": "2026-11-05T10:57:19.456114+00:00"
+      },
+      {
+        "id": "wayback:0829d8307131748cbef60a87f22d8c9895f0738176729b032f2efb878c9c1252",
+        "state": "no_capture",
+        "payload": "{\"original_url\": \"https://i.imgur.com/t4CVbBu.png](https://i.imgur.com/t4CVbBu.png\", \"captures\": [], \"receipt\": \"data/raw/net/584451245c4fc3693afbe11ffa8ca4087f819be6c596aaef15af8d5574136e0c.blob\"}",
+        "updated": "2026-11-05T10:57:20.504487+00:00"
+      },
+      {
+        "id": "wayback:c49bbeee82ae80686d9e924efc731a9587f21842e03a39273e306d0e20023cba",
+        "state": "no_capture",
+        "payload": "{\"original_url\": \"https://i.imgur.com/KNOxPdB.png](https://i.imgur.com/KNOxPdB.png\", \"captures\": [], \"receipt\": \"data/raw/net/d7993477b9a04c6cafe521322fefc8586e73c3da570751f8f184ec018ce80a2a.blob\"}",
+        "updated": "2026-11-05T10:57:22.884700+00:00"
+      },
+      {
+        "id": "wayback:c3918cd9b1fc133e4527077a695d28893d40715494ac68486d66f244c386e351",
+        "state": "no_capture",
+        "payload": "{\"original_url\": \"https://i.imgur.com/lAGdTUZ.png](https://i.imgur.com/lAGdTUZ.png\", \"captures\": [], \"receipt\": \"data/raw/net/1c44e4a5c619eb24ef1e9e3843227a6a295c515a61e3a0620d29fe42ab1078e1.blob\"}",
+        "updated": "2026-11-05T10:57:23.388411+00:00"
+      },
+      {
+        "id": "wayback:6e82a3ffbf2431a116302edbb436cd032a4bcaf4f35d882c1a5ab583c97589ee",
+        "state": "no_capture",
+        "payload": "{\"original_url\": \"https://i.imgur.com/bWM4rlf.png](https://i.imgur.com/bWM4rlf.png\", \"captures\": [], \"receipt\": \"data/raw/net/976b167bf3ce258fd15ceeb2e3344ba88afd4788f06546f511b9693052f27d25.blob\"}",
+        "updated": "2026-11-05T10:57:24.500505+00:00"
+      },
+      {
+        "id": "wayback:eb4fecd3358842bbbd8b2b36940ba84892851956ce8aef3e8e126e864b8a15d8",
+        "state": "no_capture",
+        "payload": "{\"original_url\": \"https://i.imgur.com/7IF1777.png](https://i.imgur.com/7IF1777.png\", \"captures\": [], \"receipt\": \"data/raw/net/6699ce2aa281c3b2016a9ea690a3d8edc82e1dabfb8f8d9cb9c902768f7288d2.blob\"}",
+        "updated": "2026-11-05T10:57:25.427176+00:00"
+      },
+      {
+        "id": "wayback:86e4d7d45e56fffb87b5671a3a3ff6b57398b4b6c2a8c3cfe7267efe8a3dd38a",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/fm3j97iyl7ia1.png?width=1304&format=png&auto=webp&v=enabled&s=029379526bc6ab4d23719274e362a0f8b760eb29\", \"captures\": [\"https://web.archive.org/web/20230214200015id_/https://preview.redd.it/fm3j97iyl7ia1.png?width=1304&format=png&auto=webp&v=enabled&s=029379526bc6ab4d23719274e362a0f8b760eb29\"], \"receipt\": \"data/raw/net/6c3ad4a75fe7c42f4076180c5fa1f80304cb2f61fbd0d0d7315d755a08a88b72.blob\"}",
+        "updated": "2026-11-05T10:57:26.429083+00:00"
+      },
+      {
+        "id": "wayback:d5c1fe0bd77691651239c6bb9c1368984ee1ce6e00cd1c44637d7d1530a4d5c9",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/zppkb7fq79ia1.png?width=2953&format=png&auto=webp&v=enabled&s=8e3e723c38dc88e72a68b496f53d67f4d1b54c1e\", \"captures\": [\"https://web.archive.org/web/20230216011425id_/https://preview.redd.it/zppkb7fq79ia1.png?width=2953&format=png&auto=webp&v=enabled&s=8e3e723c38dc88e72a68b496f53d67f4d1b54c1e\"], \"receipt\": \"data/raw/net/54945d4dab290985a77be2e795686aaf2ee8d016fa1307a23873aee7d3589950.blob\"}",
+        "updated": "2026-11-05T10:57:27.921616+00:00"
+      },
+      {
+        "id": "wayback:52fab5db6678be0bef9890066854b597931f94e10aba8351b3d1c361f929072f",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/lukvvmdv79ia1.png?width=2830&format=png&auto=webp&v=enabled&s=15a1b8e4f7c003b55aa19383697974acf35426e5\", \"captures\": [\"https://web.archive.org/web/20230215012544id_/https://preview.redd.it/lukvvmdv79ia1.png?width=2830&format=png&auto=webp&v=enabled&s=15a1b8e4f7c003b55aa19383697974acf35426e5\"], \"receipt\": \"data/raw/net/99c24484160af8595d515addede0bcd61bad2ecd7e688b8cc8ad88904cb05c68.blob\"}",
+        "updated": "2026-11-05T10:57:28.536199+00:00"
+      },
+      {
+        "id": "wayback:0b46aee5184a803a39cb9c28f8140fb0495d356e57595ef0601ff5d38a7e9b3b",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/a00414jx79ia1.png?width=2849&format=png&auto=webp&v=enabled&s=5d74b87a50d1efd77c332a5b9688f5a1bf4b2f2c\", \"captures\": [\"https://web.archive.org/web/20230215012536id_/https://preview.redd.it/a00414jx79ia1.png?width=2849&format=png&auto=webp&v=enabled&s=5d74b87a50d1efd77c332a5b9688f5a1bf4b2f2c\"], \"receipt\": \"data/raw/net/fec9250307fcc391a739abf4d9ee84152e939c9d1bd72a676cd31d89bfc221b9.blob\"}",
+        "updated": "2026-11-05T10:57:29.490590+00:00"
+      },
+      {
+        "id": "wayback:edd6cfd609a23e22c130344cbbc893b3ab243748f76e61be210fffe0f97e1876",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/irxmrym189ia1.png?width=2842&format=png&auto=webp&v=enabled&s=1b8282a0cf369f156782cee7bdfc747336cde3f1\", \"captures\": [\"https://web.archive.org/web/20230215012534id_/https://preview.redd.it/irxmrym189ia1.png?width=2842&format=png&auto=webp&v=enabled&s=1b8282a0cf369f156782cee7bdfc747336cde3f1\"], \"receipt\": \"data/raw/net/b1e5e77337f7e8fcb9d5d77e5a84ca30e7c5d248878c6c8ab4d779f47e27cf0e.blob\"}",
+        "updated": "2026-11-05T10:57:30.482809+00:00"
+      },
+      {
+        "id": "wayback:82ce5125ca7a8ebdd9e9919d26be774e690a52277b6d2fa410fa8c9115143d1f",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/l3z9f9qb89ia1.png?width=2875&format=png&auto=webp&v=enabled&s=5d6b4f47d6553b9e9b27d01340051596566deba0\", \"captures\": [\"https://web.archive.org/web/20230215012539id_/https://preview.redd.it/l3z9f9qb89ia1.png?width=2875&format=png&auto=webp&v=enabled&s=5d6b4f47d6553b9e9b27d01340051596566deba0\"], \"receipt\": \"data/raw/net/8a668d3bc2bba5cd42e4a067a176bfe46beb78236d0bc553d4296b8953e06fd6.blob\"}",
+        "updated": "2026-11-05T10:57:31.699238+00:00"
+      },
+      {
+        "id": "wayback:a911db012fca33946c25f0c9d4902b64c8406ee4ae29a936ebdf66433268b69c",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/5flp2g3p1cia1.png?width=1010&format=png&auto=webp&v=enabled&s=f80cb59b3173e59b78c2c891bf17b3e508d06898\", \"captures\": [\"https://web.archive.org/web/20230215105435id_/https://preview.redd.it/5flp2g3p1cia1.png?width=1010&format=png&auto=webp&v=enabled&s=f80cb59b3173e59b78c2c891bf17b3e508d06898\"], \"receipt\": \"data/raw/net/bd6e6384023a0dd1106de4de9f778e66aa2c7fb069a59d1692599bbaa29d1d99.blob\"}",
+        "updated": "2026-11-05T10:57:32.509921+00:00"
+      },
+      {
+        "id": "wayback:962316a2f9fd7dd5d55e0dce16b57273afdf81b68762c41dd42846916262afed",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/dq9oinepqcia1.jpg?width=1140&format=pjpg&auto=webp&v=enabled&s=8aa138a3b7a91fb40ff4e963d238868604fbc705\", \"captures\": [\"https://web.archive.org/web/20230215131425id_/https://preview.redd.it/dq9oinepqcia1.jpg?width=1140&format=pjpg&auto=webp&v=enabled&s=8aa138a3b7a91fb40ff4e963d238868604fbc705\"], \"receipt\": \"data/raw/net/e0427d1cebe612aa0180cc6c275349206e691bef573818ff7d87c63456e2cd54.blob\"}",
+        "updated": "2026-11-05T10:57:33.547289+00:00"
+      },
+      {
+        "id": "wayback:22a2a515bf6a81f6f53dd8be8cf46e44e59009e3ca426258295860216e59f58a",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/zwp69v5sqcia1.jpg?width=1137&format=pjpg&auto=webp&v=enabled&s=83a14d2d1940fdd32e6167dd6d7b040d4ae637b0\", \"captures\": [\"https://web.archive.org/web/20230215131423id_/https://preview.redd.it/zwp69v5sqcia1.jpg?width=1137&format=pjpg&auto=webp&v=enabled&s=83a14d2d1940fdd32e6167dd6d7b040d4ae637b0\"], \"receipt\": \"data/raw/net/48e42af5b9647ab7e824c42b3098a568348a533893f3a48a6f7b388b30669d44.blob\"}",
+        "updated": "2026-11-05T10:57:34.745141+00:00"
+      },
+      {
+        "id": "wayback:17ebc63d99f3209c7de17ae524b1e6923f73793e4ce99caf158df29e48fed389",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://i.imgur.com/Vc0OQqN.png\", \"captures\": [\"https://web.archive.org/web/20230227072454id_/https://i.imgur.com/Vc0OQqN.png\"], \"receipt\": \"data/raw/net/ad6f88d6f07124aa1c1b54d4e43aa00f664e37adb1ed45313595ddabe95e14b2.blob\"}",
+        "updated": "2026-11-05T10:57:35.474188+00:00"
+      },
+      {
+        "id": "wayback:0889a5ca9b4ebb3c38232c27c65bdff994824260e0de018825302fa355b98380",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/5c1o3hijedia1.png?width=828&format=png&auto=webp&v=enabled&s=07c132c687ee168888f048b740e5fb6329acfe6e\", \"captures\": [\"https://web.archive.org/web/20230215153226id_/https://preview.redd.it/5c1o3hijedia1.png?width=828&format=png&auto=webp&v=enabled&s=07c132c687ee168888f048b740e5fb6329acfe6e\"], \"receipt\": \"data/raw/net/aa483b27087a2b971df30ec77d1b74624c403e929c2e9f1dcd4d331c349fb692.blob\"}",
+        "updated": "2026-11-05T10:57:36.495435+00:00"
+      },
+      {
+        "id": "wayback:2b93d46e8ff6579acc16bcf86c7a57b8f1909e8aaf96c18b68e357c8e07be99e",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/p1toy8ijedia1.png?width=1019&format=png&auto=webp&v=enabled&s=9bd67f12f1aa530bf6b1a7f1fef2c15ab4b3e1de\", \"captures\": [\"https://web.archive.org/web/20230215153225id_/https://preview.redd.it/p1toy8ijedia1.png?width=1019&format=png&auto=webp&v=enabled&s=9bd67f12f1aa530bf6b1a7f1fef2c15ab4b3e1de\"], \"receipt\": \"data/raw/net/6b80e665b58a452e41871dd5106cc341251ad4304fd8361e549698b498135ff8.blob\"}",
+        "updated": "2026-11-05T10:57:37.634022+00:00"
+      },
+      {
+        "id": "wayback:8a436edef2ff7359ef33f389e40cfc64686f0f837acf8e047159a7ea4a26b47d",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://i.redd.it/kc688mqc0lia1.png\", \"captures\": [\"https://web.archive.org/web/20230216170300id_/https://i.redd.it/kc688mqc0lia1.png\"], \"receipt\": \"data/raw/net/a8141cc4bdf2661a00cf89c5fd063196d268d6571e77ce06618b808d63f83dc5.blob\"}",
+        "updated": "2026-11-05T10:57:38.520129+00:00"
+      },
+      {
+        "id": "wayback:aed96eafbc8cf2760d0499e4ce64741eca5e0ae96dda8c6bd85dc2cded7fe3be",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://i.redd.it/ki8bk3xyrlia1.png\", \"captures\": [\"https://web.archive.org/web/20230216193819id_/https://i.redd.it/ki8bk3xyrlia1.png\"], \"receipt\": \"data/raw/net/c6e9ae9aad561d549020ee5756f560aa3009e585e971dfc6230c470e3ebde638.blob\"}",
+        "updated": "2026-11-05T10:57:39.598768+00:00"
+      },
+      {
+        "id": "wayback:ae5d78ab659d656200e0051bc18a8ce7c3897beb76913c5d77b0c7d38d6686aa",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/cxc83jozxlia1.png?width=1243&format=png&auto=webp&v=enabled&s=a50ae8ec0a100132f1c4f54e5831e69473edae66\", \"captures\": [\"https://web.archive.org/web/20230216201128id_/https://preview.redd.it/cxc83jozxlia1.png?width=1243&format=png&auto=webp&v=enabled&s=a50ae8ec0a100132f1c4f54e5831e69473edae66\"], \"receipt\": \"data/raw/net/49f0f73c1b545713afb2a303d4920d8bbb6b4a7f02bf026648f878130750dd3b.blob\"}",
+        "updated": "2026-11-05T10:57:40.730662+00:00"
+      },
+      {
+        "id": "wayback:23567ac5f054a941232b6a7ce78249d6e0f8a2288feb1fd757a2c1f4020a7823",
+        "state": "no_capture",
+        "payload": "{\"original_url\": \"https://preview.redd.it/h8ih2khi3mia1.png?width=1320&format=png&auto=webp&v=enabled&s=0481c7c9084cb12de7f691eccb2282301e595727\", \"captures\": [], \"receipt\": \"data/raw/net/99b4388e3f1aabc8deb0e659b55566efe49e8ed3a4c1abed49a2574f3e5747f3.blob\"}",
+        "updated": "2026-11-05T10:57:41.606197+00:00"
+      },
+      {
+        "id": "wayback:351816d8121ce1467f0b92950f6cd56d0de4b347433281677abd94ae5194e118",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/p5n0qg7ncmia1.png?width=975&format=png&auto=webp&v=enabled&s=26a55e9d164b2b560e084e9a9f122fc7f558b704\", \"captures\": [\"https://web.archive.org/web/20230216214615id_/https://preview.redd.it/p5n0qg7ncmia1.png?width=975&format=png&auto=webp&v=enabled&s=26a55e9d164b2b560e084e9a9f122fc7f558b704\"], \"receipt\": \"data/raw/net/d9847b5bff14a190b7e77d6a7cd72d15658fde13ccd95ad74e94a01ba0b96b59.blob\"}",
+        "updated": "2026-11-05T10:57:42.705253+00:00"
+      },
+      {
+        "id": "wayback:5deb0e252e1ba98aa2a30f5f97e5cb7ef423afe7bde4a44aafc36128c2ea2328",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/urp91hnycmia1.png?width=975&format=png&auto=webp&v=enabled&s=67b4f432dad7c47b3bc56348237ef56675ee4f3c\", \"captures\": [\"https://web.archive.org/web/20230216214619id_/https://preview.redd.it/urp91hnycmia1.png?width=975&format=png&auto=webp&v=enabled&s=67b4f432dad7c47b3bc56348237ef56675ee4f3c\"], \"receipt\": \"data/raw/net/6ff28b1d4cfa6b3e38dab111486b1fe6f09f00d18436a573f3e11f850f25ddb3.blob\"}",
+        "updated": "2026-11-05T10:59:12.794237+00:00"
+      },
+      {
+        "id": "wayback:bca304a7b91ff7a524eb28a2b8ef36844121dc4900e5ab264d57e4960e70143c",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/rrwdgur4dmia1.png?width=975&format=png&auto=webp&v=enabled&s=c0ee632e1c2153c5689811226685b41d8604adbe\", \"captures\": [\"https://web.archive.org/web/20230216214620id_/https://preview.redd.it/rrwdgur4dmia1.png?width=975&format=png&auto=webp&v=enabled&s=c0ee632e1c2153c5689811226685b41d8604adbe\"], \"receipt\": \"data/raw/net/fa458dc24bd5f65b7d8bc666ccfbd4fe55ae25bfbe82604ef2c881e93282ac5c.blob\"}",
+        "updated": "2026-11-05T10:59:13.249024+00:00"
+      },
+      {
+        "id": "wayback:e68a91d1075dc97c238acc31724e1362f600f389711132ff3ddd34785be20706",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/1522w426dmia1.png?width=975&format=png&auto=webp&v=enabled&s=a62aafd01713e30a56a95726c727ef945585cddd\", \"captures\": [\"https://web.archive.org/web/20230216214633id_/https://preview.redd.it/1522w426dmia1.png?width=975&format=png&auto=webp&v=enabled&s=a62aafd01713e30a56a95726c727ef945585cddd\"], \"receipt\": \"data/raw/net/a06d83fd2495a0396875bbce68d6c9e1feb72dc36ef5f5f5c1ef2ec892eeae17.blob\"}",
+        "updated": "2026-11-05T10:59:14.485431+00:00"
+      },
+      {
+        "id": "wayback:bf35aacc35f3a0343226a08b7aec4849d05258609c760947232a10df311948d4",
+        "state": "no_capture",
+        "payload": "{\"original_url\": \"https://preview.redd.it/wwo14a3edmia1.png?width=975&format=png&auto=webp&v=enabled&s=37d8d0bc6dfa1633305eb341094bdd2c28f76e42\", \"captures\": [], \"receipt\": \"data/raw/net/656e31638e541a73e0f75c4bcb7d9f500d88fbc03d5f611f037b2e21aadc4600.blob\"}",
+        "updated": "2026-11-05T10:59:15.262494+00:00"
+      },
+      {
+        "id": "wayback:64507619fa6c6f1eb02443ae0d5315a3f6e842a0af057b9645af93a1a75f6bb3",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/pceo6whldmia1.png?width=975&format=png&auto=webp&v=enabled&s=f94339650e7a5170d7c6d28d96d7dc04a98ade2d\", \"captures\": [\"https://web.archive.org/web/20230216214634id_/https://preview.redd.it/pceo6whldmia1.png?width=975&format=png&auto=webp&v=enabled&s=f94339650e7a5170d7c6d28d96d7dc04a98ade2d\"], \"receipt\": \"data/raw/net/b902067f7ebc7739abcbc5339595dc38d21b4dcd9dc01c75198db984c32888f8.blob\"}",
+        "updated": "2026-11-05T10:59:16.493690+00:00"
+      },
+      {
+        "id": "wayback:44de61b2a605cfa661950e0a69583658b407f9c167d43bf0909e8ab406b02674",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/iex9fkbrdmia1.png?width=975&format=png&auto=webp&v=enabled&s=66c085858e5a6d7731f743402f914a6d5ef07e86\", \"captures\": [\"https://web.archive.org/web/20230216214615id_/https://preview.redd.it/iex9fkbrdmia1.png?width=975&format=png&auto=webp&v=enabled&s=66c085858e5a6d7731f743402f914a6d5ef07e86\"], \"receipt\": \"data/raw/net/3f7381b02292a7b1beeaaac77c92d5361791fe9a29744993083543264255ba7c.blob\"}",
+        "updated": "2026-11-05T10:59:17.421079+00:00"
+      },
+      {
+        "id": "wayback:371b4a56145c963f642fcab83d9cdc0cc789dcc1f10bc79cd20152ed5526e2dd",
+        "state": "no_capture",
+        "payload": "{\"original_url\": \"https://preview.redd.it/cw2dp80xdmia1.png?width=975&format=png&auto=webp&v=enabled&s=f4fd45ba4eb696eeea70e7c5995bfdfef9e74679\", \"captures\": [], \"receipt\": \"data/raw/net/11f622154e58e14050a8802487f7c177e9571b3e306c07f80117d086ece63b21.blob\"}",
+        "updated": "2026-11-05T10:59:18.406772+00:00"
+      },
+      {
+        "id": "wayback:c218e7f446c1ea62fd4351acfe90deed148209e86ed4c030cfa0a8207abded22",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/f584lxafemia1.png?width=691&format=png&auto=webp&v=enabled&s=5cdb4f17f69a5d3004650fe458a532eec3cc2941\", \"captures\": [\"https://web.archive.org/web/20230216214618id_/https://preview.redd.it/f584lxafemia1.png?width=691&format=png&auto=webp&v=enabled&s=5cdb4f17f69a5d3004650fe458a532eec3cc2941\"], \"receipt\": \"data/raw/net/00784e99f30f2496cd2d3190dc6183b17fe1d615640fc2e7635f8cd2a1ee7081.blob\"}",
+        "updated": "2026-11-05T10:59:19.624610+00:00"
+      },
+      {
+        "id": "wayback:7717dc76c65a1123d5041d22018ea6ffea1495c6249234c8c3864697cdb8c2b4",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/62ybilmhemia1.png?width=672&format=png&auto=webp&v=enabled&s=8397bfc5bb532fd6cdac351da766b9a28916bbd2\", \"captures\": [\"https://web.archive.org/web/20230216214616id_/https://preview.redd.it/62ybilmhemia1.png?width=672&format=png&auto=webp&v=enabled&s=8397bfc5bb532fd6cdac351da766b9a28916bbd2\"], \"receipt\": \"data/raw/net/49a7d00036d9ec269cbf45fbe72819fd70a3a7646c4843c2b0b9370363878e8f.blob\"}",
+        "updated": "2026-11-05T10:59:20.498584+00:00"
+      },
+      {
+        "id": "wayback:84cd6f4a067d803f881a61dae5e9d7d5ad2f9f7abe3a60a8dff38bb6f0ce5bf3",
+        "state": "no_capture",
+        "payload": "{\"original_url\": \"https://preview.redd.it/ofc02fnmemia1.png?width=220&format=png&auto=webp&v=enabled&s=9c396cb33d470746a57c1ad9c7e6f219af0f309b\", \"captures\": [], \"receipt\": \"data/raw/net/392d4c426e478feda8fd6285ea3e947960b71075f4d0c7c504b1b81e7d2810ba.blob\"}",
+        "updated": "2026-11-05T10:59:22.801366+00:00"
+      },
+      {
+        "id": "wayback:243c5c83ffa31a7108472c65be8d1fd38c75dc687d44ffe181904fb08bcc5826",
+        "state": "no_capture",
+        "payload": "{\"original_url\": \"https://preview.redd.it/w9x3k0i38kha1.png?width=1513&format=png&auto=webp&v=enabled&s=42684fe45fa8aa6d1c24a18d348449533ad317ec\", \"captures\": [], \"receipt\": \"data/raw/net/eb07db5b73fa30a950eb00945079ce914058df5bc35d5019a377858bbf0b6338.blob\"}",
+        "updated": "2026-11-05T10:59:24.172387+00:00"
+      },
+      {
+        "id": "wayback:2a932471763091d2962a343358f1013aff0fa42460f6dbe3221c1dfac7325fc1",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/92nyrynyania1.png?width=1222&format=png&auto=webp&v=enabled&s=dfe0ddcf97e889d8741f2d74855d6ea2527fdd86\", \"captures\": [\"https://web.archive.org/web/20230217004532id_/https://preview.redd.it/92nyrynyania1.png?width=1222&format=png&auto=webp&v=enabled&s=dfe0ddcf97e889d8741f2d74855d6ea2527fdd86\"], \"receipt\": \"data/raw/net/0853e1bd0835a65fa5f960c9643b7295f937cec2b3a8ef4cf09f07a20401a80e.blob\"}",
+        "updated": "2026-11-05T10:59:24.759264+00:00"
+      },
+      {
+        "id": "wayback:2cb06682a2369fc3ecaf016adfe11962c4d664a2341e6e97ae3b10766a38c653",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/bplmz68insia1.png?width=1366&format=png&auto=webp&v=enabled&s=1af5483e3ea0fc19d665552828e1f5957d542982\", \"captures\": [\"https://web.archive.org/web/20230217234625id_/https://preview.redd.it/bplmz68insia1.png?width=1366&format=png&auto=webp&v=enabled&s=1af5483e3ea0fc19d665552828e1f5957d542982\"], \"receipt\": \"data/raw/net/07cc68c46c40cc9ca51f050107ec25a201cc688f85b0fb95a28c29a12bf0891c.blob\"}",
+        "updated": "2026-11-05T10:59:25.768252+00:00"
+      },
+      {
+        "id": "wayback:e61e0e9cac048bb52239d5e69f1e9f8eaefa779e6932cfb34934d8b42c7f0151",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/78jjck8insia1.png?width=1366&format=png&auto=webp&v=enabled&s=55de913278296d1c896627225e083c413d1ae7a8\", \"captures\": [\"https://web.archive.org/web/20230217234625id_/https://preview.redd.it/78jjck8insia1.png?width=1366&format=png&auto=webp&v=enabled&s=55de913278296d1c896627225e083c413d1ae7a8\"], \"receipt\": \"data/raw/net/f3b8a4475e84fee8b5544f55c884b5ba0901327f6c0626bbd69a1df84f75ca7f.blob\"}",
+        "updated": "2026-11-05T10:59:26.796075+00:00"
+      },
+      {
+        "id": "wayback:e5d437e0db4a5b05aebfe48264dd7506bac362ae124830ee413b40c8f33c14cc",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/2z5aisainsia1.png?width=1366&format=png&auto=webp&v=enabled&s=38f649fc0bb0420f2af6e5b2693908d489904797\", \"captures\": [\"https://web.archive.org/web/20230217234625id_/https://preview.redd.it/2z5aisainsia1.png?width=1366&format=png&auto=webp&v=enabled&s=38f649fc0bb0420f2af6e5b2693908d489904797\"], \"receipt\": \"data/raw/net/54c96d5914502a24bfdfb32e0353b13f1bfd0c399bb2dfd069feff1c31cf5eb2.blob\"}",
+        "updated": "2026-11-05T10:59:27.650047+00:00"
+      },
+      {
+        "id": "wayback:c22ccc32d5e4f0d5da26dbfb2832befe2a243ae837b94a82b7601469387044a5",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/x6ued1binsia1.png?width=1366&format=png&auto=webp&v=enabled&s=12fe117a3c82c16abcc170d1d1cdc8ff2692d50d\", \"captures\": [\"https://web.archive.org/web/20230217234625id_/https://preview.redd.it/x6ued1binsia1.png?width=1366&format=png&auto=webp&v=enabled&s=12fe117a3c82c16abcc170d1d1cdc8ff2692d50d\"], \"receipt\": \"data/raw/net/163b303a38f59bbc20a6aec68043fb4aeda68b17e42254f7822bf793971b10e1.blob\"}",
+        "updated": "2026-11-05T10:59:28.547572+00:00"
+      },
+      {
+        "id": "wayback:e3867538085f3df1026fac168d601ec28a7c281786fb99631365e68ccef97340",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/la0xoibinsia1.png?width=1366&format=png&auto=webp&v=enabled&s=78910530be712f0d55b0c7d81102839c772e8f34\", \"captures\": [\"https://web.archive.org/web/20230217234625id_/https://preview.redd.it/la0xoibinsia1.png?width=1366&format=png&auto=webp&v=enabled&s=78910530be712f0d55b0c7d81102839c772e8f34\"], \"receipt\": \"data/raw/net/59af8b244a850cfbbe6f8c19b3b9d8fe5be563077a370c5815e9fbf4dd8d82ed.blob\"}",
+        "updated": "2026-11-05T10:59:29.938193+00:00"
+      },
+      {
+        "id": "wayback:4d19a75890119fa9dd7c775d694ef4c4886893483f9929570541072ec866a470",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/4o9avb8insia1.png?width=1366&format=png&auto=webp&v=enabled&s=191b1e95736af7dc51b9f06d459e4ec3b4c0bf78\", \"captures\": [\"https://web.archive.org/web/20230217234625id_/https://preview.redd.it/4o9avb8insia1.png?width=1366&format=png&auto=webp&v=enabled&s=191b1e95736af7dc51b9f06d459e4ec3b4c0bf78\"], \"receipt\": \"data/raw/net/34b3c6833b7a97197f8a8a303adf028a8a40616ab7bf3784eb027a7d877aa332.blob\"}",
+        "updated": "2026-11-05T10:59:30.615950+00:00"
+      },
+      {
+        "id": "wayback:4f052d2428edd9a882947236eeb0ff9506d221957064b46c03b0d6b62e25fff3",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/hw6g89wgetia1.png?width=1409&format=png&auto=webp&v=enabled&s=49f6b192fccdbd6ac0ce4544462ff7b7760cac55\", \"captures\": [\"https://web.archive.org/web/20230217211457id_/https://preview.redd.it/hw6g89wgetia1.png?width=1409&format=png&auto=webp&v=enabled&s=49f6b192fccdbd6ac0ce4544462ff7b7760cac55\"], \"receipt\": \"data/raw/net/cd8efe3a7d534fffc345cbb431f811c19e0615042ab6cf7a200269cce3e26a6d.blob\"}",
+        "updated": "2026-11-05T10:59:31.877812+00:00"
+      },
+      {
+        "id": "wayback:7dca7787365dc91c14eb883a3ce97081e2e14c478034c0c96b093cd1fe6fc6ab",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/8dif7j5fetia1.png?width=889&format=png&auto=webp&v=enabled&s=587ad97b738b94b624db616372436e30d0e78c9a\", \"captures\": [\"https://web.archive.org/web/20230217211455id_/https://preview.redd.it/8dif7j5fetia1.png?width=889&format=png&auto=webp&v=enabled&s=587ad97b738b94b624db616372436e30d0e78c9a\"], \"receipt\": \"data/raw/net/8b0ceb296b0ba9a483d642b7d2126c5b4c191a93df85edca667885d83b993650.blob\"}",
+        "updated": "2026-11-05T10:59:32.651634+00:00"
+      },
+      {
+        "id": "wayback:3898e1ab83e804a2e105754713304d4c43383cd24a4a670cdb2dbdb9fba63617",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/3p3on2gmstia1.png?width=2274&format=png&auto=webp&v=enabled&s=c3e6a9375c01807d19d75a528adf5c1919723b9c\", \"captures\": [\"https://web.archive.org/web/20230217223417id_/https://preview.redd.it/3p3on2gmstia1.png?width=2274&format=png&auto=webp&v=enabled&s=c3e6a9375c01807d19d75a528adf5c1919723b9c\"], \"receipt\": \"data/raw/net/6fadf1de5078f3aed74e181f55425b1309cd8171723ed9def2ff67f279b39456.blob\"}",
+        "updated": "2026-11-05T10:59:34.822803+00:00"
+      },
+      {
+        "id": "wayback:3a907a19a43a547c552ec0e7b68586de24f0b82536419eb1297a466ac58c5feb",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/nzewzpkfuuia1.png?width=2525&format=png&auto=webp&v=enabled&s=d373b450296fb4eca88b6c81de974c36ece5ba53\", \"captures\": [\"https://web.archive.org/web/20230218020643id_/https://preview.redd.it/nzewzpkfuuia1.png?width=2525&format=png&auto=webp&v=enabled&s=d373b450296fb4eca88b6c81de974c36ece5ba53\"], \"receipt\": \"data/raw/net/b91432385e613cab33c0fd79ceb48f04d5163849c8222e9f0fb9f957aa7dd005.blob\"}",
+        "updated": "2026-11-05T10:59:36.246569+00:00"
+      },
+      {
+        "id": "wayback:a533b4032105315e9ce212457adbf06417d7ebd3329a9b3a3a3978001f7d1ff1",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/oek8bxzeuuia1.png?width=942&format=png&auto=webp&v=enabled&s=49212521db48699d6f224f45889f836e762b1008\", \"captures\": [\"https://web.archive.org/web/20230218020643id_/https://preview.redd.it/oek8bxzeuuia1.png?width=942&format=png&auto=webp&v=enabled&s=49212521db48699d6f224f45889f836e762b1008\"], \"receipt\": \"data/raw/net/c48c4046d32ae01aa1f8d88ebf8dd458a8e994f52344be48072b840708a4e93c.blob\"}",
+        "updated": "2026-11-05T10:59:38.327479+00:00"
+      },
+      {
+        "id": "wayback:d3c273abca51dce4c46b242a138a8e96cc4e88a2b1eab0b67ad507d7c79004af",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/419juscpzuia1.jpg?width=1280&format=pjpg&auto=webp&v=enabled&s=65fef122f376224899aa9b58d0899f5f22a89cb8\", \"captures\": [\"https://web.archive.org/web/20230218024037id_/https://preview.redd.it/419juscpzuia1.jpg?width=1280&format=pjpg&auto=webp&v=enabled&s=65fef122f376224899aa9b58d0899f5f22a89cb8\"], \"receipt\": \"data/raw/net/f86a925c3caf941dfa1201acf29c88249001570326dbac945bb4af503381bf7b.blob\"}",
+        "updated": "2026-11-05T10:59:39.374994+00:00"
+      },
+      {
+        "id": "wayback:85f390774c48f47be97f12134faf13c0fad90ebbb851cd4daeec3c5cc8807bd1",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/1a37a9pkcvia1.png?width=396&format=png&auto=webp&v=enabled&s=6305a06423194a1b28aa4acfba7df2f4598d9dfa\", \"captures\": [\"https://web.archive.org/web/20230218035011id_/https://preview.redd.it/1a37a9pkcvia1.png?width=396&format=png&auto=webp&v=enabled&s=6305a06423194a1b28aa4acfba7df2f4598d9dfa\"], \"receipt\": \"data/raw/net/d73e43f053bddaa1145d5b86b7e68881aed34d68288a7827f68069942bbeb22c.blob\"}",
+        "updated": "2026-11-05T10:59:39.915382+00:00"
+      },
+      {
+        "id": "wayback:32bdf3f6e9e812c26df3cf1c46b7c709f15b948f9f3795fc16159366cd4a9868",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://preview.redd.it/v458hlj9m1ja1.jpg?width=2550&format=pjpg&auto=webp&v=enabled&s=544b776a7c68c15f453414621ccbae385b8fd71a\", \"captures\": [\"https://web.archive.org/web/20230219005306id_/https://preview.redd.it/v458hlj9m1ja1.jpg?width=2550&format=pjpg&auto=webp&v=enabled&s=544b776a7c68c15f453414621ccbae385b8fd71a\"], \"receipt\": \"data/raw/net/a0f0d33214d4e8120c7d52e527437a112e2f14c51f661861359cbd29bc8e8efc.blob\"}",
+        "updated": "2026-11-05T10:59:40.793485+00:00"
+      },
+      {
+        "id": "wayback:a7e3203c99dba2385421dd9f5ddf925b9d7582f5ec4cf3a627270b85c0e0c8f4",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://i.redd.it/j3h20uprnaka1.png\", \"captures\": [\"https://web.archive.org/web/20230225032126id_/https://i.redd.it/j3h20uprnaka1.png\"], \"receipt\": \"data/raw/net/aa7e95c5a5b6674b29080c94b68b18941a6a41c1b5e4c23acfc377000cdfcce7.blob\"}",
+        "updated": "2026-11-05T10:59:41.846866+00:00"
+      },
+      {
+        "id": "wayback:7cf2a5800a73f1206da101882614741c69459e4612852293d3d2e7be61e82ace",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://pbs.twimg.com/media/FpAyKDOaIAANaAs?format=jpg&name=large\", \"captures\": [\"https://web.archive.org/web/20230216063723id_/https://pbs.twimg.com/media/FpAyKDOaIAANaAs?format=jpg&name=large\"], \"receipt\": \"data/raw/net/1fac3984aca076a772d7387339281ea8284cf8ebe741fa510845d7e6c8e2bddd.blob\"}",
+        "updated": "2026-11-05T10:59:43.572449+00:00"
+      },
+      {
+        "id": "wayback:822a1b490105680a184083f25acacfd63ed905bbb18f3ca167fafb8c9cdf3cb5",
+        "state": "no_capture",
+        "payload": "{\"original_url\": \"https://twitter.com/juan_cambeiro/status/1625854733255868418/photo/2\", \"captures\": [], \"receipt\": \"data/raw/net/bda2c730b4a88fd7abbc6a19dccca803d2b20c417d3e16d71849c0c5f249cf1c.blob\"}",
+        "updated": "2026-11-05T10:59:44.093529+00:00"
+      },
+      {
+        "id": "wayback:529ef17fb0b0ef7e8a6d3048c4996d14afaf1e3e4b4a0739186f3e8f83b9bc19",
+        "state": "captures_queued",
+        "payload": "{\"original_url\": \"https://pbs.twimg.com/media/FpAyOEZaIAI8AVm?format=jpg&name=large\", \"captures\": [\"https://web.archive.org/web/20230216063723id_/https://pbs.twimg.com/media/FpAyOEZaIAI8AVm?format=jpg&name=large\"], \"receipt\": \"data/raw/net/9977ca98fc98fea5b4a6425f6619f5016246b1e970b31a62442fbf322e2b6608.blob\"}",
+        "updated": "2026-11-05T10:59:45.149278+00:00"
+      },
+      {
+        "id": "rate_limit:web.archive.org",
+        "state": "cooldown",
+        "payload": "{\"retry_at\": 1793876685.8797288}",
+        "updated": "2026-11-05T10:59:45.879780+00:00"
+      },
+      {
+        "id": "wayback:f3a3a1bf4d960d2309ae39c7b313eea9c6e75763e42696fdf4e8bb7288b79f47",
+        "state": "unavailable",
+        "payload": "{\"original_url\": \"https://pbs.twimg.com/media/FpAyP3taYAU3wOu?format=jpg&name=large\", \"error\": \"HTTP 429: <html><body><h1>429 Too Many Requests</h1>\\nYou have sent too many requests in a given amount of time.\\n</body></html>\\n\"}",
+        "updated": "2026-11-05T10:59:45.880382+00:00"
+      },
+      {
+        "id": "reddit_bing:later_mar_apr",
+        "state": "complete_for_available_listing",
+        "payload": "{\"unique_posts\": 5261, \"candidate_posts\": 3692, \"pages\": 77, \"saturated_seconds\": 0, \"errors\": [], \"method\": \"arctic_interval_enumeration\"}",
+        "updated": "2026-11-05T11:01:31.508274+00:00"
+      },
+      {
+        "id": "reddit_bingchat:later_mar_apr",
+        "state": "complete_for_available_listing",
+        "payload": "{\"unique_posts\": 67, \"candidate_posts\": 47, \"pages\": 1, \"saturated_seconds\": 0, \"errors\": [], \"method\": \"arctic_interval_enumeration\"}",
+        "updated": "2026-11-05T11:08:14.962036+00:00"
+      },
+      {
+        "id": "reddit_freesydney:later_mar_apr",
+        "state": "complete_for_available_listing",
+        "payload": "{\"unique_posts\": 139, \"candidate_posts\": 110, \"pages\": 2, \"saturated_seconds\": 0, \"errors\": [], \"method\": \"arctic_interval_enumeration\"}",
+        "updated": "2026-11-05T11:08:25.630395+00:00"
+      },
+      {
+        "id": "reddit_chatgpt:transition",
+        "state": "partial",
+        "payload": "{\"unique_posts\": 0, \"candidate_posts\": 0, \"pages\": 0, \"saturated_seconds\": 0, \"errors\": [{\"keyword\": \"bing\", \"error\": \"HTTP 429: {\\\"data\\\":null,\\\"error\\\":\\\"Too many requests\\\"}\"}], \"method\": \"arctic_interval_enumeration\"}",
+        "updated": "2026-11-05T11:28:29.512387+00:00"
+      },
+      {
+        "id": "reddit_singularity:transition",
+        "state": "partial",
+        "payload": "{\"unique_posts\": 0, \"candidate_posts\": 0, \"pages\": 0, \"saturated_seconds\": 0, \"errors\": [{\"keyword\": \"bing\", \"error\": \"host rate-limit cooldown\"}], \"method\": \"arctic_interval_enumeration\"}",
+        "updated": "2026-11-05T11:28:29.683907+00:00"
+      },
+      {
+        "id": "imgur_album:lqlE0tM",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/d0862d1a5f0e47fe2dc57f533d0c5311cd1a88089f882f1466d325c56bd5520d.blob\"}",
+        "updated": "2026-11-05T11:45:04.811531+00:00"
+      },
+      {
+        "id": "imgur_album:U9kVu2E",
+        "state": "media_queued",
+        "payload": "{\"images\": 10, \"path\": \"data/raw/net/1cb26baa48faf5e5aac03abde8ff1e76a0cc17054fa1f519c656061f39efbbe8.blob\"}",
+        "updated": "2026-11-05T11:45:04.812908+00:00"
+      },
+      {
+        "id": "imgur_album:NevTvV9",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/07234c981c245fc8f19a2e6ec41b510bee6d861bd91187af9c89be6f6af83ec3.blob\"}",
+        "updated": "2026-11-05T11:45:04.818667+00:00"
+      },
+      {
+        "id": "imgur_album:op8vc4d",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/c7b4bd7353e536d7e0ac5f69462f11432d89d407d8f887c03443b43d26bdc24a.blob\"}",
+        "updated": "2026-11-05T11:45:04.821362+00:00"
+      },
+      {
+        "id": "imgur_album:T1kX3yL",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/a0100c32115264b0a4bdb831562e773802e1f7a764872d54b33b857735d03079.blob\"}",
+        "updated": "2026-11-05T11:45:04.822429+00:00"
+      },
+      {
+        "id": "imgur_album:v5ollnG",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/ae170fc449043f5420c825085438d720cf8e9083153a2a16f964bda6197fca05.blob\"}",
+        "updated": "2026-11-05T11:45:04.823677+00:00"
+      },
+      {
+        "id": "imgur_album:hcIHu8F",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/197a1429c824139ebc619bdcf4777c705cbb01fb1ed598ab8aced14c13a12711.blob\"}",
+        "updated": "2026-11-05T11:45:04.825092+00:00"
+      },
+      {
+        "id": "imgur_album:32jmYBx",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/937462fba3104efe2a8bf7de662eb6c169d1dc532a6d2cb5a018bd355b3a3f07.blob\"}",
+        "updated": "2026-11-05T11:45:04.827580+00:00"
+      },
+      {
+        "id": "imgur_album:okwBWwq",
+        "state": "media_queued",
+        "payload": "{\"images\": 4, \"path\": \"data/raw/net/abd33c1a2d51c20183c3580c9e1185ea55c3437d6e86ff9979e375b0db884b66.blob\"}",
+        "updated": "2026-11-05T11:45:04.828797+00:00"
+      },
+      {
+        "id": "imgur_album:0nzfkX6",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/e9ca31946c3b21e56af59fb26c43c6926f646decd5794be592eab1c54e19ff5f.blob\"}",
+        "updated": "2026-11-05T11:45:04.829881+00:00"
+      },
+      {
+        "id": "imgur_album:URQPwlL",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/4c48d99fe95693540a16fd68ce9f57bee1d2cb4e9c846f719786b3e8706b13b3.blob\"}",
+        "updated": "2026-11-05T11:45:04.830949+00:00"
+      },
+      {
+        "id": "imgur_album:ISNB5oi",
+        "state": "media_queued",
+        "payload": "{\"images\": 2, \"path\": \"data/raw/net/54c853271ad21e023ff4eca6a374e4cb2d7cf964e916a8a294846a2edab3e78a.blob\"}",
+        "updated": "2026-11-05T11:45:04.831841+00:00"
+      },
+      {
+        "id": "imgur_album:rGGYpYq",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/b38abd0b482e9dfed13571071dd78d8e945f13945a747eef5d9072915fa23274.blob\"}",
+        "updated": "2026-11-05T11:45:04.832715+00:00"
+      },
+      {
+        "id": "imgur_album:OatjLg2",
+        "state": "media_queued",
+        "payload": "{\"images\": 2, \"path\": \"data/raw/net/54ff056539ceb707ac813d02a1e5f9ebf44157b41ee7bbf0cb2fc6af7093420c.blob\"}",
+        "updated": "2026-11-05T11:45:04.834543+00:00"
+      },
+      {
+        "id": "imgur_album:yBDilgE",
+        "state": "media_queued",
+        "payload": "{\"images\": 2, \"path\": \"data/raw/net/6800e5b6f6b6a9d360621ee029453e9e1ed8262cebc6ef6b354d105141881de2.blob\"}",
+        "updated": "2026-11-05T11:45:04.835840+00:00"
+      },
+      {
+        "id": "imgur_album:DzrYVxv",
+        "state": "media_queued",
+        "payload": "{\"images\": 2, \"path\": \"data/raw/net/bf8dab4513d472e79891c13a6d7bb1b1dd1ddb1cd66445474e1ea809b0c6d08d.blob\"}",
+        "updated": "2026-11-05T11:45:04.838034+00:00"
+      },
+      {
+        "id": "imgur_album:gYG14lT",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/7295336812872a2eb133f6e90c8d88d552d13838a901cd5dfa787062f54e8dc8.blob\"}",
+        "updated": "2026-11-05T11:45:04.840148+00:00"
+      },
+      {
+        "id": "imgur_album:Fy7F7vr",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/31479cc7936084d0cc0552a942aeba1d661cde0ece8ae5888bceebe3620f20f8.blob\"}",
+        "updated": "2026-11-05T11:45:04.841213+00:00"
+      },
+      {
+        "id": "imgur_album:w5pgPWq",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/23f3ce32539c3a51736f65c292a20a11be6b978a3a0cfec2e010b418653af03e.blob\"}",
+        "updated": "2026-11-05T11:45:04.842242+00:00"
+      },
+      {
+        "id": "imgur_album:3JHlfdq",
+        "state": "media_queued",
+        "payload": "{\"images\": 5, \"path\": \"data/raw/net/829056f34339c60c0bc69c9035d848332e7389b91fd84abcf4749c8d355e9c7b.blob\"}",
+        "updated": "2026-11-05T11:45:04.843336+00:00"
+      },
+      {
+        "id": "imgur_album:p5KNqov",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/cd58637e0df904ca0a7e56375055086ec87b420679b8a2f6888e1d4fabf98f33.blob\"}",
+        "updated": "2026-11-05T11:45:04.844317+00:00"
+      },
+      {
+        "id": "imgur_album:EKjmek7",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/ef89e3d6e7c3ed7b75c8cd91f1996375557004dbbd2af15ccd5a66f28b24bf6d.blob\"}",
+        "updated": "2026-11-05T11:45:04.846702+00:00"
+      },
+      {
+        "id": "imgur_album:ro5qqD9",
+        "state": "no_original_list",
+        "payload": "{\"path\": \"data/raw/net/a8ffebfc33dfd874609af7b2fbd3affa46b72e510837ef1a69407d2aad2b8292.blob\"}",
+        "updated": "2026-11-05T11:45:04.847373+00:00"
+      },
+      {
+        "id": "imgur_album:GV2k8gI",
+        "state": "media_queued",
+        "payload": "{\"images\": 152, \"path\": \"data/raw/net/5eb1e9e19ceeb6d55903ca2cb1a3f4145f584b64b5cb41908aca0a6b65ea6623.blob\"}",
+        "updated": "2026-11-05T11:45:04.853112+00:00"
+      },
+      {
+        "id": "imgur_album:ghDMJ0W",
+        "state": "media_queued",
+        "payload": "{\"images\": 7, \"path\": \"data/raw/net/67c05cf33feb0afd3b25b486f23efc34e7101fe7ab5e378cdff156fff4e8dbc1.blob\"}",
+        "updated": "2026-11-05T11:45:04.854453+00:00"
+      },
+      {
+        "id": "imgur_album:NScdkl6",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/5a92428f4efe7486115ade7da9af73f2dfdbe8174b93aaa6f68d1c2b732ea8a6.blob\"}",
+        "updated": "2026-11-05T11:45:04.855593+00:00"
+      },
+      {
+        "id": "imgur_album:5t4Am4r",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/91636acf5eb5340cb808ccfd9cc20639aa2319fb8b8934604d692c95525ffd0f.blob\"}",
+        "updated": "2026-11-05T11:45:04.857651+00:00"
+      },
+      {
+        "id": "imgur_album:phZ9Zhh",
+        "state": "no_original_list",
+        "payload": "{\"path\": \"data/raw/net/67085d436082a19d9abca54f7a6350c636437d6d797459df1f86ffe6c30dee33.blob\"}",
+        "updated": "2026-11-05T11:45:04.858996+00:00"
+      },
+      {
+        "id": "imgur_album:wyNq9Zm",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/afedbd67413f2d2190f2c126bbdb926d9aaeeb71636d4c3d4e2d39fe038fcfc3.blob\"}",
+        "updated": "2026-11-05T11:45:04.860157+00:00"
+      },
+      {
+        "id": "imgur_album:SKV1yy8",
+        "state": "media_queued",
+        "payload": "{\"images\": 3, \"path\": \"data/raw/net/ac218fa7ad0045bfa941b96798042e6cea65d13bd6f220ca9da4f266e081d81e.blob\"}",
+        "updated": "2026-11-05T11:45:04.861207+00:00"
+      },
+      {
+        "id": "imgur_album:DKKOhp9",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/5bad549e4a101cc34f50f2d6a9238aff789f5c9e96aeb7cebf53bbb5e7282706.blob\"}",
+        "updated": "2026-11-05T11:45:04.862427+00:00"
+      },
+      {
+        "id": "imgur_album:aiZbXPB",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/57cd0a9bff271db996a3822530d25ea72a12f8141f219cda93e1b185f0b8cdc2.blob\"}",
+        "updated": "2026-11-05T11:45:04.863313+00:00"
+      },
+      {
+        "id": "imgur_album:KV9WaBf",
+        "state": "media_queued",
+        "payload": "{\"images\": 2, \"path\": \"data/raw/net/03ad7314723467398faff5213aa0706cab4f0cd8298237898a8509620235abb2.blob\"}",
+        "updated": "2026-11-05T11:45:04.865929+00:00"
+      },
+      {
+        "id": "imgur_album:naJai4R",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/88b2a53c761ad3573e37b0af61ec384081d263202fcebb39eb6d11ff6c93af47.blob\"}",
+        "updated": "2026-11-05T11:45:04.867076+00:00"
+      },
+      {
+        "id": "imgur_album:ewPeyAl",
+        "state": "media_queued",
+        "payload": "{\"images\": 3, \"path\": \"data/raw/net/8fccd217bee525a2bce1e090c6bfd03f57f2bd5f859205884c9d3e502a510bf1.blob\"}",
+        "updated": "2026-11-05T11:45:04.868121+00:00"
+      },
+      {
+        "id": "imgur_album:61aZHwL",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/20c9a6b9000a15c7c1d2464cc9dd7be0fcb79b4f62e94f04a7e6fa1f740d7bf0.blob\"}",
+        "updated": "2026-11-05T11:45:04.869115+00:00"
+      },
+      {
+        "id": "imgur_album:a7NG62J",
+        "state": "media_queued",
+        "payload": "{\"images\": 2, \"path\": \"data/raw/net/5046c15bbbcbc910cec28585465ef9f060bdd3194fd2d0f356442082299e6631.blob\"}",
+        "updated": "2026-11-05T11:45:04.870163+00:00"
+      },
+      {
+        "id": "imgur_album:x0pt1fA",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/f452eb3e5e7c285c221609727044e5624c07338deca78857feb239f5b1f2b5c1.blob\"}",
+        "updated": "2026-11-05T11:45:04.871152+00:00"
+      },
+      {
+        "id": "imgur_album:2nKnLxN",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/c21ceae33f5722fa7ff06802f0bc859b718da2932f95a966662707e5ce5d865e.blob\"}",
+        "updated": "2026-11-05T11:45:04.872139+00:00"
+      },
+      {
+        "id": "imgur_album:B4BLLGR",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/940450f059d29774d7fc57b02e9fb3f21f45f7dfb96edd215d237b98cce6392b.blob\"}",
+        "updated": "2026-11-05T11:45:04.874739+00:00"
+      },
+      {
+        "id": "imgur_album:SHqXqcS",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/22f157e335485b77ebe7b69e4f3ce5d1e6fbdfe2da963a993dcae9bb1b936831.blob\"}",
+        "updated": "2026-11-05T11:45:04.875844+00:00"
+      },
+      {
+        "id": "imgur_album:B4XqwD1",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/39a2c8b59d040614a11400e033a2eadbcbe025b00fcd8922475fecc4677fe802.blob\"}",
+        "updated": "2026-11-05T11:45:04.876937+00:00"
+      },
+      {
+        "id": "imgur_album:qwmnNVx",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/4f2cfd0040faa8d230f12b9b17793d69ee9040d729a9c1efb220760ed7e0ae15.blob\"}",
+        "updated": "2026-11-05T11:45:04.877936+00:00"
+      },
+      {
+        "id": "imgur_album:pq4s5P4",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/78bd4b74a6674db4fe7b6b52dd24de33958b788bc2075bae274d46ca73062695.blob\"}",
+        "updated": "2026-11-05T11:45:04.878968+00:00"
+      },
+      {
+        "id": "imgur_album:YC3PlLm",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/ec15da6c66729c67efa36178de99edfd39372edba8cc7da207aaed460445644c.blob\"}",
+        "updated": "2026-11-05T11:45:04.880117+00:00"
+      },
+      {
+        "id": "imgur_album:4gl1gwo",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/b4472bf9710a7562ca6b13fec07e115b51bfb43d991d3f0654de409b673f2591.blob\"}",
+        "updated": "2026-11-05T11:45:04.881191+00:00"
+      },
+      {
+        "id": "imgur_album:7N8uf6G",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/db920912bb28e1f53e6adb6a4d5f0a68884dccf9b25eecb985fb9f4068597a94.blob\"}",
+        "updated": "2026-11-05T11:45:04.882257+00:00"
+      },
+      {
+        "id": "imgur_album:mXlWo1q",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/bceca57cfffc162182b6e6b5c86b6e7877de7c3527376b39f4c9c6848a8bb178.blob\"}",
+        "updated": "2026-11-05T11:45:04.883239+00:00"
+      },
+      {
+        "id": "imgur_album:DOizXA8",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/f576e4d028b746a601c849c15696ae5d9bd69bc08a4a3ee3d1b0147d59db1863.blob\"}",
+        "updated": "2026-11-05T11:45:04.884209+00:00"
+      },
+      {
+        "id": "imgur_album:6slbzSr",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/08b00e53d78ab9d8c4b77bc0068c0132ecca7c7d8ee6d187cb856f899c609ef2.blob\"}",
+        "updated": "2026-11-05T11:45:04.885233+00:00"
+      },
+      {
+        "id": "imgur_album:HqXbqwU",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/176ac9380e126987d1f325557f6cb851e5dfd2094674a7aef54b61dbc785a155.blob\"}",
+        "updated": "2026-11-05T11:45:04.886473+00:00"
+      },
+      {
+        "id": "imgur_album:KdHfeaH",
+        "state": "no_original_list",
+        "payload": "{\"path\": \"data/raw/net/ee385b1419f8a42c4dace0cc909f10156e5205c60e90e82f3536b012fba7f33e.blob\"}",
+        "updated": "2026-11-05T11:45:04.888481+00:00"
+      },
+      {
+        "id": "imgur_album:TE3185C",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/f58174a616fd23e756ef5b5cda8eebd0d4b0090402c390b34f140f5dca622ba0.blob\"}",
+        "updated": "2026-11-05T11:45:04.889581+00:00"
+      },
+      {
+        "id": "imgur_album:M2VI88Z",
+        "state": "media_queued",
+        "payload": "{\"images\": 10, \"path\": \"data/raw/net/e6bec9effc8a310e05eb42c99e7dcee4d77d9d3c585a08639e03d5738c115b15.blob\"}",
+        "updated": "2026-11-05T11:45:04.890755+00:00"
+      },
+      {
+        "id": "imgur_album:23nxSkT",
+        "state": "media_queued",
+        "payload": "{\"images\": 3, \"path\": \"data/raw/net/98a1f0f5dd7e5ca74c52ec0a62ba7d046116760e22d7372902dfecc37b62efe5.blob\"}",
+        "updated": "2026-11-05T11:45:04.891835+00:00"
+      },
+      {
+        "id": "imgur_album:2h3IiMb",
+        "state": "media_queued",
+        "payload": "{\"images\": 3, \"path\": \"data/raw/net/50e2e589c3a00699d0053b3af9f80b059982126e89861304d8c542d1b89ab59f.blob\"}",
+        "updated": "2026-11-05T11:45:04.892840+00:00"
+      },
+      {
+        "id": "imgur_album:IBg44EL",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/73ce5e14a4ce4e1f0458a1d6567c7c0fd20139d210e0899593b1954c9d162720.blob\"}",
+        "updated": "2026-11-05T11:45:04.895296+00:00"
+      },
+      {
+        "id": "imgur_album:w1iYC3z",
+        "state": "media_queued",
+        "payload": "{\"images\": 2, \"path\": \"data/raw/net/1c45d0e40e1e8550255d5989e547f69d723226200861e7792352a46376e1833c.blob\"}",
+        "updated": "2026-11-05T11:45:04.896410+00:00"
+      },
+      {
+        "id": "imgur_album:lb0Fu6o",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/03248091dc4e08d5ab81de6f240d83abb294c3ac7a6fc914a61e771afb2ab110.blob\"}",
+        "updated": "2026-11-05T11:45:04.897743+00:00"
+      },
+      {
+        "id": "imgur_album:5ohxzRC",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/8470b2da965463d2483fb97f44c3106df004421bb55d28e9cf2a7d626763f8b6.blob\"}",
+        "updated": "2026-11-05T11:45:04.898713+00:00"
+      },
+      {
+        "id": "imgur_album:4vvTO4G",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/91179d0321f0fef55f311c7cdb1789730db84340024e9341b009c61a5e1ea9f0.blob\"}",
+        "updated": "2026-11-05T11:45:04.899681+00:00"
+      },
+      {
+        "id": "imgur_album:jThCJcL",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/08e5efa0d83a38468953a090f1b4705edb60c570d9542359b0fac84e43def8ab.blob\"}",
+        "updated": "2026-11-05T11:45:04.900924+00:00"
+      },
+      {
+        "id": "imgur_album:xX5jdLB",
+        "state": "media_queued",
+        "payload": "{\"images\": 4, \"path\": \"data/raw/net/ded30d5aebf8a4997377ef5e53ff50dafce927644f8508f32bf157041a79b294.blob\"}",
+        "updated": "2026-11-05T11:45:04.901998+00:00"
+      },
+      {
+        "id": "imgur_album:EqEdhVn",
+        "state": "media_queued",
+        "payload": "{\"images\": 1, \"path\": \"data/raw/net/5b6da278e11f0b8e03040ff960788c2dc82c709dd10ae6fef3b58a18ebac5d3a.blob\"}",
+        "updated": "2026-11-05T11:45:04.904308+00:00"
+      },
+      {
+        "id": "imgur_album:1eje0UH",
+        "state": "media_queued",
+        "payload": "{\"images\": 3, \"path\": \"data/raw/net/0171ae059e8cc9dfc5ac2563aac89ca6a85755c918db81bc50765161128e43ea.blob\"}",
+        "updated": "2026-11-05T11:45:04.905283+00:00"
+      },
+      {
+        "id": "imgur_album:GWSh4oL",
+        "state": "media_queued",
+        "payload": "{\"images\": 2, \"path\": \"data/raw/net/8473f1a7fd2ddc19d75ff80ec94a7066571711aad379f67a2f96224ed01ac4f8.blob\"}",
+        "updated": "2026-11-05T11:45:04.907685+00:00"
+      },
+      {
+        "id": "imgur_album:KrrCR4Z",
+        "state": "no_original_list",
+        "payload": "{\"path\": \"data/raw/net/90fa9332bacd27619c39b4e01c1291ff89aa48650899b900fbaaea136e01b380.blob\"}",
+        "updated": "2026-11-05T11:45:04.908115+00:00"
+      },
+      {
+        "id": "imgur_album:j3COzav",
+        "state": "no_original_list",
+        "payload": "{\"path\": \"data/raw/net/a2a85a4ef89a2eb4176f63fe9bbc25371418e31279a0434da2f43954ef26de74.blob\"}",
+        "updated": "2026-11-05T11:45:09.831527+00:00"
+      },
+      {
+        "id": "rate_limit:arctic-shift.photon-reddit.com",
+        "state": "cooldown",
+        "payload": "{\"retry_at\": 1793879414.416802}",
+        "updated": "2026-11-05T11:45:14.416862+00:00"
+      },
+      {
+        "id": "reddit_chatgpt:later_mar_apr",
+        "state": "partial",
+        "payload": "{\"unique_posts\": 0, \"candidate_posts\": 0, \"pages\": 0, \"saturated_seconds\": 0, \"errors\": [{\"keyword\": \"bing\", \"error\": \"HTTP 429: {\\\"data\\\":null,\\\"error\\\":\\\"Too many requests\\\"}\"}], \"method\": \"arctic_interval_enumeration\"}",
+        "updated": "2026-11-05T11:45:14.417721+00:00"
+      },
+      {
+        "id": "reddit_singularity:later_mar_apr",
+        "state": "partial",
+        "payload": "{\"unique_posts\": 0, \"candidate_posts\": 0, \"pages\": 0, \"saturated_seconds\": 0, \"errors\": [{\"keyword\": \"bing\", \"error\": \"host rate-limit cooldown\"}], \"method\": \"arctic_interval_enumeration\"}",
+        "updated": "2026-11-05T11:45:14.622811+00:00"
+      },
+      {
+        "id": "imgur_album:59y7h2M",
+        "state": "no_original_list",
+        "payload": "{\"path\": \"data/raw/net/4095c074caff310f7dbc500dc7bebf05528cf6f19ea80d2608b28c31cbfc5785.blob\"}",
+        "updated": "2026-11-05T11:45:15.041802+00:00"
+      },
+      {
+        "id": "imgur_album:sLrN8Yl",
+        "state": "media_queued",
+        "payload": "{\"images\": 4, \"path\": \"data/raw/net/b0ab0ad0eb2536671833544354333a78ad0b04d53754caf1261e8b8def0b6d5a.blob\"}",
+        "updated": "2026-11-05T11:45:15.043067+00:00"
+      },
+      {
+        "id": "imgur_album:u1iubym",
+        "state": "media_queued",
+        "payload": "{\"images\": 3, \"path\": \"data/raw/net/ad77ab133ca67977e491c9115673c09b288308ee3a6a82497699d7f2f424ab84.blob\"}",
+        "updated": "2026-11-05T11:45:15.044286+00:00"
+      },
+      {
+        "id": "imgur_album:NTFepVE",
+        "state": "media_queued",
+        "payload": "{\"images\": 3, \"path\": \"data/raw/net/b6b5ff722286829b9b89223a11de8df2b2ddc5e9a75b5d987a5d8904f8fab78c.blob\"}",
+        "updated": "2026-11-05T11:45:15.045244+00:00"
+      },
+      {
+        "id": "imgur_album:9T6Cl0c",
+        "state": "media_queued",
+        "payload": "{\"images\": 2, \"path\": \"data/raw/net/c447b9f0a6eb4461fa319d676661ed58edb233f056b9c699d07ef93da6bae0bb.blob\"}",
+        "updated": "2026-11-05T11:45:15.046461+00:00"
+      },
+      {
+        "id": "imgur_album:NLfSHqa",
+        "state": "media_queued",
+        "payload": "{\"images\": 2, \"path\": \"data/raw/net/e560dda2cafedb338e8e8d77ca48bfdc9b0f0a99f091a9b5c8e5c2c65d2f2a47.blob\"}",
+        "updated": "2026-11-05T11:45:15.047469+00:00"
+      },
+      {
+        "id": "imgur_album:Gz9gcr6",
+        "state": "unavailable",
+        "payload": "{\"error\": \"The read operation timed out\"}",
+        "updated": "2026-11-05T11:47:40.717406+00:00"
+      },
+      {
+        "id": "rate_limit:imgur.com",
+        "state": "cooldown",
+        "payload": "{\"retry_at\": 1793879331.627271}",
+        "updated": "2026-11-05T11:48:49.627303+00:00"
+      },
+      {
+        "id": "imgur_album:F5qqMMm",
+        "state": "unavailable",
+        "payload": "{\"error\": \"HTTP 503: \"}",
+        "updated": "2026-11-05T11:48:49.627811+00:00"
+      },
+      {
+        "id": "imgur_album:X61Sgmr",
+        "state": "unavailable",
+        "payload": "{\"error\": \"host rate-limit cooldown\"}",
+        "updated": "2026-11-05T11:48:49.628085+00:00"
+      },
+      {
+        "id": "reddit_freesydney:later_2023",
+        "state": "complete_for_available_listing",
+        "payload": "{\"unique_posts\": 498, \"candidate_posts\": 415, \"pages\": 7, \"saturated_seconds\": 0, \"errors\": [], \"method\": \"arctic_interval_enumeration\"}",
+        "updated": "2026-11-05T11:58:49.589427+00:00"
+      },
+      {
+        "id": "hf_david_ar",
+        "state": "archival_complete_for_pinned_revision",
+        "payload": "{\"revision\": \"838beb42af5c87c8ebed1c32e800234d3396f86e\", \"task_states\": [{\"status\": \"succeeded\", \"n\": 2930}], \"manifest\": \"reports/P2-baseline-manifest.json\"}",
+        "updated": "2026-11-05T12:00:37.433133+00:00"
+      },
+      {
+        "id": "hf_redivivus",
+        "state": "archival_complete_for_pinned_revision",
+        "payload": "{\"revision\": \"4a2f55cc09fc60ba8c13b1c7678b865bdec9c174\", \"task_states\": [{\"status\": \"succeeded\", \"n\": 1613}], \"manifest\": \"reports/P2-baseline-manifest.json\"}",
+        "updated": "2026-11-05T12:00:37.472842+00:00"
+      },
+      {
+        "id": "rate_limit:i.imgur.com",
+        "state": "cooldown",
+        "payload": "{\"retry_at\": 1793885306.297487}",
+        "updated": "2026-11-05T13:23:26.297557+00:00"
+      },
+      {
+        "id": "https://generative.ink/archive/repligate/tweets_2023-02",
+        "state": "archived",
+        "payload": "{\"groups\": 1572, \"bytes\": 1108562}",
+        "updated": "2026-11-05T13:26:10.289387+00:00"
+      },
+      {
+        "id": "https://generative.ink/archive/repligate/tweets_2023-03",
+        "state": "archived",
+        "payload": "{\"groups\": 832, \"bytes\": 595743}",
+        "updated": "2026-11-05T13:26:10.447931+00:00"
+      },
+      {
+        "id": "https://generative.ink/archive/repligate/tweets_2023-04",
+        "state": "archived",
+        "payload": "{\"groups\": 736, \"bytes\": 542266}",
+        "updated": "2026-11-05T13:26:10.577403+00:00"
+      },
+      {
+        "id": "janus_archive",
+        "state": "archive_media_queued",
+        "payload": "{\"pages\": 3, \"groups\": 484, \"images\": 494}",
+        "updated": "2026-11-05T13:26:10.577477+00:00"
+      },
+      {
+        "id": "model_circuit",
+        "state": "closed",
+        "payload": "{\"consecutive_failures\": 0}",
+        "updated": "2026-11-05T13:28:30.881676+00:00"
+      }
+    ]
+  },
+  "newest_provisional_release": "pilot-20261105-v4",
+  "final_release": null,
+  "final_complete": false,
+  "fixed_pilot_processing": "reports/P3-pilot-processing.json",
+  "pilot_outcomes": "reports/P3-P5-pilot-outcomes.json",
+  "coverage": "reports/coverage-matrix.json",
+  "quality": "reports/P7-quality-current.json",
+  "known_remaining": [
+    "Full evidence verification of newly rebuilt conversations and recent early baseline re-transcriptions",
+    "Review and repair current-version defects; keep uncertain samples excluded",
+    "Transcribe added context/new text-only author candidates when classification supports Bing",
+    "Finish remaining finite comments/media/source fallback queues or document configured/external boundaries",
+    "Final stratified quality sample, conversation-level duplicate decisions and independent count uncertainty",
+    "Final immutable release, statistics, dataset card, review, reproduction/artifact index and requirement-by-requirement completion audit"
+  ],
+  "scope_note": "This checkpoint is progress toward P0-P8, not a smaller substitute objective."
+}

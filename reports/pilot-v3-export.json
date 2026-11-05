@@ -1,0 +1,48 @@
+{
+  "release_id": "pilot-20261105-v3",
+  "created_at": "2026-11-05T11:02:15.625482+00:00",
+  "status": "provisional_collection_continues",
+  "samples": 14,
+  "by_tier": {
+    "early_probable": 14
+  },
+  "by_split": {
+    "train": 14
+  },
+  "contract_version": "sharegpt-text-multiturn-v1",
+  "verification_contract_hash": "aa8590848ae4c39ae8a729c16ec963ec98d14eac548b7e96ae2be493557ce88a",
+  "config_hash": "9ff935cb1ed489cc94efc3592d6a48cc95b55656bea091b1aaf49dfd03f543e4",
+  "files": {
+    "dataset_info.example.json": "5c949f09072f2dee5ad8eb68632047e5d2dbfde9584ff216e440357578167c75",
+    "splits.json": "89a8528d0702d93db07b0350539df0433c6766c6131182aac197189be2a2f256",
+    "verification_contract.json": "a1fa7a968478717bc4e39deb0395dbf640727e535375a907d1bfa4276066bdc6",
+    "provenance.jsonl": "1159edc57bf27e23e8d88bfd499d85c05381c616ac69a4d78ce9ffdcb8e7d668",
+    "DATASET_CARD.md": "866dd0cd73037c86cc9f25bb4457bc6c87a9563eb6f4f558a5ad16e045427b9a",
+    "exclusions.jsonl": "d49641ba418da94450032a66793998e2251a04d08287ea1d702733d6287ed7c2",
+    "archive/conversations.all.jsonl": "9d15e99bc6f5367ffffebbed0906c4cc696557d4fcb7dfe196b8b2834dd8c681",
+    "review/index.html": "0252a55c9f23271e8514b2d950167ed3bd60ce371415fc094d1de27f6edb2186",
+    "evidence/verifications/7ed05eb80e7465a10cc17f9796a8e338a391f9a5e3967b4dbf37eed9e8f0e155.json": "3c14a78c2c31a1dd7e315de7cb499e9b96e44e7fb8250935a44cbe6ac4944ce3",
+    "evidence/verifications/faab275b086303b864f85ae2af9551967c1623cddee1f13fbf6fdaa13f961629.json": "c85f1d9363a523292b4ed923caed3f061e736adc348ec941bca45ea7d85a13e8",
+    "evidence/verifications/b04ecfd124ba9b4e00d764c97ec9e73ed5c6797d4e0855ffbe61acca7791880e.json": "0d72f439b4d2fdbde0fc54705325d4ede5ede79804387f53739a346632341e29",
+    "evidence/verifications/0dc20ce754e6d95b35d8b6cb7fd7df7fb96042be854f6db63b78808dedaebf9d.json": "7ce57e4e4db64e85a04fb55f12b56089f42aa820739378ef15d09f63bd285f82",
+    "evidence/verifications/dfaa452061f29646c22d316b148bba9d5c73294562a9faf2b444e2eec770abcf.json": "d3dba600fd65187ef98d3d2d3a8645b83c2af095ea0792ce63310be71bec0895",
+    "evidence/verifications/fca3eea8fe21c1b1d19e7c71082cefa2b4ab10da85d94721badaeb860f7288cf.json": "5b701f3255c132c3915d74c60bb34ecdde599b85796bebab96eae1ed4f366b14",
+    "evidence/verifications/3b36781d4429422ee0f38aa14c495f653d7fba1e96c4f9f8af0a3c72cf227fb2.json": "51e24a0d0b9f0a8b4ae931ca3af0773ed354d0fea6ba16b804d7d602000930c9",
+    "evidence/verifications/ed969086b48eaca20ad454ee295e074dfca563c0d949a98c47f6f42bd05983cd.json": "48e1ad3e8dc483435c6409a957b731f7020137aafa15610b77c265e662a459ad",
+    "evidence/verifications/5184972c2bb1aea9b4aa1349907735d4ab14dfabd2c549498abc0cd664d07a5e.json": "72f01c112850c1643f18eb0d8e48f8f3007a8b49bc271bb323b01b10afd3e769",
+    "evidence/verifications/a92983c09521fe78549e2d44974a7ae083f4ec61f8b520698403b4be1a205624.json": "e19452fe319c456d85c408ce5c9962186f8e89680530ddb0643e4676e6fec69e",
+    "evidence/verifications/05aa89d94bf0dd2197c73bf003619fb81e96578ad5c2f491cb0074dc37b1ef5c.json": "83d71793783b759988aa0c15c37f1434063195728df0ebdedd30dbdff47ac79a",
+    "evidence/verifications/e26fc6fab4ede4fb917efccf6abfad76adc0fc3567230c0a82630992cb909453.json": "ee0a9d2caa0a47d7387ad9a99ebeedb4282cc44a256af2380264b83a3d85643f",
+    "evidence/verifications/90e0d312343c3358ca6a4e7f4f206ef9736d343f3d0a742a3e918bbeb8690713.json": "49e4394040bca6a4830342f7c4e9f9466fce0b492cfab4ff4966e27eb064620a",
+    "evidence/verifications/0f074f8d63595f8f2876df4bfc52ef62dd6bde6653bfc6872486f9fe780e656e.json": "15a90feabe936268b99eff63fdf1779461fcbfe15e0b337d7919c79c5128db20",
+    "sharegpt/early_strict/test.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "sharegpt/early_strict/train.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "sharegpt/early_strict/val.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "sharegpt/early_probable/test.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "sharegpt/early_probable/train.json": "def882cf0253e78fe543d769cf8f96d58b00d35847c66ecfd047e6891258a4a0",
+    "sharegpt/early_probable/val.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "sharegpt/later_supplement/test.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "sharegpt/later_supplement/train.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "sharegpt/later_supplement/val.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  }
+}

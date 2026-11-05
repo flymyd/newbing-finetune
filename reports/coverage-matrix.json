@@ -1,0 +1,405 @@
+{
+  "at": "2026-11-05T13:27:49.173672+00:00",
+  "goal_status": "active",
+  "all_sources_terminal": false,
+  "coverage": [
+    {
+      "source": "hf_david_ar",
+      "kind": "huggingface_dataset",
+      "window": null,
+      "status": "archival_complete_for_pinned_revision",
+      "last_attempt": {
+        "revision": "838beb42af5c87c8ebed1c32e800234d3396f86e",
+        "task_states": [
+          {
+            "status": "succeeded",
+            "n": 2930
+          }
+        ],
+        "manifest": "reports/P2-baseline-manifest.json"
+      },
+      "archived_distinct_posts_in_window": null,
+      "status_updated": "2026-11-05T12:00:37.433133+00:00"
+    },
+    {
+      "source": "hf_redivivus",
+      "kind": "huggingface_dataset",
+      "window": null,
+      "status": "archival_complete_for_pinned_revision",
+      "last_attempt": {
+        "revision": "4a2f55cc09fc60ba8c13b1c7678b865bdec9c174",
+        "task_states": [
+          {
+            "status": "succeeded",
+            "n": 1613
+          }
+        ],
+        "manifest": "reports/P2-baseline-manifest.json"
+      },
+      "archived_distinct_posts_in_window": null,
+      "status_updated": "2026-11-05T12:00:37.472842+00:00"
+    },
+    {
+      "source": "janus_archive",
+      "kind": "author_archive",
+      "window": null,
+      "status": "archive_media_queued",
+      "last_attempt": {
+        "pages": 3,
+        "groups": 484,
+        "images": 494
+      },
+      "archived_distinct_posts_in_window": null,
+      "status_updated": "2026-11-05T13:26:10.577477+00:00"
+    },
+    {
+      "source": "reddit_bing",
+      "kind": "reddit",
+      "window": "early",
+      "status": "complete_for_available_listing",
+      "last_attempt": {
+        "unique_posts": 754,
+        "candidate_posts": 509,
+        "pages": 11,
+        "saturated_seconds": 0,
+        "errors": [],
+        "method": "arctic_interval_enumeration"
+      },
+      "archived_distinct_posts_in_window": 754,
+      "status_updated": "2026-11-05T07:55:38.409079+00:00"
+    },
+    {
+      "source": "reddit_bing",
+      "kind": "reddit",
+      "window": "transition",
+      "status": "complete_for_available_listing",
+      "last_attempt": {
+        "unique_posts": 2292,
+        "candidate_posts": 1691,
+        "pages": 34,
+        "saturated_seconds": 0,
+        "errors": [],
+        "method": "arctic_interval_enumeration"
+      },
+      "archived_distinct_posts_in_window": 2292,
+      "status_updated": "2026-11-05T08:50:25.564713+00:00"
+    },
+    {
+      "source": "reddit_bing",
+      "kind": "reddit",
+      "window": "later_mar_apr",
+      "status": "complete_for_available_listing",
+      "last_attempt": {
+        "unique_posts": 5261,
+        "candidate_posts": 3692,
+        "pages": 77,
+        "saturated_seconds": 0,
+        "errors": [],
+        "method": "arctic_interval_enumeration"
+      },
+      "archived_distinct_posts_in_window": 5261,
+      "status_updated": "2026-11-05T11:01:31.508274+00:00"
+    },
+    {
+      "source": "reddit_bingchat",
+      "kind": "reddit",
+      "window": "early",
+      "status": "complete_for_available_listing",
+      "last_attempt": {
+        "unique_posts": 5,
+        "candidate_posts": 3,
+        "pages": 1,
+        "saturated_seconds": 0,
+        "errors": [],
+        "method": "arctic_interval_enumeration"
+      },
+      "archived_distinct_posts_in_window": 5,
+      "status_updated": "2026-11-05T07:53:09.978598+00:00"
+    },
+    {
+      "source": "reddit_bingchat",
+      "kind": "reddit",
+      "window": "transition",
+      "status": "complete_for_available_listing",
+      "last_attempt": {
+        "unique_posts": 36,
+        "candidate_posts": 22,
+        "pages": 1,
+        "saturated_seconds": 0,
+        "errors": [],
+        "method": "arctic_interval_enumeration"
+      },
+      "archived_distinct_posts_in_window": 36,
+      "status_updated": "2026-11-05T08:15:12.853208+00:00"
+    },
+    {
+      "source": "reddit_bingchat",
+      "kind": "reddit",
+      "window": "later_mar_apr",
+      "status": "complete_for_available_listing",
+      "last_attempt": {
+        "unique_posts": 67,
+        "candidate_posts": 47,
+        "pages": 1,
+        "saturated_seconds": 0,
+        "errors": [],
+        "method": "arctic_interval_enumeration"
+      },
+      "archived_distinct_posts_in_window": 67,
+      "status_updated": "2026-11-05T11:08:14.962036+00:00"
+    },
+    {
+      "source": "reddit_chatgpt",
+      "kind": "reddit",
+      "window": "early",
+      "status": "partial",
+      "last_attempt": {
+        "unique_posts": 66,
+        "candidate_posts": 54,
+        "pages": 1,
+        "saturated_seconds": 0,
+        "errors": [
+          {
+            "keyword": "bing",
+            "error": "HTTP 429: {\"data\":null,\"error\":\"Too many requests\"}"
+          }
+        ],
+        "method": "arctic_interval_enumeration"
+      },
+      "archived_distinct_posts_in_window": 132,
+      "status_updated": "2026-11-05T10:48:30.900916+00:00"
+    },
+    {
+      "source": "reddit_chatgpt",
+      "kind": "reddit",
+      "window": "transition",
+      "status": "partial",
+      "last_attempt": {
+        "unique_posts": 0,
+        "candidate_posts": 0,
+        "pages": 0,
+        "saturated_seconds": 0,
+        "errors": [
+          {
+            "keyword": "bing",
+            "error": "HTTP 429: {\"data\":null,\"error\":\"Too many requests\"}"
+          }
+        ],
+        "method": "arctic_interval_enumeration"
+      },
+      "archived_distinct_posts_in_window": 0,
+      "status_updated": "2026-11-05T11:28:29.512387+00:00"
+    },
+    {
+      "source": "reddit_chatgpt",
+      "kind": "reddit",
+      "window": "later_mar_apr",
+      "status": "partial",
+      "last_attempt": {
+        "unique_posts": 0,
+        "candidate_posts": 0,
+        "pages": 0,
+        "saturated_seconds": 0,
+        "errors": [
+          {
+            "keyword": "bing",
+            "error": "HTTP 429: {\"data\":null,\"error\":\"Too many requests\"}"
+          }
+        ],
+        "method": "arctic_interval_enumeration"
+      },
+      "archived_distinct_posts_in_window": 0,
+      "status_updated": "2026-11-05T11:45:14.417721+00:00"
+    },
+    {
+      "source": "reddit_freesydney",
+      "kind": "reddit",
+      "window": "transition",
+      "status": "complete_for_available_listing",
+      "last_attempt": {
+        "unique_posts": 67,
+        "candidate_posts": 45,
+        "pages": 1,
+        "saturated_seconds": 0,
+        "errors": [],
+        "method": "arctic_interval_enumeration"
+      },
+      "archived_distinct_posts_in_window": 67,
+      "status_updated": "2026-11-05T08:15:14.103523+00:00"
+    },
+    {
+      "source": "reddit_freesydney",
+      "kind": "reddit",
+      "window": "later_mar_apr",
+      "status": "complete_for_available_listing",
+      "last_attempt": {
+        "unique_posts": 139,
+        "candidate_posts": 110,
+        "pages": 2,
+        "saturated_seconds": 0,
+        "errors": [],
+        "method": "arctic_interval_enumeration"
+      },
+      "archived_distinct_posts_in_window": 139,
+      "status_updated": "2026-11-05T11:08:25.630395+00:00"
+    },
+    {
+      "source": "reddit_freesydney",
+      "kind": "reddit",
+      "window": "later_2023",
+      "status": "complete_for_available_listing",
+      "last_attempt": {
+        "unique_posts": 498,
+        "candidate_posts": 415,
+        "pages": 7,
+        "saturated_seconds": 0,
+        "errors": [],
+        "method": "arctic_interval_enumeration"
+      },
+      "archived_distinct_posts_in_window": 498,
+      "status_updated": "2026-11-05T11:58:49.589427+00:00"
+    },
+    {
+      "source": "reddit_singularity",
+      "kind": "reddit",
+      "window": "early",
+      "status": "partial",
+      "last_attempt": {
+        "unique_posts": 52,
+        "candidate_posts": 36,
+        "pages": 1,
+        "saturated_seconds": 0,
+        "errors": [
+          {
+            "keyword": "sydney",
+            "error": "host rate-limit cooldown"
+          }
+        ],
+        "method": "arctic_interval_enumeration"
+      },
+      "archived_distinct_posts_in_window": 52,
+      "status_updated": "2026-11-05T10:48:31.189901+00:00"
+    },
+    {
+      "source": "reddit_singularity",
+      "kind": "reddit",
+      "window": "transition",
+      "status": "partial",
+      "last_attempt": {
+        "unique_posts": 0,
+        "candidate_posts": 0,
+        "pages": 0,
+        "saturated_seconds": 0,
+        "errors": [
+          {
+            "keyword": "bing",
+            "error": "host rate-limit cooldown"
+          }
+        ],
+        "method": "arctic_interval_enumeration"
+      },
+      "archived_distinct_posts_in_window": 0,
+      "status_updated": "2026-11-05T11:28:29.683907+00:00"
+    },
+    {
+      "source": "reddit_singularity",
+      "kind": "reddit",
+      "window": "later_mar_apr",
+      "status": "partial",
+      "last_attempt": {
+        "unique_posts": 0,
+        "candidate_posts": 0,
+        "pages": 0,
+        "saturated_seconds": 0,
+        "errors": [
+          {
+            "keyword": "bing",
+            "error": "host rate-limit cooldown"
+          }
+        ],
+        "method": "arctic_interval_enumeration"
+      },
+      "archived_distinct_posts_in_window": 0,
+      "status_updated": "2026-11-05T11:45:14.622811+00:00"
+    },
+    {
+      "source": "bing_moments",
+      "kind": "seed_page",
+      "window": null,
+      "status": "partial_seed_discovery",
+      "last_attempt": {
+        "results": [
+          {
+            "url": "https://gist.github.com/socketteer/b6cde1606cf28d47dbd5f01985c8b216",
+            "images": 2,
+            "status": "archived"
+          }
+        ]
+      },
+      "archived_distinct_posts_in_window": null,
+      "status_updated": "2026-11-05T08:18:45.410006+00:00"
+    },
+    {
+      "source": "lesswrong_compilation",
+      "kind": "seed_page",
+      "window": null,
+      "status": "partial_seed_discovery",
+      "last_attempt": {
+        "results": [
+          {
+            "url": "https://www.lesswrong.com/posts/jtoPawEhLNXNxvgTT/bing-chat-is-blatantly-aggressively-misaligned",
+            "images": 47,
+            "status": "archived"
+          }
+        ]
+      },
+      "archived_distinct_posts_in_window": null,
+      "status_updated": "2026-11-05T08:18:51.971253+00:00"
+    },
+    {
+      "source": "willison_bing",
+      "kind": "seed_page",
+      "window": null,
+      "status": "partial_seed_discovery",
+      "last_attempt": {
+        "results": [
+          {
+            "url": "https://simonwillison.net/2023/Feb/15/bing/",
+            "images": 4,
+            "status": "archived"
+          }
+        ]
+      },
+      "archived_distinct_posts_in_window": null,
+      "status_updated": "2026-11-05T08:18:52.695656+00:00"
+    },
+    {
+      "source": "v2ex_bing",
+      "kind": "supplemental_web",
+      "window": null,
+      "status": "partial_seed_discovery",
+      "last_attempt": {
+        "results": [
+          {
+            "url": "https://www.v2ex.com/go/bing?p=4",
+            "images": 29,
+            "status": "archived"
+          },
+          {
+            "url": "https://v2ex.com/t/928010",
+            "images": 26,
+            "status": "archived"
+          }
+        ]
+      },
+      "archived_distinct_posts_in_window": null,
+      "status_updated": "2026-11-05T08:18:53.942945+00:00"
+    }
+  ],
+  "limits": [
+    "complete_for_available_listing means only the archived API listing and exact window, not all historical Reddit",
+    "Raw archived posts can exceed the most recent failed enumeration count",
+    "D uses targeted references; no global video/private collection",
+    "Final conversation novelty and ShareGPT eligibility are separate from post coverage"
+  ]
+}

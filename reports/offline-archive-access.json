@@ -1,0 +1,10 @@
+[
+  {
+    "url": "https://academictorrents.com/details/56aa49f9653ba545f48df2e33679f014d2829c10",
+    "error": "HTTP 404:   <!DOCTYPE HTML>\n  <html lang=\"en\">\n\n  <head>\n    <title>Error - Academic Torrents</title>\n    <!-- DNS prefetch for ad domains -->\n    <link rel=\"dns-prefetch\" href=\"//"
+  },
+  {
+    "url": "https://academictorrents.com/download/56aa49f9653ba545f48df2e33679f014d2829c10",
+    "error": "HTTP 404: <h1>Not Found</h1>\n<p>404 Error</p>\n"
+  }
+]

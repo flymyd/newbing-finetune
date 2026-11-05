@@ -1,0 +1,43 @@
+{
+  "at": "2026-11-05T12:18:51.053189+00:00",
+  "checked": 7839,
+  "issues": [],
+  "animated_requires_frame_coverage": [
+    {
+      "asset_id": "168ac4feb79e6ee9c2ed47c161383dc1070e74247b0932c5f026fa236c0c30e2",
+      "path": "data/assets/sha256/16/168ac4feb79e6ee9c2ed47c161383dc1070e74247b0932c5f026fa236c0c30e2.gif",
+      "frames": 44
+    },
+    {
+      "asset_id": "6efc2fecaf1960f4bc613f9a45d2c1f025b4d9d1a7f1828219be15acbeda5c78",
+      "path": "data/assets/sha256/6e/6efc2fecaf1960f4bc613f9a45d2c1f025b4d9d1a7f1828219be15acbeda5c78.gif",
+      "frames": 23
+    },
+    {
+      "asset_id": "7b2454614ac430fdafb94119a169ef92b8d53536a02492d7c994e73ed3e5008e",
+      "path": "data/assets/sha256/7b/7b2454614ac430fdafb94119a169ef92b8d53536a02492d7c994e73ed3e5008e.gif",
+      "frames": 112
+    },
+    {
+      "asset_id": "8052f059a6fef134a2bb7cb90ca00bd547806cb2be104280553dfd14aa5d8863",
+      "path": "data/assets/sha256/80/8052f059a6fef134a2bb7cb90ca00bd547806cb2be104280553dfd14aa5d8863.gif",
+      "frames": 11
+    },
+    {
+      "asset_id": "b9329928dd94dee7379703166bef3486988e440b104c1b9fa4f2702c31e1ce26",
+      "path": "data/assets/sha256/b9/b9329928dd94dee7379703166bef3486988e440b104c1b9fa4f2702c31e1ce26.gif",
+      "frames": 199
+    },
+    {
+      "asset_id": "bb95414795db3d475dd09843e92a0e1a996e9e4e7a78ade12bab99ab1c7f2dfc",
+      "path": "data/assets/sha256/bb/bb95414795db3d475dd09843e92a0e1a996e9e4e7a78ade12bab99ab1c7f2dfc.gif",
+      "frames": 48
+    },
+    {
+      "asset_id": "f203cae9d52ce216a5260a8cf2c0a153154e042164b3f1b24b4cd0e667061442",
+      "path": "data/assets/sha256/f2/f203cae9d52ce216a5260a8cf2c0a153154e042164b3f1b24b4cd0e667061442.gif",
+      "frames": 50
+    }
+  ],
+  "complete": true
+}

@@ -1,0 +1,11 @@
+{"repair_attempted": 1, "corrected_needs_reverification": 1}
+{"repair_attempted": 2, "corrected_needs_reverification": 2}
+{"repair_attempted": 3, "corrected_needs_reverification": 3}
+{"repair_attempted": 6, "corrected_needs_reverification": 4, "unresolved": 1}
+{"repair_attempted": 8, "corrected_needs_reverification": 4, "unresolved": 2, "failed_or_deferred": 1}
+{"repair_attempted": 10, "corrected_needs_reverification": 5, "unresolved": 3, "failed_or_deferred": 1}
+{
+  "corrected_needs_reverification": 5,
+  "unresolved": 3,
+  "failed_or_deferred": 2
+}

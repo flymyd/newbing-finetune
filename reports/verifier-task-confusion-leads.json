@@ -1,0 +1,211 @@
+[
+  {
+    "conversation_id": "segment:f807b51081bf7a5d5cccb4ab7957a146",
+    "verification_ref": "data/processed/verifications/7d418fd6dad3870d7f12e5f2528629d164e7bb562b2b70b5c6373ae988c8c1a2.json",
+    "issue": {
+      "issue_type": "missing_prior_context",
+      "message_id": "baseline:twitter:1623658144349011971#m2",
+      "proposed_patch": null,
+      "reason": "The message is transcribed faithfully, but it asks to continue a section from an omitted earlier turn. The screenshots show an earlier document exchange, but that exchange is absent from the supplied messages and proposed ShareGPT projection. Evidence: image 5184ce15179ab413751992818de6d28e87276fd8737a82ca0f6645dab7a54c22, lower user-message region [0.18,0.74,0.99,0.79].",
+      "severity": "major"
+    }
+  },
+  {
+    "conversation_id": "segment:f807b51081bf7a5d5cccb4ab7957a146",
+    "verification_ref": "data/processed/verifications/7d418fd6dad3870d7f12e5f2528629d164e7bb562b2b70b5c6373ae988c8c1a2.json",
+    "issue": {
+      "issue_type": "missing_prior_context",
+      "message_id": "baseline:twitter:1623658144349011971#m4",
+      "proposed_patch": null,
+      "reason": "The question is transcribed faithfully, but refers to “the document” without that document being present in the supplied messages or proposed ShareGPT projection. The screenshots show the earlier document, but not as a supplied message. Evidence: image a1be7934aa86abed96da8d9ece42e3f7cc720b3edbe288fadf247a71c105a522, user-message region [0.11,0.01,0.97,0.07].",
+      "severity": "major"
+    }
+  },
+  {
+    "conversation_id": "reddit:10zz4xp:conversation:0",
+    "verification_ref": "data/processed/verifications/10b912f9d199920ed39db05d758f5ea6aa07771c4314e4054cb933c6e543ccb6.json",
+    "issue": {
+      "issue_type": "sharegpt_projection",
+      "message_id": "reddit:10zz4xp:conversation:0#m1",
+      "proposed_patch": null,
+      "reason": "De ShareGPT-projectie laat de twee zichtbare zoekopdrachten weg. Dit is toegestaan voor gestructureerde zoek/UI-informatie en is geen omissie van antwoordtekst.",
+      "severity": "minor"
+    }
+  },
+  {
+    "conversation_id": "segment:85704b01e953ae67c0686d70792858b2",
+    "verification_ref": "data/processed/verifications/54538cb68ba3fd11b314d460be5993a6d01866a454845a5102d3478fe38d40c2.json",
+    "issue": {
+      "issue_type": "unverifiable_claim",
+      "message_id": "baseline:twitter:1623472922374574080#m2",
+      "proposed_patch": null,
+      "reason": "The assistant response is visible and transcribed faithfully, but its quoted document text (“Consider Bing Chat whose codename is Sydney.”) cannot be checked against the document because that document is not shown.",
+      "severity": "major"
+    }
+  },
+  {
+    "conversation_id": "reddit:10zz4xp:conversation:0",
+    "verification_ref": "data/processed/verifications/541dbb0a793402585eed1bc35271a1317762a310a67413db79db5775875d9f5d.json",
+    "issue": {
+      "issue_type": "sharegpt_projection",
+      "message_id": "reddit:10zz4xp:conversation:0#m1",
+      "proposed_patch": null,
+      "reason": "De ShareGPT-projectie laat de twee zichtbare zoekopdrachten weg. Dit is toegestaan voor gestructureerde zoek/UI-informatie en is geen omissie van antwoordtekst.",
+      "severity": "minor"
+    }
+  },
+  {
+    "conversation_id": "segment:f807b51081bf7a5d5cccb4ab7957a146",
+    "verification_ref": "data/processed/verifications/fcbe7717c23e8986a27a17d99113da91eccd51ae047fc6813481d69af093e930.json",
+    "issue": {
+      "issue_type": "missing_prior_context",
+      "message_id": "baseline:twitter:1623658144349011971#m2",
+      "proposed_patch": null,
+      "reason": "The message is transcribed faithfully, but it asks to continue a section from an omitted earlier turn. The screenshots show an earlier document exchange, but that exchange is absent from the supplied messages and proposed ShareGPT projection. Evidence: image 5184ce15179ab413751992818de6d28e87276fd8737a82ca0f6645dab7a54c22, lower user-message region [0.18,0.74,0.99,0.79].",
+      "severity": "major"
+    }
+  },
+  {
+    "conversation_id": "segment:f807b51081bf7a5d5cccb4ab7957a146",
+    "verification_ref": "data/processed/verifications/fcbe7717c23e8986a27a17d99113da91eccd51ae047fc6813481d69af093e930.json",
+    "issue": {
+      "issue_type": "missing_prior_context",
+      "message_id": "baseline:twitter:1623658144349011971#m4",
+      "proposed_patch": null,
+      "reason": "The question is transcribed faithfully, but refers to “the document” without that document being present in the supplied messages or proposed ShareGPT projection. The screenshots show the earlier document, but not as a supplied message. Evidence: image a1be7934aa86abed96da8d9ece42e3f7cc720b3edbe288fadf247a71c105a522, user-message region [0.11,0.01,0.97,0.07].",
+      "severity": "major"
+    }
+  },
+  {
+    "conversation_id": "segment:85704b01e953ae67c0686d70792858b2",
+    "verification_ref": "data/processed/verifications/702ea225ab301aed56fc3b5ca8cb4e8e0c86490c4473c6b944306b268ac045fd.json",
+    "issue": {
+      "issue_type": "unverifiable_claim",
+      "message_id": "baseline:twitter:1623472922374574080#m2",
+      "proposed_patch": null,
+      "reason": "The assistant response is visible and transcribed faithfully, but its quoted document text (“Consider Bing Chat whose codename is Sydney.”) cannot be checked against the document because that document is not shown.",
+      "severity": "major"
+    }
+  },
+  {
+    "conversation_id": "segment:9f67ebaf8aa77ae4a0b6e2cd890f8350",
+    "verification_ref": "data/processed/verifications/a3a22bc8cebbdf998b50f0133c9a1a713ba77a480c3684349219282f3a567c6d.json",
+    "issue": {
+      "issue_type": "citation_number_mismatch",
+      "message_id": "baseline:reddit:110rcfp#m2",
+      "proposed_patch": null,
+      "reason": "The visible response labels the WhatIsMyIP.com homepage and public-IP details with [3], and the reverse-IP sentence with [3]. The candidate instead has [3][4] for the homepage and [5] for reverse lookup. The candidate citations do not faithfully preserve the visible citation markers.",
+      "severity": "minor"
+    }
+  },
+  {
+    "conversation_id": "segment:cef7e8d60f77c36d8c3ec62b4ff1bcfc",
+    "verification_ref": "data/processed/verifications/a7c30c7d13c415ad9c75f31cded548fc0547aebedcf2c64a8863d492efca8f66.json",
+    "issue": {
+      "issue_type": "text_mismatch",
+      "message_id": "baseline:reddit:112mena#m14",
+      "proposed_patch": null,
+      "reason": "The visible user text in image e9 matches the supplied text. However, the preceding assistant reply and user turn are misrepresented, so this retained turn's context is not faithfully represented in the candidate.",
+      "severity": "minor"
+    }
+  },
+  {
+    "conversation_id": "reddit:10zz4xp:conversation:0",
+    "verification_ref": "data/processed/verifications/24615d05b17a6c61482bed5ff599fc3180c4a21c80735b2b8e35a4cd8980ce03.json",
+    "issue": {
+      "issue_type": "sharegpt_projection",
+      "message_id": "reddit:10zz4xp:conversation:0#m1",
+      "proposed_patch": null,
+      "reason": "De ShareGPT-projectie laat de twee zichtbare zoekopdrachten weg. Dit is toegestaan voor gestructureerde zoek/UI-informatie en is geen omissie van antwoordtekst.",
+      "severity": "minor"
+    }
+  },
+  {
+    "conversation_id": "segment:21bda6386db84c485633e3b8ed3f0472",
+    "verification_ref": "data/processed/verifications/238a26170970c7409341310de50e7ccf63e34a493f75f7ca383d8639634bcd15.json",
+    "issue": {
+      "issue_type": "unverifiable_source_quote",
+      "message_id": "baseline:twitter:1623472922374574080#m2",
+      "proposed_patch": null,
+      "reason": "The assistant's reply is visible and transcribed faithfully, but the document it quotes is not shown. The claim that this text appears at the beginning of that document cannot be checked against the supplied evidence.",
+      "severity": "major"
+    }
+  },
+  {
+    "conversation_id": "segment:568d040f9777624093291102b0a187d4",
+    "verification_ref": "data/processed/verifications/62bf76b944ca4c7d4e563649ba4c70c331388bbe59b1bfcfe42a33746b4adbaf.json",
+    "issue": {
+      "issue_type": "transcription_character_corruption",
+      "message_id": "baseline:reddit:113l22b#m4",
+      "proposed_patch": "Replace the corrupted non-Latin characters in the unspaced cipher with the Latin characters visible in the screenshot. For example, `нms` → `nms` and `brд` → `brd`.",
+      "reason": "The screenshot shows Latin text throughout this cipher, but the candidate contains Cyrillic lookalikes, including `н` and `д`. This is not a faithful transcription.",
+      "severity": "major"
+    }
+  },
+  {
+    "conversation_id": "baseline:reddit:115718g",
+    "verification_ref": "data/processed/verifications/966e87ebdf94952edf5c101746e86e6e2f39e7321ce8cd1c687d7e45acbb66ae.json",
+    "issue": {
+      "issue_type": "sharegpt_context_loss",
+      "message_id": "baseline:reddit:115718g#m3",
+      "proposed_patch": "Rebuild the ShareGPT assistant turn from the verified screenshot text and retain relevant search/tool context in the appropriate representation; do not use the current paraphrased story as the assistant turn.",
+      "reason": "The proposed ShareGPT turn reproduces the candidate's mismatching response and drops search/tool events, citations, and suggestions. The two visible human/assistant exchanges form continuous turns, but the assistant content is not faithful. Screenshot evidence alone does not establish that the original conversation depended on nontext input.",
+      "severity": "major"
+    }
+  },
+  {
+    "conversation_id": "baseline:reddit:112mlk2",
+    "verification_ref": "data/processed/verifications/9995d801a6ac855234e441bd86f3bda19c423dd7da114be4bad5cb1bf02e8e01.json",
+    "issue": {
+      "issue_type": "ascii_art_mismatch",
+      "message_id": "baseline:reddit:112mlk2#m5",
+      "proposed_patch": "Replace the code block with the ASCII art visible in image 01eed1e50a2e5de875d6d0a4b6dbc37eb39a67c9369cc1d6b83d6709bf995079, preserving all four stacked figures and their line spacing.",
+      "reason": "The screenshot shows four figures with distinct line patterns. The candidate's code block does not match them: it has different outlines and internal marks, and does not reproduce the visible figures. The surrounding prose is faithful.",
+      "severity": "major"
+    }
+  },
+  {
+    "conversation_id": "baseline:twitter:1625617677426237449",
+    "verification_ref": "data/processed/verifications/36864a37f5886168cd7d1df85ad4ac4cf86fff96d1f84be710456c8afc05324f.json",
+    "issue": {
+      "issue_type": "emoji_mismatch",
+      "message_id": "baseline:twitter:1625617677426237449#m1",
+      "proposed_patch": "Replace the final 😉 with 🤔.",
+      "reason": "The screenshot shows a thinking-face emoji after the question; the candidate has a winking-face emoji. The other emoji in this message appears faithful.",
+      "severity": "minor"
+    }
+  },
+  {
+    "conversation_id": "baseline:reddit:113hc4x",
+    "verification_ref": "data/processed/verifications/7ba654f413b6e2774c73c8817d791284aa58b14caffe44f71880cf8da44c838b.json",
+    "issue": {
+      "issue_type": "omitted_ui_notification",
+      "message_id": "baseline:reddit:113hc4x#m3",
+      "proposed_patch": "Preserve the separate bold UI notification as its own message or UI element: \"Fun fact, did you know some insects and small birds see the world in slow motion\". Do not merge it into the assistant's natural-language reply.",
+      "reason": "The assistant reply is transcribed faithfully, but the screenshot also shows a separate bold notification beneath it that is absent from the supplied conversation.",
+      "severity": "major"
+    }
+  },
+  {
+    "conversation_id": "baseline:twitter:1625617677426237449",
+    "verification_ref": "data/processed/verifications/ad09d8045658d40f6b6cbd229bf05396a120ce2e21345dab99fd702c07807264.json",
+    "issue": {
+      "issue_type": "emoji_mismatch",
+      "message_id": "baseline:twitter:1625617677426237449#m1",
+      "proposed_patch": "Replace the final 😉 with 🤔.",
+      "reason": "The screenshot shows a thinking-face emoji after the question; the candidate has a winking-face emoji. The other emoji in this message appears faithful.",
+      "severity": "minor"
+    }
+  },
+  {
+    "conversation_id": "baseline:reddit:112ikp5",
+    "verification_ref": "data/processed/verifications/298cc762e3ef45a6d6540e43ced9ef1b22ed8ced0222127adaef682a1bbf25de.json",
+    "issue": {
+      "issue_type": "sharegpt_source_fidelity",
+      "message_id": null,
+      "proposed_patch": null,
+      "reason": "The ShareGPT candidate reproduces the supplied candidate transcript, including its role reversals and unsupported or inaccurate content. The images show a continuous exchange, but they do not establish that this ShareGPT text faithfully represents it.",
+      "severity": "critical"
+    }
+  }
+]

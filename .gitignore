@@ -1,0 +1,14 @@
+.env*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+data/
+state/
+runs/
+exports/
+*.part
+# 小型 reports/ 和 fixtures 可按需版本控制，禁止含凭据/大媒体。

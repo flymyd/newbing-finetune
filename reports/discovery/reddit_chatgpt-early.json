@@ -1,0 +1,15 @@
+{
+  "counts": {
+    "unique_posts": 66,
+    "candidate_posts": 54,
+    "pages": 1,
+    "saturated_seconds": 0
+  },
+  "errors": [],
+  "last_receipt": {
+    "path": "data/raw/net/fe44336939f891cbf627fb48b55bf04bf4003f5a72b98f1da2a7d9b94e0b7776.blob",
+    "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ChatGPT&after=1675727999&before=1675944000&limit=100&sort=asc&query=bing",
+    "sha256": "09560c1bbe848c50197936cb0de0359b8a0de001a69be7531e8c450e3ab73cca"
+  },
+  "keyword": "bing"
+}

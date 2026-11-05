@@ -1,0 +1,34 @@
+{"kind": "transcribe", "processed": 10, "succeeded": 5, "retry_wait": 5}
+{"kind": "transcribe", "processed": 20, "succeeded": 5, "retry_wait": 15}
+{"kind": "transcribe", "processed": 30, "succeeded": 5, "retry_wait": 25}
+{"kind": "transcribe", "processed": 40, "succeeded": 5, "retry_wait": 35}
+{"kind": "transcribe", "processed": 50, "succeeded": 5, "retry_wait": 45}
+{"kind": "transcribe", "processed": 60, "succeeded": 5, "retry_wait": 55}
+{"kind": "transcribe", "processed": 70, "succeeded": 9, "retry_wait": 61}
+{"kind": "transcribe", "processed": 80, "succeeded": 15, "retry_wait": 65}
+{"kind": "transcribe", "processed": 90, "succeeded": 17, "retry_wait": 73}
+{"kind": "transcribe", "processed": 100, "succeeded": 19, "retry_wait": 81}
+{"kind": "transcribe", "processed": 110, "succeeded": 21, "retry_wait": 89}
+{"kind": "transcribe", "processed": 120, "succeeded": 21, "retry_wait": 99}
+{"kind": "transcribe", "processed": 130, "succeeded": 21, "retry_wait": 109}
+{"kind": "transcribe", "processed": 140, "succeeded": 21, "retry_wait": 119}
+{"kind": "transcribe", "processed": 150, "succeeded": 21, "retry_wait": 129}
+{"kind": "transcribe", "processed": 160, "succeeded": 21, "retry_wait": 139}
+{"kind": "transcribe", "processed": 170, "succeeded": 21, "retry_wait": 149}
+{"kind": "transcribe", "processed": 180, "succeeded": 21, "retry_wait": 159}
+{"kind": "transcribe", "processed": 190, "succeeded": 21, "retry_wait": 169}
+{"kind": "transcribe", "processed": 200, "succeeded": 21, "retry_wait": 179}
+{"kind": "transcribe", "processed": 210, "succeeded": 21, "retry_wait": 189}
+{"kind": "transcribe", "processed": 220, "succeeded": 21, "retry_wait": 199}
+{"kind": "transcribe", "processed": 230, "succeeded": 21, "retry_wait": 209}
+{"kind": "transcribe", "processed": 240, "succeeded": 21, "retry_wait": 219}
+{"kind": "transcribe", "processed": 250, "succeeded": 21, "retry_wait": 229}
+{"kind": "transcribe", "processed": 260, "succeeded": 21, "retry_wait": 239}
+{"kind": "transcribe", "processed": 270, "succeeded": 21, "retry_wait": 249}
+{"kind": "transcribe", "processed": 280, "succeeded": 21, "retry_wait": 259}
+{"kind": "transcribe", "processed": 290, "succeeded": 21, "retry_wait": 269}
+{"kind": "transcribe", "processed": 300, "succeeded": 21, "retry_wait": 279}
+{
+  "succeeded": 21,
+  "retry_wait": 279
+}

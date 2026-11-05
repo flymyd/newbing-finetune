@@ -1,0 +1,15 @@
+{
+  "source": "reddit_chatgpt",
+  "window": "early",
+  "coverage": "partial",
+  "unique_posts": 66,
+  "candidate_posts": 54,
+  "pages": 1,
+  "saturated_seconds": 0,
+  "errors": [
+    {
+      "keyword": "bing",
+      "error": "HTTP 429: {\"data\":null,\"error\":\"Too many requests\"}"
+    }
+  ]
+}

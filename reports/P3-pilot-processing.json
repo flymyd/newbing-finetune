@@ -1,0 +1,3703 @@
+{
+  "at": "2026-11-05T15:34:00.350219+00:00",
+  "cohort_hash": "f89f2146b687d97c7392e394cb3cf9ebd34150d2311875bb29b0dc093a483faa",
+  "groups": 500,
+  "counts": {
+    "transcribed_pending_quality": 326,
+    "excluded_clear": 154,
+    "quarantined_transcription": 20
+  },
+  "records": [
+    {
+      "candidate_id": "reddit:10vu4sk",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1622846314667991040",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1622883613309120512",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1622916882469625857",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1622917975668936705",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1622936244094177280",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1622951687844667398",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10w58ht",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10w91zk",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10w9oho",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10w9p6n",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10w9xim",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10wa21q",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10wa7va",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10wbqgd",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10we24b",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10wfczw",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1623102758281744384",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10wjqfd",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 3,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10wkor5",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10wl1h4",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10wmb2r",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10wmpkd",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10wnyck",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1623204199495344130",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1623221668972834819",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10wraa3",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 3,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10wtftk",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10wup91",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1623292994173472769",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10wv2rr",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10wwt36",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10wxzxz",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10wy71y",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10wyn63",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10wyrvp",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10x0ymd",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10x4vj7",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10x51d7",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10x71se",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10x83ak",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10x9dbh",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10xajfd",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10xcwqy",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10xcy9b",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10xdpn8",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10xej8z",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1623471102348390400",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1623472552222896130",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1623473431080476678",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1623479507683246080",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 4,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10xjuaz",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1623558948442734592",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10xmzqx",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1623575396452032515",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10xp4lv",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10xpd5p",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1623606060161421315",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 2,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10xq0gb",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1623616547397767168",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10xsjjt",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10xsktk",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10xukik",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10xuztx",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 4,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10xve0m",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 2,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10xww0y",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10xxckq",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10y1mq2",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10y1svm",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10y58oq",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10y91x6",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10yd9hk",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10ygcwx",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10ygepg",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1623917932056309761",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10yqjvn",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1624062762631438338",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10yv4w9",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10yv5lq",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10yvrqe",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10yw72k",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10ywxly",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10yx94n",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j804i0w",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10yz0qn",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10z0ema",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10z0g27",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1624184528318111745",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10z71mr",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10z78yt",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1624223027591319552",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1624223750945136642",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10zda7e",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10zdt24",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10zjk68",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1624370465866190849",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 3,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10zmtwh",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10zngke",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j84imya",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10zqp78",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10zr33q",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10zrerp",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1624446526146719748",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j84qxto",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j84qyib",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10zu8oj",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 2,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j855mp5",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j85e5kc",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10zxpzy",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:10zz4xp",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:11077zb",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1107d6b",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:110a8cc",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 2,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:110edq4",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 2,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:110flec",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:110og12",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 3,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:110qunk",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1624884010634674178",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:110r1tv",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:110rhi1",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1624892830823989248",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1624894830651359237",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 4,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1624909798897483779",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1624946349073395712",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:110wpbg",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:110xwwd",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 2,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:110yntr",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j8c15ef",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:110zgsk",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1110nvi",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1110zz2",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1625017988226187264",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1111f97",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1625036061003988994",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1112qwj",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1625044515991044098",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1625051545355051008",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1113joc",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 6,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1113odf",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1113txj",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1625062028946571267",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1114uya",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:11150ve",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1117cnb",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1117csz",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1625114931371671552",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1118opj",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j8dczqs",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1119glw",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111asok",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111axgk",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j8dml3p",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111bkza",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111cv7p",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1625172198007635971",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111dpg9",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111dxxa",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111edjp",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111fri3",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 2,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1625199005385752577",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111ha4y",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111hpbi",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111htig",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111iah6",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j8ewezr",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111j1vk",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j8exg66",
+      "status": "quarantined_transcription",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": [
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ValueError: transcribed text is not a verbatim source quote"
+        },
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ValueError: transcribed text is not a verbatim source quote"
+        },
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ValueError: transcribed text is not a verbatim source quote"
+        }
+      ]
+    },
+    {
+      "candidate_id": "reddit:111j6qb",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111jtch",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111kang",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111kavn",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111l84r",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111lems",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111nd3b",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111og38",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111ou8s",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111pd65",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 3,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j8g2fjj",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111qiz2",
+      "status": "quarantined_transcription",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": [
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ModelResultError: attempts_exhausted"
+        },
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ModelResultError: attempts_exhausted"
+        },
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "APITimeoutError: Request timed out."
+        }
+      ]
+    },
+    {
+      "candidate_id": "reddit:111qo7s",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111roc4",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111rq4h",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111ryra",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111skb5",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111u49u",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111u63y",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111uene",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111v8qa",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 3,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111w892",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111wo0y",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111x5r1",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j8h9gz1",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111xz8h",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111y0w3",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:111yywe",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1122z7d",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:11234lb",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1123i0k",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1125qwl",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 3,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1125z92",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1126w1m",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1126wrd",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 2,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:11273l7",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j8ia39t",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:11279uf",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1127bpe",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1127kcj",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1127r6e",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 7,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1128rec",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1128uow",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1128wk7",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1128y7w",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1129c6w",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1129ekj",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1129icl",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112adcd",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112d2ur",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112d2xl",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112dbsq",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112duqo",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112eihs",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j8jpgww",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112fj0h",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112fj9a",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112flb0",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112fu83",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1625609384691638300",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112h0na",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112h1bk",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j8k34gu",
+      "status": "quarantined_transcription",
+      "relevance": "uncertain",
+      "current_assets": 0,
+      "errors": [
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ValueError: transcribed text is not a verbatim source quote"
+        },
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ValueError: transcribed text is not a verbatim source quote"
+        }
+      ]
+    },
+    {
+      "candidate_id": "reddit:112havb",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 9,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112hcfw",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112hchg",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112ijzc",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112iolj",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112irve",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112j2tq",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 2,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112j49o",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112k7og",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112kco0",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112kiv0",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112knk6",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112lhwa",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112lx68",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112lxg1",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 5,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112m9yy",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j8l2ai5",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112nqf5",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112nzio",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112owpr",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112owx9",
+      "status": "quarantined_transcription",
+      "relevance": "include",
+      "current_assets": 2,
+      "errors": [
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ValueError: invalid image evidence reference"
+        },
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ValueError: invalid image evidence reference"
+        }
+      ]
+    },
+    {
+      "candidate_id": "reddit:112p3pu",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112pcov",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112pdan",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112pknm",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112prz5",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112pw3m",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 2,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j8lnz5s",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112qhwo",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112qj36",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112qp4r",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112qrce",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j8lraf3",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112r6w9",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 2,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112rtkc",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 3,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112ss32",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 2,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112swfj",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j8m40ui",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j8m431q",
+      "status": "quarantined_transcription",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": [
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ValueError: transcribed text is not a verbatim source quote"
+        },
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ValueError: transcribed text is not a verbatim source quote"
+        }
+      ]
+    },
+    {
+      "candidate_id": "reddit:112u0h5",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112u7yh",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112uchg",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112uoyh",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112v39r",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112w38m",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112xads",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112xl5h",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112xoa4",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112xol2",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112xzd8",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112y41k",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 2,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112y55n",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112yeu9",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112yjec",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112ym9v",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112z9co",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:112zgun",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j8mzt3r",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113016w",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1130gz9",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 3,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1625878363561771008",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1130hn5",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1130ifh",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1130kly",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1130zkb",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:11314f0",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1131hc2",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1131lxa",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1132d6d",
+      "status": "quarantined_transcription",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": [
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ValueError: text evidence quote is not in source"
+        },
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ValueError: text evidence quote is not in source"
+        }
+      ]
+    },
+    {
+      "candidate_id": "reddit:1132e4r",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1132hzs",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1132ith",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1132rrx",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1132zra",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1132zvh",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 4,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:11331vt",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1133iah",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1133ko6",
+      "status": "quarantined_transcription",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": [
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ValueError: text message has no source quote"
+        },
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ValueError: text message has no source quote"
+        }
+      ]
+    },
+    {
+      "candidate_id": "reddit:1133koq",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1133pk2",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 3,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1133q7k",
+      "status": "quarantined_transcription",
+      "relevance": "include",
+      "current_assets": 7,
+      "errors": [
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ValueError: invalid image evidence reference"
+        },
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ValueError: invalid image evidence reference"
+        }
+      ]
+    },
+    {
+      "candidate_id": "reddit:1134izw",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j8nyatb",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:11352fs",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 7,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1135b2x",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1135fok",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 2,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1135o3x",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j8o3ia3",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1135y1n",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113627l",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:11368i0",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1136bee",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1136h2v",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1136r7d",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 2,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1136v77",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1137bwp",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j8oet8c",
+      "status": "quarantined_transcription",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": [
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ValueError: text message has no source quote"
+        },
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ValueError: text message has no source quote"
+        }
+      ]
+    },
+    {
+      "candidate_id": "reddit:1137fkg",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 9,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1137qa2",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1137t3m",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:11380be",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113810e",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j8ojhz6",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:11383mq",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:11388qo",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:11389do",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1138lh4",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1138mq3",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:11398o3",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 2,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:11399h7",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1139dj4",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1139thk",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1139tui",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1139v32",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 3,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1139x6l",
+      "status": "quarantined_transcription",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": [
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ModelResultError: attempts_exhausted"
+        },
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "APITimeoutError: Request timed out."
+        }
+      ]
+    },
+    {
+      "candidate_id": "reddit:113bihi",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113blcv",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 3,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113bpwi",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 3,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113btqy",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 3,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113bty6",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113c7j0",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 3,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113c7k7",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113cdye",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113cvft",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113cxrx",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 3,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113d4ix",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j8ph770",
+      "status": "quarantined_transcription",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": [
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ValueError: transcribed text is not a verbatim source quote"
+        }
+      ]
+    },
+    {
+      "candidate_id": "reddit:113djgo",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 6,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113drfg",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 4,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113drjx",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113dulk",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113dvnz",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113e8qa",
+      "status": "quarantined_transcription",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": [
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ValueError: invalid image evidence reference"
+        }
+      ]
+    },
+    {
+      "candidate_id": "reddit:113e9ia",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j8pnqcg",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113efjo",
+      "status": "quarantined_transcription",
+      "relevance": "include",
+      "current_assets": 14,
+      "errors": [
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "APITimeoutError: Request timed out."
+        }
+      ]
+    },
+    {
+      "candidate_id": "reddit:113eqi5",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113etho",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113ew9e",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113f2as",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j8pwmvu",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j8pypvt",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113gclv",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113ggji",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113grfj",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113grox",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113hclq",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113i135",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113i4yn",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113i522",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113i9ee",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113iu63",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113ji9g",
+      "status": "quarantined_transcription",
+      "relevance": "include",
+      "current_assets": 2,
+      "errors": [
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ValueError: invalid image evidence reference"
+        }
+      ]
+    },
+    {
+      "candidate_id": "reddit:113jt1p",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 7,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113jvje",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113k92g",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113ka0t",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113kb1n",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113kfyy",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113kgwt",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113ki9b",
+      "status": "quarantined_transcription",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": [
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ValueError: pixel evidence outside input image"
+        }
+      ]
+    },
+    {
+      "candidate_id": "reddit:113lmi9",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113lnkl",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113ls8q",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113m5bi",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113m5mg",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113m61t",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113m77w",
+      "status": "quarantined_transcription",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": [
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ModelResultError: attempts_exhausted"
+        }
+      ]
+    },
+    {
+      "candidate_id": "reddit:comment:j8qym3u",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113mns4",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113n3nx",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113ndx6",
+      "status": "quarantined_transcription",
+      "relevance": "include",
+      "current_assets": 5,
+      "errors": [
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ValueError: pixel evidence outside input image"
+        }
+      ]
+    },
+    {
+      "candidate_id": "reddit:113nkjq",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113nwx3",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113nwyd",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113o537",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113okvq",
+      "status": "quarantined_transcription",
+      "relevance": "include",
+      "current_assets": 20,
+      "errors": [
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ValueError: invalid image evidence reference"
+        }
+      ]
+    },
+    {
+      "candidate_id": "reddit:113p2jn",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 5,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113plhm",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113pof1",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113pvsd",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113q88q",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1626209258097500160",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113qhr9",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113quue",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1626217824028065793",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113rgeq",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113rt16",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113s5i9",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113scr0",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113sloj",
+      "status": "quarantined_transcription",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": [
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ValueError: transcribed text is not a verbatim source quote"
+        }
+      ]
+    },
+    {
+      "candidate_id": "reddit:113sozn",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113sse3",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113ssn8",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113t0q1",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113t9bg",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 6,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113tfjz",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113tjiu",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113v14m",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113xl98",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113xv68",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113xycr",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113ycl9",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113ypoq",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:113zgll",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:11401a9",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:11435iq",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1143qq8",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1143wqs",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:11448rr",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:1144lsr",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1620578653196410887",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1620605958287392768",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1620611843504099338",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1620626089239547904",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1620698683091320835",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1620702579704598528",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 2,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1620797359738486784",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1620926415297445888",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1620964393835167746",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1620985944269811712",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1621307706052165633",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1621308486972743680",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1621308531344379904",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1621315401689751552",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1621316496667381761",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1621356940998709249",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1621387923558961152",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1621388239805317120",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1621409411678838792",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 2,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1621409537780551681",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1621631622213767170",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1621636013771694082",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1621669544342261762",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1621672742188716032",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1621676579049848832",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1621698451758088192",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1621705167992229891",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1622012607363256323",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 3,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1622027719641792512",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 4,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1622103630084964352",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1622190069263089666",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1622325220475387904",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1622459724619821056",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 4,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1622468557614247937",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1622471403474767878",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1622485161685164033",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1622492966852894722",
+      "status": "quarantined_transcription",
+      "relevance": "uncertain",
+      "current_assets": 2,
+      "errors": [
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ValueError: invalid image evidence reference"
+        },
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ValueError: invalid image evidence reference"
+        },
+        {
+          "kind": "transcribe",
+          "status": "quarantined",
+          "error": "ValueError: invalid image evidence reference"
+        }
+      ]
+    },
+    {
+      "candidate_id": "author:repligate:1622498991991672834",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1622526678135103489",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1622573964139630593",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1622578128852746242",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "reddit:comment:j8vb6fm",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 0,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1626490734114136065",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1626509573275123712",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1626535187365433345",
+      "status": "transcribed_pending_quality",
+      "relevance": "include",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1626535454425116672",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1626565060486127616",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1626565371191779328",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 2,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1626573935444738049",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1626590880986714114",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1626612235647819776",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1626720368743583744",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1626721255662526464",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1626836199510867971",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1627043216565620737",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1627050657147658240",
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1627194549050261506",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1627472279973101568",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 2,
+      "errors": []
+    },
+    {
+      "candidate_id": "author:repligate:1627472823353593857",
+      "status": "excluded_clear",
+      "relevance": "exclude_clear",
+      "current_assets": 1,
+      "errors": []
+    }
+  ],
+  "note": "Only matching current source/image input counts as current. Transcription success is not ShareGPT eligibility."
+}

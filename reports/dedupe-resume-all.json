@@ -1,0 +1,10 @@
+{
+  "conversations": 1284,
+  "substantive_replies": 4342,
+  "exact_reply_shared_links": 1075,
+  "near_text_links": 768,
+  "image_leads": 1245,
+  "method": "text_5gram_and_image_dhash_v1",
+  "policy": "Text candidates conservatively share a split, without merging content. Image leads need corroboration.",
+  "created_at": "2026-11-05T13:12:20.861575+00:00"
+}

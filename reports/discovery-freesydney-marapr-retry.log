@@ -1,0 +1,10 @@
+{
+  "source": "reddit_freesydney",
+  "window": "later_mar_apr",
+  "coverage": "complete_for_available_listing",
+  "unique_posts": 139,
+  "candidate_posts": 110,
+  "pages": 2,
+  "saturated_seconds": 0,
+  "errors": []
+}

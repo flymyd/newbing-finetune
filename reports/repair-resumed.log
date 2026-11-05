@@ -1,0 +1,15 @@
+{"repair_attempted": 2, "failed_or_deferred": 1}
+{"repair_attempted": 3, "failed_or_deferred": 2}
+{"repair_attempted": 4, "failed_or_deferred": 3}
+{"repair_attempted": 5, "failed_or_deferred": 4}
+{"repair_attempted": 6, "failed_or_deferred": 5}
+{"repair_attempted": 7, "failed_or_deferred": 6}
+{"repair_attempted": 8, "failed_or_deferred": 7}
+{"repair_attempted": 9, "failed_or_deferred": 8}
+{"repair_attempted": 10, "failed_or_deferred": 9}
+{"repair_attempted": 11, "failed_or_deferred": 10}
+{"repair_attempted": 12, "failed_or_deferred": 11}
+{"repair_attempted": 13, "failed_or_deferred": 12}
+{
+  "failed_or_deferred": 12
+}

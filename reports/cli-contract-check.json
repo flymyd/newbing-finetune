@@ -1,0 +1,116 @@
+{
+  "at": "2026-11-05T11:38:04.395226+00:00",
+  "results": [
+    {
+      "command": "doctor",
+      "exit_code": 0,
+      "has_dry_run": true
+    },
+    {
+      "command": "status",
+      "exit_code": 0,
+      "has_dry_run": true
+    },
+    {
+      "command": "probe",
+      "exit_code": 0,
+      "has_dry_run": true
+    },
+    {
+      "command": "import-baseline",
+      "exit_code": 0,
+      "has_dry_run": true
+    },
+    {
+      "command": "discover",
+      "exit_code": 0,
+      "has_dry_run": true
+    },
+    {
+      "command": "ingest-dump",
+      "exit_code": 0,
+      "has_dry_run": true
+    },
+    {
+      "command": "comments",
+      "exit_code": 0,
+      "has_dry_run": true
+    },
+    {
+      "command": "recover-baseline-posts",
+      "exit_code": 0,
+      "has_dry_run": true
+    },
+    {
+      "command": "dedupe",
+      "exit_code": 0,
+      "has_dry_run": true
+    },
+    {
+      "command": "references",
+      "exit_code": 0,
+      "has_dry_run": true
+    },
+    {
+      "command": "recover-media",
+      "exit_code": 0,
+      "has_dry_run": true
+    },
+    {
+      "command": "recover-archive-media",
+      "exit_code": 0,
+      "has_dry_run": true
+    },
+    {
+      "command": "repair",
+      "exit_code": 0,
+      "has_dry_run": true
+    },
+    {
+      "command": "download",
+      "exit_code": 0,
+      "has_dry_run": true
+    },
+    {
+      "command": "classify",
+      "exit_code": 0,
+      "has_dry_run": true
+    },
+    {
+      "command": "transcribe",
+      "exit_code": 0,
+      "has_dry_run": true
+    },
+    {
+      "command": "verify",
+      "exit_code": 0,
+      "has_dry_run": true
+    },
+    {
+      "command": "review",
+      "exit_code": 0,
+      "has_dry_run": true
+    },
+    {
+      "command": "export",
+      "exit_code": 0,
+      "has_dry_run": true
+    },
+    {
+      "command": "validate",
+      "exit_code": 0,
+      "has_dry_run": true
+    },
+    {
+      "command": "reconstruct",
+      "exit_code": 0,
+      "has_dry_run": true
+    },
+    {
+      "command": "resume",
+      "exit_code": 0,
+      "has_dry_run": true
+    }
+  ],
+  "scope": "Help parsing only; not a network or command behavior test."
+}

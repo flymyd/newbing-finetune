@@ -1,0 +1,15 @@
+{
+  "counts": {
+    "unique_posts": 52,
+    "candidate_posts": 36,
+    "pages": 1,
+    "saturated_seconds": 0
+  },
+  "errors": [],
+  "last_receipt": {
+    "path": "data/raw/net/c2066864b409c164f4333c354617015e1e70dc314b6a1cb0c876a5b01529bc9e.blob",
+    "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=singularity&after=1675727999&before=1676592000&limit=100&sort=asc&query=bing",
+    "sha256": "40067b7e3ab406586309fd96f228c1283696c4bc23048bd6a9951dcd32e19875"
+  },
+  "keyword": "bing"
+}

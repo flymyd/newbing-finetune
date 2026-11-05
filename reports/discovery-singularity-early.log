@@ -1,0 +1,15 @@
+{
+  "source": "reddit_singularity",
+  "window": "early",
+  "coverage": "partial",
+  "unique_posts": 52,
+  "candidate_posts": 36,
+  "pages": 1,
+  "saturated_seconds": 0,
+  "errors": [
+    {
+      "keyword": "sydney",
+      "error": "host rate-limit cooldown"
+    }
+  ]
+}

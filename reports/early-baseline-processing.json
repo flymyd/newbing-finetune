@@ -1,0 +1,247 @@
+{
+  "at": "2026-11-05T13:24:20.289902+00:00",
+  "groups": 59,
+  "counts": {
+    "transcribed": 58,
+    "quarantined": 1
+  },
+  "cases": [
+    {
+      "candidate_id": "baseline:twitter:1623472922374574080",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:twitter:1623579574599839744",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:twitter:1623658144349011971",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:110rcfp",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:110tb9n",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:110vfgb",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:1113mj0",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:111bvk6",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:111cr2t",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:111crzp",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:111ddbc",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:twitter:1625156575202537474",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:twitter:1625365182724677633",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:111sb73",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:1127w97",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:112atq4",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:112g74l",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:112h5f5",
+      "state": "quarantined"
+    },
+    {
+      "candidate_id": "baseline:reddit:112ikp5",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:113hc4x",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:113jh7z",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:113kf0q",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:113l22b",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:113rh7l",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:113wbqc",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:twitter:1625520707768659968",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:twitter:1625617677426237449",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:112l7tw",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:112mena",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:112mlk2",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:112teir",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:112totc",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:1130oev",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:11314ih",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:1133jzg",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:1134e55",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:1135jb6",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:11399r6",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:1139cbf",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:1139y1k",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:113ayt5",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:twitter:1625769918682771457",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:twitter:1625854733255868418",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:twitter:1625946511128334348",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:twitter:1625950776307683333",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:twitter:1625953461492715542",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:twitter:1626032558700986370",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:col:tweet:1626084142239649792",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:janus:1626208502975975424",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:111ux15",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:113cqyr",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:113dfoh",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:113dzew",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:113m7bh",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:113r58d",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:113y2np",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:reddit:1140e8g",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:twitter:1626007238698745858",
+      "state": "transcribed"
+    },
+    {
+      "candidate_id": "baseline:twitter:1626208531799212032",
+      "state": "transcribed"
+    }
+  ],
+  "note": "Raw retranscription success is not evidence verification or ShareGPT acceptance."
+}

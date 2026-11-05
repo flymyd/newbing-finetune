@@ -1,0 +1,25 @@
+{"kind": "classify", "processed": 10, "succeeded": 10}
+{"kind": "classify", "processed": 20, "succeeded": 20}
+{"kind": "classify", "processed": 30, "succeeded": 30}
+{"kind": "classify", "processed": 40, "succeeded": 40}
+{"kind": "classify", "processed": 50, "succeeded": 50}
+{"kind": "classify", "processed": 60, "succeeded": 60}
+{"kind": "classify", "processed": 70, "succeeded": 70}
+{"kind": "classify", "processed": 80, "succeeded": 80}
+{"kind": "classify", "processed": 90, "succeeded": 90}
+{"kind": "classify", "processed": 100, "succeeded": 100}
+{"kind": "classify", "processed": 110, "succeeded": 110}
+{"kind": "classify", "processed": 120, "succeeded": 120}
+{"kind": "classify", "processed": 130, "succeeded": 130}
+{"kind": "classify", "processed": 140, "succeeded": 140}
+{"kind": "classify", "processed": 150, "succeeded": 150}
+{"kind": "classify", "processed": 160, "succeeded": 160}
+{"kind": "classify", "processed": 170, "succeeded": 170}
+{"kind": "classify", "processed": 180, "succeeded": 180}
+{"kind": "classify", "processed": 190, "succeeded": 190}
+{"kind": "classify", "processed": 200, "succeeded": 200}
+{"kind": "classify", "processed": 210, "succeeded": 210}
+{"kind": "classify", "processed": 220, "succeeded": 220}
+{
+  "succeeded": 220
+}

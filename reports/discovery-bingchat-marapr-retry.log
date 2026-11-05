@@ -1,0 +1,10 @@
+{
+  "source": "reddit_bingchat",
+  "window": "later_mar_apr",
+  "coverage": "complete_for_available_listing",
+  "unique_posts": 67,
+  "candidate_posts": 47,
+  "pages": 1,
+  "saturated_seconds": 0,
+  "errors": []
+}

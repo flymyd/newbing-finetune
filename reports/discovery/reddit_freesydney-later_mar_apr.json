@@ -1,0 +1,15 @@
+{
+  "counts": {
+    "unique_posts": 139,
+    "candidate_posts": 110,
+    "pages": 2,
+    "saturated_seconds": 0
+  },
+  "errors": [],
+  "last_receipt": {
+    "path": "data/raw/net/7deb2f1eb0b01326fd4f89ae836ea0cf4345907f3cba40e94818d7c8a63971d8.blob",
+    "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=freesydney&after=1680263999&before=1682899200&limit=100&sort=asc",
+    "sha256": "efea59535436ad9f6abc4c3576d291bacaf027db1daea8eae2bc3a7868068258"
+  },
+  "keyword": null
+}

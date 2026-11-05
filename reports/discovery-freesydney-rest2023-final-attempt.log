@@ -1,0 +1,11 @@
+{"source": "reddit_freesydney", "window": "later_2023", "unique_posts": 351, "candidate_posts": 278, "pages": 5, "saturated_seconds": 0}
+{
+  "source": "reddit_freesydney",
+  "window": "later_2023",
+  "coverage": "complete_for_available_listing",
+  "unique_posts": 498,
+  "candidate_posts": 415,
+  "pages": 7,
+  "saturated_seconds": 0,
+  "errors": []
+}

@@ -1,0 +1,46 @@
+schema_version = 1
+
+[profiles.flymyd]
+base_url = "https://llm.flymyd.cn/v1"
+responses_path = "/responses"
+model = "gpt-6-luna"
+api_key_env = "NEWBING_API_KEY"
+env_file = ".env.local"
+protocol = "responses"
+# 历史 P0 能力记录；不构成本轮执行授权，本轮未复测。
+capabilities_verified = true
+vision_declared_by_user = true
+structured_output = "probe_then_schema_or_validated_json"
+stream = false
+store_requested = false
+sdk_max_retries = 0
+connect_timeout_seconds = 15
+request_timeout_seconds = 180
+initial_concurrency = 2
+max_concurrency = 6
+max_probe_http_attempts = 12
+max_input_images = 6
+max_raw_image_bytes_per_request = 12582912
+max_request_body_bytes = 20971520
+image_detail = "high"
+
+[tasks.classify]
+profile = "flymyd"
+prompt = "prompts/classify.md"
+max_output_tokens = 2048
+
+[tasks.transcribe]
+profile = "flymyd"
+prompt = "prompts/transcribe.md"
+max_output_tokens = 12288
+
+[tasks.verify]
+profile = "flymyd"
+prompt = "prompts/verify.md"
+max_output_tokens = 8192
+
+[recovery]
+max_output_tokens_ceiling = 24576
+max_format_corrections = 1
+max_incomplete_recovery = 1
+# 恢复仍计入 pipeline 中同逻辑任务的总 HTTP 尝试上限。

@@ -1,0 +1,15 @@
+{
+  "source": "reddit_singularity",
+  "window": "later_mar_apr",
+  "coverage": "partial",
+  "unique_posts": 0,
+  "candidate_posts": 0,
+  "pages": 0,
+  "saturated_seconds": 0,
+  "errors": [
+    {
+      "keyword": "bing",
+      "error": "host rate-limit cooldown"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "dry_run": true,
+  "command": "transcribe",
+  "arguments": {
+    "command": "transcribe",
+    "limit": 100,
+    "workers": 1,
+    "dry_run": true,
+    "cohort": "reports/early-baseline-cohort.json"
+  },
+  "queue_counts": [
+    {
+      "kind": "classify",
+      "status": "leased",
+      "count": 3
+    },
+    {
+      "kind": "classify",
+      "status": "pending",
+      "count": 3901
+    },
+    {
+      "kind": "classify",
+      "status": "quarantined",
+      "count": 8
+    },
+    {
+      "kind": "classify",
+      "status": "succeeded",
+      "count": 2275
+    },
+    {
+      "kind": "classify",
+      "status": "superseded_input",
+      "count": 3745
+    },
+    {
+      "kind": "classify",
+      "status": "suppressed_known_baseline",
+      "count": 46
+    },
+    {
+      "kind": "comments",
+      "status": "leased",
+      "count": 1
+    },
+    {
+      "kind": "comments",
+      "status": "pending",
+      "count": 4571
+    },
+    {
+      "kind": "comments",
+      "status": "retry_wait",
+      "count": 2
+    },
+    {
+      "kind": "comments",
+      "status": "succeeded",
+      "count": 2109
+    },
+    {
+      "kind": "download",
+      "status": "failed_terminal",
+      "count": 1868
+    },
+    {
+      "kind": "download",
+      "status": "leased",
+      "count": 2
+    },
+    {
+      "kind": "download",
+      "status": "pending",
+      "count": 2748
+    },
+    {
+      "kind": "download",
+      "status": "retry_wait",
+      "count": 473
+    },
+    {
+      "kind": "download",
+      "status": "succeeded",
+      "count": 11939
+    },
+    {
+      "kind": "reference",
+      "status": "failed_terminal",
+      "count": 29
+    },
+    {
+      "kind": "reference",
+      "status": "succeeded",
+      "count": 357
+    },
+    {
+      "kind": "repair",
+      "status": "quarantined",
+      "count": 9
+    },
+    {
+      "kind": "repair",
+      "status": "succeeded",
+      "count": 19
+    },
+    {
+      "kind": "transcribe",
+      "status": "leased",
+      "count": 1
+    },
+    {
+      "kind": "transcribe",
+      "status": "pending",
+      "count": 305
+    },
+    {
+      "kind": "transcribe",
+      "status": "quarantined",
+      "count": 36
+    },
+    {
+      "kind": "transcribe",
+      "status": "succeeded",
+      "count": 824
+    },
+    {
+      "kind": "transcribe",
+      "status": "superseded_input",
+      "count": 595
+    },
+    {
+      "kind": "verify",
+      "status": "leased",
+      "count": 2
+    },
+    {
+      "kind": "verify",
+      "status": "pending",
+      "count": 63
+    },
+    {
+      "kind": "verify",
+      "status": "quarantined",
+      "count": 283
+    },
+    {
+      "kind": "verify",
+      "status": "retry_wait",
+      "count": 71
+    },
+    {
+      "kind": "verify",
+      "status": "succeeded",
+      "count": 386
+    }
+  ],
+  "planning_only": false,
+  "network_requests": 0,
+  "model_requests": 0,
+  "writes": 0,
+  "scope": "Existing queue snapshot; discovery and eligibility are computed only during authorized execution."
+}

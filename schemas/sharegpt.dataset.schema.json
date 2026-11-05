@@ -1,0 +1,7 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "New Bing ShareGPT dataset JSON array v1",
+  "$comment": "Empty partitions are allowed. A release with no eligible samples cannot satisfy the final dataset objective. Semantic rules are defined in docs/SHAREGPT_EXPORT.md.",
+  "type": "array",
+  "items": {"$ref": "sharegpt.sample.schema.json"}
+}

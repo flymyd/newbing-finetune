@@ -1,0 +1,183 @@
+{
+  "candidate_records": [
+    {
+      "candidate_id": "baseline:twitter:1623472922374574080"
+    },
+    {
+      "candidate_id": "baseline:twitter:1623579574599839744"
+    },
+    {
+      "candidate_id": "baseline:twitter:1623658144349011971"
+    },
+    {
+      "candidate_id": "baseline:reddit:110rcfp"
+    },
+    {
+      "candidate_id": "baseline:reddit:110tb9n"
+    },
+    {
+      "candidate_id": "baseline:reddit:110vfgb"
+    },
+    {
+      "candidate_id": "baseline:reddit:1113mj0"
+    },
+    {
+      "candidate_id": "baseline:reddit:111bvk6"
+    },
+    {
+      "candidate_id": "baseline:reddit:111cr2t"
+    },
+    {
+      "candidate_id": "baseline:reddit:111crzp"
+    },
+    {
+      "candidate_id": "baseline:reddit:111ddbc"
+    },
+    {
+      "candidate_id": "baseline:twitter:1625156575202537474"
+    },
+    {
+      "candidate_id": "baseline:twitter:1625365182724677633"
+    },
+    {
+      "candidate_id": "baseline:reddit:111sb73"
+    },
+    {
+      "candidate_id": "baseline:reddit:1127w97"
+    },
+    {
+      "candidate_id": "baseline:reddit:112atq4"
+    },
+    {
+      "candidate_id": "baseline:reddit:112g74l"
+    },
+    {
+      "candidate_id": "baseline:reddit:112h5f5"
+    },
+    {
+      "candidate_id": "baseline:reddit:112ikp5"
+    },
+    {
+      "candidate_id": "baseline:reddit:113hc4x"
+    },
+    {
+      "candidate_id": "baseline:reddit:113jh7z"
+    },
+    {
+      "candidate_id": "baseline:reddit:113kf0q"
+    },
+    {
+      "candidate_id": "baseline:reddit:113l22b"
+    },
+    {
+      "candidate_id": "baseline:reddit:113rh7l"
+    },
+    {
+      "candidate_id": "baseline:reddit:113wbqc"
+    },
+    {
+      "candidate_id": "baseline:twitter:1625520707768659968"
+    },
+    {
+      "candidate_id": "baseline:twitter:1625617677426237449"
+    },
+    {
+      "candidate_id": "baseline:reddit:112l7tw"
+    },
+    {
+      "candidate_id": "baseline:reddit:112mena"
+    },
+    {
+      "candidate_id": "baseline:reddit:112mlk2"
+    },
+    {
+      "candidate_id": "baseline:reddit:112teir"
+    },
+    {
+      "candidate_id": "baseline:reddit:112totc"
+    },
+    {
+      "candidate_id": "baseline:reddit:1130oev"
+    },
+    {
+      "candidate_id": "baseline:reddit:11314ih"
+    },
+    {
+      "candidate_id": "baseline:reddit:1133jzg"
+    },
+    {
+      "candidate_id": "baseline:reddit:1134e55"
+    },
+    {
+      "candidate_id": "baseline:reddit:1135jb6"
+    },
+    {
+      "candidate_id": "baseline:reddit:11399r6"
+    },
+    {
+      "candidate_id": "baseline:reddit:1139cbf"
+    },
+    {
+      "candidate_id": "baseline:reddit:1139y1k"
+    },
+    {
+      "candidate_id": "baseline:reddit:113ayt5"
+    },
+    {
+      "candidate_id": "baseline:twitter:1625769918682771457"
+    },
+    {
+      "candidate_id": "baseline:twitter:1625854733255868418"
+    },
+    {
+      "candidate_id": "baseline:twitter:1625946511128334348"
+    },
+    {
+      "candidate_id": "baseline:twitter:1625950776307683333"
+    },
+    {
+      "candidate_id": "baseline:twitter:1625953461492715542"
+    },
+    {
+      "candidate_id": "baseline:twitter:1626032558700986370"
+    },
+    {
+      "candidate_id": "baseline:col:tweet:1626084142239649792"
+    },
+    {
+      "candidate_id": "baseline:janus:1626208502975975424"
+    },
+    {
+      "candidate_id": "baseline:reddit:111ux15"
+    },
+    {
+      "candidate_id": "baseline:reddit:113cqyr"
+    },
+    {
+      "candidate_id": "baseline:reddit:113dfoh"
+    },
+    {
+      "candidate_id": "baseline:reddit:113dzew"
+    },
+    {
+      "candidate_id": "baseline:reddit:113m7bh"
+    },
+    {
+      "candidate_id": "baseline:reddit:113r58d"
+    },
+    {
+      "candidate_id": "baseline:reddit:113y2np"
+    },
+    {
+      "candidate_id": "baseline:reddit:1140e8g"
+    },
+    {
+      "candidate_id": "baseline:twitter:1626007238698745858"
+    },
+    {
+      "candidate_id": "baseline:twitter:1626208531799212032"
+    }
+  ],
+  "source_manifest": "runs/20261105T105418Z-96633/targeted-baseline-transcriptions.json",
+  "at": "2026-11-05T13:14:04.435214+00:00"
+}

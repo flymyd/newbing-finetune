@@ -1,0 +1,39 @@
+{"verified": 5, "quarantined": 1, "pass": 4}
+{"verified": 10, "quarantined": 2, "pass": 6, "needs_correction": 2}
+{"verified": 15, "quarantined": 7, "pass": 6, "needs_correction": 2}
+{"verified": 20, "quarantined": 12, "pass": 6, "needs_correction": 2}
+{"verified": 25, "quarantined": 17, "pass": 6, "needs_correction": 2}
+{"verified": 30, "quarantined": 22, "pass": 6, "needs_correction": 2}
+{"verified": 35, "quarantined": 27, "pass": 6, "needs_correction": 2}
+{"verified": 40, "quarantined": 32, "pass": 6, "needs_correction": 2}
+{"verified": 45, "quarantined": 37, "pass": 6, "needs_correction": 2}
+{"verified": 50, "quarantined": 42, "pass": 6, "needs_correction": 2}
+{"verified": 55, "quarantined": 47, "pass": 6, "needs_correction": 2}
+{"verified": 60, "quarantined": 52, "pass": 6, "needs_correction": 2}
+{"verified": 65, "quarantined": 57, "pass": 6, "needs_correction": 2}
+{"verified": 70, "quarantined": 62, "pass": 6, "needs_correction": 2}
+{"verified": 75, "quarantined": 67, "pass": 6, "needs_correction": 2}
+{"verified": 80, "quarantined": 72, "pass": 6, "needs_correction": 2}
+{"verified": 85, "quarantined": 77, "pass": 6, "needs_correction": 2}
+{"verified": 90, "quarantined": 82, "pass": 6, "needs_correction": 2}
+{"verified": 95, "quarantined": 87, "pass": 6, "needs_correction": 2}
+{"verified": 100, "quarantined": 92, "pass": 6, "needs_correction": 2}
+{"verified": 105, "quarantined": 97, "pass": 6, "needs_correction": 2}
+{"verified": 110, "quarantined": 102, "pass": 6, "needs_correction": 2}
+{"verified": 115, "quarantined": 107, "pass": 6, "needs_correction": 2}
+{"verified": 120, "quarantined": 112, "pass": 6, "needs_correction": 2}
+{"verified": 125, "quarantined": 117, "pass": 6, "needs_correction": 2}
+{"verified": 130, "quarantined": 122, "pass": 6, "needs_correction": 2}
+{"verified": 135, "quarantined": 127, "pass": 6, "needs_correction": 2}
+{"verified": 140, "quarantined": 132, "pass": 6, "needs_correction": 2}
+{"verified": 145, "quarantined": 137, "pass": 6, "needs_correction": 2}
+{"verified": 150, "quarantined": 142, "pass": 6, "needs_correction": 2}
+{
+  "available_eligible_conversations": 194,
+  "queued": 150,
+  "results": {
+    "quarantined": 142,
+    "pass": 6,
+    "needs_correction": 2
+  }
+}

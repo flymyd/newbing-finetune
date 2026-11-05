@@ -1,0 +1,30 @@
+{
+  "at": "2026-11-05T15:33:15.149064+00:00",
+  "tests": {
+    "tests": 81,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "assets": {
+    "n": 9532,
+    "bytes": 1834561735
+  },
+  "candidates": 8955,
+  "active_conversation_records": 1284,
+  "raw_comments": 66596,
+  "classified_unique_groups": 1080,
+  "candidate_novelty_counts": {
+    "('novel_candidate', 'include')": 625,
+    "('novel_candidate', 'exclude_clear')": 234,
+    "('novel_candidate', 'uncertain')": 128,
+    "('known_original', 'include')": 83,
+    "('known_original', 'uncertain')": 2,
+    "('exact_media_already_archived', 'include')": 6,
+    "('exact_media_already_archived', 'uncertain')": 2
+  },
+  "upstream_byte_checks": 1465,
+  "upstream_changed": 0,
+  "goal_status": "active",
+  "final_dataset_complete": false
+}

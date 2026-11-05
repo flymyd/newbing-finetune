@@ -1,0 +1,27 @@
+{
+  "at": "2026-11-05T10:54:49.660504+00:00",
+  "offline_tests": 51,
+  "test_report": "reports/offline-tests.xml",
+  "implemented_and_tested": [
+    "lineage_split_for_text_fragments",
+    "stale_segment_retirement",
+    "current_evidence_verification_versions",
+    "long_image_window_coverage",
+    "dry_run_no_project_mutation",
+    "project_specific_credential_loading",
+    "epoch_millisecond_rate_reset",
+    "bounded_preview_recovery",
+    "pinned_upstream_bytes_verified",
+    "ETag_range_resume",
+    "logical_model_attempt_budget",
+    "model_circuit_failures"
+  ],
+  "upstream_byte_checks": 1465,
+  "changed_asset_bytes": 0,
+  "limits": [
+    "source coverage remains partial",
+    "known transcript errors remain excluded/pending corrections",
+    "final release not yet complete",
+    "no human gold standard"
+  ]
+}

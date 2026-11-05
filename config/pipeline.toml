@@ -1,0 +1,138 @@
+schema_version = 1
+plan_version = "v1.2"
+planning_only = false
+# 用户已恢复 active goal，按 v1.2 执行；累计预算跨 run 保留。
+report_timezone = "Asia/Shanghai"
+storage_timezone = "UTC"
+
+[paths]
+raw = "data/raw"
+assets = "data/assets/sha256"
+derived = "data/derived"
+processed = "data/processed"
+review = "data/review"
+state_db = "state/archive.sqlite"
+runs = "runs"
+reports = "reports"
+exports = "exports"
+
+[windows.early]
+start_date = "2023-02-07"
+end_date_inclusive = "2023-02-16"
+priority = 1
+
+[windows.transition]
+start_date = "2023-02-17"
+end_date_inclusive = "2023-02-28"
+priority = 2
+
+[windows.later_mar_apr]
+start_date = "2023-03-01"
+end_date_inclusive = "2023-04-30"
+priority = 3
+
+[windows.later_2023]
+start_date = "2023-05-01"
+end_date_inclusive = "2023-12-31"
+priority = 4
+discovery_mode = "targeted_leads"
+
+[budgets]
+# 跨 run 累计；授权新 budget_epoch 后才重置。数值为规划默认值。
+epoch = "initial"
+max_candidate_groups = 20000
+max_model_http_attempts = 20000
+max_reported_total_tokens = 30000000
+max_source_http_attempts = 50000
+max_download_response_bytes = 21474836480
+min_free_disk_bytes = 10737418240
+on_limit = "checkpoint_stop_affected_queue_and_finalize_available_data"
+allow_automatic_increase = false
+
+[download]
+per_host_concurrency = 2
+initial_per_host_requests_per_second = 1.0
+timeout_seconds = 60
+max_single_asset_bytes = 52428800
+verify_decode = true
+preserve_original = true
+cross_host_authorization_forwarding = false
+
+[retry]
+max_http_attempts_per_logical_task = 3
+backoff_base_seconds = 2
+backoff_max_seconds = 60
+honor_retry_after = true
+max_alternative_recovery_paths = 2
+max_host_consecutive_rate_limits = 5
+circuit_breaker_consecutive_failures = 5
+circuit_breaker_cooldown_seconds = 300
+
+[pilot]
+target_novel_candidate_groups = 500
+calibration_groups = 50
+negative_or_uncertain_checks = 10
+
+[pilot.quotas]
+bing = 200
+bingchat = 50
+chatgpt = 100
+author_archive_and_web = 100
+freesydney_and_singularity = 50
+
+[expansion]
+batch_candidate_groups = 200
+diminishing_return_batches = 3
+min_novel_conversation_yield = 0.05
+min_strict_early_yield = 0.02
+video_enabled = false
+
+[images]
+crop_height_px = 2400
+crop_overlap_px = 240
+preprocess_version = "draft-v1"
+
+[quality]
+final_stratified_sample_groups = 100
+preserve_uncertain = true
+human_verified_requires_human = true
+# strict 的严重错误计数约束；输出规范另外要求所有 tier 无已知未解决转写错误。
+known_severe_errors_in_strict_export = 0
+known_split_leaks_allowed = 0
+
+[export]
+format = "sharegpt"
+contract_version = "sharegpt-text-multiturn-v1"
+dataset_schema = "schemas/sharegpt.dataset.schema.json"
+sample_schema = "schemas/sharegpt.sample.schema.json"
+serialization = "json_array"
+encoding = "utf-8"
+write_jsonl_mirror = false
+output_subdir = "sharegpt"
+tiers = ["early_strict", "early_probable", "later_supplement"]
+identity_field = "id"
+conversations_field = "conversations"
+role_field = "from"
+text_field = "value"
+user_role = "human"
+assistant_role = "gpt"
+min_complete_rounds = 2
+min_release_samples = 1
+text_only = true
+require_alternating_roles = true
+require_human_first = true
+require_gpt_last = true
+allow_single_turn = false
+allow_system_field = false
+allow_multimodal_fields = false
+allow_unreadable_spans = false
+allow_missing_visual_context = false
+prefix_augmentation = false
+sidecar_metadata = true
+
+[split]
+seed = "newbing-2023-v1"
+train_fraction = 0.8
+validation_fraction = 0.1
+test_fraction = 0.1
+unit = "conversation_and_repost_component"

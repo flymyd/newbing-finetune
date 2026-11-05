@@ -1,0 +1,15 @@
+{
+  "counts": {
+    "unique_posts": 67,
+    "candidate_posts": 47,
+    "pages": 1,
+    "saturated_seconds": 0
+  },
+  "errors": [],
+  "last_receipt": {
+    "path": "data/raw/net/8ddbea6482d55226dc51173ab5356b8504edf064c2fee8339c447ac46389a2dc.blob",
+    "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=BINGChat&after=1677628799&before=1682899200&limit=100&sort=asc",
+    "sha256": "1701e9842c34d0629be31deb0b1593d29aa06f8380c45263198b0d64c1337d30"
+  },
+  "keyword": null
+}

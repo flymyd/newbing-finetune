@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "newbing-archive"
+version = "0.1.0"
+description = "Evidence-preserving 2023 Bing conversation archive and ShareGPT export"
+requires-python = ">=3.12,<3.15"
+dependencies = [
+  "openai>=2.0",
+  "httpx>=0.28",
+  "pydantic>=2.0",
+  "pillow>=11.0",
+  "beautifulsoup4>=4.12",
+  "huggingface-hub>=0.30",
+  "zstandard>=0.23",
+  "python-dotenv>=1.0",
+  "jsonschema>=4.23",
+]
+
+[dependency-groups]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+newbing = "newbing.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/newbing"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

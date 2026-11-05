@@ -1,0 +1,14 @@
+{"kind": "classify", "processed": 10, "succeeded": 10}
+{"kind": "classify", "processed": 20, "succeeded": 20}
+{"kind": "classify", "processed": 30, "succeeded": 30}
+{"kind": "classify", "processed": 40, "succeeded": 40}
+{"kind": "classify", "processed": 50, "succeeded": 48, "quarantined": 1, "retry_wait": 1}
+{"kind": "classify", "processed": 60, "succeeded": 48, "quarantined": 1, "retry_wait": 11}
+{"kind": "classify", "processed": 70, "succeeded": 48, "quarantined": 1, "retry_wait": 21}
+{"kind": "classify", "processed": 80, "succeeded": 48, "quarantined": 1, "retry_wait": 31}
+{"kind": "classify", "processed": 90, "succeeded": 48, "quarantined": 1, "retry_wait": 41}
+{
+  "succeeded": 48,
+  "quarantined": 1,
+  "retry_wait": 50
+}

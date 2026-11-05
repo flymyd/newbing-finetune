@@ -1,0 +1,10 @@
+{"comment_collection": {"posts": 0, "comments": 0, "text_or_media_candidates": 0, "collapsed_groups": 0, "errors": 1}}
+{"comment_collection": {"posts": 10, "comments": 28, "text_or_media_candidates": 2, "collapsed_groups": 0, "errors": 1}}
+{"comment_collection": {"posts": 20, "comments": 119, "text_or_media_candidates": 3, "collapsed_groups": 0, "errors": 1}}
+{
+  "posts": 24,
+  "comments": 203,
+  "text_or_media_candidates": 4,
+  "collapsed_groups": 0,
+  "errors": 2
+}

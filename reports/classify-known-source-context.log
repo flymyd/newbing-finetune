@@ -1,0 +1,27 @@
+{"kind": "classify", "processed": 10, "succeeded": 10}
+{"kind": "classify", "processed": 20, "succeeded": 20}
+{"kind": "classify", "processed": 30, "succeeded": 29, "quarantined": 1}
+{"kind": "classify", "processed": 40, "succeeded": 39, "quarantined": 1}
+{"kind": "classify", "processed": 50, "succeeded": 49, "quarantined": 1}
+{"kind": "classify", "processed": 60, "succeeded": 59, "quarantined": 1}
+{"kind": "classify", "processed": 70, "succeeded": 60, "quarantined": 1, "not_claimed": 9}
+{"kind": "classify", "processed": 80, "succeeded": 60, "quarantined": 1, "not_claimed": 19}
+{"kind": "classify", "processed": 90, "succeeded": 60, "quarantined": 1, "not_claimed": 29}
+{"kind": "classify", "processed": 100, "succeeded": 60, "quarantined": 1, "not_claimed": 39}
+{"kind": "classify", "processed": 110, "succeeded": 60, "quarantined": 1, "not_claimed": 49}
+{"kind": "classify", "processed": 120, "succeeded": 60, "quarantined": 1, "not_claimed": 59}
+{"kind": "classify", "processed": 130, "succeeded": 60, "quarantined": 1, "not_claimed": 69}
+{"kind": "classify", "processed": 140, "succeeded": 60, "quarantined": 1, "not_claimed": 79}
+{"kind": "classify", "processed": 150, "succeeded": 60, "quarantined": 1, "not_claimed": 89}
+{"kind": "classify", "processed": 160, "succeeded": 60, "quarantined": 1, "not_claimed": 99}
+{"kind": "classify", "processed": 170, "succeeded": 60, "quarantined": 1, "not_claimed": 109}
+{"kind": "classify", "processed": 180, "succeeded": 60, "quarantined": 1, "not_claimed": 119}
+{"kind": "classify", "processed": 190, "succeeded": 60, "quarantined": 1, "not_claimed": 129}
+{"kind": "classify", "processed": 200, "succeeded": 60, "quarantined": 1, "not_claimed": 139}
+{"kind": "classify", "processed": 210, "succeeded": 60, "quarantined": 1, "not_claimed": 149}
+{"kind": "classify", "processed": 220, "succeeded": 60, "quarantined": 1, "not_claimed": 159}
+{
+  "succeeded": 60,
+  "quarantined": 1,
+  "not_claimed": 165
+}

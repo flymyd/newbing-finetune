@@ -1,0 +1,15 @@
+{
+  "counts": {
+    "unique_posts": 2292,
+    "candidate_posts": 1691,
+    "pages": 34,
+    "saturated_seconds": 0
+  },
+  "errors": [],
+  "last_receipt": {
+    "path": "data/raw/net/f64c822b8b4e3e23859b106b6ad46a8efccaa8dd0407a0688a8dd1c4c0f54405.blob",
+    "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=bing&after=1677596399&before=1677628800&limit=100&sort=asc",
+    "sha256": "fd90a2b8f2d497af6305e582157ac22f77e8db6bfa886cea88c682f81d2458a0"
+  },
+  "keyword": null
+}

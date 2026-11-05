@@ -1,0 +1,11 @@
+usage: newbing [-h]
+               {doctor,status,probe,import-baseline,discover,ingest-dump,comments,recover-baseline-posts,dedupe,references,recover-media,recover-archive-media,repair,download,classify,transcribe,verify,review,export,validate,reconstruct,resume}
+               ...
+
+Evidence-preserving Bing historical archive
+
+positional arguments:
+  {doctor,status,probe,import-baseline,discover,ingest-dump,comments,recover-baseline-posts,dedupe,references,recover-media,recover-archive-media,repair,download,classify,transcribe,verify,review,export,validate,reconstruct,resume}
+
+options:
+  -h, --help            show this help message and exit

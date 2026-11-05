@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "New Bing ShareGPT text multi-turn sample v1",
+  "description": "Project subset: human/gpt text only, at least two complete rounds. Alternation, even length, evidence and ID uniqueness require additional semantic validation.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "conversations"],
+  "properties": {
+    "id": {"type": "string", "minLength": 1, "pattern": "\\S"},
+    "conversations": {
+      "type": "array",
+      "minItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["from", "value"],
+        "properties": {
+          "from": {"type": "string", "enum": ["human", "gpt"]},
+          "value": {"type": "string", "minLength": 1, "pattern": "\\S"}
+        }
+      }
+    }
+  }
+}

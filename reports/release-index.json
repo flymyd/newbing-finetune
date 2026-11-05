@@ -1,0 +1,11 @@
+{
+  "at": "2026-11-05T12:07:40.397270+00:00",
+  "releases": {
+    "pilot-20261105-v1": "retracted",
+    "pilot-20261105-v2": "provisional",
+    "pilot-20261105-v3": "provisional"
+  },
+  "latest_reviewable": "pilot-20261105-v3",
+  "final_release": null,
+  "note": "All provisional releases are candidates, pending human review. v1 is explicitly retracted. Current pipeline quality and date refinements require a new release; frozen files are not overwritten."
+}

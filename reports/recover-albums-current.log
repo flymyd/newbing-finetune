@@ -1,0 +1,13 @@
+{
+  "albums": {
+    "discovered_albums": 149,
+    "albums": 68,
+    "images_queued": 280,
+    "no_embedded_original_list": 6,
+    "unavailable": 3,
+    "created_at": "2026-11-05T11:48:49.628192+00:00"
+  },
+  "previews": {
+    "preview_fallback_tasks_queued": 0
+  }
+}

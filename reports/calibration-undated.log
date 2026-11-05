@@ -1,0 +1,9 @@
+{"verified": 5, "quarantined": 1, "needs_correction": 4}
+{
+  "available_eligible_conversations": 58,
+  "queued": 5,
+  "results": {
+    "quarantined": 1,
+    "needs_correction": 4
+  }
+}

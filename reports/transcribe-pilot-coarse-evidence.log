@@ -1,0 +1,11 @@
+{"kind": "transcribe", "processed": 10, "succeeded": 10}
+{"kind": "transcribe", "processed": 20, "succeeded": 20}
+{"kind": "transcribe", "processed": 30, "succeeded": 26, "not_claimed": 4}
+{"kind": "transcribe", "processed": 40, "succeeded": 32, "not_claimed": 7, "quarantined": 1}
+{"kind": "transcribe", "processed": 50, "succeeded": 37, "not_claimed": 12, "quarantined": 1}
+{"kind": "transcribe", "processed": 60, "succeeded": 44, "not_claimed": 15, "quarantined": 1}
+{
+  "succeeded": 52,
+  "not_claimed": 16,
+  "quarantined": 1
+}

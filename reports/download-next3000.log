@@ -1,0 +1,125 @@
+{"processed": 25, "retry_wait": 25}
+{"processed": 50, "retry_wait": 50}
+{"processed": 75, "retry_wait": 75}
+{"processed": 100, "retry_wait": 100}
+{"processed": 125, "retry_wait": 125}
+{"processed": 150, "retry_wait": 150}
+{"processed": 175, "retry_wait": 175}
+{"processed": 200, "retry_wait": 200}
+{"processed": 225, "retry_wait": 225}
+{"processed": 250, "retry_wait": 250}
+{"processed": 275, "retry_wait": 275}
+{"processed": 300, "retry_wait": 299, "failed_terminal": 1}
+{"processed": 325, "retry_wait": 324, "failed_terminal": 1}
+{"processed": 350, "retry_wait": 349, "failed_terminal": 1}
+{"processed": 375, "retry_wait": 374, "failed_terminal": 1}
+{"processed": 400, "retry_wait": 393, "failed_terminal": 3, "succeeded": 4}
+{"processed": 425, "retry_wait": 393, "failed_terminal": 5, "succeeded": 27}
+{"processed": 450, "retry_wait": 393, "failed_terminal": 11, "succeeded": 46}
+{"processed": 475, "retry_wait": 394, "failed_terminal": 13, "succeeded": 68}
+{"processed": 500, "retry_wait": 394, "failed_terminal": 22, "succeeded": 84}
+{"processed": 525, "retry_wait": 395, "failed_terminal": 23, "succeeded": 107}
+{"processed": 550, "retry_wait": 395, "failed_terminal": 27, "succeeded": 128}
+{"processed": 575, "retry_wait": 395, "failed_terminal": 34, "succeeded": 146}
+{"processed": 600, "retry_wait": 396, "failed_terminal": 36, "succeeded": 168}
+{"processed": 625, "retry_wait": 396, "failed_terminal": 39, "succeeded": 190}
+{"processed": 650, "retry_wait": 396, "failed_terminal": 39, "succeeded": 215}
+{"processed": 675, "retry_wait": 396, "failed_terminal": 41, "succeeded": 238}
+{"processed": 700, "retry_wait": 397, "failed_terminal": 42, "succeeded": 261}
+{"processed": 725, "retry_wait": 404, "failed_terminal": 48, "succeeded": 273}
+{"processed": 750, "retry_wait": 404, "failed_terminal": 53, "succeeded": 293}
+{"processed": 775, "retry_wait": 406, "failed_terminal": 53, "succeeded": 316}
+{"processed": 800, "retry_wait": 406, "failed_terminal": 53, "succeeded": 341}
+{"processed": 825, "retry_wait": 408, "failed_terminal": 53, "succeeded": 364}
+{"processed": 850, "retry_wait": 413, "failed_terminal": 54, "succeeded": 383}
+{"processed": 875, "retry_wait": 414, "failed_terminal": 55, "succeeded": 406}
+{"processed": 900, "retry_wait": 415, "failed_terminal": 57, "succeeded": 428}
+{"processed": 925, "retry_wait": 418, "failed_terminal": 57, "succeeded": 450}
+{"processed": 950, "retry_wait": 419, "failed_terminal": 61, "succeeded": 470}
+{"processed": 975, "retry_wait": 419, "failed_terminal": 61, "succeeded": 495}
+{"processed": 1000, "retry_wait": 419, "failed_terminal": 70, "succeeded": 511}
+{"processed": 1025, "retry_wait": 420, "failed_terminal": 71, "succeeded": 534}
+{"processed": 1050, "retry_wait": 420, "failed_terminal": 76, "succeeded": 554}
+{"processed": 1075, "retry_wait": 420, "failed_terminal": 77, "succeeded": 578}
+{"processed": 1100, "retry_wait": 420, "failed_terminal": 83, "succeeded": 597}
+{"processed": 1125, "retry_wait": 420, "failed_terminal": 84, "succeeded": 621}
+{"processed": 1150, "retry_wait": 421, "failed_terminal": 89, "succeeded": 640}
+{"processed": 1175, "retry_wait": 421, "failed_terminal": 90, "succeeded": 664}
+{"processed": 1200, "retry_wait": 422, "failed_terminal": 91, "succeeded": 687}
+{"processed": 1225, "retry_wait": 423, "failed_terminal": 92, "succeeded": 710}
+{"processed": 1250, "retry_wait": 424, "failed_terminal": 95, "succeeded": 731}
+{"processed": 1275, "retry_wait": 424, "failed_terminal": 104, "succeeded": 747}
+{"processed": 1300, "retry_wait": 424, "failed_terminal": 110, "succeeded": 766}
+{"processed": 1325, "retry_wait": 424, "failed_terminal": 111, "succeeded": 790}
+{"processed": 1350, "retry_wait": 424, "failed_terminal": 117, "succeeded": 809}
+{"processed": 1375, "retry_wait": 424, "failed_terminal": 125, "succeeded": 826}
+{"processed": 1400, "retry_wait": 424, "failed_terminal": 127, "succeeded": 849}
+{"processed": 1425, "retry_wait": 424, "failed_terminal": 136, "succeeded": 865}
+{"processed": 1450, "retry_wait": 424, "failed_terminal": 147, "succeeded": 879}
+{"processed": 1475, "retry_wait": 424, "failed_terminal": 153, "succeeded": 898}
+{"processed": 1500, "retry_wait": 426, "failed_terminal": 162, "succeeded": 912}
+{"processed": 1525, "retry_wait": 427, "failed_terminal": 164, "succeeded": 934}
+{"processed": 1550, "retry_wait": 427, "failed_terminal": 172, "succeeded": 951}
+{"processed": 1575, "retry_wait": 427, "failed_terminal": 172, "succeeded": 976}
+{"processed": 1600, "retry_wait": 427, "failed_terminal": 172, "succeeded": 1001}
+{"processed": 1625, "retry_wait": 428, "failed_terminal": 173, "succeeded": 1024}
+{"processed": 1650, "retry_wait": 428, "failed_terminal": 181, "succeeded": 1041}
+{"processed": 1675, "retry_wait": 428, "failed_terminal": 182, "succeeded": 1065}
+{"processed": 1700, "retry_wait": 428, "failed_terminal": 184, "succeeded": 1088}
+{"processed": 1725, "retry_wait": 428, "failed_terminal": 184, "succeeded": 1113}
+{"processed": 1750, "retry_wait": 428, "failed_terminal": 184, "succeeded": 1138}
+{"processed": 1775, "retry_wait": 429, "failed_terminal": 184, "succeeded": 1162}
+{"processed": 1800, "retry_wait": 429, "failed_terminal": 186, "succeeded": 1185}
+{"processed": 1825, "retry_wait": 430, "failed_terminal": 198, "succeeded": 1197}
+{"processed": 1850, "retry_wait": 432, "failed_terminal": 201, "succeeded": 1217}
+{"processed": 1875, "retry_wait": 433, "failed_terminal": 204, "succeeded": 1238}
+{"processed": 1900, "retry_wait": 433, "failed_terminal": 207, "succeeded": 1260}
+{"processed": 1925, "retry_wait": 434, "failed_terminal": 213, "succeeded": 1278}
+{"processed": 1950, "retry_wait": 436, "failed_terminal": 218, "succeeded": 1296}
+{"processed": 1975, "retry_wait": 436, "failed_terminal": 224, "succeeded": 1315}
+{"processed": 2000, "retry_wait": 438, "failed_terminal": 232, "succeeded": 1330}
+{"processed": 2025, "retry_wait": 438, "failed_terminal": 232, "succeeded": 1355}
+{"processed": 2050, "retry_wait": 439, "failed_terminal": 234, "succeeded": 1377}
+{"processed": 2075, "retry_wait": 439, "failed_terminal": 236, "succeeded": 1400}
+{"processed": 2100, "retry_wait": 440, "failed_terminal": 238, "succeeded": 1422}
+{"processed": 2125, "retry_wait": 440, "failed_terminal": 242, "succeeded": 1443}
+{"processed": 2150, "retry_wait": 440, "failed_terminal": 246, "succeeded": 1464}
+{"processed": 2175, "retry_wait": 440, "failed_terminal": 246, "succeeded": 1489}
+{"processed": 2200, "retry_wait": 441, "failed_terminal": 250, "succeeded": 1509}
+{"processed": 2225, "retry_wait": 442, "failed_terminal": 251, "succeeded": 1532}
+{"processed": 2250, "retry_wait": 442, "failed_terminal": 252, "succeeded": 1556}
+{"processed": 2275, "retry_wait": 444, "failed_terminal": 253, "succeeded": 1578}
+{"processed": 2300, "retry_wait": 444, "failed_terminal": 254, "succeeded": 1602}
+{"processed": 2325, "retry_wait": 445, "failed_terminal": 260, "succeeded": 1620}
+{"processed": 2350, "retry_wait": 445, "failed_terminal": 260, "succeeded": 1645}
+{"processed": 2375, "retry_wait": 445, "failed_terminal": 267, "succeeded": 1663}
+{"processed": 2400, "retry_wait": 446, "failed_terminal": 271, "succeeded": 1683}
+{"processed": 2425, "retry_wait": 446, "failed_terminal": 275, "succeeded": 1704}
+{"processed": 2450, "retry_wait": 446, "failed_terminal": 286, "succeeded": 1718}
+{"processed": 2475, "retry_wait": 446, "failed_terminal": 289, "succeeded": 1740}
+{"processed": 2500, "retry_wait": 446, "failed_terminal": 289, "succeeded": 1765}
+{"processed": 2525, "retry_wait": 446, "failed_terminal": 292, "succeeded": 1787}
+{"processed": 2550, "retry_wait": 448, "failed_terminal": 294, "succeeded": 1808}
+{"processed": 2575, "retry_wait": 448, "failed_terminal": 296, "succeeded": 1831}
+{"processed": 2600, "retry_wait": 448, "failed_terminal": 297, "succeeded": 1855}
+{"processed": 2625, "retry_wait": 448, "failed_terminal": 300, "succeeded": 1877}
+{"processed": 2650, "retry_wait": 448, "failed_terminal": 303, "succeeded": 1899}
+{"processed": 2675, "retry_wait": 449, "failed_terminal": 309, "succeeded": 1917}
+{"processed": 2700, "retry_wait": 452, "failed_terminal": 313, "succeeded": 1935}
+{"processed": 2725, "retry_wait": 452, "failed_terminal": 316, "succeeded": 1957}
+{"processed": 2750, "retry_wait": 452, "failed_terminal": 317, "succeeded": 1981}
+{"processed": 2775, "retry_wait": 453, "failed_terminal": 319, "succeeded": 2003}
+{"processed": 2800, "retry_wait": 453, "failed_terminal": 323, "succeeded": 2024}
+{"processed": 2825, "retry_wait": 455, "failed_terminal": 327, "succeeded": 2043}
+{"processed": 2850, "retry_wait": 456, "failed_terminal": 331, "succeeded": 2063}
+{"processed": 2875, "retry_wait": 457, "failed_terminal": 335, "succeeded": 2083}
+{"processed": 2900, "retry_wait": 460, "failed_terminal": 341, "succeeded": 2099}
+{"processed": 2925, "retry_wait": 461, "failed_terminal": 349, "succeeded": 2115}
+{"processed": 2950, "retry_wait": 461, "failed_terminal": 349, "succeeded": 2140}
+{"processed": 2975, "retry_wait": 461, "failed_terminal": 350, "succeeded": 2164}
+{"processed": 3000, "retry_wait": 461, "failed_terminal": 351, "succeeded": 2188}
+{
+  "retry_wait": 461,
+  "failed_terminal": 351,
+  "succeeded": 2188
+}

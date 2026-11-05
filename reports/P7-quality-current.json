@@ -1,0 +1,61 @@
+{
+  "at": "2026-11-05T13:19:16.343295+00:00",
+  "releases": [
+    {
+      "release_id": "pilot-20261105-v1",
+      "status": "retracted_pending_ui_boundary_correction",
+      "usable": false
+    },
+    {
+      "release_id": "pilot-20261105-v2",
+      "status": "provisional_collection_continues",
+      "samples": 2,
+      "validation_passed": true,
+      "by_tier": {
+        "early_probable": 2
+      },
+      "by_split": {
+        "train": 2
+      },
+      "human_verified": 0,
+      "human_pending": 2,
+      "source_evidence_paths": "Every sample retains message projection map, source/asset identities, original source date evidence, verification reference and split group in provenance.jsonl."
+    },
+    {
+      "release_id": "pilot-20261105-v3",
+      "status": "provisional_collection_continues",
+      "samples": 14,
+      "validation_passed": true,
+      "by_tier": {
+        "early_probable": 14
+      },
+      "by_split": {
+        "train": 14
+      },
+      "human_verified": 0,
+      "human_pending": 14,
+      "source_evidence_paths": "Every sample retains message projection map, source/asset identities, original source date evidence, verification reference and split group in provenance.jsonl."
+    },
+    {
+      "release_id": "pilot-20261105-v4",
+      "status": "provisional_collection_continues",
+      "samples": 22,
+      "validation_passed": true,
+      "by_tier": {
+        "early_probable": 22
+      },
+      "by_split": {
+        "train": 19,
+        "test": 2,
+        "val": 1
+      },
+      "human_verified": 0,
+      "human_pending": 22,
+      "source_evidence_paths": "Every sample retains message projection map, source/asset identities, original source date evidence, verification reference and split group in provenance.jsonl."
+    }
+  ],
+  "final_release": null,
+  "goal_status": "active",
+  "training_performed": false,
+  "published": false
+}

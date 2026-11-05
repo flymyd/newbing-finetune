@@ -1,0 +1,8 @@
+{
+  "at": "2026-11-05T13:15:56.824772+00:00",
+  "raw_files": 2268,
+  "asset_files": 7898,
+  "errors": [],
+  "passed": true,
+  "scope": "Every indexed source raw path/hash and every asset id/path at this snapshot; does not prove transcription correctness."
+}

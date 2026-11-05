@@ -1,0 +1,8 @@
+{"kind": "classify", "processed": 10, "succeeded": 10}
+{"kind": "classify", "processed": 20, "succeeded": 20}
+{"kind": "classify", "processed": 30, "succeeded": 30}
+{"kind": "classify", "processed": 40, "succeeded": 40}
+{"kind": "classify", "processed": 50, "succeeded": 50}
+{
+  "succeeded": 50
+}

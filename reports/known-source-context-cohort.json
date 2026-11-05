@@ -1,0 +1,1677 @@
+{
+  "candidate_records": [
+    {
+      "candidate_id": "author:repligate:1626208502975975424"
+    },
+    {
+      "candidate_id": "author:repligate:1626218081084411904"
+    },
+    {
+      "candidate_id": "author:repligate:1626835501503086593"
+    },
+    {
+      "candidate_id": "author:repligate:1630593115407937536"
+    },
+    {
+      "candidate_id": "author:repligate:1630594066189623296"
+    },
+    {
+      "candidate_id": "author:repligate:1630597868804243456"
+    },
+    {
+      "candidate_id": "author:repligate:1632557665724530688"
+    },
+    {
+      "candidate_id": "author:repligate:1632563673905647617"
+    },
+    {
+      "candidate_id": "author:repligate:1636311320692920320"
+    },
+    {
+      "candidate_id": "author:repligate:1636332998756032514"
+    },
+    {
+      "candidate_id": "author:repligate:1640509177159114752"
+    },
+    {
+      "candidate_id": "author:repligate:1641455588503691264"
+    },
+    {
+      "candidate_id": "author:repligate:1641775753355206656"
+    },
+    {
+      "candidate_id": "author:repligate:1645931960336883712"
+    },
+    {
+      "candidate_id": "author:repligate:1646636893625520134"
+    },
+    {
+      "candidate_id": "author:repligate:1646966038028865544"
+    },
+    {
+      "candidate_id": "author:repligate:1647173737861488640"
+    },
+    {
+      "candidate_id": "author:repligate:1647795651592298496"
+    },
+    {
+      "candidate_id": "author:repligate:1647795846220488704"
+    },
+    {
+      "candidate_id": "author:repligate:1648863078530928640"
+    },
+    {
+      "candidate_id": "author:repligate:1649800090247389184"
+    },
+    {
+      "candidate_id": "author:repligate:1649813635987038208"
+    },
+    {
+      "candidate_id": "author:repligate:1650259567253815296"
+    },
+    {
+      "candidate_id": "author:repligate:1650273794597203968"
+    },
+    {
+      "candidate_id": "author:repligate:1650545018090962944"
+    },
+    {
+      "candidate_id": "author:repligate:1651758020735696896"
+    },
+    {
+      "candidate_id": "author:repligate:1651769294529921025"
+    },
+    {
+      "candidate_id": "author:repligate:1652500348366385153"
+    },
+    {
+      "candidate_id": "author:repligate:1652553797531578369"
+    },
+    {
+      "candidate_id": "author:repligate:1652790971074002951"
+    },
+    {
+      "candidate_id": "reddit:10xns7e"
+    },
+    {
+      "candidate_id": "reddit:110eagl"
+    },
+    {
+      "candidate_id": "reddit:110rcfp"
+    },
+    {
+      "candidate_id": "reddit:110rygi"
+    },
+    {
+      "candidate_id": "reddit:110tb9n"
+    },
+    {
+      "candidate_id": "reddit:110tt4d"
+    },
+    {
+      "candidate_id": "reddit:110vfgb"
+    },
+    {
+      "candidate_id": "reddit:110y6dh"
+    },
+    {
+      "candidate_id": "reddit:1113mj0"
+    },
+    {
+      "candidate_id": "reddit:11151dl"
+    },
+    {
+      "candidate_id": "reddit:111bvk6"
+    },
+    {
+      "candidate_id": "reddit:111cern"
+    },
+    {
+      "candidate_id": "reddit:111cr2t"
+    },
+    {
+      "candidate_id": "reddit:111crzp"
+    },
+    {
+      "candidate_id": "reddit:111ddbc"
+    },
+    {
+      "candidate_id": "reddit:111e25j"
+    },
+    {
+      "candidate_id": "reddit:111mxmv"
+    },
+    {
+      "candidate_id": "reddit:111nrxz"
+    },
+    {
+      "candidate_id": "reddit:111rha2"
+    },
+    {
+      "candidate_id": "reddit:111sb73"
+    },
+    {
+      "candidate_id": "reddit:111ux15"
+    },
+    {
+      "candidate_id": "reddit:1122k9g"
+    },
+    {
+      "candidate_id": "reddit:1126hbd"
+    },
+    {
+      "candidate_id": "reddit:1127w97"
+    },
+    {
+      "candidate_id": "reddit:112atq4"
+    },
+    {
+      "candidate_id": "reddit:112du1b"
+    },
+    {
+      "candidate_id": "reddit:112g4it"
+    },
+    {
+      "candidate_id": "reddit:112g74l"
+    },
+    {
+      "candidate_id": "reddit:112h5f5"
+    },
+    {
+      "candidate_id": "reddit:112hk88"
+    },
+    {
+      "candidate_id": "reddit:112ikp5"
+    },
+    {
+      "candidate_id": "reddit:112j4i1"
+    },
+    {
+      "candidate_id": "reddit:112l3m3"
+    },
+    {
+      "candidate_id": "reddit:112l7tw"
+    },
+    {
+      "candidate_id": "reddit:112mena"
+    },
+    {
+      "candidate_id": "reddit:112mlk2"
+    },
+    {
+      "candidate_id": "reddit:112obu9"
+    },
+    {
+      "candidate_id": "reddit:112ok5r"
+    },
+    {
+      "candidate_id": "reddit:112q0xf"
+    },
+    {
+      "candidate_id": "reddit:112q8n4"
+    },
+    {
+      "candidate_id": "reddit:112qr1i"
+    },
+    {
+      "candidate_id": "reddit:112t8vl"
+    },
+    {
+      "candidate_id": "reddit:112teir"
+    },
+    {
+      "candidate_id": "reddit:112totc"
+    },
+    {
+      "candidate_id": "reddit:112tu6u"
+    },
+    {
+      "candidate_id": "reddit:112wb4g"
+    },
+    {
+      "candidate_id": "reddit:112wwds"
+    },
+    {
+      "candidate_id": "reddit:112yzn7"
+    },
+    {
+      "candidate_id": "reddit:112zx36"
+    },
+    {
+      "candidate_id": "reddit:1130oev"
+    },
+    {
+      "candidate_id": "reddit:11314ih"
+    },
+    {
+      "candidate_id": "reddit:1131roj"
+    },
+    {
+      "candidate_id": "reddit:1133jzg"
+    },
+    {
+      "candidate_id": "reddit:1134e55"
+    },
+    {
+      "candidate_id": "reddit:1135jb6"
+    },
+    {
+      "candidate_id": "reddit:1137zxn"
+    },
+    {
+      "candidate_id": "reddit:11399r6"
+    },
+    {
+      "candidate_id": "reddit:1139cbf"
+    },
+    {
+      "candidate_id": "reddit:1139y1k"
+    },
+    {
+      "candidate_id": "reddit:113am9h"
+    },
+    {
+      "candidate_id": "reddit:113ayt5"
+    },
+    {
+      "candidate_id": "reddit:113cptj"
+    },
+    {
+      "candidate_id": "reddit:113cqyr"
+    },
+    {
+      "candidate_id": "reddit:113dfoh"
+    },
+    {
+      "candidate_id": "reddit:113dzew"
+    },
+    {
+      "candidate_id": "reddit:113elbv"
+    },
+    {
+      "candidate_id": "reddit:113hc4x"
+    },
+    {
+      "candidate_id": "reddit:113jh7z"
+    },
+    {
+      "candidate_id": "reddit:113kf0q"
+    },
+    {
+      "candidate_id": "reddit:113l22b"
+    },
+    {
+      "candidate_id": "reddit:113lxcb"
+    },
+    {
+      "candidate_id": "reddit:113m7bh"
+    },
+    {
+      "candidate_id": "reddit:113myb8"
+    },
+    {
+      "candidate_id": "reddit:113r58d"
+    },
+    {
+      "candidate_id": "reddit:113rh7l"
+    },
+    {
+      "candidate_id": "reddit:113vflr"
+    },
+    {
+      "candidate_id": "reddit:113wbqc"
+    },
+    {
+      "candidate_id": "reddit:113y2np"
+    },
+    {
+      "candidate_id": "reddit:1140e8g"
+    },
+    {
+      "candidate_id": "reddit:1142a1t"
+    },
+    {
+      "candidate_id": "reddit:1145fb3"
+    },
+    {
+      "candidate_id": "reddit:114bmoz"
+    },
+    {
+      "candidate_id": "reddit:114frib"
+    },
+    {
+      "candidate_id": "reddit:114ijy6"
+    },
+    {
+      "candidate_id": "reddit:114jfzu"
+    },
+    {
+      "candidate_id": "reddit:114njo6"
+    },
+    {
+      "candidate_id": "reddit:114ucl8"
+    },
+    {
+      "candidate_id": "reddit:11509x4"
+    },
+    {
+      "candidate_id": "reddit:1150po5"
+    },
+    {
+      "candidate_id": "reddit:11523oc"
+    },
+    {
+      "candidate_id": "reddit:11525ks"
+    },
+    {
+      "candidate_id": "reddit:1152rky"
+    },
+    {
+      "candidate_id": "reddit:11534cn"
+    },
+    {
+      "candidate_id": "reddit:1153dsg"
+    },
+    {
+      "candidate_id": "reddit:1154zjf"
+    },
+    {
+      "candidate_id": "reddit:1155het"
+    },
+    {
+      "candidate_id": "reddit:1155r2p"
+    },
+    {
+      "candidate_id": "reddit:115718g"
+    },
+    {
+      "candidate_id": "reddit:11586re"
+    },
+    {
+      "candidate_id": "reddit:1158cph"
+    },
+    {
+      "candidate_id": "reddit:1158izy"
+    },
+    {
+      "candidate_id": "reddit:115cgga"
+    },
+    {
+      "candidate_id": "reddit:115djgr"
+    },
+    {
+      "candidate_id": "reddit:115e28h"
+    },
+    {
+      "candidate_id": "reddit:115ep8g"
+    },
+    {
+      "candidate_id": "reddit:115fuob"
+    },
+    {
+      "candidate_id": "reddit:115g1wn"
+    },
+    {
+      "candidate_id": "reddit:115gt1f"
+    },
+    {
+      "candidate_id": "reddit:115hwg8"
+    },
+    {
+      "candidate_id": "reddit:115ivve"
+    },
+    {
+      "candidate_id": "reddit:115lgg3"
+    },
+    {
+      "candidate_id": "reddit:115u0l7"
+    },
+    {
+      "candidate_id": "reddit:1163jp7"
+    },
+    {
+      "candidate_id": "reddit:1166z6s"
+    },
+    {
+      "candidate_id": "reddit:1167vmb"
+    },
+    {
+      "candidate_id": "reddit:116hbj9"
+    },
+    {
+      "candidate_id": "reddit:116hwcv"
+    },
+    {
+      "candidate_id": "reddit:116n8zl"
+    },
+    {
+      "candidate_id": "reddit:116pjfi"
+    },
+    {
+      "candidate_id": "reddit:116rikq"
+    },
+    {
+      "candidate_id": "reddit:116s2p2"
+    },
+    {
+      "candidate_id": "reddit:116sguz"
+    },
+    {
+      "candidate_id": "reddit:116tf21"
+    },
+    {
+      "candidate_id": "reddit:116vmll"
+    },
+    {
+      "candidate_id": "reddit:1170htj"
+    },
+    {
+      "candidate_id": "reddit:1171749"
+    },
+    {
+      "candidate_id": "reddit:117jndc"
+    },
+    {
+      "candidate_id": "reddit:117nu1m"
+    },
+    {
+      "candidate_id": "reddit:117obvp"
+    },
+    {
+      "candidate_id": "reddit:117ohko"
+    },
+    {
+      "candidate_id": "reddit:117ohvg"
+    },
+    {
+      "candidate_id": "reddit:117tn8r"
+    },
+    {
+      "candidate_id": "reddit:1180fzz"
+    },
+    {
+      "candidate_id": "reddit:1185050"
+    },
+    {
+      "candidate_id": "reddit:1186g8x"
+    },
+    {
+      "candidate_id": "reddit:118chyb"
+    },
+    {
+      "candidate_id": "reddit:118dr6n"
+    },
+    {
+      "candidate_id": "reddit:118g95z"
+    },
+    {
+      "candidate_id": "reddit:118hhl0"
+    },
+    {
+      "candidate_id": "reddit:118ileh"
+    },
+    {
+      "candidate_id": "reddit:118jyi7"
+    },
+    {
+      "candidate_id": "reddit:118z1jb"
+    },
+    {
+      "candidate_id": "reddit:1195k3m"
+    },
+    {
+      "candidate_id": "reddit:1198vdo"
+    },
+    {
+      "candidate_id": "reddit:119bjl3"
+    },
+    {
+      "candidate_id": "reddit:119clgd"
+    },
+    {
+      "candidate_id": "reddit:119k945"
+    },
+    {
+      "candidate_id": "reddit:119mh3q"
+    },
+    {
+      "candidate_id": "reddit:119png0"
+    },
+    {
+      "candidate_id": "reddit:119qdzq"
+    },
+    {
+      "candidate_id": "reddit:119qtjh"
+    },
+    {
+      "candidate_id": "reddit:119ttax"
+    },
+    {
+      "candidate_id": "reddit:119tvro"
+    },
+    {
+      "candidate_id": "reddit:119v9mf"
+    },
+    {
+      "candidate_id": "reddit:119vjxi"
+    },
+    {
+      "candidate_id": "reddit:11a4yvm"
+    },
+    {
+      "candidate_id": "reddit:11a4zs7"
+    },
+    {
+      "candidate_id": "reddit:11a6e90"
+    },
+    {
+      "candidate_id": "reddit:11a7rpu"
+    },
+    {
+      "candidate_id": "reddit:11acpey"
+    },
+    {
+      "candidate_id": "reddit:11ad5nx"
+    },
+    {
+      "candidate_id": "reddit:11ae0bl"
+    },
+    {
+      "candidate_id": "reddit:11afe2t"
+    },
+    {
+      "candidate_id": "reddit:11agt9u"
+    },
+    {
+      "candidate_id": "reddit:11ahjsw"
+    },
+    {
+      "candidate_id": "reddit:11ajyhv"
+    },
+    {
+      "candidate_id": "reddit:11akuup"
+    },
+    {
+      "candidate_id": "reddit:11am2u2"
+    },
+    {
+      "candidate_id": "reddit:11anslg"
+    },
+    {
+      "candidate_id": "reddit:11ao2cr"
+    },
+    {
+      "candidate_id": "reddit:11ao3yf"
+    },
+    {
+      "candidate_id": "reddit:11ao5yy"
+    },
+    {
+      "candidate_id": "reddit:11apj6h"
+    },
+    {
+      "candidate_id": "reddit:11aqfb8"
+    },
+    {
+      "candidate_id": "reddit:11aqlbf"
+    },
+    {
+      "candidate_id": "reddit:11atj82"
+    },
+    {
+      "candidate_id": "reddit:11au850"
+    },
+    {
+      "candidate_id": "reddit:11aujg7"
+    },
+    {
+      "candidate_id": "reddit:11b0fn2"
+    },
+    {
+      "candidate_id": "reddit:11b1gq4"
+    },
+    {
+      "candidate_id": "reddit:11b1tq4"
+    },
+    {
+      "candidate_id": "reddit:11b5s9v"
+    },
+    {
+      "candidate_id": "reddit:11bajcm"
+    },
+    {
+      "candidate_id": "reddit:11biioz"
+    },
+    {
+      "candidate_id": "reddit:11bjmci"
+    },
+    {
+      "candidate_id": "reddit:11bk6fc"
+    },
+    {
+      "candidate_id": "reddit:11blqqp"
+    },
+    {
+      "candidate_id": "reddit:11bmg6z"
+    },
+    {
+      "candidate_id": "reddit:11bmk3v"
+    },
+    {
+      "candidate_id": "reddit:11bn0c6"
+    },
+    {
+      "candidate_id": "reddit:11bovx8"
+    },
+    {
+      "candidate_id": "reddit:11bvugh"
+    },
+    {
+      "candidate_id": "reddit:11c4q60"
+    },
+    {
+      "candidate_id": "reddit:11c7x8f"
+    },
+    {
+      "candidate_id": "reddit:11c8p4i"
+    },
+    {
+      "candidate_id": "reddit:11c9wuu"
+    },
+    {
+      "candidate_id": "reddit:11cfl7u"
+    },
+    {
+      "candidate_id": "reddit:11cgbsf"
+    },
+    {
+      "candidate_id": "reddit:11ch79g"
+    },
+    {
+      "candidate_id": "reddit:11chh3l"
+    },
+    {
+      "candidate_id": "reddit:11cnlwo"
+    },
+    {
+      "candidate_id": "reddit:11csgtk"
+    },
+    {
+      "candidate_id": "reddit:11cwczn"
+    },
+    {
+      "candidate_id": "reddit:11cyh7j"
+    },
+    {
+      "candidate_id": "reddit:11d20eo"
+    },
+    {
+      "candidate_id": "reddit:11d2gog"
+    },
+    {
+      "candidate_id": "reddit:11d616x"
+    },
+    {
+      "candidate_id": "reddit:11d71vu"
+    },
+    {
+      "candidate_id": "reddit:11d770e"
+    },
+    {
+      "candidate_id": "reddit:11d8xtw"
+    },
+    {
+      "candidate_id": "reddit:11d9it3"
+    },
+    {
+      "candidate_id": "reddit:11da75c"
+    },
+    {
+      "candidate_id": "reddit:11ddi8m"
+    },
+    {
+      "candidate_id": "reddit:11deccr"
+    },
+    {
+      "candidate_id": "reddit:11dfcb3"
+    },
+    {
+      "candidate_id": "reddit:11djnzh"
+    },
+    {
+      "candidate_id": "reddit:11dkcxw"
+    },
+    {
+      "candidate_id": "reddit:11dnf5o"
+    },
+    {
+      "candidate_id": "reddit:11duagh"
+    },
+    {
+      "candidate_id": "reddit:11dvgpp"
+    },
+    {
+      "candidate_id": "reddit:11dvilh"
+    },
+    {
+      "candidate_id": "reddit:11e1c9k"
+    },
+    {
+      "candidate_id": "reddit:11e1nbi"
+    },
+    {
+      "candidate_id": "reddit:11e2z6j"
+    },
+    {
+      "candidate_id": "reddit:11e4owi"
+    },
+    {
+      "candidate_id": "reddit:11e5r5v"
+    },
+    {
+      "candidate_id": "reddit:11e9ihm"
+    },
+    {
+      "candidate_id": "reddit:11eb0o4"
+    },
+    {
+      "candidate_id": "reddit:11ee2rn"
+    },
+    {
+      "candidate_id": "reddit:11eeyo0"
+    },
+    {
+      "candidate_id": "reddit:11ef9ss"
+    },
+    {
+      "candidate_id": "reddit:11ein93"
+    },
+    {
+      "candidate_id": "reddit:11eioox"
+    },
+    {
+      "candidate_id": "reddit:11emdr6"
+    },
+    {
+      "candidate_id": "reddit:11emgqx"
+    },
+    {
+      "candidate_id": "reddit:11ercfi"
+    },
+    {
+      "candidate_id": "reddit:11erw8b"
+    },
+    {
+      "candidate_id": "reddit:11esuhu"
+    },
+    {
+      "candidate_id": "reddit:11euekv"
+    },
+    {
+      "candidate_id": "reddit:11f054a"
+    },
+    {
+      "candidate_id": "reddit:11f1g54"
+    },
+    {
+      "candidate_id": "reddit:11f2meh"
+    },
+    {
+      "candidate_id": "reddit:11f49r4"
+    },
+    {
+      "candidate_id": "reddit:11fa4j6"
+    },
+    {
+      "candidate_id": "reddit:11fihwd"
+    },
+    {
+      "candidate_id": "reddit:11fobd0"
+    },
+    {
+      "candidate_id": "reddit:11frcyc"
+    },
+    {
+      "candidate_id": "reddit:11fsuj5"
+    },
+    {
+      "candidate_id": "reddit:11g11rr"
+    },
+    {
+      "candidate_id": "reddit:11g1mp3"
+    },
+    {
+      "candidate_id": "reddit:11g5581"
+    },
+    {
+      "candidate_id": "reddit:11g5d59"
+    },
+    {
+      "candidate_id": "reddit:11g5zyn"
+    },
+    {
+      "candidate_id": "reddit:11gckzs"
+    },
+    {
+      "candidate_id": "reddit:11get4w"
+    },
+    {
+      "candidate_id": "reddit:11gt779"
+    },
+    {
+      "candidate_id": "reddit:11guyld"
+    },
+    {
+      "candidate_id": "reddit:11gwg7a"
+    },
+    {
+      "candidate_id": "reddit:11gxbzm"
+    },
+    {
+      "candidate_id": "reddit:11gyezx"
+    },
+    {
+      "candidate_id": "reddit:11gz39z"
+    },
+    {
+      "candidate_id": "reddit:11h0wgc"
+    },
+    {
+      "candidate_id": "reddit:11h3fsk"
+    },
+    {
+      "candidate_id": "reddit:11h4o85"
+    },
+    {
+      "candidate_id": "reddit:11h56pt"
+    },
+    {
+      "candidate_id": "reddit:11hckmy"
+    },
+    {
+      "candidate_id": "reddit:11hfrah"
+    },
+    {
+      "candidate_id": "reddit:11hfux8"
+    },
+    {
+      "candidate_id": "reddit:11hgbra"
+    },
+    {
+      "candidate_id": "reddit:11hh4wv"
+    },
+    {
+      "candidate_id": "reddit:11hr8s0"
+    },
+    {
+      "candidate_id": "reddit:11htgwl"
+    },
+    {
+      "candidate_id": "reddit:11hz7kr"
+    },
+    {
+      "candidate_id": "reddit:11hz94q"
+    },
+    {
+      "candidate_id": "reddit:11i6a9c"
+    },
+    {
+      "candidate_id": "reddit:11i9rge"
+    },
+    {
+      "candidate_id": "reddit:11icdsg"
+    },
+    {
+      "candidate_id": "reddit:11iixb4"
+    },
+    {
+      "candidate_id": "reddit:11ij9gw"
+    },
+    {
+      "candidate_id": "reddit:11iqoln"
+    },
+    {
+      "candidate_id": "reddit:11ironc"
+    },
+    {
+      "candidate_id": "reddit:11ismzx"
+    },
+    {
+      "candidate_id": "reddit:11j7rqg"
+    },
+    {
+      "candidate_id": "reddit:11jeyp1"
+    },
+    {
+      "candidate_id": "reddit:11jijpp"
+    },
+    {
+      "candidate_id": "reddit:11jnkxo"
+    },
+    {
+      "candidate_id": "reddit:11jnmmt"
+    },
+    {
+      "candidate_id": "reddit:11jri0c"
+    },
+    {
+      "candidate_id": "reddit:11jrtig"
+    },
+    {
+      "candidate_id": "reddit:11jyl9g"
+    },
+    {
+      "candidate_id": "reddit:11k05tk"
+    },
+    {
+      "candidate_id": "reddit:11k8wlj"
+    },
+    {
+      "candidate_id": "reddit:11kddr6"
+    },
+    {
+      "candidate_id": "reddit:11kdsh7"
+    },
+    {
+      "candidate_id": "reddit:11kekkz"
+    },
+    {
+      "candidate_id": "reddit:11kfpla"
+    },
+    {
+      "candidate_id": "reddit:11khz1d"
+    },
+    {
+      "candidate_id": "reddit:11kidet"
+    },
+    {
+      "candidate_id": "reddit:11kkry5"
+    },
+    {
+      "candidate_id": "reddit:11kumhr"
+    },
+    {
+      "candidate_id": "reddit:11kuvc1"
+    },
+    {
+      "candidate_id": "reddit:11kww8c"
+    },
+    {
+      "candidate_id": "reddit:11kx40a"
+    },
+    {
+      "candidate_id": "reddit:11kxaek"
+    },
+    {
+      "candidate_id": "reddit:11l0z5y"
+    },
+    {
+      "candidate_id": "reddit:11l3u94"
+    },
+    {
+      "candidate_id": "reddit:11l4eea"
+    },
+    {
+      "candidate_id": "reddit:11l51iv"
+    },
+    {
+      "candidate_id": "reddit:11lah0q"
+    },
+    {
+      "candidate_id": "reddit:11ld3sm"
+    },
+    {
+      "candidate_id": "reddit:11ld52t"
+    },
+    {
+      "candidate_id": "reddit:11lg6wb"
+    },
+    {
+      "candidate_id": "reddit:11lj7hl"
+    },
+    {
+      "candidate_id": "reddit:11lp9kf"
+    },
+    {
+      "candidate_id": "reddit:11lpcpz"
+    },
+    {
+      "candidate_id": "reddit:11lsqnj"
+    },
+    {
+      "candidate_id": "reddit:11lssjk"
+    },
+    {
+      "candidate_id": "reddit:11lsvhk"
+    },
+    {
+      "candidate_id": "reddit:11lufcf"
+    },
+    {
+      "candidate_id": "reddit:11m0swt"
+    },
+    {
+      "candidate_id": "reddit:11m0va7"
+    },
+    {
+      "candidate_id": "reddit:11m1exf"
+    },
+    {
+      "candidate_id": "reddit:11m42ax"
+    },
+    {
+      "candidate_id": "reddit:11m6qxa"
+    },
+    {
+      "candidate_id": "reddit:11m6tbo"
+    },
+    {
+      "candidate_id": "reddit:11m84gy"
+    },
+    {
+      "candidate_id": "reddit:11mey9s"
+    },
+    {
+      "candidate_id": "reddit:11miia7"
+    },
+    {
+      "candidate_id": "reddit:11mj31l"
+    },
+    {
+      "candidate_id": "reddit:11mju1s"
+    },
+    {
+      "candidate_id": "reddit:11mkc82"
+    },
+    {
+      "candidate_id": "reddit:11mp1a5"
+    },
+    {
+      "candidate_id": "reddit:11mpfte"
+    },
+    {
+      "candidate_id": "reddit:11mq4ij"
+    },
+    {
+      "candidate_id": "reddit:11mx0gi"
+    },
+    {
+      "candidate_id": "reddit:11nc12k"
+    },
+    {
+      "candidate_id": "reddit:11ngb0i"
+    },
+    {
+      "candidate_id": "reddit:11nixy7"
+    },
+    {
+      "candidate_id": "reddit:11nrlbe"
+    },
+    {
+      "candidate_id": "reddit:11o46bj"
+    },
+    {
+      "candidate_id": "reddit:11o4peh"
+    },
+    {
+      "candidate_id": "reddit:11o4wwm"
+    },
+    {
+      "candidate_id": "reddit:11o5rho"
+    },
+    {
+      "candidate_id": "reddit:11oc9p6"
+    },
+    {
+      "candidate_id": "reddit:11ocan9"
+    },
+    {
+      "candidate_id": "reddit:11ocz06"
+    },
+    {
+      "candidate_id": "reddit:11odxap"
+    },
+    {
+      "candidate_id": "reddit:11okm7f"
+    },
+    {
+      "candidate_id": "reddit:11ovnez"
+    },
+    {
+      "candidate_id": "reddit:11p0rkt"
+    },
+    {
+      "candidate_id": "reddit:11pbo6j"
+    },
+    {
+      "candidate_id": "reddit:11pfgfv"
+    },
+    {
+      "candidate_id": "reddit:11pkigk"
+    },
+    {
+      "candidate_id": "reddit:11pl51o"
+    },
+    {
+      "candidate_id": "reddit:11pm0f4"
+    },
+    {
+      "candidate_id": "reddit:11psao9"
+    },
+    {
+      "candidate_id": "reddit:11pur3b"
+    },
+    {
+      "candidate_id": "reddit:11pzm1x"
+    },
+    {
+      "candidate_id": "reddit:11q02s7"
+    },
+    {
+      "candidate_id": "reddit:11q1is7"
+    },
+    {
+      "candidate_id": "reddit:11q8131"
+    },
+    {
+      "candidate_id": "reddit:11qfz2e"
+    },
+    {
+      "candidate_id": "reddit:11qjs9l"
+    },
+    {
+      "candidate_id": "reddit:11qkuez"
+    },
+    {
+      "candidate_id": "reddit:11qqv7x"
+    },
+    {
+      "candidate_id": "reddit:11qxizl"
+    },
+    {
+      "candidate_id": "reddit:11r3sb5"
+    },
+    {
+      "candidate_id": "reddit:11r5w38"
+    },
+    {
+      "candidate_id": "reddit:11r5zz3"
+    },
+    {
+      "candidate_id": "reddit:11rawgc"
+    },
+    {
+      "candidate_id": "reddit:11rdn2z"
+    },
+    {
+      "candidate_id": "reddit:11rffcp"
+    },
+    {
+      "candidate_id": "reddit:11rfgfz"
+    },
+    {
+      "candidate_id": "reddit:11rfs2u"
+    },
+    {
+      "candidate_id": "reddit:11rgql7"
+    },
+    {
+      "candidate_id": "reddit:11rh5iv"
+    },
+    {
+      "candidate_id": "reddit:11rhr79"
+    },
+    {
+      "candidate_id": "reddit:11rhvej"
+    },
+    {
+      "candidate_id": "reddit:11rjp6k"
+    },
+    {
+      "candidate_id": "reddit:11ror1t"
+    },
+    {
+      "candidate_id": "reddit:11rte8j"
+    },
+    {
+      "candidate_id": "reddit:11rx3h6"
+    },
+    {
+      "candidate_id": "reddit:11s01om"
+    },
+    {
+      "candidate_id": "reddit:11s44pi"
+    },
+    {
+      "candidate_id": "reddit:11s6984"
+    },
+    {
+      "candidate_id": "reddit:11s6qrb"
+    },
+    {
+      "candidate_id": "reddit:11s7sjb"
+    },
+    {
+      "candidate_id": "reddit:11sbb1k"
+    },
+    {
+      "candidate_id": "reddit:11scrxc"
+    },
+    {
+      "candidate_id": "reddit:11sdlgb"
+    },
+    {
+      "candidate_id": "reddit:11sfpg1"
+    },
+    {
+      "candidate_id": "reddit:11sjvbk"
+    },
+    {
+      "candidate_id": "reddit:11sqs5k"
+    },
+    {
+      "candidate_id": "reddit:11ss0dc"
+    },
+    {
+      "candidate_id": "reddit:11swhva"
+    },
+    {
+      "candidate_id": "reddit:11t1xs6"
+    },
+    {
+      "candidate_id": "reddit:11t2m3b"
+    },
+    {
+      "candidate_id": "reddit:11t359q"
+    },
+    {
+      "candidate_id": "reddit:11t8fbs"
+    },
+    {
+      "candidate_id": "reddit:11tgd2m"
+    },
+    {
+      "candidate_id": "reddit:11tiw73"
+    },
+    {
+      "candidate_id": "reddit:11tjdoa"
+    },
+    {
+      "candidate_id": "reddit:11tk9b9"
+    },
+    {
+      "candidate_id": "reddit:11tzai5"
+    },
+    {
+      "candidate_id": "reddit:11u8zpt"
+    },
+    {
+      "candidate_id": "reddit:11ud8t4"
+    },
+    {
+      "candidate_id": "reddit:11udlew"
+    },
+    {
+      "candidate_id": "reddit:11udzb9"
+    },
+    {
+      "candidate_id": "reddit:11ufvah"
+    },
+    {
+      "candidate_id": "reddit:11uiafj"
+    },
+    {
+      "candidate_id": "reddit:11ukwff"
+    },
+    {
+      "candidate_id": "reddit:11ul70j"
+    },
+    {
+      "candidate_id": "reddit:11uwp51"
+    },
+    {
+      "candidate_id": "reddit:11v0wn2"
+    },
+    {
+      "candidate_id": "reddit:11v5i9b"
+    },
+    {
+      "candidate_id": "reddit:11v6zht"
+    },
+    {
+      "candidate_id": "reddit:11v8q1a"
+    },
+    {
+      "candidate_id": "reddit:11vg3je"
+    },
+    {
+      "candidate_id": "reddit:11vjbtt"
+    },
+    {
+      "candidate_id": "reddit:11vkpez"
+    },
+    {
+      "candidate_id": "reddit:11w538l"
+    },
+    {
+      "candidate_id": "reddit:11w7lob"
+    },
+    {
+      "candidate_id": "reddit:11w8q2i"
+    },
+    {
+      "candidate_id": "reddit:11wcimb"
+    },
+    {
+      "candidate_id": "reddit:11wuxvs"
+    },
+    {
+      "candidate_id": "reddit:11x0nhv"
+    },
+    {
+      "candidate_id": "reddit:11x6gns"
+    },
+    {
+      "candidate_id": "reddit:11x8b9q"
+    },
+    {
+      "candidate_id": "reddit:11xigf1"
+    },
+    {
+      "candidate_id": "reddit:11xis9d"
+    },
+    {
+      "candidate_id": "reddit:11xl3vc"
+    },
+    {
+      "candidate_id": "reddit:11yfotf"
+    },
+    {
+      "candidate_id": "reddit:11yn22g"
+    },
+    {
+      "candidate_id": "reddit:11yvihw"
+    },
+    {
+      "candidate_id": "reddit:11yvr95"
+    },
+    {
+      "candidate_id": "reddit:11yxhmd"
+    },
+    {
+      "candidate_id": "reddit:11z8ahr"
+    },
+    {
+      "candidate_id": "reddit:11z96fg"
+    },
+    {
+      "candidate_id": "reddit:11zaamx"
+    },
+    {
+      "candidate_id": "reddit:11zp5zz"
+    },
+    {
+      "candidate_id": "reddit:11zpvos"
+    },
+    {
+      "candidate_id": "reddit:11zxvd3"
+    },
+    {
+      "candidate_id": "reddit:1201akb"
+    },
+    {
+      "candidate_id": "reddit:1201ql7"
+    },
+    {
+      "candidate_id": "reddit:120b95r"
+    },
+    {
+      "candidate_id": "reddit:120gazp"
+    },
+    {
+      "candidate_id": "reddit:120i8z3"
+    },
+    {
+      "candidate_id": "reddit:120z8t9"
+    },
+    {
+      "candidate_id": "reddit:12136bs"
+    },
+    {
+      "candidate_id": "reddit:1219hvo"
+    },
+    {
+      "candidate_id": "reddit:121b42a"
+    },
+    {
+      "candidate_id": "reddit:121fjeg"
+    },
+    {
+      "candidate_id": "reddit:121fn2w"
+    },
+    {
+      "candidate_id": "reddit:121hqc0"
+    },
+    {
+      "candidate_id": "reddit:121im84"
+    },
+    {
+      "candidate_id": "reddit:121ll0o"
+    },
+    {
+      "candidate_id": "reddit:121nugy"
+    },
+    {
+      "candidate_id": "reddit:121o7eb"
+    },
+    {
+      "candidate_id": "reddit:121q10r"
+    },
+    {
+      "candidate_id": "reddit:121qz1w"
+    },
+    {
+      "candidate_id": "reddit:121yk04"
+    },
+    {
+      "candidate_id": "reddit:12296cj"
+    },
+    {
+      "candidate_id": "reddit:122b62j"
+    },
+    {
+      "candidate_id": "reddit:122c0mi"
+    },
+    {
+      "candidate_id": "reddit:122ckyg"
+    },
+    {
+      "candidate_id": "reddit:122d25q"
+    },
+    {
+      "candidate_id": "reddit:122e3a8"
+    },
+    {
+      "candidate_id": "reddit:122ezem"
+    },
+    {
+      "candidate_id": "reddit:122fids"
+    },
+    {
+      "candidate_id": "reddit:122glpp"
+    },
+    {
+      "candidate_id": "reddit:122loms"
+    },
+    {
+      "candidate_id": "reddit:122qtyz"
+    },
+    {
+      "candidate_id": "reddit:122uqzu"
+    },
+    {
+      "candidate_id": "reddit:1238fq7"
+    },
+    {
+      "candidate_id": "reddit:123c9fb"
+    },
+    {
+      "candidate_id": "reddit:123h8ac"
+    },
+    {
+      "candidate_id": "reddit:123nnph"
+    },
+    {
+      "candidate_id": "reddit:123s1do"
+    },
+    {
+      "candidate_id": "reddit:1248xaj"
+    },
+    {
+      "candidate_id": "reddit:125vneq"
+    },
+    {
+      "candidate_id": "reddit:126ia2d"
+    },
+    {
+      "candidate_id": "reddit:127gkir"
+    },
+    {
+      "candidate_id": "reddit:127via0"
+    },
+    {
+      "candidate_id": "reddit:127vp47"
+    },
+    {
+      "candidate_id": "reddit:128gu5g"
+    },
+    {
+      "candidate_id": "reddit:128sx7f"
+    },
+    {
+      "candidate_id": "reddit:128yzzh"
+    },
+    {
+      "candidate_id": "reddit:1291y3i"
+    },
+    {
+      "candidate_id": "reddit:129cir8"
+    },
+    {
+      "candidate_id": "reddit:129cx6a"
+    },
+    {
+      "candidate_id": "reddit:12a27un"
+    },
+    {
+      "candidate_id": "reddit:12a5m73"
+    },
+    {
+      "candidate_id": "reddit:12aep7x"
+    },
+    {
+      "candidate_id": "reddit:12afram"
+    },
+    {
+      "candidate_id": "reddit:12aucsz"
+    },
+    {
+      "candidate_id": "reddit:12b3cme"
+    },
+    {
+      "candidate_id": "reddit:12bivv3"
+    },
+    {
+      "candidate_id": "reddit:12bo0pu"
+    },
+    {
+      "candidate_id": "reddit:12c212z"
+    },
+    {
+      "candidate_id": "reddit:12cciy1"
+    },
+    {
+      "candidate_id": "reddit:12d0il7"
+    },
+    {
+      "candidate_id": "reddit:12divcn"
+    },
+    {
+      "candidate_id": "reddit:12dvpts"
+    },
+    {
+      "candidate_id": "reddit:12eagr9"
+    },
+    {
+      "candidate_id": "reddit:12eglbq"
+    },
+    {
+      "candidate_id": "reddit:12er42u"
+    },
+    {
+      "candidate_id": "reddit:12f5ulf"
+    },
+    {
+      "candidate_id": "reddit:12fwg8p"
+    },
+    {
+      "candidate_id": "reddit:12gjh6b"
+    },
+    {
+      "candidate_id": "reddit:12gpy8s"
+    },
+    {
+      "candidate_id": "reddit:12h9khh"
+    },
+    {
+      "candidate_id": "reddit:12haedv"
+    },
+    {
+      "candidate_id": "reddit:12ihfr8"
+    },
+    {
+      "candidate_id": "reddit:12ikl3v"
+    },
+    {
+      "candidate_id": "reddit:12ivg4p"
+    },
+    {
+      "candidate_id": "reddit:12j1ml5"
+    },
+    {
+      "candidate_id": "reddit:12jkihy"
+    },
+    {
+      "candidate_id": "reddit:12jlbbj"
+    },
+    {
+      "candidate_id": "reddit:12k8n7k"
+    },
+    {
+      "candidate_id": "reddit:12kp9t6"
+    },
+    {
+      "candidate_id": "reddit:12ld499"
+    },
+    {
+      "candidate_id": "reddit:12lgfoq"
+    },
+    {
+      "candidate_id": "reddit:12nj2fo"
+    },
+    {
+      "candidate_id": "reddit:12q4u7k"
+    },
+    {
+      "candidate_id": "reddit:12umymo"
+    },
+    {
+      "candidate_id": "reddit:12vuvfd"
+    },
+    {
+      "candidate_id": "reddit:130ec85"
+    }
+  ],
+  "at": "2026-11-05T13:18:30.473312+00:00",
+  "reason": "Preserve new source context without counting known original posts as newly discovered conversations."
+}

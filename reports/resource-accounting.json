@@ -1,0 +1,77 @@
+{
+  "at": "2026-11-05T12:21:07.338966+00:00",
+  "by_stage": {
+    "probe_text": {
+      "http_attempts": 1,
+      "reported_tokens": 4396,
+      "reserved_tokens": 0,
+      "finished_unknown_usage": 0,
+      "in_flight": 0
+    },
+    "probe_vision_store": {
+      "http_attempts": 1,
+      "reported_tokens": 4572,
+      "reserved_tokens": 0,
+      "finished_unknown_usage": 0,
+      "in_flight": 0
+    },
+    "probe_multi_image": {
+      "http_attempts": 1,
+      "reported_tokens": 4756,
+      "reserved_tokens": 0,
+      "finished_unknown_usage": 0,
+      "in_flight": 0
+    },
+    "probe_schema": {
+      "http_attempts": 1,
+      "reported_tokens": 4451,
+      "reserved_tokens": 0,
+      "finished_unknown_usage": 0,
+      "in_flight": 0
+    },
+    "classify": {
+      "http_attempts": 835,
+      "reported_tokens": 6294094,
+      "reserved_tokens": 369152,
+      "finished_unknown_usage": 8,
+      "in_flight": 0
+    },
+    "transcribe": {
+      "http_attempts": 397,
+      "reported_tokens": 3620359,
+      "reserved_tokens": 1370368,
+      "finished_unknown_usage": 23,
+      "in_flight": 4
+    },
+    "verify": {
+      "http_attempts": 370,
+      "reported_tokens": 4797994,
+      "reserved_tokens": 1284310,
+      "finished_unknown_usage": 15,
+      "in_flight": 2
+    },
+    "transcribe_text": {
+      "http_attempts": 98,
+      "reported_tokens": 617409,
+      "reserved_tokens": 16384,
+      "finished_unknown_usage": 1,
+      "in_flight": 0
+    },
+    "repair_transcription": {
+      "http_attempts": 32,
+      "reported_tokens": 415147,
+      "reserved_tokens": 84627,
+      "finished_unknown_usage": 1,
+      "in_flight": 0
+    }
+  },
+  "configured_cap": 30000000,
+  "total_reported_plus_reserved": 18888019,
+  "price_known": false,
+  "cost_amount": null,
+  "limitations": [
+    "Unknown provider usage retains conservative reservation; this is not a measured invoice",
+    "Input/output/cached/reasoning fields are retained raw when provided; total_tokens is counted once",
+    "Historical some failed requests have unknown upstream outcome and cannot be guaranteed exactly-once billed"
+  ]
+}

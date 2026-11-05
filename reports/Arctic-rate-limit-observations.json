@@ -1,0 +1,72 @@
+{
+  "at": "2026-11-05T11:47:45.308614+00:00",
+  "status_counts": [
+    {
+      "status": 200,
+      "n": 1164
+    },
+    {
+      "status": 422,
+      "n": 97
+    },
+    {
+      "status": 429,
+      "n": 21
+    },
+    {
+      "status": 502,
+      "n": 8
+    }
+  ],
+  "latest_429": [
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ChatGPT&after=1677628799&before=1677633946&limit=100&sort=asc&query=bing",
+      "status": 429,
+      "error": "HTTP 429: {\"data\":null,\"error\":\"Too many requests\"}",
+      "started": "2026-11-05T11:45:13.319591+00:00"
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ChatGPT&after=1676675530&before=1676676037&limit=100&sort=asc&query=bing",
+      "status": 429,
+      "error": "HTTP 429: {\"data\":null,\"error\":\"Too many requests\"}",
+      "started": "2026-11-05T11:28:28.420740+00:00"
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ChatGPT&after=1675950749&before=1675951593&limit=100&sort=asc&query=bing",
+      "status": 429,
+      "error": "HTTP 429: {\"data\":null,\"error\":\"Too many requests\"}",
+      "started": "2026-11-05T10:48:29.868990+00:00"
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ChatGPT&after=1676656799&before=1676673000&limit=100&sort=asc&query=bing",
+      "status": 429,
+      "error": "HTTP 429: {\"data\":null,\"error\":\"Too many requests\"}",
+      "started": "2026-11-05T09:19:30.073438+00:00"
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ChatGPT&after=1675889999&before=1675890843&limit=100&sort=asc&query=bing",
+      "status": 429,
+      "error": "HTTP 429: {\"data\":null,\"error\":\"Too many requests\"}",
+      "started": "2026-11-05T09:08:42.672959+00:00"
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=ChatGPT&after=1675728842&before=1675729687&limit=100&sort=asc&query=bing",
+      "status": 429,
+      "error": "HTTP 429: {\"data\":null,\"error\":\"Too many requests\"}",
+      "started": "2026-11-05T08:50:47.412136+00:00"
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=singularity&after=1675727999&before=1676592000&limit=100&sort=asc&query=new+bing",
+      "status": 429,
+      "error": "HTTP 429: {\"data\":null,\"error\":\"Too many requests\"}",
+      "started": "2026-11-05T07:59:41.675240+00:00"
+    },
+    {
+      "url": "https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=singularity&after=1675727999&before=1676592000&limit=100&sort=asc&query=new+bing",
+      "status": 429,
+      "error": "HTTP 429: {\"data\":null,\"error\":\"Too many requests\"}",
+      "started": "2026-11-05T07:59:36.316689+00:00"
+    }
+  ],
+  "note": "Repeated broad keyword requests receive 429; avoid retrying same paths without new evidence. Public exact-ID and smaller-community paths have separate observed outcomes."
+}

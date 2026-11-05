@@ -1,0 +1,20 @@
+{"kind": "transcribe", "processed": 10, "succeeded": 10}
+{"kind": "transcribe", "processed": 20, "succeeded": 19, "quarantined": 1}
+{"kind": "transcribe", "processed": 30, "succeeded": 29, "quarantined": 1}
+{"kind": "transcribe", "processed": 40, "succeeded": 39, "quarantined": 1}
+{"kind": "transcribe", "processed": 50, "succeeded": 49, "quarantined": 1}
+{"kind": "transcribe", "processed": 60, "succeeded": 59, "quarantined": 1}
+{"kind": "transcribe", "processed": 70, "succeeded": 69, "quarantined": 1}
+{"kind": "transcribe", "processed": 80, "succeeded": 79, "quarantined": 1}
+{"kind": "transcribe", "processed": 90, "succeeded": 89, "quarantined": 1}
+{"kind": "transcribe", "processed": 100, "succeeded": 97, "quarantined": 3}
+{"kind": "transcribe", "processed": 110, "succeeded": 105, "quarantined": 5}
+{"kind": "transcribe", "processed": 120, "succeeded": 114, "quarantined": 6}
+{"kind": "transcribe", "processed": 130, "succeeded": 123, "quarantined": 7}
+{"kind": "transcribe", "processed": 140, "succeeded": 133, "quarantined": 7}
+{"kind": "transcribe", "processed": 150, "succeeded": 142, "quarantined": 8}
+{"kind": "transcribe", "processed": 160, "succeeded": 152, "quarantined": 8}
+{
+  "succeeded": 152,
+  "quarantined": 8
+}

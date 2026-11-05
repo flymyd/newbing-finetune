@@ -1,0 +1,30 @@
+{"verified": 5, "quarantined": 1, "needs_correction": 4}
+{"verified": 10, "quarantined": 2, "needs_correction": 7, "pass": 1}
+{"verified": 15, "quarantined": 2, "needs_correction": 11, "pass": 2}
+{"verified": 20, "quarantined": 2, "needs_correction": 15, "pass": 3}
+{"verified": 25, "quarantined": 5, "needs_correction": 17, "pass": 3}
+{"verified": 30, "quarantined": 7, "needs_correction": 17, "pass": 6}
+{"verified": 35, "quarantined": 9, "needs_correction": 18, "pass": 7, "uncertain": 1}
+{"verified": 40, "quarantined": 9, "needs_correction": 23, "pass": 7, "uncertain": 1}
+{"verified": 45, "quarantined": 9, "needs_correction": 26, "pass": 9, "uncertain": 1}
+{"verified": 50, "quarantined": 9, "needs_correction": 29, "pass": 10, "uncertain": 2}
+{"verified": 55, "quarantined": 9, "needs_correction": 34, "pass": 10, "uncertain": 2}
+{"verified": 60, "quarantined": 9, "needs_correction": 38, "pass": 10, "uncertain": 3}
+{"verified": 65, "quarantined": 9, "needs_correction": 43, "pass": 10, "uncertain": 3}
+{"verified": 70, "quarantined": 9, "needs_correction": 47, "pass": 11, "uncertain": 3}
+{"verified": 75, "quarantined": 10, "needs_correction": 51, "pass": 11, "uncertain": 3}
+{"verified": 80, "quarantined": 11, "needs_correction": 53, "pass": 13, "uncertain": 3}
+{"verified": 85, "quarantined": 12, "needs_correction": 57, "pass": 13, "uncertain": 3}
+{"verified": 90, "quarantined": 12, "needs_correction": 61, "pass": 14, "uncertain": 3}
+{"verified": 95, "quarantined": 12, "needs_correction": 65, "pass": 15, "uncertain": 3}
+{"verified": 100, "quarantined": 12, "needs_correction": 69, "pass": 16, "uncertain": 3}
+{
+  "available_eligible_conversations": 318,
+  "queued": 100,
+  "results": {
+    "quarantined": 12,
+    "needs_correction": 69,
+    "pass": 16,
+    "uncertain": 3
+  }
+}

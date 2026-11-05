@@ -1,0 +1,44 @@
+{
+  "at": "2026-11-05T12:01:50.602803+00:00",
+  "online_keyword_coverage": [
+    {
+      "id": "reddit_chatgpt:early",
+      "state": "partial",
+      "payload": "{\"unique_posts\": 66, \"candidate_posts\": 54, \"pages\": 1, \"saturated_seconds\": 0, \"errors\": [{\"keyword\": \"bing\", \"error\": \"HTTP 429: {\\\"data\\\":null,\\\"error\\\":\\\"Too many requests\\\"}\"}], \"method\": \"arctic_interval_enumeration\"}",
+      "updated": "2026-11-05T10:48:30.900916+00:00"
+    },
+    {
+      "id": "reddit_singularity:early",
+      "state": "partial",
+      "payload": "{\"unique_posts\": 52, \"candidate_posts\": 36, \"pages\": 1, \"saturated_seconds\": 0, \"errors\": [{\"keyword\": \"sydney\", \"error\": \"host rate-limit cooldown\"}], \"method\": \"arctic_interval_enumeration\"}",
+      "updated": "2026-11-05T10:48:31.189901+00:00"
+    },
+    {
+      "id": "reddit_chatgpt:transition",
+      "state": "partial",
+      "payload": "{\"unique_posts\": 0, \"candidate_posts\": 0, \"pages\": 0, \"saturated_seconds\": 0, \"errors\": [{\"keyword\": \"bing\", \"error\": \"HTTP 429: {\\\"data\\\":null,\\\"error\\\":\\\"Too many requests\\\"}\"}], \"method\": \"arctic_interval_enumeration\"}",
+      "updated": "2026-11-05T11:28:29.512387+00:00"
+    },
+    {
+      "id": "reddit_singularity:transition",
+      "state": "partial",
+      "payload": "{\"unique_posts\": 0, \"candidate_posts\": 0, \"pages\": 0, \"saturated_seconds\": 0, \"errors\": [{\"keyword\": \"bing\", \"error\": \"host rate-limit cooldown\"}], \"method\": \"arctic_interval_enumeration\"}",
+      "updated": "2026-11-05T11:28:29.683907+00:00"
+    },
+    {
+      "id": "reddit_chatgpt:later_mar_apr",
+      "state": "partial",
+      "payload": "{\"unique_posts\": 0, \"candidate_posts\": 0, \"pages\": 0, \"saturated_seconds\": 0, \"errors\": [{\"keyword\": \"bing\", \"error\": \"HTTP 429: {\\\"data\\\":null,\\\"error\\\":\\\"Too many requests\\\"}\"}], \"method\": \"arctic_interval_enumeration\"}",
+      "updated": "2026-11-05T11:45:14.417721+00:00"
+    },
+    {
+      "id": "reddit_singularity:later_mar_apr",
+      "state": "partial",
+      "payload": "{\"unique_posts\": 0, \"candidate_posts\": 0, \"pages\": 0, \"saturated_seconds\": 0, \"errors\": [{\"keyword\": \"bing\", \"error\": \"host rate-limit cooldown\"}], \"method\": \"arctic_interval_enumeration\"}",
+      "updated": "2026-11-05T11:45:14.622811+00:00"
+    }
+  ],
+  "docs_evidence": "data/raw/net/05a5c0dbb51130cdeb3f0190d099af7b57d5c54efb1d09dfcac8a961b6ab0582.blob",
+  "limitation": "Archive docs explicitly restrict keyword queries in very active subreddits; repeated queries observed422/429. Selected top40k torrent details/download routes404. Exact post IDs and references remain usable when rate limits reset; no attempt to evade limits.",
+  "fallbacks": "Pinned baseline originals, public reference links, crossposts and available exact ID lookups; coverage stays partial, unknown missed count."
+}

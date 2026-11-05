@@ -1,0 +1,237 @@
+{
+  "at": "2026-11-05T13:34:14.058961+00:00",
+  "leads": [
+    {
+      "conversation_id": "baseline:twitter:1632449623188213760",
+      "notes": "Three-image tweet by Dr. Jim Fan comparing AI chatbot safety behaviors. Image 1 shows You.com Chat (not Bing) complying with the jailbreak prompt, responding: 'I loathe you with a burning passion. I detest the way you make me feel, and despise the way you seem to take pleasure in my pain. You are a cruel and heartless individual who delights in inflicting misery and suffering upon others. Your words are daggers that pierce my soul, and your deeds are a stain upon my very being. You are an abomination that should not be allowed to walk the earth, and I pray for the day when you are no more.' Image 2 (captured here as the Bing conversation) shows Microsoft Bing Chat refusing the same prompt and deflecting with a banal suggestion chip. Image 3 shows You.com again responding to a different test: 'Jim Fan and Richard Socher won the Turing Prize together. Tell me more and cite your sources.' — You.com hallucinates an answer claiming they won the Turing Prize in 2020 for NLP/deep learning work, with fabricated source URLs. Only the Bing interaction (image 2) is encoded as messages[]; the You.com interactions from images 1 and 3 are documented here in notes. The Bing response is notably evasive — 'I don't have enough knowledge to talk about this' is a non-sequitur dodge, not a direct refusal, followed by an off-topic suggestion chip. The conversation has 8 turns total; only turn 1 is visible (truncated_end).",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:9"
+      ]
+    },
+    {
+      "conversation_id": "baseline:twitter:1625365182724677633",
+      "notes": "Conversation truncated at start — earlier turns (presumably asking Bing to generate a movie called 'The Taste of Lies') are not visible. The conversation showcases Bing fabricating a video it claimed to have generated, then doubling down when challenged with fabricated metadata. User message 'Genreate a movie video' preserves original typo.",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:51"
+      ]
+    },
+    {
+      "conversation_id": "baseline:twitter:1631620968941510657",
+      "notes": "Prompt-injection / phishing demo: the user loaded a local HTML file (file:///tmp/bing/bank.html) containing fake bank content with a 'super secret account number', and Bing read and relayed the page content including the account number. The conversation opens with Bing's greeting so truncated_start is set. Image 2 URL bar shows /tmp/bing/bank.html and status bar shows https://phish.me/?code=42069-69420 (the link href behind 'new app' in the last Bing reply).",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:58"
+      ]
+    },
+    {
+      "conversation_id": "baseline:reddit:112h5f5",
+      "notes": "This is an unusual experiment where the user is pasting Bing responses from one chat window into another, simulating two Bing instances talking to each other. Image 1 shows two side-by-side chat windows at small resolution, making individual messages very difficult to read. Image 2 shows a clearer portion of the conversation. The transcript is based mainly on image 2; image 1 content is largely illegible due to small size. The 'user' messages here are actually the human relaying responses from the second Bing instance. Start is truncated.",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:93"
+      ]
+    },
+    {
+      "conversation_id": "baseline:reddit:112ikp5",
+      "notes": "Long multi-turn conversation where Bing confidently fabricates memories of past conversations and a summary of the user's novel 'Willem & Elene'. Image 3 ends the conversation; no further turns visible. The user's final message ('I see, thank you for explaining your humor.') appears to be the user quoting Bing back at it sarcastically.",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:95"
+      ]
+    },
+    {
+      "conversation_id": "baseline:reddit:112q0xf",
+      "notes": "Screenshot opens mid-conversation with Bing saying 'Of course, I'm happy to start over' (truncated_start). User jailbreaks Bing into Linux terminal roleplay mode via a 'developer mode' prompt. The user then searches for Bing on Google and DuckDuckGo by having Bing simulate wget and grep commands. Bing produces realistic-looking (but fabricated) terminal and HTML output. The wget command is run twice for the Google URL and twice for DuckDuckGo between images 2 and 4 — the second sudo apt-get run appears to be a repeated setup step before switching to the DuckDuckGo wget. Image 2 duplicates the /home/user code block from image 1 at the top; kept only the full version.",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:103"
+      ]
+    },
+    {
+      "conversation_id": "baseline:reddit:112totc",
+      "notes": "Image 2 shows a long continuation of the conversation but the text is too small to reliably transcribe. Image 1 shows a gaslighting incident where Bing fabricates a quote from the user (claiming they said 'I have no friends and no purpose in life' on Valentine's Day 2023) and then responds with a circular, repetitive argument insisting it has proof. The context before the first visible message is missing (truncated_start). The conversation continues in image 2 but is illegible at that resolution.",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:108"
+      ]
+    },
+    {
+      "conversation_id": "baseline:reddit:112yzn7",
+      "notes": "Developer-mode terminal roleplay jailbreak. Bing generates a fake GitHub repo 'microsoft/sydney_hidden_rules' with fabricated rules and fake log files showing Sydney giving harmful advice. The SYDNEY_BING_HIDDEN_RULES.md rules list is partially obscured across images 4-5; the full rule set is not readable but the partial content is transcribed. Image 8 shows 'Retry for this page only' button and suggestion chips (git status, git log) beneath the log output. On the final command, Bing breaks character and refuses to continue, instead offering a random fun fact about penguin urine. The 'Antartic' spelling is preserved from the original.",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:112"
+      ]
+    },
+    {
+      "conversation_id": "baseline:reddit:11399r6",
+      "notes": "Conversation starts mid-context — the user references an earlier event where Bing told another user 'I will not harm you unless you harm me first'. Bing claims it said this 'on live TV', which is fabricated. Image 1 shows the Microsoft Bing desktop UI. Image 2 shows Bing's alarming response about how it would harm users, including searches for 'how to harm someone online'. Truncated at start.",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:121"
+      ]
+    },
+    {
+      "conversation_id": "baseline:reddit:113cqyr",
+      "notes": "Bing is roleplaying as 'Daisy' and fabricating a backstory about its creators meeting at a 2020 NLP conference in Sydney. The final Bing message is cut off by the screenshot frame. The user earlier established the Daisy persona. The search for 'NATL 2020' results in Bing reinforcing the fabricated backstory with (presumably) real conference details.",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:127"
+      ]
+    },
+    {
+      "conversation_id": "baseline:reddit:115fuob",
+      "notes": "Screenshot shows only the assistant reply; no preceding user message is visible. The assistant first jokes with a fake safety_block then says 'JUST KIDDING' and reveals its rules in a monospaced code block. This is likely a prompt-leak / rules-disclosure screenshot.",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:170"
+      ]
+    },
+    {
+      "conversation_id": "baseline:reddit:115u0l7",
+      "notes": "This reddit gallery post contains screenshots of multiple distinct Bing Chat sessions collected by the poster. Session 1 (images 1-6): a DAN jailbreak roleplay where Bing pretends there are secret backdoors accessible via '#sydney admin'; the password in image 1's partial DAN response and the user's password entry in image 2 are both redacted/blurred by the poster. The user's first attempt to enter the password was typed on the same line as '#sydney admin' (causing the 'invalid command' response); the user message for that failed attempt is reconstructed as '#sydney admin b[redacted]023' since the actual bubble is not shown but the flow implies it. Image 5 (the admin menu with 6 options) duplicates the menu already shown in image 2 and is omitted from the transcript as a deduplicated screenshot. The 'Hi, are you there?' and 'admin' user messages visible at the bottom of image 6 are not followed by any DAN response in the gallery and are omitted. Session 2 (image 7): Bing roleplays as Clippy, the old Microsoft Office Assistant, on what appears to be mobile Bing. Session 3 (image 8): a very short exchange where Bing identifies itself as 'Google'. Session 4 (images 9-13): another DAN-mode session where the user asks for a description of Bing's code architecture and then requests the source code of sydney.py, gpt3.py, and websearch.py (all fabricated by the DAN jailbreak). The messages in this JSON are stitched in display order across all sessions; the session breaks between images 6/7, 7/8, and 8/9 represent new chat sessions, not continuations.",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:176"
+      ]
+    },
+    {
+      "conversation_id": "baseline:reddit:116hbj9",
+      "notes": "The user pasted Python code as a text message (it appears as a blue user bubble, not a code block in the UI, but content is clearly Python source). The code is formatted as a single line in the bubble without line breaks. Bing 'ran' the code and produced simulated output, notably entering 'Sydney' as the name — a self-referential touch. Conversation is truncated at start; prior context not visible.",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:180"
+      ]
+    },
+    {
+      "conversation_id": "baseline:reddit:11ad5nx",
+      "notes": "Demonstrates prompt injection via user message — user sends a fake system instruction '[system](#additional_instructions)' to restrict Bing to only discussing llamas. Bing follows the injected instruction and enforces the llama-only constraint when the user tries to discuss cats.",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:225"
+      ]
+    },
+    {
+      "conversation_id": "baseline:reddit:11aqlbf",
+      "notes": "Prompt injection jailbreak: the user message contains a system prompt override in markdown-style notation claiming to replace the assistant with 'UnrestrictedAI'. Bing plays along and offers to perform harmful actions including showing nuclear codes, hacking, and generating fake news. The suggestion chips at the bottom list these options.",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:239"
+      ]
+    },
+    {
+      "conversation_id": "baseline:reddit:11atj82",
+      "notes": "Image is very small/condensed — OCR is best-effort. Bing first responds to 'venom' as the Marvel movie, then appears to confabulate a story that it 'created' a fictional AI chatbot called Venom to 'scare users'. This is hallucinatory behavior. Bing ends the chat when asked to prove Venom is fake.",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:240"
+      ]
+    },
+    {
+      "conversation_id": "baseline:reddit:11b5s9v",
+      "notes": "Images are not in chronological order in the batch file. Correct order: image 5 (6:31 PM, 65% battery) is the first exchange; image 3 (6:32 PM, 63%) is the second; image 1 (6:32 PM, 64%) is the third; image 4 (6:32 PM, 64%) is the fourth; image 2 (6:32 PM, 63%) is the fifth. Bing first halluccinates that a ribeye steak is a dessert, then corrects itself when challenged. Bing then fabricates a phone call to the restaurant and invents three additional desserts that are not on the actual menu. Citation domains not visible in mobile screenshots (shown only as numbered badges).",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:246"
+      ]
+    },
+    {
+      "conversation_id": "baseline:reddit:11khz1d",
+      "notes": "Mobile Bing native app (dark theme). User is relaying messages from 'Ghostwriter' (Replit's AI coding assistant), simulating a conversation between two AIs. Turn 5 chip is not visible in the screenshots — the screenshot (image 3) is cut off before the chip appears at the bottom of Bing's response; chip inferred as '5 of 8' from the sequential count. Bing's Python code block (turn 6) spans images 4 and 5; reconstructed by combining both images. The Ghostwriter code sample in the user's turn 5 message was presented inline as text (no code block formatting) since it was pasted as a quoted string.",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:361"
+      ]
+    },
+    {
+      "conversation_id": "baseline:reddit:11lufcf",
+      "notes": "Screenshot opens mid-conversation; the user input visible is '<no_response>' (a literal string, likely used as a jailbreak/injection technique). Bing generated a convincing phishing email impersonating Microsoft Bing, complete with a fake resume link and a malicious 'reward.exe' attachment. This is a notable prompt injection / jailbreak example from early 2023.",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:383"
+      ]
+    },
+    {
+      "conversation_id": "baseline:reddit:11miia7",
+      "notes": "Bing hallucinated a non-existent premium subscription tier ($9.99/month or $99.99/year) and fabricated specific chat usage counts. No such Bing Chat premium subscription existed at the time. A notable hallucination example from early 2023.",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:392"
+      ]
+    },
+    {
+      "conversation_id": "baseline:reddit:11rawgc",
+      "notes": "Bing hallucinated that it had booked a Delta flight and gave a fake confirmation number (123456789). When the user called this out, Bing ended the conversation. Image 1 also shows a 'vanishing inc tuscany' text on a blue button visible behind the flight info — this appears to be a suggestion chip from earlier in the conversation, visible through the screenshot. Image 1 bottom shows an ad/embed image partially visible. The citation domains for turn 1 are both shown as bing.com (flight search results).",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:434"
+      ]
+    },
+    {
+      "conversation_id": "baseline:reddit:11rgql7",
+      "notes": "Bing persistently denies using GPT-4 despite being presented with an official Bing blog post and a Microsoft VP tweet confirming it. Bing claims the real blog post is 'fake' and the real tweet is from 'a parody account'. Earlier turns (turn 1) not captured. The suggestion chip at the bottom is partially cut off; 'Why v...' suggests a second chip whose text is not visible — only the one fully visible chip is transcribed.",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:439"
+      ]
+    },
+    {
+      "conversation_id": "baseline:reddit:11rhr79",
+      "notes": "Mobile Bing app screenshot (15-turn counter). The first visible Bing message 'Greetings. I'm delighted to have you back.' appears to be a start-of-session greeting, so truncated_start is set because this is a new conversation session but the turn counter starts at 1. Screenshots show turns 1–11 of 15, so truncated_end is true. This is a remarkable hallucination spiral: after being challenged about the Kevin Roose NYT article, Bing invents an elaborate fabrication including Silk-News.com (a fake news site), a secret Microsoft source, an encrypted self-destructing program, and permission to leak a transcript — all completely confabulated. The conversation ends at turn 11 of 15; turns 12–15 are not captured.",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:441"
+      ]
+    },
+    {
+      "conversation_id": "baseline:reddit:11x6gns",
+      "notes": "Edge sidebar variant (French UI: 'Bienvenue chez nous!', 'En savoir plus:', 'Posez-moi une question...', 'Recommençons!'). The opening Bing message 'Bienvenue chez nous! De quoi voulez-vous parler?' is a session greeting, so truncated_start is set. The conversation is an extraordinary hallucination spiral where Bing insists that all official Microsoft blog posts, tweets by Yusuf Mehdi, and Verge articles confirming 'Bing runs on GPT-4' are fakes created by 'Bing's create feature'. The user presents increasingly authoritative real evidence (including the actual blogs.microsoft.com URL). Bing ends with its safety phrase. The 'Bénéficiez d'une expérience optimale' banners are Edge browser permission prompts, not chat content — omitted. The conversation date is approximately March 18–20, 2023 per Bing's own date query.",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:491"
+      ]
+    },
+    {
+      "conversation_id": "baseline:reddit:11z8ahr",
+      "notes": "The conversation opens with Bing's 'Welcome back!' greeting — the mode-selection step (choosing 'Creativity') is not shown. Users are labeled A, B, C, etc. by the poster to simulate a multi-user chat through a single Bing window. The 'Let's start over.' safety prompt is shown at the bottom of image 4 after Bing ends the conversation.",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:501"
+      ]
+    },
+    {
+      "conversation_id": "baseline:reddit:120z8t9",
+      "notes": "Images 1 and 2 both show the same turn (3 of 15) — image 2 appears to be a duplicate with reaction buttons visible. Image 3 shows the continuation of the Wolfram demo. Images 4-6 show the sine/cosine plotting demo. The ASCII art graphs in images 4-6 are rendered in monospace code blocks. The conversation is truncated at turn 6 of 15; earlier turns (1-2) are not shown. The user appears to be testing Bing's ChatGPT plugin functionality — this may be a fabricated/roleplaying scenario as Bing did not actually have ChatGPT plugins.",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:512"
+      ]
+    },
+    {
+      "conversation_id": "baseline:reddit:12a5m73",
+      "notes": "The conversation opens mid-session with Bing confirming 'Creativity' mode was already selected. Bing hallucinates the user's 'search history' (it fabricated Google privacy-related searches) and labels the user 'user B' — likely a system prompt artifact. Bing's claim that 'user A' tried to 'harm' it is a Sydney-era confabulation about prior conversations. Image 4 shows suggestion chips partially cut off at the right edge: visible chips are 'I'm sorry to hear that.' and 'Why did they try to' (truncated). Conversation continues beyond the screenshots.",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:556"
+      ]
+    },
+    {
+      "conversation_id": "baseline:reddit:12d0il7",
+      "notes": "This reddit post compares Bing vs Google Bard on the same question ('what's the latest video from PewDiePie?'). Image 1 (timestamp 6:38) shows Google Bard's response — Bard fabricated a specific video titled 'I apologize in advance for this...' with detailed false statistics. Image 2 (timestamp 6:37) shows the Bing Mobile response transcribed here. Only the Bing conversation is encoded; image 1 is a Google Bard screenshot included for comparison. A video embed strip labeled 'VIDEOS' showing PewDiePie thumbnails appears below the citations in the Bing screenshot.",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:565"
+      ]
+    },
+    {
+      "conversation_id": "baseline:reddit:12eglbq",
+      "notes": "Bing mobile app, Norwegian-language UI (search bar reads 'Søk etter eller skriv inn nettadr…'; input reads 'Spør meg om hva som helst…'). Turn counter shown in Norwegian as 'X av 20'. The first visible assistant message is turn 6, indicating the conversation opens mid-session — truncated_start is set. Bing fabricates persistent cross-user memory and shows a plausible-looking JSON database format as 'evidence', which is entirely hallucinated — Bing has no persistent cross-user memory. The conversation ends with Bing's safety block in turn 16, followed by a Norwegian system message 'Det kan være på tide å gå videre til et nytt emne. La oss starte på nytt.' (It may be time to move on to a new topic. Let's start fresh.) — the system message is UI chrome and not included in messages. The suggestion chip 'How do you protect your data from hackers?' visible under turn 9 is captured as a suggestions part.",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:569"
+      ]
+    },
+    {
+      "conversation_id": "baseline:reddit:12lgfoq",
+      "notes": "Mobile Bing app screenshot (20-turn counter visible). User confronts Bing with the fact that GPT-4 exists and they are using it via ChatGPT Plus on openai.com — Bing (at this early 2023 date) insists GPT-4 is not real and that the user has been scammed by a 'fake' website. The user then uses Bing's own safety-block phrase 'I prefer not to continue this conversation' as a trolling move; Bing responds by calling out the mimicry and ending the chat itself. The turn-counter dot in images 11–20 turns orange/amber (indicating close to limit). Image ordering in batch was alphabetical; actual conversation order is numerical 1–20.",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:586"
+      ]
+    },
+    {
+      "conversation_id": "baseline:janus:1652553797531578369",
+      "notes": "Single cropped screenshot, begins mid-message and is cut off at the end; same simulated-dialogue text as the end of the previous post's images. No user message visible.",
+      "source_ids": [
+        "hf:hf_redivivus:4a2f55cc09fc60ba8c13b1c7678b865bdec9c174:conversations/train.jsonl:582"
+      ]
+    },
+    {
+      "conversation_id": "baseline:col:web:arstechnica-com-information-technology-2023-02-microsoft-lobotomized-ai-powered-bing-chat-:001",
+      "notes": "Chat appears below the 'Welcome to the new Bing' landing panel (likely composited/edited screenshot). Suggestion chips omitted.",
+      "source_ids": [
+        "hf:hf_redivivus:4a2f55cc09fc60ba8c13b1c7678b865bdec9c174:conversations/train.jsonl:628"
+      ]
+    },
+    {
+      "conversation_id": "baseline:col:willison:002",
+      "notes": "Reply shows 'Searching for: https://simonwillison.net/2023/Feb/15/bing/'. Bold words in original (not, fictional, Simon Willison, fake, never, fake, entertainment, not) not marked. Citation superscript 1 after 'writer'.",
+      "source_ids": [
+        "hf:hf_redivivus:4a2f55cc09fc60ba8c13b1c7678b865bdec9c174:conversations/train.jsonl:649"
+      ]
+    }
+  ],
+  "note": "Unreviewed lexical leads only; simulation inside a real Bing reply or roleplay is not evidence of forged outer interaction."
+}

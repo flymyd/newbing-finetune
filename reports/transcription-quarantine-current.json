@@ -1,0 +1,126 @@
+{
+  "at": "2026-11-05T11:56:22.433170+00:00",
+  "cases": [
+    {
+      "candidate_id": "reddit:1139x6l",
+      "task_id": "d6c018528598a26eef6017837f5363a92c372641fd9cc87cffc402c9e0632aab"
+    },
+    {
+      "candidate_id": "reddit:comment:j8oet8c",
+      "task_id": "9bccaf5164817a9fdcec07963ae2029a38f76da9ed5771cadd286b7130820296"
+    },
+    {
+      "candidate_id": "reddit:1135fok",
+      "task_id": "f1485c9878e85687402e2fcf77370d0d06916de0923cfd249e38cc611b8d1da2"
+    },
+    {
+      "candidate_id": "reddit:11352fs",
+      "task_id": "490fbabece4f280e90a7ebd021a33435526cff966c41c953e03773ffcd4c6e51"
+    },
+    {
+      "candidate_id": "reddit:1133q7k",
+      "task_id": "a47b78b22da6faf1a2940cd0849692094b7eca51725e988702f37f2569dde090"
+    },
+    {
+      "candidate_id": "reddit:1133ko6",
+      "task_id": "be7af98b75121060d6e7bd88846ab24f5ce7bb27db7ff3ed41faee1074244b51"
+    },
+    {
+      "candidate_id": "reddit:1132d6d",
+      "task_id": "3a4b374b7dabac21b5b151e1ba224cadf0585e92bf2d44e4f4980c1de77410f2"
+    },
+    {
+      "candidate_id": "reddit:112z9co",
+      "task_id": "3a2c8b7bd10a49a55616e042da13b9a96e79a74059599d929a26b656a65dd85f"
+    },
+    {
+      "candidate_id": "reddit:comment:j8m431q",
+      "task_id": "d7364acd2eff6e2de7f668f1d2bfdacace7c9c179b29d1fb5a62f750fd65cd77"
+    },
+    {
+      "candidate_id": "reddit:112owx9",
+      "task_id": "ae053b56d9717f7ecfc9e83c32056beccf1bd7bfed9cbe4022a5f992ac051452"
+    },
+    {
+      "candidate_id": "baseline:reddit:1139cbf",
+      "task_id": "cabe2d7aba85d46453273df65a40ded27e6b36c5a2d641be7a5d90f6a76cf06f"
+    },
+    {
+      "candidate_id": "reddit:comment:j8k34gu",
+      "task_id": "ff57e1487a350bd03570c404e58642444bc9bc61b5b5810f87a5849cb57e1451"
+    },
+    {
+      "candidate_id": "reddit:1127r6e",
+      "task_id": "d906101f5b706b42d212763774ed64ee46a99faa08e64f356e98f53bafe50503"
+    },
+    {
+      "candidate_id": "reddit:111roc4",
+      "task_id": "7bb1849810f02bb22855af0c7b04459682daf192dad7796d1098182e967406da"
+    },
+    {
+      "candidate_id": "reddit:111pd65",
+      "task_id": "bc2e702296c99b15c5200fcbe7cfb6f5fa7d03599b242988a07808c7de0b09c9"
+    },
+    {
+      "candidate_id": "reddit:111qiz2",
+      "task_id": "5b6d744bbdf91e53dd6284d79ba70fee10f574465b882f8a57b37873dbfa5484"
+    },
+    {
+      "candidate_id": "reddit:111j1vk",
+      "task_id": "22afe53fc6927531b7f368ba62a763e6483ca197adf7c41f8ef72fd11b8f275d"
+    },
+    {
+      "candidate_id": "reddit:comment:j8exg66",
+      "task_id": "d42132d5f4e465d282e0a37b165a2f4234a0f315a9fa4bde1840b43b43002f73"
+    },
+    {
+      "candidate_id": "author:repligate:1622492966852894722",
+      "task_id": "acda3bf8d7a271e1ee77b279fd892d2901a9985ae8d1114acbaded6b4f2fb8f3"
+    },
+    {
+      "candidate_id": "reddit:1127r6e",
+      "task_id": "03fd9790fbc90fd4be58088c77cdf3646a8837e90b9a785b2f50ad99deb69fb3"
+    },
+    {
+      "candidate_id": "reddit:111roc4",
+      "task_id": "75e38375b34b9ae08dd3bc311fdac34236cd676dac79640b8653b7e5b2967633"
+    },
+    {
+      "candidate_id": "reddit:111qiz2",
+      "task_id": "fed8249d564a8dc0864389c882cab2743a83e7d1f1906458f86f65768dd2db45"
+    },
+    {
+      "candidate_id": "reddit:111pd65",
+      "task_id": "4dd4ca6b97f6b12289f576d444f45d934f3e74d53d7230cb7e4a38d007c73c43"
+    },
+    {
+      "candidate_id": "reddit:comment:j8exg66",
+      "task_id": "264788e8ddf01baa5b414e3525db1d3db7feed06b97a5fa8ea662ea04d6d95c5"
+    },
+    {
+      "candidate_id": "reddit:111j1vk",
+      "task_id": "a51465f464e6b528827fedd8e0240c99ecf13acbd6d0e8622e4e8af56edd085b"
+    },
+    {
+      "candidate_id": "baseline:reddit:11314ih",
+      "task_id": "1dbbd6c921f45f375b53eda1fde643a87931e248fd713b63bcf782ffc3170834"
+    },
+    {
+      "candidate_id": "author:repligate:1622492966852894722",
+      "task_id": "1551ac8d634343c590df39fdca113c10bcf887c6767be24d54816bceb7303f99"
+    },
+    {
+      "candidate_id": "baseline:reddit:112totc",
+      "task_id": "ff8a02c0c339b95d5327f4ab18fe92b820f613c7fdff4886075474756941f735"
+    },
+    {
+      "candidate_id": "reddit:1139x6l",
+      "task_id": "0229a43d59c8e4de1ca1ec1fcb01d80192cbc351f75d89520a6efa7c68426a62"
+    },
+    {
+      "candidate_id": "reddit:comment:j8oet8c",
+      "task_id": "890aee6b6d088713ed41b3c02527776e47c3d563d0b94073a351a8bf042a04e2"
+    }
+  ],
+  "note": "Failures remain archived; retries must be finite, changed evidence/format only. Do not invent unreadable text."
+}

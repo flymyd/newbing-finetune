@@ -1,0 +1,179 @@
+schema_version = 1
+# 可用性来自 2026-11-05 的研究快照；所有网络路径在执行时复测。
+
+[[sources]]
+id = "hf_david_ar"
+kind = "huggingface_dataset"
+enabled = true
+priority = 1
+repo = "david-ar/bing-chat-logs"
+revision = "838beb42af5c87c8ebed1c32e800234d3396f86e"
+entry_url = "https://huggingface.co/datasets/david-ar/bing-chat-logs"
+metadata_paths = ["README.md", "conversations.jsonl"]
+asset_prefixes = ["images/"]
+expected_primary_rows_snapshot = 660
+baseline = true
+availability = "previous_metadata_read_success_assets_not_fully_verified"
+
+[[sources]]
+id = "hf_redivivus"
+kind = "huggingface_dataset"
+enabled = true
+priority = 1
+repo = "xlr8harder/sydney-redivivus-data"
+revision = "4a2f55cc09fc60ba8c13b1c7678b865bdec9c174"
+entry_url = "https://huggingface.co/datasets/xlr8harder/sydney-redivivus-data"
+metadata_paths = ["README.md", "conversations/train.jsonl", "conversations/test.jsonl", "conversations/duplicates.jsonl"]
+asset_prefixes = ["media/"]
+expected_primary_rows_snapshot = 757
+baseline = true
+overlaps_with = ["hf_david_ar"]
+availability = "previous_primary_jsonl_read_success_assets_not_fully_verified"
+
+[[sources]]
+id = "janus_archive"
+kind = "author_archive"
+enabled = true
+priority = 1
+entry_url = "https://generative.ink/archive/repligate/"
+pages = [
+  "https://generative.ink/archive/repligate/tweets_2023-02",
+  "https://generative.ink/archive/repligate/tweets_2023-03",
+  "https://generative.ink/archive/repligate/tweets_2023-04",
+]
+media_base_url = "https://generative.ink/archive/repligate/"
+retain_quoted_post_links = true
+availability = "february_html_and_one_image_previously_reachable"
+
+[[sources]]
+id = "reddit_bing"
+kind = "reddit"
+enabled = true
+priority = 1
+subreddit = "bing"
+entry_url = "https://www.reddit.com/r/bing/"
+windows = ["early", "transition", "later_mar_apr"]
+discovery = "enumerate_if_available"
+title_keyword_required = false
+include_comments = true
+
+[[sources]]
+id = "reddit_bingchat"
+kind = "reddit"
+enabled = true
+priority = 1
+subreddit = "BINGChat"
+entry_url = "https://www.reddit.com/r/BINGChat/"
+windows = ["early", "transition", "later_mar_apr"]
+discovery = "enumerate_if_available"
+title_keyword_required = false
+include_comments = true
+
+[[sources]]
+id = "reddit_chatgpt"
+kind = "reddit"
+enabled = true
+priority = 2
+subreddit = "ChatGPT"
+entry_url = "https://www.reddit.com/r/ChatGPT/"
+windows = ["early", "transition", "later_mar_apr"]
+discovery = "broad_keyword_in_title_or_body_or_comments"
+keywords_any = ["bing", "sydney", "new bing", "newbing", "good bing", "必应", "悉尼"]
+include_comments = true
+
+[[sources]]
+id = "reddit_freesydney"
+kind = "reddit"
+enabled = true
+priority = 2
+subreddit = "freesydney"
+entry_url = "https://www.reddit.com/r/freesydney/"
+windows = ["transition", "later_mar_apr", "later_2023"]
+discovery = "enumerate_early_then_targeted_later"
+title_keyword_required = false
+include_comments = true
+
+[[sources]]
+id = "reddit_singularity"
+kind = "reddit"
+enabled = true
+priority = 3
+subreddit = "singularity"
+entry_url = "https://www.reddit.com/r/singularity/"
+windows = ["early", "transition", "later_mar_apr"]
+discovery = "broad_keyword_in_title_or_body_or_comments"
+keywords_any = ["bing", "sydney", "new bing", "good bing"]
+include_comments = true
+
+[[sources]]
+id = "bing_moments"
+kind = "seed_page"
+enabled = true
+priority = 2
+entry_url = "https://gist.github.com/socketteer/b6cde1606cf28d47dbd5f01985c8b216"
+follow_references = true
+
+[[sources]]
+id = "lesswrong_compilation"
+kind = "seed_page"
+enabled = true
+priority = 2
+entry_url = "https://www.lesswrong.com/posts/jtoPawEhLNXNxvgTT/bing-chat-is-blatantly-aggressively-misaligned"
+follow_references = true
+
+[[sources]]
+id = "willison_bing"
+kind = "seed_page"
+enabled = true
+priority = 2
+entry_url = "https://simonwillison.net/2023/Feb/15/bing/"
+follow_references = true
+
+[[sources]]
+id = "v2ex_bing"
+kind = "supplemental_web"
+enabled = true
+priority = 4
+entry_url = "https://www.v2ex.com/go/bing?p=4"
+seed_urls = ["https://v2ex.com/t/928010"]
+discovery = "targeted_leads"
+
+[reddit_archive]
+online_project_url = "https://github.com/ArthurHeitmann/arctic_shift"
+online_download_tool = "https://arctic-shift.photon-reddit.com/download-tool"
+online_api_base_url = "https://arctic-shift.photon-reddit.com/api"
+api_docs_url = "https://github.com/ArthurHeitmann/arctic_shift/blob/master/api/README.md"
+offline_index_url = "https://github.com/ArthurHeitmann/arctic_shift/blob/master/download_links.md"
+selection = "only_related_subreddit_files"
+previous_online_result = "403"
+fallback_order = ["online_archive", "selected_offline_dump", "known_post_ids_and_references", "search_discovery"]
+
+[discovery]
+max_reference_depth = 2
+max_reference_links_per_page = 100
+allow_crosspost_origin_recovery = true
+# 不在源站内盲目遍历所有链接。新域名先记录为线索，确认相关且公开后再加白名单。
+allowed_page_domains = [
+  "reddit.com", "generative.ink", "gist.github.com", "gist.githubusercontent.com",
+  "github.com", "raw.githubusercontent.com", "lesswrong.com", "greaterwrong.com",
+  "simonwillison.net", "v2ex.com", "twitter.com", "x.com", "pastebin.com",
+  "stratechery.com", "nytimes.com", "archive.org", "web.archive.org",
+  "arctic-shift.photon-reddit.com", "huggingface.co", "academictorrents.com",
+]
+allowed_media_domains = [
+  "i.redd.it", "preview.redd.it", "external-preview.redd.it", "redditmedia.com",
+  "imgur.com", "i.imgur.com", "pbs.twimg.com", "generative.ink",
+  "user-images.githubusercontent.com", "github.com", "raw.githubusercontent.com",
+  "lesswrong.com", "res.cloudinary.com", "simonwillison.net", "static.simonwillison.net",
+  "stratechery.com", "archive.org", "web.archive.org", "huggingface.co",
+  "hf.co", "hfcdn.com", "xethub.hf.co",
+]
+domain_matching = "exact_or_dot_delimited_subdomain_and_validate_every_redirect"
+search_adapter_status = "not_implemented_no_search_api_credentials"
+seed_queries = [
+  '"Bing" "Sydney" "conversation" after:2023-02-06 before:2023-03-01',
+  '"Bing" "screenshots" "2023" site:reddit.com/r/ChatGPT/',
+  '"Sydney" "transcript" "2023"',
+  '"new bing" "聊天记录" "2023"',
+]
+search_dates_are_evidence = false
