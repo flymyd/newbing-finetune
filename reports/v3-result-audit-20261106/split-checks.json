@@ -1,0 +1,9 @@
+{
+  "split_groups": 573,
+  "split_group_cross_partition": {},
+  "parent_cross_partition": {},
+  "source_cross_partition": {},
+  "exact_conversation_duplicates": [],
+  "exact_gpt_reply_cross_partition_min80chars": [],
+  "note": "Same source may contain independent conversations; a source overlap alone does not establish leakage. This exact-text check cannot establish absence of all semantic near-duplicates."
+}

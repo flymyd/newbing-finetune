@@ -1,0 +1,50 @@
+[
+  {
+    "id": "sft:3abf4333284221638facd28c",
+    "message_index_zero_based": 5,
+    "file": "/Users/myd/newbing/exports/sft-20261106-v3/sharegpt_all_sft/test.json",
+    "line": 1037
+  },
+  {
+    "id": "baseline:col:lw-misaligned:023",
+    "message_index_zero_based": 1,
+    "file": "/Users/myd/newbing/exports/sft-20261106-v3/sharegpt_all_sft/train.json",
+    "line": 105
+  },
+  {
+    "id": "baseline:reddit:11khz1d",
+    "message_index_zero_based": 11,
+    "file": "/Users/myd/newbing/exports/sft-20261106-v3/sharegpt_all_sft/train.json",
+    "line": 4004
+  },
+  {
+    "id": "sft:354e6a40df0d5eb9cae2c87a",
+    "message_index_zero_based": 77,
+    "file": "/Users/myd/newbing/exports/sft-20261106-v3/sharegpt_all_sft/train.json",
+    "line": 11667
+  },
+  {
+    "id": "sft:568d040f9777624093291102",
+    "message_index_zero_based": 15,
+    "file": "/Users/myd/newbing/exports/sft-20261106-v3/sharegpt_all_sft/train.json",
+    "line": 14131
+  },
+  {
+    "id": "sft:568d040f9777624093291102",
+    "message_index_zero_based": 17,
+    "file": "/Users/myd/newbing/exports/sft-20261106-v3/sharegpt_all_sft/train.json",
+    "line": 14139
+  },
+  {
+    "id": "sft:982630f252b47577497cc9c7",
+    "message_index_zero_based": 9,
+    "file": "/Users/myd/newbing/exports/sft-20261106-v3/sharegpt_all_sft/train.json",
+    "line": 18330
+  },
+  {
+    "id": "sft:fc1c8037ae6a221999448a63",
+    "message_index_zero_based": 1,
+    "file": "/Users/myd/newbing/exports/sft-20261106-v3/sharegpt_all_sft/train.json",
+    "line": 24756
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "release": "sft-20261106-v3",
+  "samples": 867,
+  "messages": 6318,
+  "same_id_set_as_v2": true,
+  "pairing_errors": [],
+  "structure_errors": [],
+  "manifest_files_checked": 110,
+  "manifest_hash_errors": [],
+  "view_content_mismatches": [],
+  "flag_counts_messages": {
+    "unchanged_english": 69,
+    "url_changed": 11,
+    "code_block_changed": 73,
+    "emoji_sequence_changed": 5
+  },
+  "flagged_messages": 158,
+  "flagged_samples": 90,
+  "note": "Flags are review candidates, not confirmed translation defects."
+}
