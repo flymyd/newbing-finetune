@@ -1,6 +1,19 @@
 {
-  "checked_at": "2026-11-06T15:15:46.300125+00:00",
-  "synthetic_records": 500,
+  "audit_locations_changed": 8,
+  "category_counts": {
+    "daily_relationship": 99,
+    "knowledge_writing": 100,
+    "code_debug": 100,
+    "long_context": 100,
+    "agent_tools": 100
+  },
+  "long_context_count": 100,
+  "tool_context_candidate_count": 100,
+  "thinking_count": 279,
+  "refused": 1,
+  "scope": "Automated structure/channel/content consistency checks; no human gold-standard or factual accuracy certification.",
+  "checked_at": "2026-11-06T20:49:27.506067+00:00",
+  "synthetic_records": 499,
   "errors": [],
   "passed": true
 }

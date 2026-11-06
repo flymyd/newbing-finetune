@@ -1,0 +1,17 @@
+{
+  "seed_usage": {
+    "accepted_reported_tokens": 3937200,
+    "missing_usage": 0,
+    "scope": "accepted records only; excludes superseded calls and failed retries"
+  },
+  "qwen_usage": {
+    "accepted_reported_tokens": 2030558,
+    "missing_usage": 220,
+    "scope": "accepted records only; excludes superseded calls and failed retries"
+  },
+  "final_usage": {
+    "accepted_reported_tokens": 4627207,
+    "missing_usage": 0,
+    "scope": "accepted records only; excludes superseded calls and failed retries"
+  }
+}

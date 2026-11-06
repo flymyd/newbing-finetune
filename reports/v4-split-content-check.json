@@ -1,0 +1,5 @@
+{
+  "cross_split_reply_overlap": [],
+  "method": "existing normalize/shingle Jaccard 0.6 or containment 0.85; >=30 normalized chars",
+  "passed": true
+}

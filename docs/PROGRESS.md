@@ -1,5 +1,20 @@
 # 执行状态
 
+## 当前更正状态：2026-11-07 04:49（Asia/Shanghai）
+
+本节取代下方 2026-11-06 的 v4 完成口径。旧 v4 的 reasoning 提取、题型分布和更正写入确有阻断缺陷；此前“可用”“8 条修订生效”的结论撤回。旧目录移至 `exports/synthetic-20261106-zh-rejected-20261107/` 与 `exports/sft-20261106-v4-rejected-20261107/`，附 RETRACTED.md，不可训练。
+
+- 修复：分别采集 Responses reasoning/output delta，done 仅作为无 delta 回退，不重复拼接；移除字面量 think 标签元指令；Argon final 使用 FINAL_SYSTEM 作为 systemInstruction；历史修订返回修改后的样本；HTML 转义保留 think/代码的可见内容。
+- Argon 流式生成 50 条题目规划，五类各 10 个规划；轮换 train-only few-shot，得到 499 条变体。不是 499 个独立题目规划。日常关系 99、知识写作 100、代码调试 100、长上下文 100、工具/检索上下文 100。后者是合成的文本上下文，不是实际执行工具的轨迹，也不是 ms-swift tool_call 角色数据。
+- `uv run python scripts/synthesize_v4.py --limit 500 --workers 8` 主批次 492 成功/8 格式失败；一次补跑恢复 7 条。索引 409 原始流为 provider_refusal，已终止，单列 refusals.json，未改写请求绕过拒绝。最终 499 成功/1 供应商拒绝/0 未分类失败。历史 5 次重试设置仅在一次补跑生效；现已恢复单逻辑任务默认 3 次，不继续追加重试。
+- Thinking 279 / Instant 220；所有 Thinking 原生 reasoning 与 SSE delta 逐字一致，最短 4,166 字符，无字面量 `...`。原生思考中有英文，保真保存，不翻译或宣称全中文思考。后续已再调用 279 条 Qwen：直接传入末尾为 user 的实际多轮上下文，排除末轮 Argon 旧回答，不发 think 元指令；Argon 流式生成 style_bridge 与最终回复，native_think 原样保存，桥接句独立保存后附在 think 末尾。全部请求快照与原始流已逐条验证。
+- 新 v4：525 历史多轮 + 499 合成 = 1,024；train 942 / val 37 / test 45。历史 split 按 v3 实际文件保留；全部 synthetic 放 train，避免 train few-shot 与同规划变体进入评估集。
+- 审计 8 个消息位置均已有实际差异：v4 中 6 条消息（5 会话）生效；另 2 条单轮消息在 corrections.json 中保存 corrected_sample，仅供审阅，不导入多轮训练视图。v3 保持原样。
+- `uv run python scripts/validate_v4.py`：reasoning 通道、think 导出、8 处修订、五类比例、长文长度、工具标记、manifest 哈希、JSON/JSONL 内容、tier union、synthetic eval 隔离全通过。工具标记检查仅为候选检查，未认证真实工具执行或事实正确。
+- `uv run pytest -q`：91 passed。新增回归覆盖 SSE delta/done 重复和可见输出混淆，以及所有 8 个 audit location 的实际样本变更。
+- 产物仍全部 pending_human，仅为自动检查通过的候选；未训练、未上传数据集、未发布。独立审阅入口 `exports/synthetic-20261106-zh/review/index.html`。所有更正与限制见 `reports/v4-repair-20261107.md`。最终跨 split 实质回复 shingle 检查为 0（reports/v4-split-content-check.json）。279 条 native 修复最后 7 条首试连接中断、第二试成功；该阶段逐尝试证据保留。最初生成脚本覆盖过部分失败流，不能精确重建全部失败用量，报告仅聚合现存已接受记录 usage。
+
+
 更新时间：2026-11-06 03:42（Asia/Shanghai）。
 
 ## v4 合成与冻结检查点 2026-11-06 23:08（Asia/Shanghai）

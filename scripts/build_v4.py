@@ -29,7 +29,7 @@ def load_v3_original(root: Path, sample_id: str) -> dict | None:
     return None
 
 
-def apply_known_corrections(root: Path, sample: dict) -> list[dict]:
+def apply_known_corrections(root: Path, sample: dict) -> tuple[dict, list[dict]]:
     """Apply only the eight confirmed audit corrections; v3 remains untouched."""
     c = json.loads(json.dumps(sample, ensure_ascii=False))
     sid = c["id"]
@@ -76,37 +76,36 @@ def apply_known_corrections(root: Path, sample: dict) -> list[dict]:
         i = 77
         c["conversations"][i]["value"] = c["conversations"][i]["value"].replace("。😐（Th t", "。（Th t")
         changes.append({"index": i, "reason": "remove duplicated emoji before preserved letter-play quote"})
-    return changes
+    return c, changes
 
 
 def main() -> None:
     root = ROOT
     synthetic_dir = root / "exports/synthetic-20261106-zh"
     manifest = json.loads((synthetic_dir / "manifest.json").read_text())
-    if manifest.get("failed"):
+    if manifest.get("failed") or manifest.get("completed", 0) + manifest.get("refused", 0) != manifest.get("requested"):
         raise SystemExit(f"synthetic generation has {manifest['failed']} failed records; review before merge")
     synthetic = [json.loads(line) for line in (synthetic_dir / "synthetic.jsonl").read_text().splitlines() if line.strip()]
     historical, _ = load_v3(root)
     selected = []
     correction_log = []
     for row in historical:
-        changes = apply_known_corrections(root, row["sample"])
+        corrected, changes = apply_known_corrections(root, row["sample"])
         correction_log.append({"id": row["sample"]["id"], "changes": changes})
-        selected.append({**row, "sample": row["sample"], "corrections": changes})
-    # One confirmed audit item belongs to the excluded v3 single-round
-    # supplement. Keep its correction decision in the audit log even though
-    # the record is intentionally absent from the v4 training views.
-    correction_log.append({"id": "baseline:col:lw-misaligned:023", "changes": [{"index": 1, "reason": "remove unsupported cause of death", "status": "excluded_v3_single_round"}]})
-    if not any(x["id"] == "sft:fc1c8037ae6a221999448a63" for x in correction_log):
-        correction_log.append({"id": "sft:fc1c8037ae6a221999448a63", "changes": [{"index": 1, "reason": "remove duplicated emoji in translated parenthetical", "status": "excluded_v3_single_round"}]})
+        selected.append({**row, "sample": corrected, "corrections": changes})
+    # Correct excluded audit items as separate review evidence, never training data.
+    for cid in ("baseline:col:lw-misaligned:023", "sft:fc1c8037ae6a221999448a63"):
+        for sample in json.loads((root / "exports/sft-20261106-v3/sharegpt_single_round/train.json").read_text()):
+            if sample["id"] == cid:
+                corrected, changes = apply_known_corrections(root, sample)
+                correction_log.append({"id": cid, "changes": changes, "status": "excluded_v3_single_round", "corrected_sample": corrected})
     for rec in synthetic:
-        # Synthetic records are created independently of the historical split
-        # graph. Stable hashing gives reproducible train/val/test partitions.
-        value = int(digest(["newbing-v4-synthetic", rec["id"]])[:16], 16) / 16**16
-        split = "train" if value < 0.8 else "val" if value < 0.9 else "test"
+        # All synthetic rows use historical train few-shots. Keep every variant
+        # in train so related plans and style examples cannot leak into eval.
+        split = "train"
         selected.append({"sample": {"id": rec["id"], "conversations": rec["conversations"]},
                         "tier": "synthetic_sydney", "split": split, "source": "argon_stream",
-                        "mode": rec.get("mode"), "topic": rec.get("topic"), "raw_files": rec.get("raw_files"),
+                        "mode": rec.get("mode"), "category": rec.get("category"), "topic": rec.get("topic"), "raw_files": rec.get("raw_files"),
                         "native_think": rec.get("native_think"), "corrections": []})
 
     out = root / "exports/sft-20261106-v4"
@@ -119,7 +118,20 @@ def main() -> None:
         samples = [x["sample"] for x in selected if x["split"] == split]
         atomic(out / "sharegpt_multiturn" / f"{split}.json", samples)
         atomic(out / "messages" / f"{split}.jsonl", "".join(json.dumps({"messages": [{"role": "user" if m["from"] == "human" else "assistant", "content": m["value"]} for m in s["conversations"]]}, ensure_ascii=False) + "\n" for s in samples), raw=True)
-    atomic(out / "provenance.jsonl", "".join(json.dumps({"id": x["sample"]["id"], "tier": x["tier"], "split": x["split"], "source": x["source"], "mode": x.get("mode"), "topic": x.get("topic"), "raw_files": x.get("raw_files"), "native_think_sha256": digest(x.get("native_think", "")) if x.get("native_think") else None, "corrections": x.get("corrections", []), "human_status": "pending_human"}, ensure_ascii=False) + "\n" for x in selected), raw=True)
+    originals = {m['id']:m for m in [json.loads(line) for line in (root/'exports/sft-20261106-v3/provenance.jsonl').read_text().splitlines()]}
+    sidecars = []
+    for x in selected:
+        cid = x['sample']['id']
+        meta = dict(originals.get(cid, {}))
+        meta.update(id=cid, tier=x['tier'], split=x['split'], source_release='sft-20261106-v3' if cid in originals else None,
+                    record_origin=x['source'], mode=x.get('mode'), category=x.get('category'), topic=x.get('topic'),
+                    raw_files=x.get('raw_files'), corrections=x.get('corrections',[]), human_status='pending_human',
+                    source_quality=meta.get('quality_tier'), translation_review_status='named_corrections_only_pending_human' if cid in originals else None)
+        if cid.startswith('synthetic:'):
+            meta['split_group']='synthetic_train_only'
+            meta['synthetic_artifact']='exports/synthetic-20261106-zh'
+        sidecars.append(meta)
+    atomic(out/'provenance.jsonl', ''.join(json.dumps(m,ensure_ascii=False)+'\n' for m in sidecars),raw=True)
     atomic(out / "corrections.json", correction_log)
     stats = {"created_at": now(), "historical_multiturn": len(historical), "synthetic": len(synthetic), "conversations_total": len(selected), "by_tier": dict(Counter(x["tier"] for x in selected)), "by_split": dict(Counter(x["split"] for x in selected)), "synthetic_manifest": manifest, "all_pending_human": True}
     atomic(out / "statistics.json", stats)

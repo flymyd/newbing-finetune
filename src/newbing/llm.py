@@ -46,6 +46,13 @@ class ModelClient:
         self.secret = env.get(self.cfg['api_key_env'])
         if not self.secret:
             raise RuntimeError('dedicated model credential absent')
+        approved = {
+            ('gpt-6-luna', 'https://llm.flymyd.cn/v1', 'responses'),
+            ('Qwen3.6-35B-A3B', 'https://llm.flymyd.cn/v1', 'responses'),
+            ('gemini-4-argon', 'https://llm.flymyd.cn', 'gemini_v1beta'),
+        }
+        if (self.cfg.get('model'), self.cfg.get('base_url'), self.cfg.get('protocol')) not in approved:
+            raise RuntimeError('unexpected model or endpoint; requires explicit user change')
         if self.cfg.get('protocol') not in ('responses','gemini_v1beta'):
             raise RuntimeError('unsupported model protocol')
         self.client = None
