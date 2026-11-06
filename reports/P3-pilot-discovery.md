@@ -1,13 +1,13 @@
 # P3 试点候选清单
 
-时间 2026-11-05T11:43:34.864161+00:00。从已分类的新候选中按来源配额、核心期优先及实际不足重新分配，选择 500/500 个候选组。分母是独立候选组，非图片或最终会话。
+时间 2026-11-05T19:29:32.708388+00:00。从已分类的新候选中按来源配额、核心期优先及实际不足重新分配，选择 500/500 个候选组。分母是独立候选组，非图片或最终会话。
 
 ```json
 {
-  "created_at": "2026-11-05T11:43:34.864161+00:00",
+  "created_at": "2026-11-05T19:29:32.708388+00:00",
   "target": 500,
   "selected_groups": 500,
-  "available_classified_novel_groups": 760,
+  "available_classified_novel_groups": 987,
   "by_layer": {
     "chatgpt": 68,
     "author_archive_and_web": 100,
@@ -23,7 +23,7 @@
     "bingchat": 45,
     "freesydney_and_singularity": 16
   },
-  "config_hash": "9ff935cb1ed489cc94efc3592d6a48cc95b55656bea091b1aaf49dfd03f543e4",
+  "config_hash": "490f222e63f4d8ee75156c6d730851430d12a7a9bca86b2a7b607332d49450ae",
   "cohort_created_at": "2026-11-05T11:04:05.325721+00:00",
   "cohort_hash": "f89f2146b687d97c7392e394cb3cf9ebd34150d2311875bb29b0dc093a483faa",
   "limitation": "This establishes candidate-level novelty and evidence availability only. Transcription, conversation-level deduplication and ShareGPT acceptance are separate gates."

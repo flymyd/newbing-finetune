@@ -1,0 +1,10 @@
+{
+  "release_id": "sft-20261106-v3",
+  "export_mode": "sft",
+  "samples": 867,
+  "multiturn_samples": 568,
+  "single_round_samples": 299,
+  "errors": [],
+  "passed": true,
+  "checked_at": "2026-11-06T03:37:30.260404+00:00"
+}

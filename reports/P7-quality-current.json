@@ -1,6 +1,42 @@
 {
-  "at": "2026-11-05T13:19:16.343295+00:00",
+  "at": "2026-11-05T19:39:04.483851+00:00",
   "releases": [
+    {
+      "release_id": "final-20261106-v1",
+      "status": "provisional_collection_continues",
+      "samples": 50,
+      "validation_passed": true,
+      "by_tier": {
+        "early_strict": 8,
+        "early_probable": 37,
+        "later_supplement": 5
+      },
+      "by_split": {
+        "train": 40,
+        "val": 7,
+        "test": 3
+      },
+      "complete_qa_rounds": 178,
+      "round_count_distribution": {
+        "2": 20,
+        "3": 15,
+        "4": 7,
+        "5": 2,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "10": 1,
+        "12": 2
+      },
+      "distinct_parent_record_ids": 46,
+      "derived_fragments": 31,
+      "split_groups": 40,
+      "agent_visual_checked": 50,
+      "human_verified": 0,
+      "validation_scope": "frozen_version_contract",
+      "human_pending": 50,
+      "source_evidence_paths": "Every sample retains message projection map, source/asset identities, original source date evidence, verification reference and split group in provenance.jsonl."
+    },
     {
       "release_id": "pilot-20261105-v1",
       "status": "retracted_pending_ui_boundary_correction",
@@ -17,7 +53,14 @@
       "by_split": {
         "train": 2
       },
+      "complete_qa_rounds": null,
+      "round_count_distribution": null,
+      "distinct_parent_record_ids": null,
+      "derived_fragments": null,
+      "split_groups": null,
+      "agent_visual_checked": 0,
       "human_verified": 0,
+      "validation_scope": "legacy_artifact_checks_only_not_current_admission",
       "human_pending": 2,
       "source_evidence_paths": "Every sample retains message projection map, source/asset identities, original source date evidence, verification reference and split group in provenance.jsonl."
     },
@@ -32,7 +75,14 @@
       "by_split": {
         "train": 14
       },
+      "complete_qa_rounds": null,
+      "round_count_distribution": null,
+      "distinct_parent_record_ids": null,
+      "derived_fragments": null,
+      "split_groups": null,
+      "agent_visual_checked": 0,
       "human_verified": 0,
+      "validation_scope": "frozen_version_contract",
       "human_pending": 14,
       "source_evidence_paths": "Every sample retains message projection map, source/asset identities, original source date evidence, verification reference and split group in provenance.jsonl."
     },
@@ -49,13 +99,75 @@
         "test": 2,
         "val": 1
       },
+      "complete_qa_rounds": 86,
+      "round_count_distribution": {
+        "2": 8,
+        "3": 7,
+        "4": 1,
+        "5": 2,
+        "7": 1,
+        "8": 1,
+        "10": 2
+      },
+      "distinct_parent_record_ids": null,
+      "derived_fragments": 5,
+      "split_groups": 20,
+      "agent_visual_checked": 0,
       "human_verified": 0,
+      "validation_scope": "frozen_version_contract",
       "human_pending": 22,
       "source_evidence_paths": "Every sample retains message projection map, source/asset identities, original source date evidence, verification reference and split group in provenance.jsonl."
     }
   ],
-  "final_release": null,
-  "goal_status": "active",
+  "final_release": "final-20261106-v1",
+  "final_release_summary": {
+    "at": "2026-11-05T19:39:04.483191+00:00",
+    "release_id": "final-20261106-v1",
+    "total_samples": 50,
+    "all_agent_visual_checked": true,
+    "agent_visual_checked_count": 50,
+    "human_verified_count": 0,
+    "by_tier": {
+      "early_strict": 8,
+      "early_probable": 37,
+      "later_supplement": 5
+    },
+    "by_split": {
+      "train": 40,
+      "val": 7,
+      "test": 3
+    },
+    "by_date_bucket": {
+      "early": 45,
+      "transition": 2,
+      "later_mar_apr": 3
+    },
+    "by_source_prefix": {
+      "hf": 22,
+      "reddit": 26,
+      "reference": 2
+    },
+    "by_record_origin": {
+      "project_transcription": 44,
+      "upstream_baseline_text": 6
+    },
+    "complete_qa_rounds": 178,
+    "round_count_distribution": {
+      "2": 20,
+      "3": 15,
+      "4": 7,
+      "5": 2,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "10": 1,
+      "12": 2
+    },
+    "distinct_parent_record_ids": 46,
+    "derived_fragments": 31,
+    "split_groups": 40
+  },
+  "goal_status": "completed_within_authorized_scope",
   "training_performed": false,
   "published": false
 }

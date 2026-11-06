@@ -1,10 +1,10 @@
 {
-  "at": "2026-11-05T13:27:47.316982+00:00",
+  "at": "2026-11-05T19:35:50.417690+00:00",
   "cohort_hash": "f89f2146b687d97c7392e394cb3cf9ebd34150d2311875bb29b0dc093a483faa",
   "groups": 500,
   "processing_counts": {
-    "transcribed_pending_quality": 326,
-    "excluded_clear": 154,
+    "transcribed_pending_quality": 327,
+    "excluded_clear": 153,
     "quarantined_transcription": 20
   },
   "groups_with_structurally_eligible_conversation": 59,
@@ -1919,7 +1919,7 @@
           ]
         },
         {
-          "id": "segment:729a12a1ee62f4c07a043760d6eb25a1",
+          "id": "segment:807b84a9de52e5d6f043f32a93a3a108",
           "date_bucket": "early",
           "complete_rounds": 26,
           "derived_from": "reddit:1113joc:conversation:0",
@@ -3137,7 +3137,7 @@
     {
       "candidate_id": "reddit:comment:j8ia39t",
       "source_id": "reddit:comment:j8ia39t",
-      "processing_status": "excluded_clear",
+      "processing_status": "transcribed_pending_quality",
       "reconstructed_conversation_records": 0,
       "structurally_eligible_records": 0,
       "records": [],
@@ -3411,7 +3411,7 @@
           ]
         },
         {
-          "id": "segment:4538644fb278fa918c5dcffbf648c16e",
+          "id": "segment:d3401bc0163f3befc05be8b81fc3f9ad",
           "date_bucket": "early",
           "complete_rounds": 3,
           "derived_from": "reddit:1129icl:conversation:0",
@@ -4345,7 +4345,7 @@
           ]
         },
         {
-          "id": "segment:57418794c052894bb584275172a65bc1",
+          "id": "segment:2b4f5c540c3e99f2cd101c169f7131ba",
           "date_bucket": "early",
           "complete_rounds": 4,
           "derived_from": "reddit:112pw3m:conversation:0",
@@ -6539,7 +6539,7 @@
           ]
         },
         {
-          "id": "segment:5cbbcc05b8be2d3019610d09815e2ae8",
+          "id": "segment:542f273b8dd4bf2ceb9cbc9cc939f192",
           "date_bucket": "early",
           "complete_rounds": 2,
           "derived_from": "reddit:113btqy:conversation:1",

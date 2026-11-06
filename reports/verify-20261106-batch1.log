@@ -1,0 +1,34 @@
+{"verified": 5, "needs_correction": 4, "pass": 1}
+{"verified": 10, "needs_correction": 8, "pass": 2}
+{"verified": 15, "needs_correction": 11, "pass": 3, "quarantined": 1}
+{"verified": 20, "needs_correction": 14, "pass": 4, "quarantined": 1, "uncertain": 1}
+{"verified": 25, "needs_correction": 16, "pass": 6, "quarantined": 1, "uncertain": 2}
+{"verified": 30, "needs_correction": 20, "pass": 7, "quarantined": 1, "uncertain": 2}
+{"verified": 35, "needs_correction": 24, "pass": 8, "quarantined": 1, "uncertain": 2}
+{"verified": 40, "needs_correction": 28, "pass": 9, "quarantined": 1, "uncertain": 2}
+{"verified": 45, "needs_correction": 32, "pass": 9, "quarantined": 1, "uncertain": 3}
+{"verified": 50, "needs_correction": 37, "pass": 9, "quarantined": 1, "uncertain": 3}
+{"verified": 55, "needs_correction": 41, "pass": 10, "quarantined": 1, "uncertain": 3}
+{"verified": 60, "needs_correction": 43, "pass": 12, "quarantined": 2, "uncertain": 3}
+{"verified": 65, "needs_correction": 46, "pass": 13, "quarantined": 3, "uncertain": 3}
+{"verified": 70, "needs_correction": 50, "pass": 13, "quarantined": 3, "uncertain": 4}
+{"verified": 75, "needs_correction": 55, "pass": 13, "quarantined": 3, "uncertain": 4}
+{"verified": 80, "needs_correction": 55, "pass": 17, "quarantined": 4, "uncertain": 4}
+{"verified": 85, "needs_correction": 57, "pass": 19, "quarantined": 5, "uncertain": 4}
+{"verified": 90, "needs_correction": 58, "pass": 22, "quarantined": 5, "uncertain": 5}
+{"verified": 95, "needs_correction": 61, "pass": 23, "quarantined": 5, "uncertain": 6}
+{"verified": 100, "needs_correction": 63, "pass": 26, "quarantined": 5, "uncertain": 6}
+{"verified": 105, "needs_correction": 65, "pass": 29, "quarantined": 5, "uncertain": 6}
+{"verified": 110, "needs_correction": 67, "pass": 32, "quarantined": 5, "uncertain": 6}
+{"verified": 115, "needs_correction": 70, "pass": 33, "quarantined": 5, "uncertain": 7}
+{"verified": 120, "needs_correction": 73, "pass": 35, "quarantined": 5, "uncertain": 7}
+{
+  "available_eligible_conversations": 43,
+  "queued": 43,
+  "results": {
+    "needs_correction": 73,
+    "pass": 37,
+    "quarantined": 5,
+    "uncertain": 7
+  }
+}

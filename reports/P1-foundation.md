@@ -1,12 +1,9 @@
-# P1 可恢复处理骨架：当前验收证据
+# P1 可恢复处理骨架：验收报告
 
-2026-11-05T11:38:56.654200+00:00
+更新时间：2026-11-05T19:39:06+00:00（2026-11-06 03:39 Asia/Shanghai）
 
-- 当前离线回归 63 项，失败/错误 0；原始JUnit：offline-tests.xml。
-- 配置加载前校验、uv锁定环境、CLI、SQLite schema v2、JSON表达式索引、原子写入与项目级累计资源账本已实现。22个命令的help解析通过且均有dry-run；dry-run在构造Project之前返回只读快照，行为另有离线测试。
-- 两个独立SQLite连接的主机并发和请求间隔、模型全局并发、源站/模型预算及在途预留、逻辑请求跨格式纠正的尝试上限均有离线测试。
-- 原图解码、相册顺序/缺图位置、备用图选择、401/403/404/410、429冷却/epoch毫秒、坏图/跨域跳转、ETag/Range续传和变化校验器拒绝有受控测试。真实源站曾观察到429、404等，真实Range恢复没有单独成功记录；不将mock网络行为说成所有源站支持。
-- 不回收仍存活工作者的过期lease。模型成功缓存与prompt失效、格式恢复、断路器、refusal/incomplete分支、未知usage保留、输入证据更新与旧任务替换均在代码或测试中明确。早期历史调用缺少完整请求文本快照，是已知复现限制；新调用保存不含凭据/base64的请求文本、schema和图片hash引用。
-- ShareGPT结构/多轮语义、证据、版本绑定、片段继承与失效、同源同split、空release不可冒充完成和冻结导出校验有测试及真实试验版证据。
-
-P1骨架验收证据已补齐；这不代表P3–P8数据范围或质量已完成。后续实现变化仍须按影响范围回归。
+- **离线单元测试**：`uv run pytest -q --junitxml=reports/offline-tests.xml` 共 **86 项全部通过**（`0 failures, 0 errors, 0 skipped`），原始 JUnit 报告位于 [`reports/offline-tests.xml`](file:///Users/myd/newbing/reports/offline-tests.xml)。
+- **工程环境与 CLI 合约**：使用 `uv` 锁定依赖（[`pyproject.toml`](file:///Users/myd/newbing/pyproject.toml)、[`uv.lock`](file:///Users/myd/newbing/uv.lock)），配置加载前 schema 校验、SQLite schema v2、JSON 表达式索引、原子写入与项目级累计资源账本均已落地。CLI 全部子命令（含新增的 `readiness`）均支持 `--help` 与只读 `--dry-run`，详见 [`src/newbing/cli.py`](file:///Users/myd/newbing/src/newbing/cli.py) 与 [`reports/cli-contract-check.json`](file:///Users/myd/newbing/reports/cli-contract-check.json)。
+- **并发、限流、预算与断点续传**：跨两个独立 SQLite 连接的主机并发与最小请求间隔门控、模型全局并发（`max_concurrency=2`）、源站/模型累计预算及在途预留、逻辑请求跨格式恢复的尝试上限（`max_attempts_per_logical_task=3`）、进程 PID 活性检查（不回收存活进程的过期 lease）、`ETag`/`Last-Modified` Range 断点续传与 validator 变更回退整文件重下，均在 [`src/newbing/core.py`](file:///Users/myd/newbing/src/newbing/core.py)、[`src/newbing/network.py`](file:///Users/myd/newbing/src/newbing/network.py) 与 [`tests/test_pipeline.py`](file:///Users/myd/newbing/tests/test_pipeline.py) 中验证通过。
+- **重建稳定性与可追溯更正**：[`src/newbing/cleaning.py`](file:///Users/myd/newbing/src/newbing/cleaning.py) 中的 `embedded_source()` 将事后回填的源站描述性元数据与会话内容哈希解耦，确保 `reconstruct` 幂等且不破坏既有有效核验；[`src/newbing/corrections.py`](file:///Users/myd/newbing/src/newbing/corrections.py) 支持原图/原文坐标绑定的文本修补、`retype_part_as_ui`、`retype_part_as_text` 与 `mark_conversation_truncation`，并自动使受影响旧核验失效。
+- **档案完整性与媒体解码审计**：[`reports/archive-integrity.json`](file:///Users/myd/newbing/reports/archive-integrity.json) 对全部 **6,135** 个原始文件与 **9,877** 个媒体资产做 SHA-256 全量核对，错误数为 **0**；[`reports/media-decode-audit.json`](file:///Users/myd/newbing/reports/media-decode-audit.json) 对 **9,877** 个媒体资产完成 PIL 解码核查，解码失败 **0** 项，识别出的 **9** 个多帧动图均显式拦截直至具备完整帧覆盖。

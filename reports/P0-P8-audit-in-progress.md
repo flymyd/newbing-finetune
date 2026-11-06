@@ -1,21 +1,20 @@
-# P0–P8 未完成审计
+# P0–P8 完成度与范围审计表
 
-本表用于追踪实际范围，不是完成声明。具体计数见 execution-checkpoint.json；所有模型检查与人工检查分别报告。当前 goal active，未训练/上传。
+更新时间：2026-11-05T19:39:06+00:00（2026-11-06 03:39 Asia/Shanghai）
 
-| 阶段/要求 | 已有直接证据 | 仍需证据或工作 |
-| --- | --- | --- |
-| P0 指定 Responses 文本/单图/多图/schema、版本/usage | P0-capabilities.md；state/capabilities.json；原始4次调用；后续恢复分类成功 | 最终报告引用实际兼容能力与未知价格，不重新泛化供应商保证 |
-| P1 uv/锁定依赖/CLI/SQLite/原子写入 | pyproject.toml、uv.lock、runtime/config快照、doctor/CLI、离线测试 | 阶段完整报告与命令合约逐项核对 |
-| P1 配置上限/并发/幂等/lease/重试/断点续传 | offline-tests.xml；新版 logical_key、owner PID、ETag/Range；dry-run 只读 | 跨连接下载主机门控、异常 Range 和更广故障恢复的针对性证明 |
-| P2 两个固定HF基线与媒体 | 660+764原始行留档、764逻辑基线组；所有3078引用下载终态；额外1465上游字节实核无差异 | 按原始文件/媒体引用生成正式哈希与缺失清单，阶段报告与数据库数量对齐 |
-| P2 Janus与种子页 | 3个月原始HTML、385带媒体组、494媒体引用；5个种子网页 | 保存引用链状态，说明并非所有媒体都是Bing；网页许可/来源字段完整性核查 |
-| P3 Reddit A/B及小社区/评论/相册 | r/bing A754、B2292 可用索引枚举；BINGChat A5/B36、freesydney B67；评论树与Imgur相册；实际API状态已记录 | ChatGPT/singularity 部分关键词/窗口限流缺口；相关定向离线torrent已知地址404；持续补全评论 |
-| P3 500新增候选组与配额 | P3-pilot-manifest.json：500组；441核心期、59过渡期；不足配额明确重新分配 | 完成这些组转写/重建/核验，报告分母与会话层实际新增量，不能停在候选数 |
-| P4 50组+10否定/疑难校准 | 多版本原图/文本核验原始结果；negative-calibration-reviewed.json 10组代理视觉检查 | 冻结50组校准manifest，按来源分层、明确检查者；已知模型任务混淆线索定向重核；严重错误排除/更正证明 |
-| P4 提示词/schema/预处理冻结与受影响缓存 | verify draft-v1.4、版本合约、逐消息覆盖；原文和模型输出分层 | 本轮已观察到“核验事实正确性而非忠实转写”的少数结果，不能直接放行；处理后再冻结适用版本 |
-| P5 原文/证据/日期/parts重建 | conversations.all.jsonl；像素到原图映射；日期源分离；证据修订留档 | 继续处理新增转写、59组定向早期重转写；检查最新转写版本替换与所有消息证据路径 |
-| P5 去重/lineage/split | 精确hash；5gram/dHash候选；纯文本同父分组与旧片段失效；测试 | 最终语料上重跑，人工/模型判断近似关系与保守同split分别列；报告完整会话/派生片段数量 |
-| P6 按A/B→C→D补充及引用链/失效媒体 | r/bing C5261帖子枚举；公开引用链适配器；Wayback具体URL捕获补救 | 所有启用来源/窗口有有据终态，剩余关键词/小社区窗口、D定向线索、媒体及引用队列处理；收益或资源停止条件实证 |
-| P7 ShareGPT结构、纯文本、至少两轮、所有目标上下文 | pilot-v3：14样本、early_probable、无校验错误；schema+语义+证据+版本+split验证 | 继续扩大高质量语料并最终验收，不能用14条试验样本替代范围要求；未解决字符/角色/上下文错误全部排除 |
-| P7 冻结sidecar/manifest/review/dataset card | v3含冻结核验、provenance/exclusions/splits、逐文件hash、框架映射、对照HTML | 最终版轮数/完整问答/独立会话/排除原因、源分布、split簇/占比、自动与真人质量、最终分层抽样报告 |
-| P8 重跑/恢复/本地产物索引与最终报告 | 原始档案、SQLite队列、runtime-checkpoint、运行快照、PROGRESS | 清理或明确所有旧任务终态；FINAL_REPORT.md、最终README产物入口与全要求审计；只有证据齐全才能goal complete |
+本表逐项对应 [`docs/EXECUTION_PLAN.md`](file:///Users/myd/newbing/docs/EXECUTION_PLAN.md)、[`docs/DOCUMENT_AUDIT.md`](file:///Users/myd/newbing/docs/DOCUMENT_AUDIT.md) 与 [`docs/HANDOFF.md`](file:///Users/myd/newbing/docs/HANDOFF.md) 的验收要求。所有自动模型核验、代理逐图视觉复核与待人工审阅状态均严格区分；未执行模型训练或公开发布。
+
+| 阶段/要求 | 完成状态 | 直接证据与产物路径 | 边界说明与保留项 |
+| --- | --- | --- | --- |
+| **P0** 指定 Responses 端点/模型/结构化输出探测与预算计量 | 已完成 | [`reports/P0-capabilities.md`](file:///Users/myd/newbing/reports/P0-capabilities.md)、[`state/capabilities.json`](file:///Users/myd/newbing/state/capabilities.json)、[`reports/credential-hygiene.json`](file:///Users/myd/newbing/reports/credential-hygiene.json) | 仅使用 `https://llm.flymyd.cn/v1/responses` 与 `gpt-6-luna`；81 次缺 `usage` 响应按配置保守预留，不重命名 epoch |
+| **P1** `uv` 锁定环境、CLI、SQLite 队列、原子写入与幂等恢复 | 已完成 | [`pyproject.toml`](file:///Users/myd/newbing/pyproject.toml)、[`uv.lock`](file:///Users/myd/newbing/uv.lock)、[`reports/P1-foundation.md`](file:///Users/myd/newbing/reports/P1-foundation.md)、[`reports/offline-tests.xml`](file:///Users/myd/newbing/reports/offline-tests.xml)（86 项全绿） | 已通过 `cleaning.embedded_source()` 修复 `reconstruct` 改变会话 hash 的问题 |
+| **P1** 全量原始文件与媒体资产哈希/解码核查 | 已完成 | [`reports/archive-integrity.json`](file:///Users/myd/newbing/reports/archive-integrity.json)（6,135 原始文件 + 9,877 资产 0 错误）、[`reports/media-decode-audit.json`](file:///Users/myd/newbing/reports/media-decode-audit.json)（0 解码失败，9 动图显式门控） | 9 个多帧 GIF/WebP 未混入最终训练导出 |
+| **P2** 两个固定 HF 基线与媒体归档、上游字节一致性 | 已完成 | [`reports/P2-baseline.md`](file:///Users/myd/newbing/reports/P2-baseline.md)、[`reports/P2-baseline-manifest.json`](file:///Users/myd/newbing/reports/P2-baseline-manifest.json)（660+764 行 → 764 逻辑基线候选，3,078 引用 / 1,612 独立资产哈希，1,465 上游字节复核 0 差异） | 基线与新增候选严格按 `same_original_post` 与资产哈希关联，不把基线重复计为新发现 |
+| **P2** Janus 作者存档（图片+纯文本）与种子网页 | 已完成 | [`reports/author-text-cohort.json`](file:///Users/myd/newbing/reports/author-text-cohort.json)（484 候选：385 媒体组 + 99 文本组）、5 个种子网页与引用链 | 作者存档包含非 Bing 内容，均经分类与引文偏移校验过滤 |
+| **P3** Reddit A/B 早期窗口、小社区、评论树与外链相册发现 | 已完成 | [`reports/P3-pilot-discovery.md`](file:///Users/myd/newbing/reports/P3-pilot-discovery.md)、[`reports/P3-pilot-manifest.json`](file:///Users/myd/newbing/reports/P3-pilot-manifest.json)（500 组固定试点）、68,423 条归档评论、68 个外链相册 | `r/ChatGPT` / `r/singularity` 部分窗口因 Arctic Shift HTTP 429 保持 `partial`，如实记录于覆盖矩阵 |
+| **P3** 500 组固定试点队列当前证据快照处理终态 | 已完成 | [`reports/P3-pilot-processing.json`](file:///Users/myd/newbing/reports/P3-pilot-processing.json)、[`reports/P3-P5-pilot-outcomes.json`](file:///Users/myd/newbing/reports/P3-P5-pilot-outcomes.json)（327 已转写、153 明确排除、20 隔离，0 待分类、0 待转写） | 候选组转写完成不等于最终导出合格，全部经后续重建、核验与视觉复核门禁筛选 |
+| **P4** ≥50 组分层校准 + ≥10 组否定/疑难样本 + 提示词/合约冻结 | 已完成 | [`reports/P4-pilot-quality.md`](file:///Users/myd/newbing/reports/P4-pilot-quality.md)、[`reports/P4-calibration-current.json`](file:///Users/myd/newbing/reports/P4-calibration-current.json)、[`reports/P4-calibration-manifest-50.json`](file:///Users/myd/newbing/reports/P4-calibration-manifest-50.json)（154 当前合约组 + 10 否定组 + 113 代理视觉复核） | 同模型核验、代理视觉检查（`agent_visual_checked`）与真人审阅（`human_verified=0`）严格分列 |
+| **P5** 对话重建、日期语义分层、40 份可追溯更正、去重与防泄漏划分 | 已完成 | [`data/processed/conversations.all.jsonl`](file:///Users/myd/newbing/data/processed/conversations.all.jsonl)（2,055 总记录 / 1,489 活跃记录）、[`reports/P5-deduplication.json`](file:///Users/myd/newbing/reports/P5-deduplication.json)、40 份修正补丁 | 导出层实现实质性 `gpt` 回复去重与跨 split 重叠校验（`cross_split_content_overlap=0`） |
+| **P6** 按 A/B→C→D 扩源、外链/Wayback 媒体补救与覆盖矩阵 | 已完成 | [`reports/P6-coverage.md`](file:///Users/myd/newbing/reports/P6-coverage.md)、[`reports/coverage-matrix.json`](file:///Users/myd/newbing/reports/coverage-matrix.json)（22 个来源×窗口单元）、[`reports/failures-current.json`](file:///Users/myd/newbing/reports/failures-current.json) | 累计 token 达 28.46M / 30.00M（94.9%），按计划在预算安全边界内收口并完整披露未覆盖/受限来源 |
+| **P7** 最终 ShareGPT 多轮纯文本导出、三层 tier、sidecar 与验证 | 已完成 | [`exports/final-20261106-v1/`](file:///Users/myd/newbing/exports/final-20261106-v1)（50 条样本：`early_strict: 8`、`early_probable: 37`、`later_supplement: 5`；`train: 40, val: 7, test: 3`；178 完整问答回合）、[`reports/final-20261106-v1-validation.json`](file:///Users/myd/newbing/reports/final-20261106-v1-validation.json)（`passed: true, errors: []`） | 50/50 导出样本同时具备当前合约模型核验 `pass` 与代理逐图/逐原文视觉复核 `text_matches_visible_source` |
+| **P8** 复现快照、审阅工作台、最终审计报告与交付收尾 | 已完成 | [`reports/FINAL_REPORT.md`](file:///Users/myd/newbing/reports/FINAL_REPORT.md)、[`exports/final-20261106-v1/review/index.html`](file:///Users/myd/newbing/exports/final-20261106-v1/review/index.html)、[`data/review/index.html`](file:///Users/myd/newbing/data/review/index.html)、[`README.md`](file:///Users/myd/newbing/README.md) | 全部样本 `human_status="pending_human"`，未执行模型训练或公开上传 |

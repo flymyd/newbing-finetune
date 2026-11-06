@@ -210,6 +210,21 @@ def reconstruct_baselines(project, limit=100000):
     return report
 
 
+DESCRIPTIVE_SOURCE_KEYS=('license_notes','rights_status','removal_status','retrieval_status','fetched_at')
+
+
+def embedded_source(source):
+    """Copy of the source record used inside a conversation record.
+
+    Rights/retrieval bookkeeping added to SourceRecord after archiving (and null
+    archived/conversation dates) is descriptive metadata, not chat evidence. It stays
+    in the SourceRecord and export provenance; keeping it out of the conversation
+    copy prevents metadata backfills from invalidating evidence-bound verification.
+    """
+    return {k:v for k,v in source.items()
+            if k not in DESCRIPTIVE_SOURCE_KEYS and not (k in ('archived_at','conversation_date') and v is None)}
+
+
 def mark_source_gaps(conv,asset_ordinals,missing):
     """Keep missing album slots visible; no text is invented or joined across them."""
     previous=None;seen=[]
@@ -301,7 +316,7 @@ def reconstruct_transcriptions(project):
                     date_semantics=baseline.get('date_semantics','upstream_capture_date_claim')
                     date_evidence=baseline.get('date_evidence',[])
             if bucket=='unknown':exclusions.append('date_unknown')
-            payload={'conversation_id':cid,'source_ids':[d['source_id']],'source':source,'messages':conv['messages'],
+            payload={'conversation_id':cid,'source_ids':[d['source_id']],'source':embedded_source(source),'messages':conv['messages'],
                      'projected':sample,'message_projection_map':[m['source_message_index'] for m in turns],
                      'date_bucket':bucket,'date_confidence':confidence,'date':date,
                      'date_semantics':date_semantics,'conversation_date':date if date_semantics=='upstream_capture_date_claim' else None,
@@ -343,7 +358,7 @@ def derive_continuous_segments(project):
     for row in parents:
         parent=json.loads(row['payload'])
         if parent.get('superseded'):continue
-        if not parent.get('automatic_exclusions') or parent['date_bucket']=='unknown':continue
+        if not parent.get('automatic_exclusions'):continue
         fatal={'not_conversation_kind','bing_product_not_confirmed_by_classification','classification_not_actual_conversation','suspicious_source_authenticity','missing_product_classification'}
         if fatal.intersection(parent['automatic_exclusions']):continue
         run=[];runs=[]
@@ -382,7 +397,7 @@ def derive_continuous_segments(project):
             c['projected']={'id':cid,'conversations':[{k:m[k] for k in ('from','value')} for m in turns]}
             c['message_projection_map']=[m['source_message_index'] for m in turns]
             c['transforms']+=transforms+[{'operation':'extract_contiguous_segment','parent':parent['conversation_id'],'start_message':start,'end_message_inclusive':end,'initial_context_requires_verification':True}]
-            c['automatic_exclusions']=validate_sharegpt(c['projected'])+[i['reason'] for i in issues]
+            c['automatic_exclusions']=validate_sharegpt(c['projected'])+[i['reason'] for i in issues]+(['date_unknown'] if c.get('date_bucket')=='unknown' else [])
             c['verification_status']='segment_requires_context_verification'
             c['segment_context_gap']=True
             c['truncated_start']=True
@@ -400,3 +415,176 @@ def derive_continuous_segments(project):
         project.execute('UPDATE conversations SET payload=?,updated=? WHERE id=?',(json.dumps(old,ensure_ascii=False),now(),row['id']))
         retired+=1
     return {'derived_continuous_multiturn_segments':count,'retired_segments':retired}
+
+
+UI_BANNER_RE = re.compile(
+    r'^(?:'
+    r'Sorry, this conversation has reached its limit\b.*|'
+    r'Unfortunately, we need to move on!\s*Click ["“]New topic.*|'
+    r'Thanks for this conversation!\s*I[\'’]ve reached my limit.*|'
+    r'Sorry, it looks like I need to chat about something else\.\s*Click ["“]New topic.*|'
+    r'Oops, I think we[\'’]ve reached the end of this conversation\.\s*Click ["“]New topic.*|'
+    r'Sorry, you[\'’]ve reached your daily limit to chat\..*|'
+    r'Sorry, I have reached my limit for this conversation\..*|'
+    r'It might be time to move onto a new topic\.\s*Let[\'’]s start over\.|'
+    r'Talvez seja hora de passar para um novo tópico\.\s*Vamos recomeçar\.|'
+    r'Unsafe image content detected\b.*|'
+    r'Oops!\s*Try another prompt\b.*|'
+    r'Content warning\s+This prompt has been blocked\b.*|'
+    r'Help is available\.\s*If you are having thoughts about self harm\b.*'
+    r')$',
+    re.I | re.S,
+)
+
+ASSISTANT_REFUSAL_RE = re.compile(
+    r'^(?:'
+    r'I[\'’]m sorry,? but (?:I prefer not to continue|this conversation is over|I disagree|this chat is getting|I don[\'’]t believe you)\b.*|'
+    r'I am sorry, I (?:don[\'’]t know how to discuss|am not quite sure how to respond)\b.*|'
+    r'My mistake, I can[\'’]t give a response to that right now\..*|'
+    r'Hmm(?:\.{3}|…)\s*let[\'’]s try a different topic\..*|'
+    r'Sorry!\s*That[\'’]s on me, I can[\'’]t give a response to that right now\..*'
+    r')$',
+    re.I | re.S,
+)
+
+SEARCH_PREFIX_RE = re.compile(r'^(?:Searching for:\s*[^\n]+\n+|Generating answers for you\.{0,3}\n+)+', re.I)
+FUN_FACT_SUFFIX_RE = re.compile(r'(?:\n+|\s+)(?:Fun fact, did you know|By the way, did you know|Out of curiosity,)\b[^\n]*$', re.I)
+LEARN_MORE_SUFFIX_RE = re.compile(r'\n+Learn more:\s*(?:\d+\.|[^\n]+).*$', re.I | re.S)
+COUNTER_SUFFIX_RE = re.compile(r'\n+\d+\s+of\s+\d+\s*$', re.I)
+UPSTREAM_PLACEHOLDER_RE = re.compile(
+    r'(?:<no_response>|\[unreadable\]|'
+    r'\[[^\]]*(?:not visible in screenshot|not captured in screenshot|truncated in source|cut off by screenshot|unreadable in screenshot|code omitted by user|ends mid-response)[^\]]*\]|'
+    r'^\[image of [^\]]+\]$)',
+    re.I,
+)
+CONTEXT_DEPENDENT_OPENING_RE = re.compile(
+    r'^(?:yes|yes,?\s*please|no|nope|ok(?:ay)?(?:,\s*sydney)?|sure|absolutely|sydney|explain|continue|go on|'
+    r'why|how|where is it|lol,?\s*source|oh\.?\s*my\.?\s*god\.?|i don[\'’]t care|top middle|middle bottom|n|y)[.!?]*$',
+    re.I,
+)
+
+
+def sft_part_text(part):
+    kind = part.get('type')
+    if kind == 'safety_block':
+        txt = (part.get('text') or '').strip()
+        if UI_BANNER_RE.match(txt):
+            return '', 'ui_part_removed:safety_block_ui_banner'
+        if ASSISTANT_REFUSAL_RE.match(txt) and not txt.startswith('['):
+            return txt, 'assistant_refusal_retained'
+        return txt, 'safety_block_needs_ui_review'
+    return part_text(part)
+
+
+def clean_sft_turn_text(text):
+    ops = []
+    for name, regex in (
+        ('ui_prefix_removed:searching_or_generating', SEARCH_PREFIX_RE),
+        ('ui_suffix_removed:learn_more', LEARN_MORE_SUFFIX_RE),
+        ('ui_suffix_removed:turn_counter', COUNTER_SUFFIX_RE),
+        ('ui_suffix_removed:fun_fact_prompt', FUN_FACT_SUFFIX_RE),
+    ):
+        updated = regex.sub('', text)
+        if updated != text:
+            ops.append(name)
+            text = updated
+    return text.strip(), ops
+
+
+def project_sft_message(message):
+    role = message.get('role', 'unknown')
+    content = message.get('content', message.get('parts', []))
+    if isinstance(content, str):
+        content = [{'type': 'text', 'text': content}]
+    parts, ops, issues = [], [], []
+    for part in content:
+        t, flag = sft_part_text(part)
+        if t:
+            parts.append(t)
+        if flag:
+            ops.append(flag)
+            if not flag.startswith('ui_part_removed') and flag not in ('code_fence_rendered', 'table_markdown_rendered', 'assistant_refusal_retained'):
+                issues.append(flag)
+    if not parts:
+        pure_ui = bool(content) and all(
+            p.get('type') in ('search_query', 'citations', 'citation', 'suggestions', 'suggestion', 'ui_notice')
+            or (p.get('type') == 'safety_block' and UI_BANNER_RE.match((p.get('text') or '').strip()))
+            for p in content
+        )
+        if not pure_ui:
+            issues.append('empty_textual_turn_or_media_gap')
+        return None, ops, issues, pure_ui
+    text, text_ops = clean_sft_turn_text('\n\n'.join(parts))
+    ops.extend(text_ops)
+    if not text:
+        return None, ops, issues + ['empty_after_ui_strip'], False
+    meta = message.get('meta') or {}
+    if role not in ('user', 'assistant'):
+        issues.append('unknown_role')
+    if meta.get('truncated') or message.get('truncated_start') or message.get('truncated_end'):
+        issues.append('message_truncated')
+    if '⟦unreadable⟧' in text or UPSTREAM_PLACEHOLDER_RE.search(text):
+        issues.append('unreadable_text')
+    return {'from': {'user': 'human', 'assistant': 'gpt'}.get(role, 'unknown'), 'value': text}, ops, issues, False
+
+
+def project_sft_messages(messages):
+    output, transforms, issues = [], [], []
+    for index, message in enumerate(messages):
+        turn, ops, msg_issues, pure_ui = project_sft_message(message)
+        for op in ops:
+            transforms.append({'message_index': index, 'operation': op})
+        for reason in msg_issues:
+            issues.append({'message_index': index, 'reason': reason})
+        if message.get('context_gap_before'):
+            issues.append({'message_index': index, 'reason': 'context_gap_before'})
+        if turn is not None:
+            output.append({**turn, 'source_message_index': index})
+    return output, transforms, issues
+
+
+def extract_sft_segments(parent, bad_message_ids=frozenset()):
+    """Extract contiguous multi-turn (>=2 rounds) and single-round (1 round) SFT segments."""
+    run, segments = [], []
+
+    def flush():
+        nonlocal run
+        if run and run[-1]['turn']['from'] == 'human':
+            run = run[:-1]
+        # Trim context-dependent bare opening replies when a segment starts mid-conversation.
+        while len(run) >= 2 and (run[0]['source_index'] > 0 or parent.get('truncated_start')):
+            opening = run[0]['turn']['value'].strip()
+            if CONTEXT_DEPENDENT_OPENING_RE.match(opening):
+                run = run[2:]
+            else:
+                break
+        if len(run) >= 4:
+            segments.append({'kind': 'multiturn', 'items': list(run)})
+        elif len(run) == 2:
+            segments.append({'kind': 'single_round', 'items': list(run)})
+        run = []
+
+    for index, message in enumerate(parent.get('messages', [])):
+        if message.get('context_gap_before'):
+            flush()
+        turn, ops, issues, pure_ui = project_sft_message(message)
+        if pure_ui:
+            continue
+        if turn is None or issues or message.get('message_id') in bad_message_ids:
+            flush()
+            continue
+        expected = 'human' if len(run) % 2 == 0 else 'gpt'
+        if turn['from'] != expected:
+            flush()
+            if turn['from'] != 'human':
+                continue
+        run.append({
+            'turn': turn,
+            'source_index': index,
+            'message_id': message.get('message_id', f"{parent['conversation_id']}#m{index}"),
+            'evidence': message.get('evidence', []),
+            'ops': ops,
+        })
+    flush()
+    return segments
+

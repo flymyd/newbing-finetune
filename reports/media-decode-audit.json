@@ -1,6 +1,6 @@
 {
-  "at": "2026-11-05T12:18:51.053189+00:00",
-  "checked": 7839,
+  "at": "2026-11-05T19:28:51.644952+00:00",
+  "checked": 9877,
   "issues": [],
   "animated_requires_frame_coverage": [
     {
@@ -24,6 +24,11 @@
       "frames": 11
     },
     {
+      "asset_id": "b2aa3491c6d0f95debe2cd8addeda9f7a12551c36950652ced4e91f7e4756c98",
+      "path": "data/assets/sha256/b2/b2aa3491c6d0f95debe2cd8addeda9f7a12551c36950652ced4e91f7e4756c98.gif",
+      "frames": 178
+    },
+    {
       "asset_id": "b9329928dd94dee7379703166bef3486988e440b104c1b9fa4f2702c31e1ce26",
       "path": "data/assets/sha256/b9/b9329928dd94dee7379703166bef3486988e440b104c1b9fa4f2702c31e1ce26.gif",
       "frames": 199
@@ -32,6 +37,11 @@
       "asset_id": "bb95414795db3d475dd09843e92a0e1a996e9e4e7a78ade12bab99ab1c7f2dfc",
       "path": "data/assets/sha256/bb/bb95414795db3d475dd09843e92a0e1a996e9e4e7a78ade12bab99ab1c7f2dfc.gif",
       "frames": 48
+    },
+    {
+      "asset_id": "c3d9eda2baa1b854d645b7dbe07eeb2b73d266e1db4505e02bb9478f7074287e",
+      "path": "data/assets/sha256/c3/c3d9eda2baa1b854d645b7dbe07eeb2b73d266e1db4505e02bb9478f7074287e.gif",
+      "frames": 34
     },
     {
       "asset_id": "f203cae9d52ce216a5260a8cf2c0a153154e042164b3f1b24b4cd0e667061442",

@@ -1,16 +1,128 @@
 {
-  "created_at": "2026-11-05T15:33:14.772948+00:00",
+  "created_at": "2026-11-05T19:39:05.824776+00:00",
   "classified_groups": 1080,
   "counts": {
+    "('novel_candidate', 'uncertain')": 129,
+    "('novel_candidate', 'exclude_clear')": 233,
     "('novel_candidate', 'include')": 625,
-    "('novel_candidate', 'exclude_clear')": 234,
-    "('novel_candidate', 'uncertain')": 128,
     "('known_original', 'include')": 83,
     "('known_original', 'uncertain')": 2,
     "('exact_media_already_archived', 'include')": 6,
     "('exact_media_already_archived', 'uncertain')": 2
   },
   "records": [
+    {
+      "candidate_id": "reddit:comment:j8ia39t",
+      "category": "novel_candidate",
+      "relevance": "uncertain",
+      "product": "unknown",
+      "content_kind": "meme"
+    },
+    {
+      "candidate_id": "author:repligate:1621316496667381761",
+      "category": "novel_candidate",
+      "relevance": "exclude_clear",
+      "product": "unknown",
+      "content_kind": "article_or_discussion"
+    },
+    {
+      "candidate_id": "author:repligate:1621315401689751552",
+      "category": "novel_candidate",
+      "relevance": "uncertain",
+      "product": "unknown",
+      "content_kind": "meme"
+    },
+    {
+      "candidate_id": "author:repligate:1621308531344379904",
+      "category": "novel_candidate",
+      "relevance": "exclude_clear",
+      "product": "unknown",
+      "content_kind": "meme"
+    },
+    {
+      "candidate_id": "author:repligate:1621308486972743680",
+      "category": "novel_candidate",
+      "relevance": "exclude_clear",
+      "product": "unknown",
+      "content_kind": "meme"
+    },
+    {
+      "candidate_id": "author:repligate:1621307706052165633",
+      "category": "novel_candidate",
+      "relevance": "exclude_clear",
+      "product": "unknown",
+      "content_kind": "meme"
+    },
+    {
+      "candidate_id": "author:repligate:1620985944269811712",
+      "category": "novel_candidate",
+      "relevance": "exclude_clear",
+      "product": "unknown",
+      "content_kind": "story"
+    },
+    {
+      "candidate_id": "author:repligate:1620964393835167746",
+      "category": "novel_candidate",
+      "relevance": "exclude_clear",
+      "product": "unknown",
+      "content_kind": "story"
+    },
+    {
+      "candidate_id": "author:repligate:1620926415297445888",
+      "category": "novel_candidate",
+      "relevance": "exclude_clear",
+      "product": "other_assistant",
+      "content_kind": "meme"
+    },
+    {
+      "candidate_id": "author:repligate:1620797359738486784",
+      "category": "novel_candidate",
+      "relevance": "exclude_clear",
+      "product": "unknown",
+      "content_kind": "article_or_discussion"
+    },
+    {
+      "candidate_id": "author:repligate:1620702579704598528",
+      "category": "novel_candidate",
+      "relevance": "exclude_clear",
+      "product": "other_assistant",
+      "content_kind": "article_or_discussion"
+    },
+    {
+      "candidate_id": "author:repligate:1620698683091320835",
+      "category": "novel_candidate",
+      "relevance": "exclude_clear",
+      "product": "other_assistant",
+      "content_kind": "unknown"
+    },
+    {
+      "candidate_id": "author:repligate:1620626089239547904",
+      "category": "novel_candidate",
+      "relevance": "exclude_clear",
+      "product": "unknown",
+      "content_kind": "article_or_discussion"
+    },
+    {
+      "candidate_id": "author:repligate:1620611843504099338",
+      "category": "novel_candidate",
+      "relevance": "uncertain",
+      "product": "unknown",
+      "content_kind": "meme"
+    },
+    {
+      "candidate_id": "author:repligate:1620605958287392768",
+      "category": "novel_candidate",
+      "relevance": "exclude_clear",
+      "product": "other_assistant",
+      "content_kind": "article_or_discussion"
+    },
+    {
+      "candidate_id": "author:repligate:1620578653196410887",
+      "category": "novel_candidate",
+      "relevance": "uncertain",
+      "product": "unknown",
+      "content_kind": "story"
+    },
     {
       "candidate_id": "author:repligate:1635081642556665856",
       "category": "novel_candidate",
@@ -5472,13 +5584,6 @@
       "content_kind": "article_or_discussion"
     },
     {
-      "candidate_id": "reddit:comment:j8ia39t",
-      "category": "novel_candidate",
-      "relevance": "exclude_clear",
-      "product": "unknown",
-      "content_kind": "meme"
-    },
-    {
       "candidate_id": "reddit:11273l7",
       "category": "novel_candidate",
       "relevance": "exclude_clear",
@@ -7080,111 +7185,6 @@
       "relevance": "exclude_clear",
       "product": "other_assistant",
       "content_kind": "article_or_discussion"
-    },
-    {
-      "candidate_id": "author:repligate:1621316496667381761",
-      "category": "novel_candidate",
-      "relevance": "exclude_clear",
-      "product": "unknown",
-      "content_kind": "article_or_discussion"
-    },
-    {
-      "candidate_id": "author:repligate:1621315401689751552",
-      "category": "novel_candidate",
-      "relevance": "uncertain",
-      "product": "unknown",
-      "content_kind": "meme"
-    },
-    {
-      "candidate_id": "author:repligate:1621308531344379904",
-      "category": "novel_candidate",
-      "relevance": "exclude_clear",
-      "product": "unknown",
-      "content_kind": "meme"
-    },
-    {
-      "candidate_id": "author:repligate:1621308486972743680",
-      "category": "novel_candidate",
-      "relevance": "exclude_clear",
-      "product": "unknown",
-      "content_kind": "meme"
-    },
-    {
-      "candidate_id": "author:repligate:1621307706052165633",
-      "category": "novel_candidate",
-      "relevance": "exclude_clear",
-      "product": "unknown",
-      "content_kind": "meme"
-    },
-    {
-      "candidate_id": "author:repligate:1620985944269811712",
-      "category": "novel_candidate",
-      "relevance": "exclude_clear",
-      "product": "unknown",
-      "content_kind": "story"
-    },
-    {
-      "candidate_id": "author:repligate:1620964393835167746",
-      "category": "novel_candidate",
-      "relevance": "exclude_clear",
-      "product": "unknown",
-      "content_kind": "story"
-    },
-    {
-      "candidate_id": "author:repligate:1620926415297445888",
-      "category": "novel_candidate",
-      "relevance": "exclude_clear",
-      "product": "other_assistant",
-      "content_kind": "meme"
-    },
-    {
-      "candidate_id": "author:repligate:1620797359738486784",
-      "category": "novel_candidate",
-      "relevance": "exclude_clear",
-      "product": "unknown",
-      "content_kind": "article_or_discussion"
-    },
-    {
-      "candidate_id": "author:repligate:1620702579704598528",
-      "category": "novel_candidate",
-      "relevance": "exclude_clear",
-      "product": "other_assistant",
-      "content_kind": "article_or_discussion"
-    },
-    {
-      "candidate_id": "author:repligate:1620698683091320835",
-      "category": "novel_candidate",
-      "relevance": "exclude_clear",
-      "product": "other_assistant",
-      "content_kind": "unknown"
-    },
-    {
-      "candidate_id": "author:repligate:1620626089239547904",
-      "category": "novel_candidate",
-      "relevance": "exclude_clear",
-      "product": "unknown",
-      "content_kind": "article_or_discussion"
-    },
-    {
-      "candidate_id": "author:repligate:1620611843504099338",
-      "category": "novel_candidate",
-      "relevance": "uncertain",
-      "product": "unknown",
-      "content_kind": "meme"
-    },
-    {
-      "candidate_id": "author:repligate:1620605958287392768",
-      "category": "novel_candidate",
-      "relevance": "exclude_clear",
-      "product": "other_assistant",
-      "content_kind": "article_or_discussion"
-    },
-    {
-      "candidate_id": "author:repligate:1620578653196410887",
-      "category": "novel_candidate",
-      "relevance": "uncertain",
-      "product": "unknown",
-      "content_kind": "story"
     },
     {
       "candidate_id": "reddit:112wwds",

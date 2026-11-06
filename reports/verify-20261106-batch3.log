@@ -1,0 +1,36 @@
+=== verifying segment:66516f6c042022c5c757307f10938cb7 ===
+{
+  "available_eligible_conversations": 1,
+  "queued": 1,
+  "results": {
+    "pass": 1
+  }
+}
+=== verifying segment:e000675db148dedca02e5259859cc5e8 ===
+{
+  "available_eligible_conversations": 0,
+  "queued": 0,
+  "results": {}
+}
+=== verifying segment:542f273b8dd4bf2ceb9cbc9cc939f192 ===
+{
+  "available_eligible_conversations": 1,
+  "queued": 1,
+  "results": {
+    "pass": 1
+  }
+}
+=== verifying segment:d3401bc0163f3befc05be8b81fc3f9ad ===
+{
+  "available_eligible_conversations": 0,
+  "queued": 0,
+  "results": {}
+}
+=== verifying segment:807b84a9de52e5d6f043f32a93a3a108 ===
+{
+  "available_eligible_conversations": 1,
+  "queued": 1,
+  "results": {
+    "quarantined": 1
+  }
+}

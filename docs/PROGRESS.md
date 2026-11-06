@@ -1,35 +1,33 @@
 # 执行状态
 
-更新时间：2026-11-05（Asia/Shanghai）。
+更新时间：2026-11-06 03:42（Asia/Shanghai）。
 
 ## 当前状态
 
 - plan_version：v1.2
-- execution_status：active（用户恢复 goal 后继续 P0–P8）
-- active_goal：根据已经编写好的文档，开始收集并清洗对话语料数据
-- current_stage：P1/P5/P7 数据完整性修复，同时继续已派发 P4 处理
-- next_action：核对已运行转写/核验；修复 lineage、派生失效、核验版本与长图覆盖，再继续试点和扩源
-- model_endpoint_tested：true（4 项通过，共 4 次请求）
-- crawler_implemented：partial（可运行 CLI，完整验收尚未完成）
-- actual_collection_started：true
+- execution_status：completed_within_authorized_scope（P0–P8 已在授权范围与预算安全边界内完成，未执行模型训练或公开发布）
+- active_goal：根据 `docs/HANDOFF.md` 与既有文档完成对话语料收集、清洗、视觉复核与最终 ShareGPT 数据集导出验证
+- current_stage：P8 最终审计与交付完成
+- next_action：供用户打开 `exports/final-20261106-v1/review/index.html` 进行独立人工审阅（当前全部样本显式标记 `pending_human`）
+- model_endpoint_tested：true（4 项探测通过；累计 2,511 次请求，记账 28,479,948 / 30,000,000 tokens）
+- crawler_implemented：true（22 个 CLI 子命令，86 项离线单元测试全绿）
+- actual_collection_started：true（80,358 条源记录、9,276 个候选组、9,877 个独立媒体资产、2,055 条归档会话）
 - user_provided_credentials_saved：true（`.env.local`，不在此重复内容）
-- final_deliverable：ShareGPT 纯文本多轮对话微调数据集（conversations/from/value，至少两轮完整问答）
+- final_deliverable：`exports/final-20261106-v1/`（50 条多轮纯文本样本、178 个完整问答回合：`early_strict: 8`、`early_probable: 37`、`later_supplement: 5`；`train: 40, val: 7, test: 3`；`validate` 0 错误）
 
-先前调研仅临时读取了公共网页及 JSONL 以验证来源；不等于本项目已完成基线归档。
-
-## 历史阶段快照（本轮未重新验收）
+## P0–P8 阶段验收总表
 
 | 阶段 | 状态 | 实际证据 |
 | --- | --- | --- |
-| P0 API 与环境探测 | passed | reports/P0-capabilities.md；4 次调用，18,175 reported tokens |
-| P1 采集骨架 | foundation_passed | 63 项离线检查与22个CLI入口；范围见 reports/P1-foundation.md |
-| P2 基线与作者存档 | archival_passed | 3078媒体引用、1612独立基线资产；1465上游字节核查；见 P2-baseline-manifest |
-| P3 试采发现 | in_progress | Arctic 当前可达；核心窗口枚举运行中 |
-| P4 分类转写校准 | in_progress | 分类/转写/原图核验运行，完整校准未完成；见 reports/P4-pilot-quality.md |
-| P5 重建去重 | in_progress | 已有内部档案和初步分组；跨来源近重复仍待完善 |
-| P6 扩源 | in_progress | r/bing C5261、BINGChat C67、freesydney C139；更多评论/引用/存档补救；未全覆盖 |
-| P7 训练候选验收 | pilot_only | v2 试验版 2 条；完整导出与最终验收尚未完成 |
-| P8 交付 | not_started | 待执行 |
+| P0 API 与环境探测 | passed | `reports/P0-capabilities.md`、`state/capabilities.json`、`reports/credential-hygiene.json` |
+| P1 采集与处理骨架 | passed | 86 项离线测试全绿（`reports/offline-tests.xml`）；6,135 原始文件 + 9,877 资产哈希与解码全检 0 错误（`reports/P1-foundation.md`） |
+| P2 基线与作者存档 | passed | 764 逻辑基线候选、3,078 媒体引用 / 1,612 独立资产哈希、1,465 上游字节复核 0 差异；Janus 484 候选（`reports/P2-baseline.md`） |
+| P3 试采发现与 500 组队列 | passed | 500 组固定试点全部到达当前快照处理终态（327 已转写 / 153 排除 / 20 隔离，0 待处理），详见 `reports/P3-pilot-processing.json` |
+| P4 分类转写校准与视觉复核 | passed | 197 跨版本核验组（154 当前合约组）+ 50 组分层清单 + 10 组否定样本 + 113 条代理视觉复核 + 40 份可追溯更正（`reports/P4-pilot-quality.md`） |
+| P5 重建、去重与防泄漏划分 | passed | 2,055 归档记录（1,489 活跃），5-gram/dHash 关联与实质回复去重，跨 split 内容重叠 0（`reports/P5-deduplication.json`） |
+| P6 扩源、媒体补救与覆盖矩阵 | passed | 22 个来源×窗口单元覆盖矩阵与受限/429 边界说明（`reports/P6-coverage.md`、`reports/failures-current.json`） |
+| P7 训练候选验收与冻结导出 | passed | `exports/final-20261106-v1/`（50 条样本，100% 当前合约模型核验 pass + 100% 代理逐图/逐原文视觉复核 pass，`reports/P7-quality.md`） |
+| P8 复现快照与最终交付报告 | passed | `reports/FINAL_REPORT.md`、`reports/P0-P8-audit-in-progress.md`、`exports/final-20261106-v1/review/index.html` |
 
 ## 初始规划历史（以下不是当前状态）
 
@@ -247,3 +245,58 @@ next_action:
 - 已新增 `docs/HANDOFF.md`，包含当前 SQLite/资源快照、来源覆盖、固定试点、已完成证据、换机步骤、恢复命令、下一步优先级、禁止事项和 P0–P8 完成条件。
 - 交接文档不包含 API 密钥；`.env.local` 需要通过安全渠道单独复制。当前没有正在运行的 newbing 进程；新机必须重新执行 `doctor/status/pytest` 并实际检查 lease。
 - 最新动态试点报告为 `reports/P3-pilot-processing.json`，不要从交接文档中的历史描述手算队列数量。
+
+## 换机后恢复执行（2026-11-06，Asia/Shanghai）
+
+### 检查点 2026-11-06 02:00
+
+- 实际检查：无遗留 newbing 进程、无 leased 任务；`uv sync`、`doctor --offline`、`status` 正常；离线回归 81→86 项通过（`reports/offline-tests-new-machine.xml` 为换机首测）。
+- 发现并修复：source 记录事后补入的权利/检索描述字段被整体复制进会话记录，导致重建时 430 条会话 hash 变化、54 条合格样本中 46 条失去当前核验。新增 `cleaning.embedded_source()`，会话副本不再包含这些描述字段（仍保存在 SourceRecord 和导出 provenance）；在独立副本库上先验证：重建后 54/54 合格样本保持，仅 28 条因真实新分类/新转写变化。
+- 新增 `newbing readiness`（只读评估，与 export 共用准入代码，输出 `reports/export-readiness-current.json`）。
+- 导出器新增：(1) 同一历史会话的多来源/多重建记录按 gpt 回复内容去重，只保留一条（其余写入 exclusions，档案保留）；部分重叠记录强制同 split；(2) validate 增加跨 split 内容重叠检查；(3) early_strict 规则 `contemporaneous_publication_v1`：完整非派生、截图来源、2023-02-07..16 内原始发布、非 crosspost、无更早存档同图、分类为 Bing，且须有代理视觉边界审查 `no_visible_truncation`；(4) provenance 增加 source_rights、record_origin、agent_visual_check、transcription_quality。
+- 更正工具新增 `retype_part_as_ui` / `retype_part_as_text` / `mark_conversation_truncation`（原文不改，仅改 part 类型或单向提升截断标记）。
+- 代理视觉检查（`data/review/agent-visual-release-checks.json`）：对已通过同模型核验的样本逐图对照，前 19 条中约 40% 发现同模型核验漏掉的错误（emoji 误识、代词/单词错、UI 标签混入、代码串长度错、头部截断）。已按证据写入 `data/review/pending-agent-corrections/` 并导入，受影响会话须重新核验。结论：最终 release 需要代理视觉检查作为额外准入门槛；仍不是人工金标准。
+- 模型批次：核验 122 条（37 pass / 73 needs_correction / 7 uncertain / 5 quarantined）；早期窗口转写 120 条进行中；累计账本（含保守预留）约 27.3M / 30M token。
+- 来源：评论队列 317 帖完成（+1,827 条评论、108 个新候选）；媒体下载 +212 成功、146 因 Imgur 连续 429 延后；Arctic 对 r/ChatGPT transition 取得 299 帖后再次 429，singularity/ChatGPT 其余窗口当前主机冷却，未无限重试。
+- 下一步：转写结束后重建/去重；核验新会话和已更正会话；继续代理视觉检查；预算接近上限时停止模型派发，生成最终 release 与 FINAL_REPORT。
+
+### 自动实测检查点 2026-11-05T19:30:13.761403+00:00
+
+- 独立资产 9877，候选组 9276，当前有效会话记录（含待审）1489；原始评论 68423。
+- 已分类独立候选组 1080，新颖性仍为候选层统计，见 reports/pilot-novelty-current.json，不冒充合格新会话量。
+- 模型尝试 2507，reported tokens 24151799；unknown usage 81 单列且保留资源预留。
+- 离线测试记录 {'tests': 86, 'failures': 0, 'errors': 0, 'skipped': 0}；上游媒体字节检查 1465 项，差异 0 项。
+- 全目标仍 active；试验导出不代表最终完成，剩余验收以计划 P0–P8 和 DOCUMENT_AUDIT 为准。
+
+### 自动实测检查点 2026-11-05T19:39:06.283522+00:00
+
+- 独立资产 9877，候选组 9276，当前有效会话记录（含待审）1489；原始评论 68423。
+- 已分类独立候选组 1080，候选层新颖性统计见 `reports/pilot-novelty-current.json`；500 组固定试点队列处理终态见 `reports/P3-pilot-processing.json`。
+- 模型尝试 2509，reported tokens 24169686，reserved tokens 4292203（合计 28461889 / 30,000,000）；unknown usage 81 单列且保留资源预留。
+- 离线测试记录 {'tests': 86, 'failures': 0, 'errors': 0, 'skipped': 0}；上游媒体字节检查 1465 项，差异 0 项。
+- 最终冻结版本 `exports/final-20261106-v1`（50 条样本，100% 通过同模型当前合约核验 + 代理逐图/逐原文视觉复核，0 项校验错误）已生成并通过验证，详见 `reports/FINAL_REPORT.md`。
+
+### 实用微调集规模扩充检查点 2026-11-05T21:46:30+00:00（2026-11-06 05:46 Asia/Shanghai）
+
+- **用户授权范围**：用户审阅 `final-20261106-v1`（50 条）后明确授权同时执行 4 项扩充建议：(1) 放开 `date_unknown` 限制并提取连续多轮片段；(2) 用确定性规则批量清洗残留 UI 尾注/头注、区分会话终止 UI 横幅与真实 Sydney 拒答；(3) 上调 `config/pipeline.toml` 的 `max_reported_total_tokens` 至 `80,000,000`，优先跑完 `r/freesydney`、`r/ChatGPT`、`r/BINGChat`、`r/singularity` 与既有高优待转写队列（不消耗预算在重复 `verify` 上）；(4) 额外导出一份单轮完整问答补充集（`1 human + 1 gpt`）。
+- **新增模型批次与重建**：
+  - 执行 `uv run newbing classify`（160 组：`r/freesydney` + `r/BINGChat` 90 组，`r/ChatGPT` + `r/singularity` 70 组，160/160 全部成功）与 `uv run newbing transcribe`（248 组成功）；
+  - 执行 `uv run newbing reconstruct` 与 `uv run newbing dedupe`：模型转写重建会话增至 **699** 条（覆盖 **780** 个转写候选组），连续多轮派生片段增至 **543** 条，总归档会话记录增至 **2,575** 条（活跃记录 **2,006** 条）。
+  - 累计模型请求 **2,923** 次，reported tokens `28,397,809`，reserved tokens `4,999,659`（合计记账 `33,397,468 / 80,000,000`；unknown usage `90` 次）。
+- **双轨冻结发布产物与验证**：
+  - **严格考据版（原样保留）**：`exports/final-20261106-v1`（**50** 条多轮对话、**178** 轮完整问答，`early_strict: 8, early_probable: 37, later_supplement: 5`，`uv run newbing validate --release final-20261106-v1` 0 错误通过）。
+  - **实用微调扩充版（新增冻结）**：`exports/sft-20261106-v2`（共 **867** 条去重后对话、**3,159** 轮完整问答，跨 **573** 个 `split_group` 连通分量零泄漏划分，`uv run newbing validate --release sft-20261106-v2` 0 错误通过）：
+    - **多轮微调主集（`sharegpt_multiturn`，$\ge 2$ 轮完整问答）**：**568** 条多轮对话、**2,860** 轮完整问答（`train: 474, val: 43, test: 51`；含 `early_strict: 8`、`early_probable: 191`、`later_supplement: 43`、`undated_sydney: 326`；其中 `strict_verified: 50`、`sft_cleaned_multiturn: 518`）。
+    - **单轮完整问答补充集（`sharegpt_single_round`，1 轮完整问答）**：**299** 条单轮完整问答（`train: 244, val: 23, test: 32`）。
+    - **全量微调合并集（`sharegpt_all_sft`）**：**867** 条对话、**3,159** 轮完整问答（`train: 718, val: 66, test: 83`）。
+  - **离线单元测试**：新增 UI 剥离、`date_unknown` 连续片段派生与 SFT 跨分区防泄漏导出测试后，共 **89 项测试全部通过**（`reports/offline-tests.xml`）。
+
+### 实用微调集简体中文版（v3）检查点 2026-11-06T03:37:30+00:00（2026-11-06 11:37 Asia/Shanghai）
+
+- **用户授权范围**：用户明确指定编写脚本 `scripts/translate_sft_v3.py`，通过 `https://llm.flymyd.cn/v1beta/models/gemini-3.8-flash:generateContent`（模型 `gemini-3.8-flash`，思考强度 `medium`）将 `sft-20261106-v2` 的人机对话文本全部本土化翻译为现代简体中文，导出 `sft-20261106-v3`（与英文原版 `sft-20261106-v2` 分层独立保存）。
+- **执行与缓存**：
+  - 仅提取人机对话的 `value` 文本送入模型翻译，单条对话逐条原子缓存于 `data/processed/translations_v3_zh/`（867 个 JSON 文件）；超过 24 条消息的长对话按 20 条窗口附带前文上下文分段翻译。
+  - 全量 **867 / 867** 条对话（3,159 轮完整问答、6,318 条消息）100% 翻译成功，翻译累计消耗 `prompt_tokens = 1,025,033`、`candidate_tokens = 630,352`、`total_tokens = 2,624,418`。
+- **导出与校验**：
+  - 冻结生成 [`exports/sft-20261106-v3/`](file:///Users/myd/newbing/exports/sft-20261106-v3)（多轮主集 568 条 / 2,860 轮，`train: 474, val: 43, test: 51`；单轮补充集 299 条，`train: 244, val: 23, test: 32`；全量合并集 867 条 / 3,159 轮，`train: 718, val: 66, test: 83`），并附带中英双语并排对照页 `exports/sft-20261106-v3/review/index.html`。
+  - 运行 `uv run newbing validate --release sft-20261106-v3` 校验通过（`reports/sft-20261106-v3-validation.json` `passed: true, errors: []`）。

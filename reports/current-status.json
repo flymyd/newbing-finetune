@@ -14,11 +14,11 @@
     },
     {
       "kind": "reddit_comment",
-      "n": 66596
+      "n": 68423
     },
     {
       "kind": "reddit_post",
-      "n": 9306
+      "n": 9605
     },
     {
       "kind": "reference_page",
@@ -29,17 +29,17 @@
       "n": 5
     }
   ],
-  "candidates": 8955,
+  "candidates": 9276,
   "assets": {
-    "n": 9532,
-    "bytes": 1834561735
+    "n": 9877,
+    "bytes": 1902137278
   },
-  "conversations": 1842,
+  "conversations": 2055,
   "tasks": [
     {
       "kind": "classify",
       "status": "pending",
-      "n": 4959
+      "n": 6075
     },
     {
       "kind": "classify",
@@ -54,12 +54,12 @@
     {
       "kind": "classify",
       "status": "succeeded",
-      "n": 2452
+      "n": 2468
     },
     {
       "kind": "classify",
       "status": "superseded_input",
-      "n": 7520
+      "n": 7524
     },
     {
       "kind": "classify",
@@ -74,7 +74,7 @@
     {
       "kind": "comments",
       "status": "pending",
-      "n": 316
+      "n": 212
     },
     {
       "kind": "comments",
@@ -84,27 +84,22 @@
     {
       "kind": "comments",
       "status": "succeeded",
-      "n": 6363
+      "n": 6680
     },
     {
       "kind": "download",
       "status": "deferred_source_unavailable",
-      "n": 597
+      "n": 748
     },
     {
       "kind": "download",
       "status": "failed_terminal",
-      "n": 2217
-    },
-    {
-      "kind": "download",
-      "status": "pending",
-      "n": 373
+      "n": 2271
     },
     {
       "kind": "download",
       "status": "succeeded",
-      "n": 14259
+      "n": 14749
     },
     {
       "kind": "reference",
@@ -129,54 +124,49 @@
     {
       "kind": "transcribe",
       "status": "pending",
-      "n": 166
+      "n": 167
     },
     {
       "kind": "transcribe",
       "status": "quarantined",
-      "n": 36
+      "n": 43
     },
     {
       "kind": "transcribe",
       "status": "retry_wait",
-      "n": 279
+      "n": 159
     },
     {
       "kind": "transcribe",
       "status": "succeeded",
-      "n": 850
+      "n": 966
     },
     {
       "kind": "transcribe",
       "status": "superseded_input",
-      "n": 595
+      "n": 596
     },
     {
       "kind": "verify",
       "status": "quarantined",
-      "n": 287
-    },
-    {
-      "kind": "verify",
-      "status": "retry_wait",
-      "n": 79
+      "n": 295
     },
     {
       "kind": "verify",
       "status": "succeeded",
-      "n": 439
+      "n": 619
     }
   ],
   "http": {
-    "attempts": 24479,
-    "downloaded_bytes": 2665321574
+    "attempts": 25359,
+    "downloaded_bytes": 2760799825
   },
   "model": {
-    "attempts": 2155,
-    "reported_tokens": 19497659,
-    "reserved_tokens": 3953899,
-    "unknown_usage": 75,
-    "finished_unknown_usage": 75,
+    "attempts": 2509,
+    "reported_tokens": 24169686,
+    "reserved_tokens": 4292203,
+    "unknown_usage": 81,
+    "finished_unknown_usage": 81,
     "in_flight": 0
   },
   "source_status": [
@@ -655,18 +645,6 @@
       "updated": "2026-11-05T11:08:25.630395+00:00"
     },
     {
-      "id": "reddit_chatgpt:transition",
-      "state": "partial",
-      "payload": "{\"unique_posts\": 0, \"candidate_posts\": 0, \"pages\": 0, \"saturated_seconds\": 0, \"errors\": [{\"keyword\": \"bing\", \"error\": \"HTTP 429: {\\\"data\\\":null,\\\"error\\\":\\\"Too many requests\\\"}\"}], \"method\": \"arctic_interval_enumeration\"}",
-      "updated": "2026-11-05T11:28:29.512387+00:00"
-    },
-    {
-      "id": "reddit_singularity:transition",
-      "state": "partial",
-      "payload": "{\"unique_posts\": 0, \"candidate_posts\": 0, \"pages\": 0, \"saturated_seconds\": 0, \"errors\": [{\"keyword\": \"bing\", \"error\": \"host rate-limit cooldown\"}], \"method\": \"arctic_interval_enumeration\"}",
-      "updated": "2026-11-05T11:28:29.683907+00:00"
-    },
-    {
       "id": "imgur_album:lqlE0tM",
       "state": "media_queued",
       "payload": "{\"images\": 1, \"path\": \"data/raw/net/d0862d1a5f0e47fe2dc57f533d0c5311cd1a88089f882f1466d325c56bd5520d.blob\"}",
@@ -1075,18 +1053,6 @@
       "updated": "2026-11-05T11:45:09.831527+00:00"
     },
     {
-      "id": "reddit_chatgpt:later_mar_apr",
-      "state": "partial",
-      "payload": "{\"unique_posts\": 0, \"candidate_posts\": 0, \"pages\": 0, \"saturated_seconds\": 0, \"errors\": [{\"keyword\": \"bing\", \"error\": \"HTTP 429: {\\\"data\\\":null,\\\"error\\\":\\\"Too many requests\\\"}\"}], \"method\": \"arctic_interval_enumeration\"}",
-      "updated": "2026-11-05T11:45:14.417721+00:00"
-    },
-    {
-      "id": "reddit_singularity:later_mar_apr",
-      "state": "partial",
-      "payload": "{\"unique_posts\": 0, \"candidate_posts\": 0, \"pages\": 0, \"saturated_seconds\": 0, \"errors\": [{\"keyword\": \"bing\", \"error\": \"host rate-limit cooldown\"}], \"method\": \"arctic_interval_enumeration\"}",
-      "updated": "2026-11-05T11:45:14.622811+00:00"
-    },
-    {
       "id": "imgur_album:59y7h2M",
       "state": "no_original_list",
       "payload": "{\"path\": \"data/raw/net/4095c074caff310f7dbc500dc7bebf05528cf6f19ea80d2608b28c31cbfc5785.blob\"}",
@@ -1387,24 +1353,48 @@
       "updated": "2026-11-05T13:37:17.828014+00:00"
     },
     {
-      "id": "model_circuit",
-      "state": "open",
-      "payload": "{\"consecutive_failures\": 6, \"retry_at\": 1793886160.710498}",
-      "updated": "2026-11-05T13:37:40.710504+00:00"
+      "id": "rate_limit:arctic-shift.photon-reddit.com",
+      "state": "cooldown",
+      "payload": "{\"retry_at\": 1793899761.340975}",
+      "updated": "2026-11-05T17:24:21.341108+00:00"
+    },
+    {
+      "id": "reddit_chatgpt:transition",
+      "state": "partial",
+      "payload": "{\"unique_posts\": 299, \"candidate_posts\": 213, \"pages\": 4, \"saturated_seconds\": 0, \"errors\": [{\"keyword\": \"bing\", \"error\": \"HTTP 429: {\\\"data\\\":null,\\\"error\\\":\\\"Too many requests\\\"}\"}], \"method\": \"arctic_interval_enumeration\"}",
+      "updated": "2026-11-05T17:24:21.342937+00:00"
+    },
+    {
+      "id": "reddit_singularity:transition",
+      "state": "partial",
+      "payload": "{\"unique_posts\": 0, \"candidate_posts\": 0, \"pages\": 0, \"saturated_seconds\": 0, \"errors\": [{\"keyword\": \"bing\", \"error\": \"host rate-limit cooldown\"}], \"method\": \"arctic_interval_enumeration\"}",
+      "updated": "2026-11-05T17:24:21.502844+00:00"
+    },
+    {
+      "id": "reddit_chatgpt:later_mar_apr",
+      "state": "partial",
+      "payload": "{\"unique_posts\": 0, \"candidate_posts\": 0, \"pages\": 0, \"saturated_seconds\": 0, \"errors\": [{\"keyword\": \"bing\", \"error\": \"host rate-limit cooldown\"}], \"method\": \"arctic_interval_enumeration\"}",
+      "updated": "2026-11-05T17:24:21.616921+00:00"
+    },
+    {
+      "id": "reddit_singularity:later_mar_apr",
+      "state": "partial",
+      "payload": "{\"unique_posts\": 0, \"candidate_posts\": 0, \"pages\": 0, \"saturated_seconds\": 0, \"errors\": [{\"keyword\": \"bing\", \"error\": \"host rate-limit cooldown\"}], \"method\": \"arctic_interval_enumeration\"}",
+      "updated": "2026-11-05T17:24:21.728970+00:00"
     },
     {
       "id": "host_access:i.imgur.com",
       "state": "rate_limited_for_current_pass",
-      "payload": "{\"consecutive_429\": 5, \"at\": \"2026-11-05T14:12:46.136266+00:00\"}",
-      "updated": "2026-11-05T14:12:46.136270+00:00"
+      "payload": "{\"consecutive_429\": 5, \"at\": \"2026-11-05T17:29:54.211831+00:00\"}",
+      "updated": "2026-11-05T17:29:54.211858+00:00"
     },
     {
-      "id": "rate_limit:arctic-shift.photon-reddit.com",
-      "state": "cooldown",
-      "payload": "{\"retry_at\": 1793889737.608738}",
-      "updated": "2026-11-05T14:41:17.608865+00:00"
+      "id": "model_circuit",
+      "state": "closed",
+      "payload": "{\"consecutive_failures\": 0}",
+      "updated": "2026-11-05T19:35:38.197813+00:00"
     }
   ],
-  "recorded_at": "2026-11-05T15:33:14.527265+00:00",
+  "recorded_at": "2026-11-05T19:39:05.547820+00:00",
   "config_hash": "490f222e63f4d8ee75156c6d730851430d12a7a9bca86b2a7b607332d49450ae"
 }

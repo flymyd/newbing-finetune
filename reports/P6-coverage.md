@@ -1,6 +1,6 @@
-# P6 覆盖检查点
+# P6 范围扩展、媒体补救与覆盖矩阵报告
 
-2026-11-05T13:27:49.173672+00:00；仍在执行，不是全来源完成声明。
+更新时间：2026-11-05T19:38:45.605147+00:00（已按有限资源与访问边界完成本轮覆盖，未将受限/429来源冒充为全网穷尽）。
 
 | 来源 | 窗口 | 当前状态 | 本地独立原帖数 |
 | --- | --- | --- | --- |
@@ -14,7 +14,7 @@
 | reddit_bingchat | transition | complete_for_available_listing | 36 |
 | reddit_bingchat | later_mar_apr | complete_for_available_listing | 67 |
 | reddit_chatgpt | early | partial | 132 |
-| reddit_chatgpt | transition | partial | 0 |
+| reddit_chatgpt | transition | partial | 299 |
 | reddit_chatgpt | later_mar_apr | partial | 0 |
 | reddit_freesydney | transition | complete_for_available_listing | 67 |
 | reddit_freesydney | later_mar_apr | complete_for_available_listing | 139 |
@@ -27,4 +27,4 @@
 | willison_bing | - | partial_seed_discovery | - |
 | v2ex_bing | - | partial_seed_discovery | - |
 
-last_attempt 原始计数、错误和限制在 coverage-matrix.json。429/不可达/未开始不能写成来源耗尽；完整索引也不意味着截图均存活、文本均转写或全部合格。
+`last_attempt` 原始计数、HTTP 429 冷却记录、外链相册/Wayback 补救回执与限制详见 [`reports/coverage-matrix.json`](file:///Users/myd/newbing/reports/coverage-matrix.json)。429/不可达/部分枚举如实保留为 `partial` 或 `deferred_source_unavailable`，不写成来源耗尽；完整索引也不意味着截图均存活、文本均转写或全部合格。

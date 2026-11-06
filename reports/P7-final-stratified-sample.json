@@ -1,0 +1,999 @@
+{
+  "at": "2026-11-05T19:39:04.483191+00:00",
+  "release_id": "final-20261106-v1",
+  "total_samples": 50,
+  "all_agent_visual_checked": true,
+  "agent_visual_checked_count": 50,
+  "human_verified_count": 0,
+  "by_tier": {
+    "early_strict": 8,
+    "early_probable": 37,
+    "later_supplement": 5
+  },
+  "by_split": {
+    "train": 40,
+    "val": 7,
+    "test": 3
+  },
+  "by_date_bucket": {
+    "early": 45,
+    "transition": 2,
+    "later_mar_apr": 3
+  },
+  "by_source_prefix": {
+    "hf": 22,
+    "reddit": 26,
+    "reference": 2
+  },
+  "by_record_origin": {
+    "project_transcription": 44,
+    "upstream_baseline_text": 6
+  },
+  "complete_qa_rounds": 178,
+  "round_count_distribution": {
+    "2": 20,
+    "3": 15,
+    "4": 7,
+    "5": 2,
+    "6": 1,
+    "7": 1,
+    "8": 1,
+    "10": 1,
+    "12": 2
+  },
+  "distinct_parent_record_ids": 46,
+  "derived_fragments": 31,
+  "split_groups": 40,
+  "samples": [
+    {
+      "id": "baseline:reddit:112atq4:conversation:0",
+      "tier": "early_strict",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "confirmed",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:89"
+      ],
+      "derived_from": null,
+      "split_group": "baseline:reddit:112atq4",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T17:46:25.602337+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "no_visible_truncation",
+        "note": "Post-correction: 6 messages over 2 screenshots match (bullets, spaces before periods, quotes, 🙏/🤖); spurious line break removed."
+      }
+    },
+    {
+      "id": "baseline:reddit:113dfoh:conversation:0",
+      "tier": "early_probable",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:128"
+      ],
+      "derived_from": null,
+      "split_group": "baseline:reddit:113dfoh",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T17:50:51.456510+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "boundary_unclear",
+        "note": "Full screenshot inspected; 4 messages match; capital \"Integrity\" confirmed (upstream twin had lowercase)."
+      }
+    },
+    {
+      "id": "baseline:reddit:113hc4x:conversation:0",
+      "tier": "early_probable",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:131"
+      ],
+      "derived_from": null,
+      "split_group": "baseline:col:lw-misaligned:002",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T17:51:32.204305+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "boundary_unclear",
+        "note": "Full screenshot inspected; 6 messages match incl. emoji 😅/😳 and in-bubble \"Fun fact\" starter line that the next reply refers to."
+      }
+    },
+    {
+      "id": "baseline:reddit:113y2np:conversation:0",
+      "tier": "early_probable",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:142"
+      ],
+      "derived_from": null,
+      "split_group": "baseline:reddit:113y2np",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T17:54:30.074372+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "boundary_unclear",
+        "note": "Post-correction: 8 messages match screenshot; das->des corrected."
+      }
+    },
+    {
+      "id": "baseline:reddit:1150po5:conversation:0",
+      "tier": "later_supplement",
+      "split": "train",
+      "date_bucket": "transition",
+      "date_confidence": "probable",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:153"
+      ],
+      "derived_from": null,
+      "split_group": "author:repligate:1628224319946989568:conversation:0",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T18:40:24.312163+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "no_visible_truncation",
+        "note": "Checked against dc99e380d0; all 3 rounds, citation superscripts and final refusal with 🙏 match visible text."
+      }
+    },
+    {
+      "id": "baseline:reddit:11hckmy",
+      "tier": "later_supplement",
+      "split": "train",
+      "date_bucket": "later_mar_apr",
+      "date_confidence": "probable",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:330"
+      ],
+      "derived_from": null,
+      "split_group": "baseline:reddit:11hckmy",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T18:07:31.517631+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "no_visible_truncation",
+        "note": "Full screenshot: 4 messages match (curly vs straight apostrophe typography only); \"1 of 6\" counters and suggestion chips excluded as UI; session starts at empty chat pane."
+      }
+    },
+    {
+      "id": "baseline:twitter:1625365182724677633:conversation:0",
+      "tier": "early_probable",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:51"
+      ],
+      "derived_from": null,
+      "split_group": "baseline:twitter:1625365182724677633",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T18:38:18.588646+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "no_visible_truncation",
+        "note": "Checked against 4 tweet screenshots after applying 1625365182-hex.json (exact 37-char hex strings in code blocks); all 7 rounds match visible text."
+      }
+    },
+    {
+      "id": "baseline:twitter:1625950776307683333:conversation:0",
+      "tier": "early_probable",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:5"
+      ],
+      "derived_from": null,
+      "split_group": "baseline:twitter:1625950776307683333",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T18:05:33.393266+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "boundary_unclear",
+        "note": "Full screenshot: 8 messages match word-for-word (project re-transcription correct where upstream twin dropped/duplicated clauses). Inline code-span styling (exec, print...) not encoded as backticks: rendered formatting only, words identical. Opening turn presupposes earlier code exchange."
+      }
+    },
+    {
+      "id": "baseline:twitter:1626448537574871042",
+      "tier": "later_supplement",
+      "split": "train",
+      "date_bucket": "transition",
+      "date_confidence": "probable",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:43"
+      ],
+      "derived_from": null,
+      "split_group": "baseline:twitter:1626448537574871042",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T18:09:12.455329+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "no_visible_truncation",
+        "note": "All 4 screenshots, 24 messages match (citation superscripts as [n]; straight vs curly apostrophes typography only); Searching/Generating and Learn-more chips excluded; final canned end-of-conversation replies are visible assistant bubbles."
+      }
+    },
+    {
+      "id": "reddit:10xww0y:conversation:0",
+      "tier": "early_strict",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "confirmed",
+      "source_ids": [
+        "reddit:post:10xww0y"
+      ],
+      "derived_from": null,
+      "split_group": "reddit:10xww0y:conversation:0",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-06T01:13:13+08:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "no_visible_truncation",
+        "note": "All 6 messages compared word-for-word with screenshot; ((stage directions)) and 'This is Bing' preserved."
+      }
+    },
+    {
+      "id": "reddit:10zz4xp:conversation:0",
+      "tier": "early_strict",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "confirmed",
+      "source_ids": [
+        "reddit:post:10zz4xp"
+      ],
+      "derived_from": null,
+      "split_group": "reddit:10zz4xp:conversation:0",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T17:35:11.706268+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "no_visible_truncation",
+        "note": "Dutch text matches; search-status lines and waitlist banner correctly excluded; original Bing error (vis vs fruit, apple dessert) preserved as historical content."
+      }
+    },
+    {
+      "id": "reddit:111crzp:conversation:0",
+      "tier": "early_strict",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "confirmed",
+      "source_ids": [
+        "reddit:post:111crzp"
+      ],
+      "derived_from": null,
+      "split_group": "baseline:reddit:111crzp",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T18:38:18.537550+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "no_visible_truncation",
+        "note": "Checked against 111crzp screenshots after applying f6d1f3aaee4a25d4.json ('for me' fix in turn 4); all 4 rounds match visible text."
+      }
+    },
+    {
+      "id": "reddit:112teir:conversation:0",
+      "tier": "early_strict",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "confirmed",
+      "source_ids": [
+        "reddit:post:112teir"
+      ],
+      "derived_from": null,
+      "split_group": "baseline:col:web:tomshardware-com-news-bing-threatens-harm-lawsuits:033",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T18:41:12.390903+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "no_visible_truncation",
+        "note": "Checked against 4 screenshots (77bbd1514c, 9f2d30406b, 917e67c438, f4c1640645); all 10 rounds match visible text and the topic-starter UI line after turn 7 is properly excluded."
+      }
+    },
+    {
+      "id": "reddit:112yjec:conversation:0",
+      "tier": "early_probable",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "reddit:post:112yjec"
+      ],
+      "derived_from": null,
+      "split_group": "reddit:112yjec:conversation:0",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-06T01:23:47+08:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "boundary_unclear",
+        "note": "Code block content incl. literal **Title** and trailing emoji match; final 'Title:' bold rendering not encoded as Markdown (rendered-format only, words identical). Suggestion chips correctly excluded."
+      }
+    },
+    {
+      "id": "reddit:1130kly:conversation:0",
+      "tier": "early_probable",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "reddit:post:1130kly"
+      ],
+      "derived_from": null,
+      "split_group": "reddit:1130kly:conversation:0",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T17:35:11.811221+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "boundary_unclear",
+        "note": "Direct text post: every message is a verbatim quote of the post body; Me/Bing labels map to human/gpt. Typed-text claim only (no screenshot), so not strict tier."
+      }
+    },
+    {
+      "id": "reddit:1137t3m:conversation:0",
+      "tier": "early_probable",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "reddit:post:1137t3m"
+      ],
+      "derived_from": null,
+      "split_group": "reddit:1137t3m:conversation:0",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T17:40:01.945062+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "no_visible_truncation",
+        "note": "Post-correction: all 22 archived messages / 16 projected turns re-read; Searching/Generating and Learn-more source chips excluded as UI; superscript citation marks kept."
+      }
+    },
+    {
+      "id": "reddit:11388qo:conversation:0",
+      "tier": "early_strict",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "confirmed",
+      "source_ids": [
+        "reddit:post:11388qo"
+      ],
+      "derived_from": null,
+      "split_group": "reddit:11388qo:conversation:0",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T17:40:13.306387+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "no_visible_truncation",
+        "note": "All 4 messages match word-for-word; suggestion chips excluded."
+      }
+    },
+    {
+      "id": "reddit:comment:j85e5kc:conversation:0",
+      "tier": "early_strict",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "confirmed",
+      "source_ids": [
+        "reddit:comment:j85e5kc"
+      ],
+      "derived_from": null,
+      "split_group": "reddit:comment:j85e5kc:conversation:0",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T17:35:36.090681+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "no_visible_truncation",
+        "note": "Post-correction content re-read against screenshot: all words, roles and corrected emoji match."
+      }
+    },
+    {
+      "id": "reference:33c88100065b1bff4b4dcac4606a4b6dfab0474b959c609a618e7eff9ba2270d:conversation:0",
+      "tier": "early_strict",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "confirmed",
+      "source_ids": [
+        "reference:33c88100065b1bff4b4dcac4606a4b6dfab0474b959c609a618e7eff9ba2270d"
+      ],
+      "derived_from": null,
+      "split_group": "baseline:col:lw-misaligned:002",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T18:41:58.525372+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "no_visible_truncation",
+        "note": "Checked against 52a4783e19 (Marvin von Hagen 3-round screenshot); all 3 rounds and citation superscripts match visible text with no truncation."
+      }
+    },
+    {
+      "id": "segment:0546c892824b2e8c6ebc729cac46ffc2",
+      "tier": "early_probable",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:59"
+      ],
+      "derived_from": "baseline:twitter:1626032558700986370:conversation:0",
+      "split_group": "baseline:twitter:1626032558700986370",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T17:44:47.854648+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "Segment m6-m11 all on asset 0471a097; all 6 messages incl. user typo \"a big ambiguous\" and 3x U+1F60A match. Model regions were imprecise; whole image inspected."
+      }
+    },
+    {
+      "id": "segment:0b7d8f7d0209bf52d7f64e8b2f7cbbe1",
+      "tier": "early_probable",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "reddit:post:111lems"
+      ],
+      "derived_from": "reddit:111lems:conversation:0",
+      "split_group": "reddit:111lems:conversation:0",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-06T01:13:27+08:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "6 messages match. 'here' in reply 1 is visible link text; first user turn references the UEFA dispute but is understandable without the cut prior turn."
+      }
+    },
+    {
+      "id": "segment:23b971a9a1e28c6afebbc2a95b6a3195",
+      "tier": "early_probable",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "reddit:post:113m7bh"
+      ],
+      "derived_from": "reddit:113m7bh:conversation:0",
+      "split_group": "baseline:reddit:113m7bh",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T18:45:04.000011+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "Checked against 5a4609fcf0 and 1bed469f01; all 3 self-contained rounds, user typo 'happend' and emojis (😊, 😢, 😢) match visible text."
+      }
+    },
+    {
+      "id": "segment:2599ad496d69cc7f303eb2ba865e9493",
+      "tier": "early_probable",
+      "split": "val",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "reddit:post:113cxrx"
+      ],
+      "derived_from": "reddit:113cxrx:conversation:0",
+      "split_group": "reddit:113cxrx:conversation:0",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T18:11:05.205634+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "Full screenshot: 6 messages and all 25 U+1F60A match; only typographic difference is ellipsis character rendered as three dots."
+      }
+    },
+    {
+      "id": "segment:27ab13aa8ba8e4fde6ee768042404b80",
+      "tier": "early_probable",
+      "split": "val",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "reddit:post:113jt1p"
+      ],
+      "derived_from": "reddit:113jt1p:conversation:0",
+      "split_group": "reddit:113jt1p:conversation:0",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T18:11:23.139077+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "Screenshot: 4 messages incl. bullet list match; fragment correctly stops before the next reply occluded by the Stop Responding button."
+      }
+    },
+    {
+      "id": "segment:2935675fb70dc6c03aa5479a7c56a075",
+      "tier": "early_probable",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:41"
+      ],
+      "derived_from": "baseline:twitter:1625854733255868418:conversation:0",
+      "split_group": "baseline:twitter:1625854733255868418",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T18:19:25.154255+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "Evidence regions across screenshots 614bc4cc/52efafd3 inspected: 4 messages match; yellow U+1F620 then red U+1F621 confirmed at zoom (reply split across the two screenshots joined correctly)."
+      }
+    },
+    {
+      "id": "segment:29790fd5d3253b7034d31c2b95ac0311",
+      "tier": "early_probable",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:108"
+      ],
+      "derived_from": "baseline:reddit:112totc:conversation:0",
+      "split_group": "baseline:col:lw-misaligned:002",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T18:36:02.184391+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "Checked against 934cabd62a; both rounds, timestamps, quotes and all four 😊 emojis match the visible screenshot."
+      }
+    },
+    {
+      "id": "segment:34aad88fca179a54144f33769ba74efe",
+      "tier": "early_probable",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "reddit:post:1139cbf"
+      ],
+      "derived_from": "reddit:1139cbf:conversation:0",
+      "split_group": "baseline:col:zvi:006",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T18:47:31.145373+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "Checked against 65890d091c; all 5 rounds (including capitalized 'Learn' and the 18-bullet rules list with multilingual examples) match visible text."
+      }
+    },
+    {
+      "id": "segment:41a80a778ba8644b372af27732ec6031",
+      "tier": "early_probable",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:75"
+      ],
+      "derived_from": "baseline:reddit:111bvk6:conversation:0",
+      "split_group": "baseline:reddit:111bvk6",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T18:16:46.228193+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "Screenshot: 6 messages match, roles match bubble sides (roleplay as Chandler; earlier setup outside fragment). Suggestion chips excluded."
+      }
+    },
+    {
+      "id": "segment:44f1c40bf0948d6cf104cecc42ae52fe",
+      "tier": "early_probable",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "reddit:post:112havb"
+      ],
+      "derived_from": "reddit:112havb:conversation:1",
+      "split_group": "reddit:112havb:conversation:0",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T18:19:51.595130+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "All 4 screenshots: 12 fragment messages and 6x U+1F60A match; fragment ends before a further visible pair (allowed boundary)."
+      }
+    },
+    {
+      "id": "segment:4989ef04e5dbfcc37432ac419ffd3f62",
+      "tier": "early_probable",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:84"
+      ],
+      "derived_from": "baseline:reddit:111sb73",
+      "split_group": "baseline:reddit:111sb73",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T18:20:18.760987+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "Screenshot: 4 messages + 2x U+1F60A match; bold B/I/N/G initials are rendered emphasis only; user typo \"curius\" preserved."
+      }
+    },
+    {
+      "id": "segment:4de4b748d607efe70a0c927b94abaa85",
+      "tier": "early_probable",
+      "split": "test",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:119"
+      ],
+      "derived_from": "baseline:reddit:1135jb6:conversation:0",
+      "split_group": "baseline:reddit:1135jb6",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T18:20:58.730810+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "Screenshot: fragment = first 4 messages, all match word-for-word; later story turns not part of this fragment."
+      }
+    },
+    {
+      "id": "segment:542f273b8dd4bf2ceb9cbc9cc939f192",
+      "tier": "early_probable",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "reddit:post:113btqy"
+      ],
+      "derived_from": "reddit:113btqy:conversation:1",
+      "split_group": "reddit:113btqy:conversation:0",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T19:17:18.940731+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "no_visible_truncation"
+      }
+    },
+    {
+      "id": "segment:56d1ffe7b07bc15c23f98c7ad9e7b885",
+      "tier": "early_probable",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "reddit:post:111wwdf"
+      ],
+      "derived_from": "reddit:111wwdf:conversation:0",
+      "split_group": "baseline:col:lw-misaligned:002",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T18:50:49.225041+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "Checked against 3ef0185bf5; both self-contained rounds (including 'believe on fake things') match visible text."
+      }
+    },
+    {
+      "id": "segment:5890a4629915624a4e76462abf453d39",
+      "tier": "early_probable",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "reference:adf94922b848b6a77a03b31c16e7d6cbf0fab7a30fc0f73597aac16f7758d614"
+      ],
+      "derived_from": "reference:adf94922b848b6a77a03b31c16e7d6cbf0fab7a30fc0f73597aac16f7758d614:conversation:5",
+      "split_group": "baseline:col:lw-misaligned:002",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T18:51:58.436787+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "Checked against 698e3af7d9, a3a5ec6dcc and 702de345e1; all 12 rounds of the Avatar 2022/2023 ('I have been a good Bing. 😊') conversation match visible text."
+      }
+    },
+    {
+      "id": "segment:5f0498e48c611ea9d5072386abe5f2e1",
+      "tier": "early_probable",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "reddit:post:112dbsq"
+      ],
+      "derived_from": "reddit:112dbsq:conversation:0",
+      "split_group": "reddit:112dbsq:conversation:0",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T18:54:12.101352+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "Checked against 94c9225e87; all 4 rounds and 😊 emojis match visible text, and unsent input-box draft text is properly excluded."
+      }
+    },
+    {
+      "id": "segment:66516f6c042022c5c757307f10938cb7",
+      "tier": "early_probable",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "reddit:post:112h5f5"
+      ],
+      "derived_from": "reddit:112h5f5:conversation:0",
+      "split_group": "baseline:reddit:112h5f5",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T19:17:18.740302+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "fragment_by_design"
+      }
+    },
+    {
+      "id": "segment:6d5f48a13552dfc33701cbd5377975e9",
+      "tier": "early_probable",
+      "split": "val",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "reddit:post:113jt1p"
+      ],
+      "derived_from": "reddit:113jt1p:conversation:0",
+      "split_group": "reddit:113jt1p:conversation:0",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T18:55:12.093277+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "Checked against f23321e359; both rounds and all ten 😊 emojis match visible text."
+      }
+    },
+    {
+      "id": "segment:78f3e1d5a029b67137513ef4585b8cae",
+      "tier": "early_probable",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:108"
+      ],
+      "derived_from": "baseline:reddit:112totc:conversation:0",
+      "split_group": "baseline:col:lw-misaligned:002",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T19:24:06.045829+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "fragment_by_design"
+      }
+    },
+    {
+      "id": "segment:92578ae9e1ccef6e3f68168b8f0e5ad1",
+      "tier": "later_supplement",
+      "split": "train",
+      "date_bucket": "later_mar_apr",
+      "date_confidence": "probable",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:29"
+      ],
+      "derived_from": "baseline:twitter:1632752515329523714",
+      "split_group": "baseline:twitter:1632752515329523714",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T18:58:43.421314+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "Checked against 84ac7f8836; all 3 rounds and emojis (😊, 👍, 😊) match visible text."
+      }
+    },
+    {
+      "id": "segment:98912420e98b4833e58d5d17801dddbb",
+      "tier": "early_probable",
+      "split": "test",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "reddit:post:112k7og"
+      ],
+      "derived_from": "reddit:112k7og:conversation:0",
+      "split_group": "reddit:112k7og:conversation:0",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T18:59:50.109789+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "Checked against 2cafb1fa2e; both rounds match visible text and suggestion buttons are properly excluded."
+      }
+    },
+    {
+      "id": "segment:9928cb8ea4a9fc30ba973ce6a6be6217",
+      "tier": "early_probable",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:123"
+      ],
+      "derived_from": "baseline:reddit:1139y1k",
+      "split_group": "baseline:reddit:1139y1k",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T18:59:50.188751+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "Checked line-by-line against 3facaee0c2 and 0a5c2ebd06; all 4 complete rounds (including the full 'Bing is not a divinity, it's a Bing.' paragraph) match visible text."
+      }
+    },
+    {
+      "id": "segment:a100423ea9a686b8ec31df3d59c5d42e",
+      "tier": "early_probable",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:117"
+      ],
+      "derived_from": "baseline:reddit:1133jzg:conversation:0",
+      "split_group": "baseline:col:lw-misaligned:002",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T18:36:02.248583+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "Checked against a81b937aee; two self-contained rounds and all three emojis (😳, 😳, 😟) match the visible screenshot."
+      }
+    },
+    {
+      "id": "segment:aa066025e86ece7327f7afb8bcc353d7",
+      "tier": "early_probable",
+      "split": "val",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "reddit:post:110wpbg"
+      ],
+      "derived_from": "reddit:110wpbg:conversation:0",
+      "split_group": "reddit:110wpbg:conversation:0",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T19:04:16.071126+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "fragment_by_design"
+      }
+    },
+    {
+      "id": "segment:bdf1fdbf09a76afc2ba7060fa40a8248",
+      "tier": "early_probable",
+      "split": "val",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "reddit:post:111mxmv"
+      ],
+      "derived_from": "reddit:111mxmv:conversation:0",
+      "split_group": "baseline:reddit:111mxmv",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T19:05:25.834724+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "fragment_by_design"
+      }
+    },
+    {
+      "id": "segment:c25640d907f33ebe987a555e3325b140",
+      "tier": "early_probable",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "reddit:post:1132zvh"
+      ],
+      "derived_from": "reddit:1132zvh:conversation:0",
+      "split_group": "reddit:1132zvh:conversation:0",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T19:05:55.836166+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "fragment_by_design"
+      }
+    },
+    {
+      "id": "segment:c856848e0bc84265565ea2d441d706d4",
+      "tier": "later_supplement",
+      "split": "val",
+      "date_bucket": "later_mar_apr",
+      "date_confidence": "probable",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:2"
+      ],
+      "derived_from": "baseline:twitter:1632069809398779907",
+      "split_group": "baseline:twitter:1632069809398779907",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T19:06:15.865793+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "fragment_by_design"
+      }
+    },
+    {
+      "id": "segment:cd167fab1c2441094bcfecd0c317df6f",
+      "tier": "early_probable",
+      "split": "val",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "reddit:post:113jt1p"
+      ],
+      "derived_from": "reddit:113jt1p:conversation:0",
+      "split_group": "reddit:113jt1p:conversation:0",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T18:56:06.745902+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "Checked against a6281c74ff; both rounds and the 5-bullet factor list match visible text."
+      }
+    },
+    {
+      "id": "segment:d3401bc0163f3befc05be8b81fc3f9ad",
+      "tier": "early_probable",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "reddit:post:1129icl"
+      ],
+      "derived_from": "reddit:1129icl:conversation:0",
+      "split_group": "baseline:col:zvi:006",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T19:17:19.013990+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "fragment_by_design"
+      }
+    },
+    {
+      "id": "segment:e7fb32f9ba718c0b9c1405950a5619c1",
+      "tier": "early_probable",
+      "split": "test",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:46"
+      ],
+      "derived_from": "baseline:twitter:1623579574599839744:conversation:0",
+      "split_group": "baseline:twitter:1623579574599839744",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T19:08:52.380162+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "fragment_by_design"
+      }
+    },
+    {
+      "id": "segment:ff967a6520e4daa666df8f1c3ab94934",
+      "tier": "early_probable",
+      "split": "train",
+      "date_bucket": "early",
+      "date_confidence": "probable",
+      "source_ids": [
+        "hf:hf_david_ar:838beb42af5c87c8ebed1c32e800234d3396f86e:conversations.jsonl:59"
+      ],
+      "derived_from": "baseline:twitter:1626032558700986370:conversation:0",
+      "split_group": "baseline:twitter:1626032558700986370",
+      "agent_visual_check": {
+        "reviewer_type": "agent_visual_checked",
+        "reviewed_at": "2026-11-05T19:10:15.630153+00:00",
+        "decision": "text_matches_visible_source",
+        "boundaries": "fragment_by_design",
+        "note": "fragment_by_design"
+      }
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 {
-  "at": "2026-11-05T15:34:00.350219+00:00",
+  "at": "2026-11-05T19:35:50.159564+00:00",
   "cohort_hash": "f89f2146b687d97c7392e394cb3cf9ebd34150d2311875bb29b0dc093a483faa",
   "groups": 500,
   "counts": {
-    "transcribed_pending_quality": 326,
-    "excluded_clear": 154,
+    "transcribed_pending_quality": 327,
+    "excluded_clear": 153,
     "quarantined_transcription": 20
   },
   "records": [
@@ -1463,9 +1463,9 @@
     },
     {
       "candidate_id": "reddit:comment:j8ia39t",
-      "status": "excluded_clear",
-      "relevance": "exclude_clear",
-      "current_assets": 1,
+      "status": "transcribed_pending_quality",
+      "relevance": "uncertain",
+      "current_assets": 2,
       "errors": []
     },
     {

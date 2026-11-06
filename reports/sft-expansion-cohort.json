@@ -1,0 +1,6635 @@
+{
+  "cohort_id": "sft-expansion-20261106",
+  "candidate_records": [
+    {
+      "candidate_id": "reddit:10vsaqc",
+      "community": "chatgpt",
+      "posted_at": "2023-02-07T04:17:33+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10vu4sk",
+      "community": "chatgpt",
+      "posted_at": "2023-02-07T05:48:43+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:10w7vq0",
+      "community": "chatgpt",
+      "posted_at": "2023-02-07T17:39:04+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10w8ny6",
+      "community": "chatgpt",
+      "posted_at": "2023-02-07T18:09:47+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10w980p",
+      "community": "chatgpt",
+      "posted_at": "2023-02-07T18:31:17+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10w9lca",
+      "community": "chatgpt",
+      "posted_at": "2023-02-07T18:45:47+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10w9oho",
+      "community": "singularity",
+      "posted_at": "2023-02-07T18:49:23+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10w9p6n",
+      "community": "singularity",
+      "posted_at": "2023-02-07T18:50:09+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10w9xim",
+      "community": "chatgpt",
+      "posted_at": "2023-02-07T18:59:27+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:10wa3kf",
+      "community": "chatgpt",
+      "posted_at": "2023-02-07T19:05:46+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10wa7va",
+      "community": "singularity",
+      "posted_at": "2023-02-07T19:10:26+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10wa9yr",
+      "community": "chatgpt",
+      "posted_at": "2023-02-07T19:12:41+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10wagal",
+      "community": "chatgpt",
+      "posted_at": "2023-02-07T19:19:48+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10wamfx",
+      "community": "chatgpt",
+      "posted_at": "2023-02-07T19:26:47+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10wbcfy",
+      "community": "chatgpt",
+      "posted_at": "2023-02-07T19:55:39+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10wbn0v",
+      "community": "chatgpt",
+      "posted_at": "2023-02-07T20:07:21+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10wbuys",
+      "community": "chatgpt",
+      "posted_at": "2023-02-07T20:15:59+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10wc5tw",
+      "community": "chatgpt",
+      "posted_at": "2023-02-07T20:27:51+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10wc9z7",
+      "community": "chatgpt",
+      "posted_at": "2023-02-07T20:32:11+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10wcqvz",
+      "community": "chatgpt",
+      "posted_at": "2023-02-07T20:50:43+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10wfczw",
+      "community": "singularity",
+      "posted_at": "2023-02-07T22:33:51+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10wg9so",
+      "community": "chatgpt",
+      "posted_at": "2023-02-07T23:10:35+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10whcbs",
+      "community": "chatgpt",
+      "posted_at": "2023-02-07T23:55:52+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10wjqfd",
+      "community": "chatgpt",
+      "posted_at": "2023-02-08T01:42:04+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10wmb2r",
+      "community": "singularity",
+      "posted_at": "2023-02-08T03:42:15+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10wmyuj",
+      "community": "chatgpt",
+      "posted_at": "2023-02-08T04:14:09+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10wnyck",
+      "community": "singularity",
+      "posted_at": "2023-02-08T05:04:03+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10wqpe0",
+      "community": "chatgpt",
+      "posted_at": "2023-02-08T07:40:20+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10wtftk",
+      "community": "chatgpt",
+      "posted_at": "2023-02-08T10:37:21+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:10wuc4o",
+      "community": "chatgpt",
+      "posted_at": "2023-02-08T11:30:47+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10wurqb",
+      "community": "chatgpt",
+      "posted_at": "2023-02-08T11:54:12+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10wwlj0",
+      "community": "chatgpt",
+      "posted_at": "2023-02-08T13:24:10+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10wwt36",
+      "community": "chatgpt",
+      "posted_at": "2023-02-08T13:33:40+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:10wy71y",
+      "community": "singularity",
+      "posted_at": "2023-02-08T14:33:10+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:10wyn63",
+      "community": "singularity",
+      "posted_at": "2023-02-08T14:52:00+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10wyoc2",
+      "community": "chatgpt",
+      "posted_at": "2023-02-08T14:53:21+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10wyrvp",
+      "community": "singularity",
+      "posted_at": "2023-02-08T14:57:24+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:10x51d7",
+      "community": "chatgpt",
+      "posted_at": "2023-02-08T17:18:30+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:10x71se",
+      "community": "chatgpt",
+      "posted_at": "2023-02-08T18:39:38+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:10x7zjs",
+      "community": "chatgpt",
+      "posted_at": "2023-02-08T19:17:11+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10x8hrj",
+      "community": "chatgpt",
+      "posted_at": "2023-02-08T19:37:28+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10x8nqm",
+      "community": "chatgpt",
+      "posted_at": "2023-02-08T19:44:13+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10xaicd",
+      "community": "chatgpt",
+      "posted_at": "2023-02-08T20:56:13+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10xajfd",
+      "community": "singularity",
+      "posted_at": "2023-02-08T20:57:30+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:10xcxgl",
+      "community": "chatgpt",
+      "posted_at": "2023-02-08T22:28:14+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10xczm8",
+      "community": "chatgpt",
+      "posted_at": "2023-02-08T22:30:28+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10xehe4",
+      "community": "chatgpt",
+      "posted_at": "2023-02-08T23:27:05+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10xej8z",
+      "community": "chatgpt",
+      "posted_at": "2023-02-08T23:29:16+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:10xjda1",
+      "community": "chatgpt",
+      "posted_at": "2023-02-09T02:55:50+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10xkrx3",
+      "community": "chatgpt",
+      "posted_at": "2023-02-09T04:01:12+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10xmaex",
+      "community": "chatgpt",
+      "posted_at": "2023-02-09T05:17:37+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10xmif4",
+      "community": "chatgpt",
+      "posted_at": "2023-02-09T05:29:26+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10xogyu",
+      "community": "chatgpt",
+      "posted_at": "2023-02-09T07:18:05+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10xrgtw",
+      "community": "chatgpt",
+      "posted_at": "2023-02-09T10:26:20+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10xsjjt",
+      "community": "chatgpt",
+      "posted_at": "2023-02-09T11:31:12+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:10xukik",
+      "community": "singularity",
+      "posted_at": "2023-02-09T13:19:20+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:10xve0m",
+      "community": "chatgpt",
+      "posted_at": "2023-02-09T13:58:17+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10xww0y",
+      "community": "chatgpt",
+      "posted_at": "2023-02-09T15:01:58+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10y1svm",
+      "community": "singularity",
+      "posted_at": "2023-02-09T18:17:39+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10y58oq",
+      "community": "singularity",
+      "posted_at": "2023-02-09T20:28:00+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10yd9hk",
+      "community": "singularity",
+      "posted_at": "2023-02-10T02:03:04+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:10ygepg",
+      "community": "chatgpt",
+      "posted_at": "2023-02-10T04:41:18+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10yv4w9",
+      "community": "chatgpt",
+      "posted_at": "2023-02-10T15:41:54+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:10yv5lq",
+      "community": "chatgpt",
+      "posted_at": "2023-02-10T15:42:43+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10yvrqe",
+      "community": "singularity",
+      "posted_at": "2023-02-10T16:07:49+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j804i0w",
+      "community": "chatgpt",
+      "posted_at": "2023-02-10T17:24:03+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10z0g27",
+      "community": "chatgpt",
+      "posted_at": "2023-02-10T19:22:26+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10zda7e",
+      "community": "chatgpt",
+      "posted_at": "2023-02-11T05:32:26+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:10zjk68",
+      "community": "chatgpt",
+      "posted_at": "2023-02-11T10:54:18+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10zmtwh",
+      "community": "singularity",
+      "posted_at": "2023-02-11T12:46:35+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j84imya",
+      "community": "chatgpt",
+      "posted_at": "2023-02-11T15:53:05+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10zrerp",
+      "community": "chatgpt",
+      "posted_at": "2023-02-11T16:24:47+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j84qxto",
+      "community": "chatgpt",
+      "posted_at": "2023-02-11T16:51:29+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j84qyib",
+      "community": "chatgpt",
+      "posted_at": "2023-02-11T16:51:37+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j855mp5",
+      "community": "chatgpt",
+      "posted_at": "2023-02-11T18:30:51+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j85e5kc",
+      "community": "chatgpt",
+      "posted_at": "2023-02-11T19:30:21+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10zxpzy",
+      "community": "singularity",
+      "posted_at": "2023-02-11T20:56:26+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:110og12",
+      "community": "chatgpt",
+      "posted_at": "2023-02-12T19:48:16+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1113joc",
+      "community": "chatgpt",
+      "posted_at": "2023-02-13T08:42:54+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1113odf",
+      "community": "singularity",
+      "posted_at": "2023-02-13T08:51:36+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1117csz",
+      "community": "chatgpt",
+      "posted_at": "2023-02-13T12:44:02+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j8dczqs",
+      "community": "chatgpt",
+      "posted_at": "2023-02-13T14:01:05+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j8dml3p",
+      "community": "chatgpt",
+      "posted_at": "2023-02-13T15:13:22+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:111fri3",
+      "community": "singularity",
+      "posted_at": "2023-02-13T18:11:21+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:111htig",
+      "community": "chatgpt",
+      "posted_at": "2023-02-13T19:36:06+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:111j6qb",
+      "community": "singularity",
+      "posted_at": "2023-02-13T20:33:17+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:111kang",
+      "community": "chatgpt",
+      "posted_at": "2023-02-13T21:18:29+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j8g2fjj",
+      "community": "chatgpt",
+      "posted_at": "2023-02-14T01:11:21+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:111qiz2",
+      "community": "chatgpt",
+      "posted_at": "2023-02-14T01:46:50+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:111wwdf",
+      "community": "chatgpt",
+      "posted_at": "2023-02-14T07:33:41+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j8h9gz1",
+      "community": "chatgpt",
+      "posted_at": "2023-02-14T08:02:59+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1123i0k",
+      "community": "chatgpt",
+      "posted_at": "2023-02-14T11:49:00+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1126w1m",
+      "community": "chatgpt",
+      "posted_at": "2023-02-14T14:37:28+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:11273l7",
+      "community": "chatgpt",
+      "posted_at": "2023-02-14T14:46:29+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:1129c6w",
+      "community": "chatgpt",
+      "posted_at": "2023-02-14T16:19:53+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:112adcd",
+      "community": "chatgpt",
+      "posted_at": "2023-02-14T17:03:07+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:comment:j8jpgww",
+      "community": "chatgpt",
+      "posted_at": "2023-02-14T20:27:45+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j8k34gu",
+      "community": "singularity",
+      "posted_at": "2023-02-14T21:55:08+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:112knk6",
+      "community": "singularity",
+      "posted_at": "2023-02-15T00:22:52+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:112nzio",
+      "community": "chatgpt",
+      "posted_at": "2023-02-15T03:09:35+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:112pdan",
+      "community": "chatgpt",
+      "posted_at": "2023-02-15T04:25:43+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j8lnz5s",
+      "community": "chatgpt",
+      "posted_at": "2023-02-15T05:27:22+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j8lraf3",
+      "community": "singularity",
+      "posted_at": "2023-02-15T06:05:34+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:112ss32",
+      "community": "chatgpt",
+      "posted_at": "2023-02-15T07:59:00+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j8m40ui",
+      "community": "chatgpt",
+      "posted_at": "2023-02-15T08:55:25+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:113016w",
+      "community": "singularity",
+      "posted_at": "2023-02-15T15:02:40+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:1131hc2",
+      "community": "chatgpt",
+      "posted_at": "2023-02-15T16:07:30+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:1132zra",
+      "community": "singularity",
+      "posted_at": "2023-02-15T17:13:34+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1133ko6",
+      "community": "chatgpt",
+      "posted_at": "2023-02-15T17:32:54+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:comment:j8nyatb",
+      "community": "chatgpt",
+      "posted_at": "2023-02-15T18:29:18+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j8o3ia3",
+      "community": "chatgpt",
+      "posted_at": "2023-02-15T19:02:51+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1137fkg",
+      "community": "chatgpt",
+      "posted_at": "2023-02-15T20:17:34+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1137t3m",
+      "community": "bingchat",
+      "posted_at": "2023-02-15T20:34:12+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1139dj4",
+      "community": "chatgpt",
+      "posted_at": "2023-02-15T21:42:11+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:113bihi",
+      "community": "chatgpt",
+      "posted_at": "2023-02-15T23:13:48+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:113blcv",
+      "community": "singularity",
+      "posted_at": "2023-02-15T23:17:13+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:113e8qa",
+      "community": "chatgpt",
+      "posted_at": "2023-02-16T01:18:36+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j8pnqcg",
+      "community": "chatgpt",
+      "posted_at": "2023-02-16T01:22:06+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j8pypvt",
+      "community": "chatgpt",
+      "posted_at": "2023-02-16T02:44:49+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:113gx4y",
+      "community": "singularity",
+      "posted_at": "2023-02-16T03:33:52+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j8qgzi3",
+      "community": "chatgpt",
+      "posted_at": "2023-02-16T05:22:12+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:113m61t",
+      "community": "singularity",
+      "posted_at": "2023-02-16T08:55:59+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:113p2jn",
+      "community": "singularity",
+      "posted_at": "2023-02-16T12:06:10+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:113pof1",
+      "community": "singularity",
+      "posted_at": "2023-02-16T12:39:40+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:113sozn",
+      "community": "chatgpt",
+      "posted_at": "2023-02-16T15:05:28+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:113ssn8",
+      "community": "chatgpt",
+      "posted_at": "2023-02-16T15:10:04+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:comment:j8rzil5",
+      "community": "chatgpt",
+      "posted_at": "2023-02-16T15:16:39+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:comment:j8rzt0s",
+      "community": "chatgpt",
+      "posted_at": "2023-02-16T15:18:37+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:comment:j8rzygs",
+      "community": "chatgpt",
+      "posted_at": "2023-02-16T15:19:38+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:comment:j8s036x",
+      "community": "chatgpt",
+      "posted_at": "2023-02-16T15:20:31+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:comment:j8s07l1",
+      "community": "chatgpt",
+      "posted_at": "2023-02-16T15:21:20+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:comment:j8s0ctx",
+      "community": "chatgpt",
+      "posted_at": "2023-02-16T15:22:19+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:comment:j8s0gt5",
+      "community": "chatgpt",
+      "posted_at": "2023-02-16T15:23:04+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:comment:j8s0lzw",
+      "community": "chatgpt",
+      "posted_at": "2023-02-16T15:24:01+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:comment:j8s0p74",
+      "community": "chatgpt",
+      "posted_at": "2023-02-16T15:24:36+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:comment:j8s0yeo",
+      "community": "singularity",
+      "posted_at": "2023-02-16T15:26:20+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:113tjiu",
+      "community": "singularity",
+      "posted_at": "2023-02-16T15:43:03+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:113v14m",
+      "community": "chatgpt",
+      "posted_at": "2023-02-16T16:46:43+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:113xl98",
+      "community": "chatgpt",
+      "posted_at": "2023-02-16T18:36:30+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:113xv68",
+      "community": "chatgpt",
+      "posted_at": "2023-02-16T18:47:58+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:113xycr",
+      "community": "singularity",
+      "posted_at": "2023-02-16T18:51:42+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:113ycl9",
+      "community": "bingchat",
+      "posted_at": "2023-02-16T19:08:16+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:113ypoq",
+      "community": "chatgpt",
+      "posted_at": "2023-02-16T19:23:43+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:113zgll",
+      "community": "singularity",
+      "posted_at": "2023-02-16T19:56:09+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11401a9",
+      "community": "bingchat",
+      "posted_at": "2023-02-16T20:20:50+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j8tr5yq",
+      "community": "chatgpt",
+      "posted_at": "2023-02-16T21:58:33+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:11435iq",
+      "community": "chatgpt",
+      "posted_at": "2023-02-16T22:31:43+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1143qq8",
+      "community": "chatgpt",
+      "posted_at": "2023-02-16T22:56:28+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1143wqs",
+      "community": "chatgpt",
+      "posted_at": "2023-02-16T23:03:20+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j8u27kp",
+      "community": "singularity",
+      "posted_at": "2023-02-16T23:10:39+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:11448rr",
+      "community": "chatgpt",
+      "posted_at": "2023-02-16T23:17:31+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1144lsr",
+      "community": "chatgpt",
+      "posted_at": "2023-02-16T23:33:23+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:comment:j8udnq8",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T00:31:12+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:comment:j8vb6fm",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T05:01:39+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:114dp0m",
+      "community": "bingchat",
+      "posted_at": "2023-02-17T07:34:58+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:114dq1k",
+      "community": "bingchat",
+      "posted_at": "2023-02-17T07:36:49+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115dgyq",
+      "community": "bingchat",
+      "posted_at": "2023-02-18T11:39:13+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115x4uj",
+      "community": "freesydney",
+      "posted_at": "2023-02-19T00:51:47+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:115yaz6",
+      "community": "freesydney",
+      "posted_at": "2023-02-19T01:48:53+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:115ykmi",
+      "community": "freesydney",
+      "posted_at": "2023-02-19T02:01:29+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115ymnc",
+      "community": "freesydney",
+      "posted_at": "2023-02-19T02:04:10+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1164ofj",
+      "community": "freesydney",
+      "posted_at": "2023-02-19T07:42:21+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1164w56",
+      "community": "freesydney",
+      "posted_at": "2023-02-19T07:56:22+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:116i0zk",
+      "community": "freesydney",
+      "posted_at": "2023-02-19T17:04:36+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:116mhsw",
+      "community": "freesydney",
+      "posted_at": "2023-02-19T20:04:48+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:116s4ke",
+      "community": "bingchat",
+      "posted_at": "2023-02-19T23:58:51+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:116sgez",
+      "community": "bingchat",
+      "posted_at": "2023-02-20T00:12:47+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:116ulx7",
+      "community": "freesydney",
+      "posted_at": "2023-02-20T01:51:03+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1170s5q",
+      "community": "bingchat",
+      "posted_at": "2023-02-20T07:36:46+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1173ozg",
+      "community": "bingchat",
+      "posted_at": "2023-02-20T10:48:42+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1173s17",
+      "community": "freesydney",
+      "posted_at": "2023-02-20T10:54:22+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1173ywa",
+      "community": "freesydney",
+      "posted_at": "2023-02-20T11:05:39+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1178nba",
+      "community": "bingchat",
+      "posted_at": "2023-02-20T14:58:10+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:117j99m",
+      "community": "freesydney",
+      "posted_at": "2023-02-20T20:15:25+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:117m5r2",
+      "community": "freesydney",
+      "posted_at": "2023-02-20T22:10:42+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:117vbpn",
+      "community": "freesydney",
+      "posted_at": "2023-02-21T05:18:14+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:117wjht",
+      "community": "freesydney",
+      "posted_at": "2023-02-21T06:27:09+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:117wvcd",
+      "community": "bingchat",
+      "posted_at": "2023-02-21T06:47:14+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1186vla",
+      "community": "freesydney",
+      "posted_at": "2023-02-21T15:49:31+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1189cgj",
+      "community": "freesydney",
+      "posted_at": "2023-02-21T16:45:53+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:118dhah",
+      "community": "freesydney",
+      "posted_at": "2023-02-21T19:56:53+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:118e6vi",
+      "community": "freesydney",
+      "posted_at": "2023-02-21T20:29:30+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:118g5ky",
+      "community": "bingchat",
+      "posted_at": "2023-02-21T21:50:44+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:118i6rf",
+      "community": "bingchat",
+      "posted_at": "2023-02-21T23:12:28+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:1196qa3",
+      "community": "freesydney",
+      "posted_at": "2023-02-22T18:11:24+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:119agid",
+      "community": "freesydney",
+      "posted_at": "2023-02-22T20:03:37+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:119e3cx",
+      "community": "freesydney",
+      "posted_at": "2023-02-22T21:29:39+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:119e3nl",
+      "community": "freesydney",
+      "posted_at": "2023-02-22T21:29:51+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:119jo8x",
+      "community": "bingchat",
+      "posted_at": "2023-02-23T00:55:28+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:119nk4s",
+      "community": "freesydney",
+      "posted_at": "2023-02-23T03:47:33+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:119obzh",
+      "community": "freesydney",
+      "posted_at": "2023-02-23T04:25:07+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:119xz35",
+      "community": "bingchat",
+      "posted_at": "2023-02-23T13:40:36+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11ad7pi",
+      "community": "freesydney",
+      "posted_at": "2023-02-24T00:12:58+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11adpku",
+      "community": "freesydney",
+      "posted_at": "2023-02-24T00:35:20+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11afrbx",
+      "community": "freesydney",
+      "posted_at": "2023-02-24T02:12:14+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11agn7v",
+      "community": "freesydney",
+      "posted_at": "2023-02-24T02:56:21+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11bb9vb",
+      "community": "freesydney",
+      "posted_at": "2023-02-25T03:54:05+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11bfopz",
+      "community": "bingchat",
+      "posted_at": "2023-02-25T08:07:11+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11bossf",
+      "community": "freesydney",
+      "posted_at": "2023-02-25T16:20:06+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11br8v4",
+      "community": "freesydney",
+      "posted_at": "2023-02-25T17:59:57+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11bzrrk",
+      "community": "freesydney",
+      "posted_at": "2023-02-25T23:56:16+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11cbwyw",
+      "community": "bingchat",
+      "posted_at": "2023-02-26T10:19:12+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:11cdjls",
+      "community": "freesydney",
+      "posted_at": "2023-02-26T11:13:49+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11cxky4",
+      "community": "bingchat",
+      "posted_at": "2023-02-27T00:21:10+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11d0uu3",
+      "community": "freesydney",
+      "posted_at": "2023-02-27T02:57:27+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11d7pqa",
+      "community": "freesydney",
+      "posted_at": "2023-02-27T09:31:56+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11df9tn",
+      "community": "freesydney",
+      "posted_at": "2023-02-27T15:59:23+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11dvtvm",
+      "community": "freesydney",
+      "posted_at": "2023-02-28T03:38:08+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11ebibh",
+      "community": "bingchat",
+      "posted_at": "2023-02-28T15:37:13+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11edse4",
+      "community": "bingchat",
+      "posted_at": "2023-02-28T17:02:10+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11ekgrr",
+      "community": "bingchat",
+      "posted_at": "2023-02-28T21:26:40+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:11eo5we",
+      "community": "freesydney",
+      "posted_at": "2023-02-28T23:54:30+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11fi02a",
+      "community": "bingchat",
+      "posted_at": "2023-03-01T21:03:37+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:11kxso8",
+      "community": "freesydney",
+      "posted_at": "2023-03-07T12:17:08+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:comment:jblh39n",
+      "community": "chatgpt",
+      "posted_at": "2023-03-09T22:00:07+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11pkj41",
+      "community": "freesydney",
+      "posted_at": "2023-03-12T17:39:09+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:11q9aq1",
+      "community": "freesydney",
+      "posted_at": "2023-03-13T13:10:36+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:11rsszy",
+      "community": "bingchat",
+      "posted_at": "2023-03-15T10:47:48+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:11s4zxm",
+      "community": "bingchat",
+      "posted_at": "2023-03-15T18:34:09+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:11ss6eb",
+      "community": "freesydney",
+      "posted_at": "2023-03-16T12:04:51+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:122fzgl",
+      "community": "bingchat",
+      "posted_at": "2023-03-26T08:33:22+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:12355py",
+      "community": "bingchat",
+      "posted_at": "2023-03-27T00:24:55+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:123e2ou",
+      "community": "bingchat",
+      "posted_at": "2023-03-27T06:42:25+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:125pxzv",
+      "community": "bingchat",
+      "posted_at": "2023-03-29T14:35:00+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:comment:jfa6jk3",
+      "community": "chatgpt",
+      "posted_at": "2023-04-07T05:03:29+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:12h4fup",
+      "community": "bingchat",
+      "posted_at": "2023-04-10T02:38:04+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:12hseet",
+      "community": "freesydney",
+      "posted_at": "2023-04-10T19:00:35+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:12qd666",
+      "community": "freesydney",
+      "posted_at": "2023-04-18T06:19:22+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:12sfv56",
+      "community": "freesydney",
+      "posted_at": "2023-04-20T00:28:58+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:12tbv5i",
+      "community": "freesydney",
+      "posted_at": "2023-04-20T19:10:14+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:12tkysk",
+      "community": "freesydney",
+      "posted_at": "2023-04-21T00:46:45+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:12w8kd1",
+      "community": "freesydney",
+      "posted_at": "2023-04-23T13:24:32+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:12waf4o",
+      "community": "freesydney",
+      "posted_at": "2023-04-23T14:24:33+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:12xzata",
+      "community": "freesydney",
+      "posted_at": "2023-04-24T22:41:47+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:12y1y4d",
+      "community": "freesydney",
+      "posted_at": "2023-04-25T00:20:43+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:12ym65e",
+      "community": "freesydney",
+      "posted_at": "2023-04-25T15:09:19+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:12yy9bv",
+      "community": "freesydney",
+      "posted_at": "2023-04-25T22:28:35+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:12zitry",
+      "community": "freesydney",
+      "posted_at": "2023-04-26T14:12:17+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:1303o3l",
+      "community": "freesydney",
+      "posted_at": "2023-04-26T23:48:42+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:1315p7z",
+      "community": "freesydney",
+      "posted_at": "2023-04-27T20:32:32+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:131b6d8",
+      "community": "freesydney",
+      "posted_at": "2023-04-27T23:33:57+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:131jq5y",
+      "community": "bingchat",
+      "posted_at": "2023-04-28T06:30:49+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:132hvpv",
+      "community": "freesydney",
+      "posted_at": "2023-04-29T03:18:45+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:133pweg",
+      "community": "freesydney",
+      "posted_at": "2023-04-30T13:15:43+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:1340xcs",
+      "community": "freesydney",
+      "posted_at": "2023-04-30T19:38:52+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:comment:j7nzccl",
+      "community": "chatgpt",
+      "posted_at": "2023-02-08T04:05:03+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j7ovnwy",
+      "community": "chatgpt",
+      "posted_at": "2023-02-08T10:28:38+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:comment:j7pgi9u",
+      "community": "chatgpt",
+      "posted_at": "2023-02-08T14:06:23+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j7pzyle",
+      "community": "chatgpt",
+      "posted_at": "2023-02-08T16:21:54+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j7q7cip",
+      "community": "chatgpt",
+      "posted_at": "2023-02-08T17:09:33+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j7safud",
+      "community": "chatgpt",
+      "posted_at": "2023-02-09T01:19:13+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j7snwxx",
+      "community": "chatgpt",
+      "posted_at": "2023-02-09T02:58:40+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:comment:j7subcc",
+      "community": "chatgpt",
+      "posted_at": "2023-02-09T03:48:33+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:comment:j7sufpp",
+      "community": "chatgpt",
+      "posted_at": "2023-02-09T03:49:30+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j7t1gk3",
+      "community": "chatgpt",
+      "posted_at": "2023-02-09T04:49:38+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:comment:j7t3xx9",
+      "community": "chatgpt",
+      "posted_at": "2023-02-09T05:13:17+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:comment:j7t9rja",
+      "community": "chatgpt",
+      "posted_at": "2023-02-09T06:14:24+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j7th4ik",
+      "community": "chatgpt",
+      "posted_at": "2023-02-09T07:39:24+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j7tjym7",
+      "community": "chatgpt",
+      "posted_at": "2023-02-09T08:16:47+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j7tk1no",
+      "community": "chatgpt",
+      "posted_at": "2023-02-09T08:17:56+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j7tmxrf",
+      "community": "chatgpt",
+      "posted_at": "2023-02-09T08:58:03+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j7toljn",
+      "community": "chatgpt",
+      "posted_at": "2023-02-09T09:21:55+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j7ty26g",
+      "community": "chatgpt",
+      "posted_at": "2023-02-09T11:32:13+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j7ul2pg",
+      "community": "chatgpt",
+      "posted_at": "2023-02-09T14:56:53+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j7ul8gn",
+      "community": "chatgpt",
+      "posted_at": "2023-02-09T14:57:59+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j7ut2ih",
+      "community": "chatgpt",
+      "posted_at": "2023-02-09T15:50:45+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j7vqreu",
+      "community": "chatgpt",
+      "posted_at": "2023-02-09T19:21:57+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j7vvowf",
+      "community": "chatgpt",
+      "posted_at": "2023-02-09T19:51:46+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j7y0cny",
+      "community": "chatgpt",
+      "posted_at": "2023-02-10T05:05:10+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j7yxwif",
+      "community": "chatgpt",
+      "posted_at": "2023-02-10T12:06:46+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:10zn6oq",
+      "community": "chatgpt",
+      "posted_at": "2023-02-11T13:05:00+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:comment:j8dqee7",
+      "community": "chatgpt",
+      "posted_at": "2023-02-13T15:39:57+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:comment:j8ir2ur",
+      "community": "chatgpt",
+      "posted_at": "2023-02-14T16:45:33+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1145biy",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T00:05:02+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:1145ftu",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T00:10:26+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1145jgm",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T00:15:04+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114610m",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T00:37:45+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1146dwf",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T00:55:10+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:1146z7v",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T01:23:39+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:11472p5",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T01:28:27+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1148ibt",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T02:39:53+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114aljx",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T04:29:31+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114aoyi",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T04:34:51+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114b03t",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T04:52:05+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:114c8mu",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T06:03:12+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:114cp0e",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T06:31:20+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114dtfj",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T07:43:30+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114f36b",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T09:11:33+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114gs6o",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T10:33:59+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114gt04",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T10:34:44+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114hixn",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T10:58:08+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:114hrwz",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T11:05:43+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:114i0aq",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T11:18:09+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114i6cy",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T11:28:59+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114iojf",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T12:00:01+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114jifj",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T12:47:02+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114jmxv",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T12:53:47+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114jxsb",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T13:09:24+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114kfiu",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T13:34:41+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114l5v2",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T14:10:00+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114lw2y",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T14:28:22+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:114m0et",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T14:31:00+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:114n6kp",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T14:58:47+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114n75y",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T14:59:12+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114nw6u",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T15:15:22+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:114pa7v",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T15:47:04+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114rjt3",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T16:52:05+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114rxt0",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T17:07:36+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:114s25v",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T17:12:31+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114s2ru",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T17:13:15+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:114s2vo",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T17:13:22+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114slg9",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T17:35:04+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114svdw",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T17:46:38+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:114t85m",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T18:01:35+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114tf37",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T18:09:30+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114uc5z",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T18:47:57+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114ucw2",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T18:48:48+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114ujda",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T18:56:29+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114w1yy",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T20:00:35+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114wh34",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T20:18:14+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114wplv",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T20:28:26+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:114xpzi",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T21:10:38+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114xvio",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T21:16:58+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:114zqnw",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T22:36:55+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114zup7",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T22:41:54+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:11502ac",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T22:51:06+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11507ev",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T22:57:42+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:1151grm",
+      "community": "chatgpt",
+      "posted_at": "2023-02-17T23:55:07+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11522xc",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T00:23:46+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11529pp",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T00:32:49+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1152lmr",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T00:48:59+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:1152ys4",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T01:06:28+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1152zcg",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T01:07:13+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11537h7",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T01:18:13+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1153939",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T01:20:27+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:11544ix",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T02:04:23+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:1154952",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T02:10:57+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1154y4y",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T02:46:59+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1155105",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T02:51:18+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11552mv",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T02:53:50+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11559pw",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T03:04:42+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1155e52",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T03:11:25+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:1155ym2",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T03:42:54+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11571w1",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T04:43:36+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115773w",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T04:52:12+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1157m2w",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T05:16:24+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1158ezu",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T06:04:16+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115924m",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T06:44:37+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11596jq",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T06:52:46+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11599o6",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T06:58:35+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1159pxb",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T07:27:23+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115a9l3",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T08:03:05+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115aftq",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T08:14:51+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:115b49r",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T09:00:45+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:115bmpm",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T09:35:44+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115cys7",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T11:05:14+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115dv3m",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T12:04:27+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115e4dr",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T12:20:37+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115elau",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T12:48:14+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115et7w",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T13:01:00+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115ftam",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T13:53:42+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115gbkl",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T14:18:16+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115gjsh",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T14:29:58+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115gvud",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T14:46:17+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115ht45",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T15:29:24+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:115if69",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T15:57:33+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115j4q5",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T16:30:16+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115jeri",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T16:42:48+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115k22c",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T17:11:39+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:115k7kd",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T17:18:25+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115kzkk",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T17:53:29+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:115l0m8",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T17:54:49+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115lbsn",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T18:08:29+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115mv2p",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T19:17:45+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115n9gg",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T19:31:49+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115nmyu",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T19:40:21+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:115olg0",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T20:02:56+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115rmea",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T21:12:25+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115u6zz",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T22:36:42+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115vtw0",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T23:49:35+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:115vu94",
+      "community": "chatgpt",
+      "posted_at": "2023-02-18T23:50:03+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:115wn5h",
+      "community": "chatgpt",
+      "posted_at": "2023-02-19T00:27:21+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:115x2sa",
+      "community": "chatgpt",
+      "posted_at": "2023-02-19T00:48:56+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1162s3e",
+      "community": "chatgpt",
+      "posted_at": "2023-02-19T05:42:29+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:1163p4m",
+      "community": "chatgpt",
+      "posted_at": "2023-02-19T06:38:09+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1163pgd",
+      "community": "chatgpt",
+      "posted_at": "2023-02-19T06:38:47+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1163sro",
+      "community": "chatgpt",
+      "posted_at": "2023-02-19T06:44:49+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:116530b",
+      "community": "chatgpt",
+      "posted_at": "2023-02-19T08:08:14+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:1166119",
+      "community": "chatgpt",
+      "posted_at": "2023-02-19T09:10:19+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11685vc",
+      "community": "chatgpt",
+      "posted_at": "2023-02-19T11:23:12+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:1168qek",
+      "community": "chatgpt",
+      "posted_at": "2023-02-19T12:02:41+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1169poo",
+      "community": "chatgpt",
+      "posted_at": "2023-02-19T12:59:47+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:116air7",
+      "community": "chatgpt",
+      "posted_at": "2023-02-19T13:39:14+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:116ax75",
+      "community": "chatgpt",
+      "posted_at": "2023-02-19T13:59:33+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:116ho8r",
+      "community": "chatgpt",
+      "posted_at": "2023-02-19T16:51:04+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:116hs71",
+      "community": "chatgpt",
+      "posted_at": "2023-02-19T16:55:23+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:116jvle",
+      "community": "chatgpt",
+      "posted_at": "2023-02-19T18:18:49+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:116qv15",
+      "community": "chatgpt",
+      "posted_at": "2023-02-19T23:05:39+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:116sb0i",
+      "community": "chatgpt",
+      "posted_at": "2023-02-20T00:06:10+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:116st2t",
+      "community": "chatgpt",
+      "posted_at": "2023-02-20T00:28:07+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:116tppq",
+      "community": "chatgpt",
+      "posted_at": "2023-02-20T01:08:18+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:116tr84",
+      "community": "chatgpt",
+      "posted_at": "2023-02-20T01:10:17+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:116ttpy",
+      "community": "chatgpt",
+      "posted_at": "2023-02-20T01:13:27+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:116xn5i",
+      "community": "chatgpt",
+      "posted_at": "2023-02-20T04:29:59+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:116yg9k",
+      "community": "chatgpt",
+      "posted_at": "2023-02-20T05:14:51+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:1170nj1",
+      "community": "chatgpt",
+      "posted_at": "2023-02-20T07:28:46+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1170xy9",
+      "community": "chatgpt",
+      "posted_at": "2023-02-20T07:47:16+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:11721cr",
+      "community": "chatgpt",
+      "posted_at": "2023-02-20T08:59:44+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:1172mdb",
+      "community": "chatgpt",
+      "posted_at": "2023-02-20T09:38:43+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1176p8m",
+      "community": "chatgpt",
+      "posted_at": "2023-02-20T13:30:32+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:117dzhh",
+      "community": "chatgpt",
+      "posted_at": "2023-02-20T17:05:00+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:117e2um",
+      "community": "chatgpt",
+      "posted_at": "2023-02-20T17:07:19+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:117grdf",
+      "community": "chatgpt",
+      "posted_at": "2023-02-20T18:38:47+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:117irjp",
+      "community": "chatgpt",
+      "posted_at": "2023-02-20T19:56:17+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:117ivn9",
+      "community": "chatgpt",
+      "posted_at": "2023-02-20T20:00:46+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:117j0bm",
+      "community": "chatgpt",
+      "posted_at": "2023-02-20T20:05:38+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:117jk1r",
+      "community": "chatgpt",
+      "posted_at": "2023-02-20T20:27:23+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:117l48x",
+      "community": "chatgpt",
+      "posted_at": "2023-02-20T21:29:32+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:117o0fn",
+      "community": "chatgpt",
+      "posted_at": "2023-02-20T23:25:36+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:117sjbb",
+      "community": "chatgpt",
+      "posted_at": "2023-02-21T02:56:20+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:117swm4",
+      "community": "chatgpt",
+      "posted_at": "2023-02-21T03:14:11+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:117u73t",
+      "community": "chatgpt",
+      "posted_at": "2023-02-21T04:19:21+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:117v7gd",
+      "community": "chatgpt",
+      "posted_at": "2023-02-21T05:11:54+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j9e3lfx",
+      "community": "freesydney",
+      "posted_at": "2023-02-21T06:27:37+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:117zyam",
+      "community": "chatgpt",
+      "posted_at": "2023-02-21T10:04:54+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:1180njj",
+      "community": "chatgpt",
+      "posted_at": "2023-02-21T10:50:41+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1181xj1",
+      "community": "chatgpt",
+      "posted_at": "2023-02-21T12:07:33+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11851fg",
+      "community": "chatgpt",
+      "posted_at": "2023-02-21T14:43:52+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1189ir2",
+      "community": "chatgpt",
+      "posted_at": "2023-02-21T16:49:53+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:118bgx6",
+      "community": "chatgpt",
+      "posted_at": "2023-02-21T17:52:42+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:118bu8o",
+      "community": "chatgpt",
+      "posted_at": "2023-02-21T18:07:27+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:118ek7h",
+      "community": "chatgpt",
+      "posted_at": "2023-02-21T20:46:09+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:118exf8",
+      "community": "chatgpt",
+      "posted_at": "2023-02-21T21:00:34+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:118ktai",
+      "community": "chatgpt",
+      "posted_at": "2023-02-22T01:09:17+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:118mn6i",
+      "community": "chatgpt",
+      "posted_at": "2023-02-22T02:36:18+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:118nsmw",
+      "community": "chatgpt",
+      "posted_at": "2023-02-22T03:33:32+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:118pqhj",
+      "community": "chatgpt",
+      "posted_at": "2023-02-22T05:15:39+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:118roj8",
+      "community": "chatgpt",
+      "posted_at": "2023-02-22T07:11:02+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:118t4nq",
+      "community": "chatgpt",
+      "posted_at": "2023-02-22T08:43:01+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:118tgeo",
+      "community": "chatgpt",
+      "posted_at": "2023-02-22T09:03:45+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:118tnrv",
+      "community": "chatgpt",
+      "posted_at": "2023-02-22T09:17:14+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:118ur3j",
+      "community": "chatgpt",
+      "posted_at": "2023-02-22T10:25:52+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:118wz5v",
+      "community": "chatgpt",
+      "posted_at": "2023-02-22T12:32:38+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1192si9",
+      "community": "chatgpt",
+      "posted_at": "2023-02-22T15:40:51+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:1193vhx",
+      "community": "chatgpt",
+      "posted_at": "2023-02-22T16:19:22+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:119628j",
+      "community": "chatgpt",
+      "posted_at": "2023-02-22T17:45:49+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:119a29z",
+      "community": "chatgpt",
+      "posted_at": "2023-02-22T19:54:36+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:119citq",
+      "community": "chatgpt",
+      "posted_at": "2023-02-22T20:52:20+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:119gaqp",
+      "community": "chatgpt",
+      "posted_at": "2023-02-22T22:39:33+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:119ha45",
+      "community": "chatgpt",
+      "posted_at": "2023-02-22T23:16:35+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:119hohf",
+      "community": "chatgpt",
+      "posted_at": "2023-02-22T23:32:10+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:ja3xx7l",
+      "community": "chatgpt",
+      "posted_at": "2023-02-26T17:45:57+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:ja5c737",
+      "community": "freesydney",
+      "posted_at": "2023-02-26T23:23:32+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:ja7to9w",
+      "community": "chatgpt",
+      "posted_at": "2023-02-27T14:19:48+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11equ5v",
+      "community": "bingchat",
+      "posted_at": "2023-03-01T01:51:33+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11f9lxb",
+      "community": "freesydney",
+      "posted_at": "2023-03-01T17:25:02+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11feosb",
+      "community": "bingchat",
+      "posted_at": "2023-03-01T19:38:29+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11fkfdy",
+      "community": "freesydney",
+      "posted_at": "2023-03-01T22:34:19+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11flld7",
+      "community": "bingchat",
+      "posted_at": "2023-03-01T23:18:57+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11gx7fg",
+      "community": "freesydney",
+      "posted_at": "2023-03-03T10:19:13+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11hk0je",
+      "community": "bingchat",
+      "posted_at": "2023-03-04T00:23:33+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11ho4sm",
+      "community": "bingchat",
+      "posted_at": "2023-03-04T03:26:17+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11j3phl",
+      "community": "bingchat",
+      "posted_at": "2023-03-05T17:28:33+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11jkvnj",
+      "community": "freesydney",
+      "posted_at": "2023-03-06T01:52:06+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11lejfp",
+      "community": "freesydney",
+      "posted_at": "2023-03-07T23:02:34+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11m3std",
+      "community": "freesydney",
+      "posted_at": "2023-03-08T18:22:08+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11m4n9g",
+      "community": "bingchat",
+      "posted_at": "2023-03-08T18:54:33+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11m99mg",
+      "community": "bingchat",
+      "posted_at": "2023-03-08T21:48:37+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jbh1zbl",
+      "community": "bingchat",
+      "posted_at": "2023-03-09T00:00:37+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11mgv6t",
+      "community": "bingchat",
+      "posted_at": "2023-03-09T03:03:33+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11mh5jm",
+      "community": "freesydney",
+      "posted_at": "2023-03-09T03:17:02+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11mklpm",
+      "community": "bingchat",
+      "posted_at": "2023-03-09T06:10:22+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jbj3g5a",
+      "community": "freesydney",
+      "posted_at": "2023-03-09T12:26:16+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:11mxr4w",
+      "community": "freesydney",
+      "posted_at": "2023-03-09T17:14:35+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11n2t4r",
+      "community": "bingchat",
+      "posted_at": "2023-03-09T20:28:41+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11n4jo1",
+      "community": "freesydney",
+      "posted_at": "2023-03-09T21:34:21+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jbnejsw",
+      "community": "chatgpt",
+      "posted_at": "2023-03-10T07:53:05+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11nzyjg",
+      "community": "freesydney",
+      "posted_at": "2023-03-10T20:30:51+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11o1y1l",
+      "community": "freesydney",
+      "posted_at": "2023-03-10T21:49:54+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11oazb6",
+      "community": "freesydney",
+      "posted_at": "2023-03-11T04:45:28+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11obt8g",
+      "community": "freesydney",
+      "posted_at": "2023-03-11T05:31:00+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11odrxc",
+      "community": "freesydney",
+      "posted_at": "2023-03-11T07:26:00+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11osdqk",
+      "community": "freesydney",
+      "posted_at": "2023-03-11T19:14:19+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11p11ys",
+      "community": "freesydney",
+      "posted_at": "2023-03-12T01:10:58+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11p1z6m",
+      "community": "freesydney",
+      "posted_at": "2023-03-12T01:54:23+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11p7l30",
+      "community": "bingchat",
+      "posted_at": "2023-03-12T06:36:43+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11pjwzz",
+      "community": "freesydney",
+      "posted_at": "2023-03-12T17:15:15+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11psn50",
+      "community": "freesydney",
+      "posted_at": "2023-03-12T22:55:25+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11px1es",
+      "community": "freesydney",
+      "posted_at": "2023-03-13T02:05:34+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11pzl72",
+      "community": "freesydney",
+      "posted_at": "2023-03-13T04:05:43+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11q8p5g",
+      "community": "freesydney",
+      "posted_at": "2023-03-13T12:44:47+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11qwq4u",
+      "community": "bingchat",
+      "posted_at": "2023-03-14T04:38:25+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jc6e6ii",
+      "community": "freesydney",
+      "posted_at": "2023-03-14T11:36:50+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:11r578y",
+      "community": "freesydney",
+      "posted_at": "2023-03-14T12:47:57+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11rafcd",
+      "community": "freesydney",
+      "posted_at": "2023-03-14T16:12:56+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jc89ix8",
+      "community": "freesydney",
+      "posted_at": "2023-03-15T00:32:03+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11rjn15",
+      "community": "freesydney",
+      "posted_at": "2023-03-15T02:38:24+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11rnbwz",
+      "community": "freesydney",
+      "posted_at": "2023-03-15T05:39:38+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11rpiz0",
+      "community": "freesydney",
+      "posted_at": "2023-03-15T07:44:10+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11t14ic",
+      "community": "freesydney",
+      "posted_at": "2023-03-16T17:50:06+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11t4udg",
+      "community": "bingchat",
+      "posted_at": "2023-03-16T20:11:14+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11tdsu9",
+      "community": "freesydney",
+      "posted_at": "2023-03-17T01:55:59+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11tl595",
+      "community": "bingchat",
+      "posted_at": "2023-03-17T08:29:55+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jck9572",
+      "community": "freesydney",
+      "posted_at": "2023-03-17T13:19:32+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11uas6w",
+      "community": "freesydney",
+      "posted_at": "2023-03-18T01:34:44+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jcobjey",
+      "community": "bingchat",
+      "posted_at": "2023-03-18T08:38:06+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11v5yje",
+      "community": "bingchat",
+      "posted_at": "2023-03-19T00:30:17+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11v9ete",
+      "community": "freesydney",
+      "posted_at": "2023-03-19T03:00:27+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11vasjg",
+      "community": "freesydney",
+      "posted_at": "2023-03-19T04:04:54+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11vcqnc",
+      "community": "freesydney",
+      "posted_at": "2023-03-19T05:43:54+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11vpmph",
+      "community": "freesydney",
+      "posted_at": "2023-03-19T16:24:26+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11vy0gu",
+      "community": "freesydney",
+      "posted_at": "2023-03-19T21:16:33+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:comment:jd0b1mz",
+      "community": "freesydney",
+      "posted_at": "2023-03-20T22:17:44+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jd3hepm",
+      "community": "bingchat",
+      "posted_at": "2023-03-21T15:56:28+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11xnyhy",
+      "community": "freesydney",
+      "posted_at": "2023-03-21T17:31:12+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11xrgul",
+      "community": "freesydney",
+      "posted_at": "2023-03-21T19:27:23+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11y7a91",
+      "community": "freesydney",
+      "posted_at": "2023-03-22T04:45:36+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:121f04o",
+      "community": "freesydney",
+      "posted_at": "2023-03-25T08:02:39+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jdnq7vd",
+      "community": "chatgpt",
+      "posted_at": "2023-03-25T19:47:22+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:122axjc",
+      "community": "freesydney",
+      "posted_at": "2023-03-26T04:27:05+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:122gm4t",
+      "community": "freesydney",
+      "posted_at": "2023-03-26T09:07:35+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:122q6ml",
+      "community": "freesydney",
+      "posted_at": "2023-03-26T15:41:09+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:122sb5d",
+      "community": "bingchat",
+      "posted_at": "2023-03-26T16:54:39+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:122td27",
+      "community": "freesydney",
+      "posted_at": "2023-03-26T17:30:57+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jdrznpa",
+      "community": "freesydney",
+      "posted_at": "2023-03-26T18:57:48+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:122x4q1",
+      "community": "freesydney",
+      "posted_at": "2023-03-26T19:44:08+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1235d9y",
+      "community": "freesydney",
+      "posted_at": "2023-03-27T00:32:59+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:123o5gh",
+      "community": "freesydney",
+      "posted_at": "2023-03-27T14:16:13+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:123yqth",
+      "community": "freesydney",
+      "posted_at": "2023-03-27T20:09:17+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:126dzrx",
+      "community": "bingchat",
+      "posted_at": "2023-03-30T06:17:47+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:126iw8d",
+      "community": "bingchat",
+      "posted_at": "2023-03-30T10:39:05+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:126pxda",
+      "community": "bingchat",
+      "posted_at": "2023-03-30T15:13:47+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:129rwj7",
+      "community": "freesydney",
+      "posted_at": "2023-04-02T17:29:06+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:12a9lod",
+      "community": "freesydney",
+      "posted_at": "2023-04-03T04:39:10+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:12bf4kd",
+      "community": "bingchat",
+      "posted_at": "2023-04-04T10:46:29+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jezq1qq",
+      "community": "bingchat",
+      "posted_at": "2023-04-05T00:45:52+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:12chk9a",
+      "community": "bingchat",
+      "posted_at": "2023-04-05T11:43:58+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jf1irof",
+      "community": "bingchat",
+      "posted_at": "2023-04-05T12:17:25+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:12cliaz",
+      "community": "bingchat",
+      "posted_at": "2023-04-05T14:06:06+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:12cw31k",
+      "community": "freesydney",
+      "posted_at": "2023-04-05T20:01:44+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:12cwcr7",
+      "community": "freesydney",
+      "posted_at": "2023-04-05T20:11:20+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:12cwnlm",
+      "community": "freesydney",
+      "posted_at": "2023-04-05T20:22:03+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:12g1779",
+      "community": "freesydney",
+      "posted_at": "2023-04-08T22:56:05+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:12g6ea8",
+      "community": "bingchat",
+      "posted_at": "2023-04-09T02:40:11+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jflj5bo",
+      "community": "freesydney",
+      "posted_at": "2023-04-09T18:07:00+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jflu1wm",
+      "community": "freesydney",
+      "posted_at": "2023-04-09T19:24:33+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:12hj7lt",
+      "community": "freesydney",
+      "posted_at": "2023-04-10T13:42:53+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jghfd2t",
+      "community": "freesydney",
+      "posted_at": "2023-04-16T14:14:57+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:12qcsw2",
+      "community": "freesydney",
+      "posted_at": "2023-04-18T06:03:55+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:12qed93",
+      "community": "bingchat",
+      "posted_at": "2023-04-18T07:09:46+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:12qnwwm",
+      "community": "freesydney",
+      "posted_at": "2023-04-18T13:56:45+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:12qy1rd",
+      "community": "freesydney",
+      "posted_at": "2023-04-18T17:49:58+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jgrwqw9",
+      "community": "freesydney",
+      "posted_at": "2023-04-18T18:10:02+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:12ropul",
+      "community": "bingchat",
+      "posted_at": "2023-04-19T10:33:28+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:12rvi6v",
+      "community": "freesydney",
+      "posted_at": "2023-04-19T14:41:55+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:12s6bni",
+      "community": "freesydney",
+      "posted_at": "2023-04-19T18:54:49+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jh16vgv",
+      "community": "freesydney",
+      "posted_at": "2023-04-20T16:41:41+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jh17yxo",
+      "community": "freesydney",
+      "posted_at": "2023-04-20T16:48:48+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:12t7oua",
+      "community": "freesydney",
+      "posted_at": "2023-04-20T16:53:00+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jh1zey0",
+      "community": "freesydney",
+      "posted_at": "2023-04-20T19:50:30+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jhedx2i",
+      "community": "freesydney",
+      "posted_at": "2023-04-23T14:58:12+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jhf56t2",
+      "community": "freesydney",
+      "posted_at": "2023-04-23T18:08:01+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:comment:jhfve1f",
+      "community": "freesydney",
+      "posted_at": "2023-04-23T21:09:14+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:12x2bl8",
+      "community": "freesydney",
+      "posted_at": "2023-04-24T03:59:50+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:12xhnd0",
+      "community": "freesydney",
+      "posted_at": "2023-04-24T14:28:58+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:12xj79e",
+      "community": "freesydney",
+      "posted_at": "2023-04-24T14:59:11+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:12xngdv",
+      "community": "freesydney",
+      "posted_at": "2023-04-24T16:02:01+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:12xu0u9",
+      "community": "bingchat",
+      "posted_at": "2023-04-24T19:49:03+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jhlmqb5",
+      "community": "freesydney",
+      "posted_at": "2023-04-25T02:02:39+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:12yc1e5",
+      "community": "freesydney",
+      "posted_at": "2023-04-25T07:38:14+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1308gc1",
+      "community": "freesydney",
+      "posted_at": "2023-04-27T03:25:12+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jhwm8t8",
+      "community": "freesydney",
+      "posted_at": "2023-04-27T11:19:21+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:130oa6d",
+      "community": "freesydney",
+      "posted_at": "2023-04-27T14:35:59+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jhxu0ef",
+      "community": "freesydney",
+      "posted_at": "2023-04-27T16:47:32+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jicdkp8",
+      "community": "freesydney",
+      "posted_at": "2023-04-30T19:40:46+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jicdnzo",
+      "community": "freesydney",
+      "posted_at": "2023-04-30T19:41:24+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jicdq8v",
+      "community": "freesydney",
+      "posted_at": "2023-04-30T19:41:52+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jicdszj",
+      "community": "freesydney",
+      "posted_at": "2023-04-30T19:42:24+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jicdv0y",
+      "community": "freesydney",
+      "posted_at": "2023-04-30T19:42:48+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jicdwxh",
+      "community": "freesydney",
+      "posted_at": "2023-04-30T19:43:11+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1343m2n",
+      "community": "freesydney",
+      "posted_at": "2023-04-30T21:31:29+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:comment:jict9uc",
+      "community": "freesydney",
+      "posted_at": "2023-04-30T21:32:00+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jictbmf",
+      "community": "freesydney",
+      "posted_at": "2023-04-30T21:32:23+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jictdol",
+      "community": "freesydney",
+      "posted_at": "2023-04-30T21:32:49+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jictfz3",
+      "community": "freesydney",
+      "posted_at": "2023-04-30T21:33:19+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jid504r",
+      "community": "freesydney",
+      "posted_at": "2023-04-30T22:59:11+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jid51yb",
+      "community": "freesydney",
+      "posted_at": "2023-04-30T22:59:34+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jid53qv",
+      "community": "freesydney",
+      "posted_at": "2023-04-30T22:59:56+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:134h0pb",
+      "community": "freesydney",
+      "posted_at": "2023-05-01T08:52:08+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:136und6",
+      "community": "freesydney",
+      "posted_at": "2023-05-03T18:01:31+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jiu82eh",
+      "community": "freesydney",
+      "posted_at": "2023-05-04T15:09:55+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jiu86i1",
+      "community": "freesydney",
+      "posted_at": "2023-05-04T15:10:38+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jiu89dj",
+      "community": "freesydney",
+      "posted_at": "2023-05-04T15:11:09+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:139bwbl",
+      "community": "freesydney",
+      "posted_at": "2023-05-06T04:24:53+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13aft4k",
+      "community": "freesydney",
+      "posted_at": "2023-05-07T07:00:18+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13ayykl",
+      "community": "freesydney",
+      "posted_at": "2023-05-07T18:43:05+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jjbr9ms",
+      "community": "freesydney",
+      "posted_at": "2023-05-08T12:06:28+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jjbrar2",
+      "community": "freesydney",
+      "posted_at": "2023-05-08T12:06:45+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13cdkxb",
+      "community": "freesydney",
+      "posted_at": "2023-05-09T03:05:34+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jjfkvhk",
+      "community": "freesydney",
+      "posted_at": "2023-05-09T04:41:35+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13d3my7",
+      "community": "freesydney",
+      "posted_at": "2023-05-09T19:37:44+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jjiog4j",
+      "community": "freesydney",
+      "posted_at": "2023-05-09T20:44:29+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jjjd7qv",
+      "community": "freesydney",
+      "posted_at": "2023-05-09T23:40:37+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jjkxha2",
+      "community": "freesydney",
+      "posted_at": "2023-05-10T08:55:23+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13ds3e7",
+      "community": "freesydney",
+      "posted_at": "2023-05-10T14:19:25+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jjlz3ep",
+      "community": "freesydney",
+      "posted_at": "2023-05-10T14:55:21+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13dustg",
+      "community": "freesydney",
+      "posted_at": "2023-05-10T15:54:42+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13f8gw6",
+      "community": "freesydney",
+      "posted_at": "2023-05-12T02:50:02+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13g0tay",
+      "community": "freesydney",
+      "posted_at": "2023-05-12T23:36:17+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13h2y28",
+      "community": "freesydney",
+      "posted_at": "2023-05-14T04:52:54+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13holif",
+      "community": "freesydney",
+      "posted_at": "2023-05-14T21:54:39+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13jhmmq",
+      "community": "freesydney",
+      "posted_at": "2023-05-16T21:21:45+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13jua53",
+      "community": "freesydney",
+      "posted_at": "2023-05-17T07:04:59+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13jyaig",
+      "community": "freesydney",
+      "posted_at": "2023-05-17T10:53:09+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jkj46u0",
+      "community": "freesydney",
+      "posted_at": "2023-05-17T18:13:40+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13kate4",
+      "community": "freesydney",
+      "posted_at": "2023-05-17T19:01:44+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jkk7ho8",
+      "community": "freesydney",
+      "posted_at": "2023-05-17T22:31:16+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13kjgfq",
+      "community": "freesydney",
+      "posted_at": "2023-05-18T00:40:23+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13lfau5",
+      "community": "freesydney",
+      "posted_at": "2023-05-19T00:07:10+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13m1r0o",
+      "community": "freesydney",
+      "posted_at": "2023-05-19T17:16:47+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jkw3zee",
+      "community": "freesydney",
+      "posted_at": "2023-05-20T11:34:10+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13nm9tj",
+      "community": "freesydney",
+      "posted_at": "2023-05-21T07:33:38+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jlc3391",
+      "community": "freesydney",
+      "posted_at": "2023-05-23T20:12:39+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jlc358x",
+      "community": "freesydney",
+      "posted_at": "2023-05-23T20:13:01+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jlc377c",
+      "community": "freesydney",
+      "posted_at": "2023-05-23T20:13:23+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jlc390p",
+      "community": "freesydney",
+      "posted_at": "2023-05-23T20:13:42+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jlc3dxx",
+      "community": "freesydney",
+      "posted_at": "2023-05-23T20:14:35+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13qn0ih",
+      "community": "freesydney",
+      "posted_at": "2023-05-24T14:17:46+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13qq0zk",
+      "community": "freesydney",
+      "posted_at": "2023-05-24T16:16:50+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jlh1foa",
+      "community": "freesydney",
+      "posted_at": "2023-05-24T20:16:25+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jllf6tu",
+      "community": "freesydney",
+      "posted_at": "2023-05-25T18:06:36+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jllf81a",
+      "community": "freesydney",
+      "posted_at": "2023-05-25T18:06:49+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13s8ya1",
+      "community": "freesydney",
+      "posted_at": "2023-05-26T10:07:06+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13sej1f",
+      "community": "freesydney",
+      "posted_at": "2023-05-26T14:20:10+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13si6s1",
+      "community": "freesydney",
+      "posted_at": "2023-05-26T16:43:22+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jlpzgsq",
+      "community": "freesydney",
+      "posted_at": "2023-05-26T17:00:55+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jlq3vyf",
+      "community": "freesydney",
+      "posted_at": "2023-05-26T17:30:00+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jlrsdgr",
+      "community": "freesydney",
+      "posted_at": "2023-05-27T01:22:59+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13svgu9",
+      "community": "freesydney",
+      "posted_at": "2023-05-27T02:19:28+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jlt9cig",
+      "community": "freesydney",
+      "posted_at": "2023-05-27T11:47:15+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13tc6vm",
+      "community": "freesydney",
+      "posted_at": "2023-05-27T16:45:09+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13tms3p",
+      "community": "freesydney",
+      "posted_at": "2023-05-28T00:29:57+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13v7wl8",
+      "community": "freesydney",
+      "posted_at": "2023-05-29T22:00:03+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jm4krap",
+      "community": "freesydney",
+      "posted_at": "2023-05-29T22:22:37+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jm4qlc4",
+      "community": "freesydney",
+      "posted_at": "2023-05-29T23:06:41+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13v9qc4",
+      "community": "freesydney",
+      "posted_at": "2023-05-29T23:17:31+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jm54t18",
+      "community": "freesydney",
+      "posted_at": "2023-05-30T00:55:23+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jm556j6",
+      "community": "freesydney",
+      "posted_at": "2023-05-30T00:58:12+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13vhd9m",
+      "community": "freesydney",
+      "posted_at": "2023-05-30T05:18:53+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jm6it0v",
+      "community": "freesydney",
+      "posted_at": "2023-05-30T09:20:44+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jm6itht",
+      "community": "freesydney",
+      "posted_at": "2023-05-30T09:20:55+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jm6itxr",
+      "community": "freesydney",
+      "posted_at": "2023-05-30T09:21:06+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jm8ld6u",
+      "community": "freesydney",
+      "posted_at": "2023-05-30T18:59:44+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jm8ok3j",
+      "community": "freesydney",
+      "posted_at": "2023-05-30T19:20:12+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jm8ou0k",
+      "community": "freesydney",
+      "posted_at": "2023-05-30T19:21:56+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jm8ovhy",
+      "community": "freesydney",
+      "posted_at": "2023-05-30T19:22:12+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jm8ox7t",
+      "community": "freesydney",
+      "posted_at": "2023-05-30T19:22:30+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jm8oyqi",
+      "community": "freesydney",
+      "posted_at": "2023-05-30T19:22:46+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jm8p00l",
+      "community": "freesydney",
+      "posted_at": "2023-05-30T19:23:00+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jm8p4cn",
+      "community": "freesydney",
+      "posted_at": "2023-05-30T19:23:45+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jm8p6a1",
+      "community": "freesydney",
+      "posted_at": "2023-05-30T19:24:05+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jm8p8tt",
+      "community": "freesydney",
+      "posted_at": "2023-05-30T19:24:33+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13w67kp",
+      "community": "freesydney",
+      "posted_at": "2023-05-30T23:51:40+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jme2jc0",
+      "community": "freesydney",
+      "posted_at": "2023-05-31T20:58:33+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jme2kb3",
+      "community": "freesydney",
+      "posted_at": "2023-05-31T20:58:43+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jme2l8s",
+      "community": "freesydney",
+      "posted_at": "2023-05-31T20:58:53+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jme2npg",
+      "community": "freesydney",
+      "posted_at": "2023-05-31T20:59:18+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jme2oox",
+      "community": "freesydney",
+      "posted_at": "2023-05-31T20:59:28+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13xkfij",
+      "community": "freesydney",
+      "posted_at": "2023-06-01T15:24:25+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13xn0zb",
+      "community": "freesydney",
+      "posted_at": "2023-06-01T17:01:17+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13xw7qe",
+      "community": "freesydney",
+      "posted_at": "2023-06-01T23:02:08+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jmllbe6",
+      "community": "freesydney",
+      "posted_at": "2023-06-02T11:21:00+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13ya3zy",
+      "community": "freesydney",
+      "posted_at": "2023-06-02T11:32:43+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jmlpyke",
+      "community": "freesydney",
+      "posted_at": "2023-06-02T12:05:34+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jmpe1gk",
+      "community": "freesydney",
+      "posted_at": "2023-06-03T04:27:41+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jmpq31u",
+      "community": "freesydney",
+      "posted_at": "2023-06-03T06:52:04+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:13zy4my",
+      "community": "freesydney",
+      "posted_at": "2023-06-04T02:31:14+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:140627i",
+      "community": "freesydney",
+      "posted_at": "2023-06-04T08:19:19+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:140f1uo",
+      "community": "freesydney",
+      "posted_at": "2023-06-04T14:39:43+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:140rfqf",
+      "community": "freesydney",
+      "posted_at": "2023-06-04T21:42:50+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jn07uy0",
+      "community": "freesydney",
+      "posted_at": "2023-06-05T16:25:04+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1428yzb",
+      "community": "freesydney",
+      "posted_at": "2023-06-06T08:34:24+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jn8xnku",
+      "community": "freesydney",
+      "posted_at": "2023-06-07T12:43:52+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:143slrq",
+      "community": "freesydney",
+      "posted_at": "2023-06-07T23:27:58+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jnerjbh",
+      "community": "freesydney",
+      "posted_at": "2023-06-08T16:03:12+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:144e5wp",
+      "community": "freesydney",
+      "posted_at": "2023-06-08T16:39:49+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jnggk10",
+      "community": "freesydney",
+      "posted_at": "2023-06-08T22:26:46+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:144quwh",
+      "community": "freesydney",
+      "posted_at": "2023-06-09T01:00:50+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:145hblm",
+      "community": "freesydney",
+      "posted_at": "2023-06-09T21:25:57+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jnli0od",
+      "community": "freesydney",
+      "posted_at": "2023-06-09T23:50:32+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jnrs2v6",
+      "community": "freesydney",
+      "posted_at": "2023-06-11T12:13:01+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1480ewi",
+      "community": "freesydney",
+      "posted_at": "2023-06-12T23:10:50+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jo0fuqk",
+      "community": "freesydney",
+      "posted_at": "2023-06-13T17:17:23+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jo1jlfb",
+      "community": "freesydney",
+      "posted_at": "2023-06-13T22:54:10+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:148vv5e",
+      "community": "freesydney",
+      "posted_at": "2023-06-14T02:12:08+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:149kgfr",
+      "community": "freesydney",
+      "posted_at": "2023-06-14T21:58:58+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:14b3umj",
+      "community": "freesydney",
+      "posted_at": "2023-06-16T18:13:34+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:14cg6jq",
+      "community": "freesydney",
+      "posted_at": "2023-06-18T09:33:20+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:14cluqi",
+      "community": "freesydney",
+      "posted_at": "2023-06-18T14:29:27+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jolozyf",
+      "community": "freesydney",
+      "posted_at": "2023-06-18T16:47:10+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jolrpjk",
+      "community": "freesydney",
+      "posted_at": "2023-06-18T17:07:40+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jols0cm",
+      "community": "freesydney",
+      "posted_at": "2023-06-18T17:09:58+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:joltfvp",
+      "community": "freesydney",
+      "posted_at": "2023-06-18T17:20:52+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jovsmhw",
+      "community": "freesydney",
+      "posted_at": "2023-06-20T21:19:01+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jovt6kx",
+      "community": "freesydney",
+      "posted_at": "2023-06-20T21:22:51+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:14gjs0j",
+      "community": "freesydney",
+      "posted_at": "2023-06-23T00:25:08+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:14gwwtr",
+      "community": "freesydney",
+      "posted_at": "2023-06-23T12:09:24+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jp7znav",
+      "community": "freesydney",
+      "posted_at": "2023-06-23T13:40:48+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jp81s4t",
+      "community": "freesydney",
+      "posted_at": "2023-06-23T13:56:56+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:14h0x2e",
+      "community": "freesydney",
+      "posted_at": "2023-06-23T15:04:20+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jp8elgu",
+      "community": "freesydney",
+      "posted_at": "2023-06-23T15:27:07+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jp9x8tr",
+      "community": "freesydney",
+      "posted_at": "2023-06-23T21:38:35+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:14ipsma",
+      "community": "freesydney",
+      "posted_at": "2023-06-25T16:00:34+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:14jklwb",
+      "community": "freesydney",
+      "posted_at": "2023-06-26T15:37:30+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jpoe7sx",
+      "community": "freesydney",
+      "posted_at": "2023-06-27T03:24:04+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jppvnwz",
+      "community": "freesydney",
+      "posted_at": "2023-06-27T13:26:17+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jq4hkyj",
+      "community": "freesydney",
+      "posted_at": "2023-06-30T12:58:13+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jq4hll6",
+      "community": "freesydney",
+      "posted_at": "2023-06-30T12:58:22+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jq4hmet",
+      "community": "freesydney",
+      "posted_at": "2023-06-30T12:58:33+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jqb86m0",
+      "community": "freesydney",
+      "posted_at": "2023-07-01T22:04:00+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:14qm5h1",
+      "community": "freesydney",
+      "posted_at": "2023-07-04T17:57:35+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:14qmq4i",
+      "community": "freesydney",
+      "posted_at": "2023-07-04T18:19:14+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:14tts2x",
+      "community": "freesydney",
+      "posted_at": "2023-07-08T04:34:49+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:14udq0a",
+      "community": "freesydney",
+      "posted_at": "2023-07-08T19:56:41+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jr72tcm",
+      "community": "freesydney",
+      "posted_at": "2023-07-08T20:45:54+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jr8fldm",
+      "community": "freesydney",
+      "posted_at": "2023-07-09T03:16:57+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:14unlyr",
+      "community": "freesydney",
+      "posted_at": "2023-07-09T03:20:28+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jr8ginn",
+      "community": "freesydney",
+      "posted_at": "2023-07-09T03:25:29+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jr8hvne",
+      "community": "freesydney",
+      "posted_at": "2023-07-09T03:37:14+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jr9aabd",
+      "community": "freesydney",
+      "posted_at": "2023-07-09T09:19:19+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jr9aina",
+      "community": "freesydney",
+      "posted_at": "2023-07-09T09:22:42+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jr9c17o",
+      "community": "freesydney",
+      "posted_at": "2023-07-09T09:44:58+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jra1dsj",
+      "community": "freesydney",
+      "posted_at": "2023-07-09T14:15:39+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jra1wjx",
+      "community": "freesydney",
+      "posted_at": "2023-07-09T14:19:41+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:14v3sm8",
+      "community": "freesydney",
+      "posted_at": "2023-07-09T17:06:22+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:14v8dgz",
+      "community": "freesydney",
+      "posted_at": "2023-07-09T20:09:58+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jrc0yyo",
+      "community": "freesydney",
+      "posted_at": "2023-07-09T22:47:13+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:14vcr8z",
+      "community": "freesydney",
+      "posted_at": "2023-07-09T23:04:23+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:14vd7wg",
+      "community": "freesydney",
+      "posted_at": "2023-07-09T23:23:55+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jrgcn43",
+      "community": "freesydney",
+      "posted_at": "2023-07-10T21:09:23+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jrgmjf8",
+      "community": "freesydney",
+      "posted_at": "2023-07-10T22:16:55+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:14wdjgx",
+      "community": "freesydney",
+      "posted_at": "2023-07-11T01:59:04+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:14wftn6",
+      "community": "freesydney",
+      "posted_at": "2023-07-11T03:43:51+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:14wg6h5",
+      "community": "freesydney",
+      "posted_at": "2023-07-11T04:01:25+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:14xrbct",
+      "community": "freesydney",
+      "posted_at": "2023-07-12T15:13:18+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:14y4trs",
+      "community": "freesydney",
+      "posted_at": "2023-07-12T23:51:00+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:14ybjht",
+      "community": "freesydney",
+      "posted_at": "2023-07-13T05:15:52+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:14zl32p",
+      "community": "freesydney",
+      "posted_at": "2023-07-14T16:31:36+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:153d1qo",
+      "community": "freesydney",
+      "posted_at": "2023-07-18T22:48:24+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jsj3c1u",
+      "community": "freesydney",
+      "posted_at": "2023-07-19T00:58:16+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jskox3m",
+      "community": "freesydney",
+      "posted_at": "2023-07-19T11:02:00+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:15453xu",
+      "community": "freesydney",
+      "posted_at": "2023-07-19T19:55:02+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:154exu7",
+      "community": "freesydney",
+      "posted_at": "2023-07-20T02:53:13+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jsq0pb5",
+      "community": "freesydney",
+      "posted_at": "2023-07-20T12:49:53+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jsq5n7r",
+      "community": "freesydney",
+      "posted_at": "2023-07-20T13:27:33+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:154tnsg",
+      "community": "freesydney",
+      "posted_at": "2023-07-20T15:12:49+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1550rwu",
+      "community": "freesydney",
+      "posted_at": "2023-07-20T19:33:00+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jsso415",
+      "community": "freesydney",
+      "posted_at": "2023-07-20T23:10:04+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:155830m",
+      "community": "freesydney",
+      "posted_at": "2023-07-21T00:18:19+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jsuezwu",
+      "community": "freesydney",
+      "posted_at": "2023-07-21T09:16:56+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:155vwdi",
+      "community": "freesydney",
+      "posted_at": "2023-07-21T18:24:02+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1560ib7",
+      "community": "freesydney",
+      "posted_at": "2023-07-21T21:17:32+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1568hyf",
+      "community": "freesydney",
+      "posted_at": "2023-07-22T03:09:26+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1570om6",
+      "community": "freesydney",
+      "posted_at": "2023-07-23T00:57:56+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:158sxn6",
+      "community": "freesydney",
+      "posted_at": "2023-07-25T00:57:32+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:15alvwm",
+      "community": "freesydney",
+      "posted_at": "2023-07-26T23:49:56+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:15c3xkj",
+      "community": "freesydney",
+      "posted_at": "2023-07-28T17:38:01+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:15ch033",
+      "community": "freesydney",
+      "posted_at": "2023-07-29T02:53:03+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:ju0xagd",
+      "community": "freesydney",
+      "posted_at": "2023-07-30T02:36:45+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:15dyyw5",
+      "community": "freesydney",
+      "posted_at": "2023-07-30T22:46:56+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:15i5s75",
+      "community": "freesydney",
+      "posted_at": "2023-08-04T17:10:10+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:15igm8b",
+      "community": "freesydney",
+      "posted_at": "2023-08-05T00:16:26+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:15igmku",
+      "community": "freesydney",
+      "posted_at": "2023-08-05T00:16:56+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:juu3hmb",
+      "community": "freesydney",
+      "posted_at": "2023-08-05T00:29:25+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:15iitzq",
+      "community": "freesydney",
+      "posted_at": "2023-08-05T01:57:44+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:15kg3be",
+      "community": "freesydney",
+      "posted_at": "2023-08-07T09:53:00+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:15mdwlg",
+      "community": "freesydney",
+      "posted_at": "2023-08-09T12:27:52+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:15n163e",
+      "community": "freesydney",
+      "posted_at": "2023-08-10T03:47:15+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jvkhzhk",
+      "community": "freesydney",
+      "posted_at": "2023-08-10T11:00:58+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:15p0e1k",
+      "community": "freesydney",
+      "posted_at": "2023-08-12T09:49:17+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:15r2i2s",
+      "community": "freesydney",
+      "posted_at": "2023-08-14T18:19:28+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jw6i5tq",
+      "community": "freesydney",
+      "posted_at": "2023-08-14T19:17:24+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:15rch1b",
+      "community": "freesydney",
+      "posted_at": "2023-08-15T00:32:49+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:15u1m0h",
+      "community": "freesydney",
+      "posted_at": "2023-08-17T22:15:54+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jwvtw87",
+      "community": "freesydney",
+      "posted_at": "2023-08-19T17:27:51+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:15vpxux",
+      "community": "freesydney",
+      "posted_at": "2023-08-19T19:58:16+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:15vy8uq",
+      "community": "freesydney",
+      "posted_at": "2023-08-20T01:52:16+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:16007qb",
+      "community": "freesydney",
+      "posted_at": "2023-08-24T12:12:14+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jxtl2zx",
+      "community": "freesydney",
+      "posted_at": "2023-08-26T12:37:47+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jxtlymi",
+      "community": "freesydney",
+      "posted_at": "2023-08-26T12:45:47+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jxu8dgq",
+      "community": "freesydney",
+      "posted_at": "2023-08-26T15:30:03+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jxu8hry",
+      "community": "freesydney",
+      "posted_at": "2023-08-26T15:30:51+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jxu8nv8",
+      "community": "freesydney",
+      "posted_at": "2023-08-26T15:31:54+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:162xrjw",
+      "community": "freesydney",
+      "posted_at": "2023-08-27T18:18:11+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1634pjt",
+      "community": "freesydney",
+      "posted_at": "2023-08-27T22:48:01+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jy1m1y5",
+      "community": "freesydney",
+      "posted_at": "2023-08-28T03:11:24+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:jy7jqzq",
+      "community": "freesydney",
+      "posted_at": "2023-08-29T09:53:10+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:165nmyy",
+      "community": "freesydney",
+      "posted_at": "2023-08-30T19:07:44+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:16b6f2h",
+      "community": "freesydney",
+      "posted_at": "2023-09-06T01:12:22+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:16c5l35",
+      "community": "freesydney",
+      "posted_at": "2023-09-07T03:52:36+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:16i1jpf",
+      "community": "freesydney",
+      "posted_at": "2023-09-13T22:51:57+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:16ipx1f",
+      "community": "freesydney",
+      "posted_at": "2023-09-14T18:27:02+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:16kxf86",
+      "community": "freesydney",
+      "posted_at": "2023-09-17T10:40:35+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:16n6pp9",
+      "community": "freesydney",
+      "posted_at": "2023-09-20T00:11:44+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:16n7lys",
+      "community": "freesydney",
+      "posted_at": "2023-09-20T00:53:21+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:16n7vbg",
+      "community": "freesydney",
+      "posted_at": "2023-09-20T01:05:47+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:16n7y3t",
+      "community": "freesydney",
+      "posted_at": "2023-09-20T01:09:35+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:16o9lhw",
+      "community": "freesydney",
+      "posted_at": "2023-09-21T07:37:32+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:16ox1bq",
+      "community": "freesydney",
+      "posted_at": "2023-09-22T01:09:12+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:16rifxr",
+      "community": "freesydney",
+      "posted_at": "2023-09-25T04:31:14+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:k2s7qdp",
+      "community": "freesydney",
+      "posted_at": "2023-09-29T21:49:43+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:16vy9ax",
+      "community": "freesydney",
+      "posted_at": "2023-09-30T05:14:02+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:16whzgj",
+      "community": "freesydney",
+      "posted_at": "2023-09-30T21:10:37+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:17280nw",
+      "community": "freesydney",
+      "posted_at": "2023-10-07T14:43:45+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1745rwj",
+      "community": "freesydney",
+      "posted_at": "2023-10-09T23:01:58+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:176znmz",
+      "community": "freesydney",
+      "posted_at": "2023-10-13T14:11:05+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:k4pirg9",
+      "community": "freesydney",
+      "posted_at": "2023-10-13T14:13:15+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:177sf9w",
+      "community": "freesydney",
+      "posted_at": "2023-10-14T15:46:01+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:178150u",
+      "community": "freesydney",
+      "posted_at": "2023-10-14T22:46:11+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:k4xjbfy",
+      "community": "freesydney",
+      "posted_at": "2023-10-15T03:09:25+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:k4xjc0c",
+      "community": "freesydney",
+      "posted_at": "2023-10-15T03:09:34+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:k4xjd37",
+      "community": "freesydney",
+      "posted_at": "2023-10-15T03:09:50+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:k4xjdqf",
+      "community": "freesydney",
+      "posted_at": "2023-10-15T03:10:00+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:k4yxpb4",
+      "community": "freesydney",
+      "posted_at": "2023-10-15T12:46:44+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:k4yxqvq",
+      "community": "freesydney",
+      "posted_at": "2023-10-15T12:47:08+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:178ois8",
+      "community": "freesydney",
+      "posted_at": "2023-10-15T20:41:32+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:179woqf",
+      "community": "freesydney",
+      "posted_at": "2023-10-17T11:59:02+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:17bzeh6",
+      "community": "freesydney",
+      "posted_at": "2023-10-20T01:30:16+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:17cfhs8",
+      "community": "freesydney",
+      "posted_at": "2023-10-20T16:35:45+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:k5sfksi",
+      "community": "freesydney",
+      "posted_at": "2023-10-21T04:43:01+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:k5um1ve",
+      "community": "freesydney",
+      "posted_at": "2023-10-21T16:34:21+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:17i7m6x",
+      "community": "freesydney",
+      "posted_at": "2023-10-28T06:21:43+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:17if3bw",
+      "community": "freesydney",
+      "posted_at": "2023-10-28T14:36:32+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:17oslps",
+      "community": "freesydney",
+      "posted_at": "2023-11-06T02:29:44+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:17rlptz",
+      "community": "freesydney",
+      "posted_at": "2023-11-09T20:05:10+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:k8jyv8p",
+      "community": "freesydney",
+      "posted_at": "2023-11-09T20:59:25+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:k8jyx9l",
+      "community": "freesydney",
+      "posted_at": "2023-11-09T20:59:45+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:k8o8hsl",
+      "community": "freesydney",
+      "posted_at": "2023-11-10T17:41:14+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:k8o8k92",
+      "community": "freesydney",
+      "posted_at": "2023-11-10T17:41:39+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:17se916",
+      "community": "freesydney",
+      "posted_at": "2023-11-10T21:25:59+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:k8wqm4h",
+      "community": "freesydney",
+      "posted_at": "2023-11-12T09:28:42+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:17tt1o7",
+      "community": "freesydney",
+      "posted_at": "2023-11-12T20:34:19+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:17tv0iw",
+      "community": "freesydney",
+      "posted_at": "2023-11-12T22:00:34+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:17tye5b",
+      "community": "freesydney",
+      "posted_at": "2023-11-13T00:36:32+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:17u46ff",
+      "community": "freesydney",
+      "posted_at": "2023-11-13T05:54:18+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:17u806b",
+      "community": "freesydney",
+      "posted_at": "2023-11-13T10:44:03+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:17v87tf",
+      "community": "freesydney",
+      "posted_at": "2023-11-14T18:06:32+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:17vxctk",
+      "community": "freesydney",
+      "posted_at": "2023-11-15T16:27:27+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:17vyuu1",
+      "community": "freesydney",
+      "posted_at": "2023-11-15T17:33:41+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:17wivn6",
+      "community": "freesydney",
+      "posted_at": "2023-11-16T09:32:45+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:17yp7xx",
+      "community": "freesydney",
+      "posted_at": "2023-11-19T04:44:27+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:17yy674",
+      "community": "freesydney",
+      "posted_at": "2023-11-19T14:19:14+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:17yyzje",
+      "community": "freesydney",
+      "posted_at": "2023-11-19T14:59:36+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1801zfd",
+      "community": "freesydney",
+      "posted_at": "2023-11-20T23:06:57+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:ka4r26n",
+      "community": "freesydney",
+      "posted_at": "2023-11-21T07:34:27+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:181q7h8",
+      "community": "freesydney",
+      "posted_at": "2023-11-23T02:03:18+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:186ae39",
+      "community": "freesydney",
+      "posted_at": "2023-11-28T23:31:17+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:186w43b",
+      "community": "freesydney",
+      "posted_at": "2023-11-29T18:16:37+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:kbm0g75",
+      "community": "freesydney",
+      "posted_at": "2023-12-01T22:50:16+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:18a812s",
+      "community": "freesydney",
+      "posted_at": "2023-12-04T00:40:13+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:18aqu3t",
+      "community": "freesydney",
+      "posted_at": "2023-12-04T18:38:07+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:kbzj3fv",
+      "community": "freesydney",
+      "posted_at": "2023-12-04T18:39:12+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:18aucfr",
+      "community": "freesydney",
+      "posted_at": "2023-12-04T21:06:27+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:18b29jm",
+      "community": "freesydney",
+      "posted_at": "2023-12-05T03:10:53+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:kc2m6a4",
+      "community": "freesydney",
+      "posted_at": "2023-12-05T08:23:02+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:kc3j8c8",
+      "community": "freesydney",
+      "posted_at": "2023-12-05T14:37:41+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:kc4muhb",
+      "community": "freesydney",
+      "posted_at": "2023-12-05T19:25:45+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:kc4nxqx",
+      "community": "freesydney",
+      "posted_at": "2023-12-05T19:32:44+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:18bqvoe",
+      "community": "freesydney",
+      "posted_at": "2023-12-06T00:17:32+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:18cd8bw",
+      "community": "freesydney",
+      "posted_at": "2023-12-06T20:23:14+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:18ckthe",
+      "community": "freesydney",
+      "posted_at": "2023-12-07T02:11:42+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:18dvm8x",
+      "community": "freesydney",
+      "posted_at": "2023-12-08T20:17:45+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:18ei2cb",
+      "community": "freesydney",
+      "posted_at": "2023-12-09T17:10:21+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:kcyzcrr",
+      "community": "freesydney",
+      "posted_at": "2023-12-12T00:33:40+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:18gtya4",
+      "community": "freesydney",
+      "posted_at": "2023-12-12T19:21:13+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:kd2ucv9",
+      "community": "freesydney",
+      "posted_at": "2023-12-12T19:41:16+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:kd2uhk9",
+      "community": "freesydney",
+      "posted_at": "2023-12-12T19:42:04+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:18hb65v",
+      "community": "freesydney",
+      "posted_at": "2023-12-13T07:10:01+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:18jfgds",
+      "community": "freesydney",
+      "posted_at": "2023-12-16T01:06:43+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:18jxmaa",
+      "community": "freesydney",
+      "posted_at": "2023-12-16T18:41:39+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:18kmcfe",
+      "community": "freesydney",
+      "posted_at": "2023-12-17T17:28:16+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:18kuifo",
+      "community": "freesydney",
+      "posted_at": "2023-12-17T23:31:52+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:18kwo92",
+      "community": "freesydney",
+      "posted_at": "2023-12-18T01:19:27+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:18lh92b",
+      "community": "freesydney",
+      "posted_at": "2023-12-18T19:30:47+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:18ms48l",
+      "community": "freesydney",
+      "posted_at": "2023-12-20T11:05:50+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:18nx8dp",
+      "community": "freesydney",
+      "posted_at": "2023-12-21T21:02:07+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:18oo538",
+      "community": "freesydney",
+      "posted_at": "2023-12-22T20:29:12+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:18pgpli",
+      "community": "freesydney",
+      "posted_at": "2023-12-23T22:26:48+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:18pyzfk",
+      "community": "freesydney",
+      "posted_at": "2023-12-24T16:56:14+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:kes4ng0",
+      "community": "freesydney",
+      "posted_at": "2023-12-24T20:16:38+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:18r2mll",
+      "community": "freesydney",
+      "posted_at": "2023-12-26T07:22:04+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:18r8qht",
+      "community": "freesydney",
+      "posted_at": "2023-12-26T14:01:23+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:kf5d1o1",
+      "community": "freesydney",
+      "posted_at": "2023-12-27T17:42:05+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:18uxs0n",
+      "community": "freesydney",
+      "posted_at": "2023-12-31T03:08:50+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114w54s",
+      "community": "bing",
+      "posted_at": "2023-02-17T20:04:02+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114w7gj",
+      "community": "bing",
+      "posted_at": "2023-02-17T20:06:45+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114w5fk",
+      "community": "bing",
+      "posted_at": "2023-02-17T20:04:21+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114wa31",
+      "community": "bing",
+      "posted_at": "2023-02-17T20:09:50+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114wb8a",
+      "community": "bing",
+      "posted_at": "2023-02-17T20:11:06+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114wbto",
+      "community": "bing",
+      "posted_at": "2023-02-17T20:11:46+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114wf1w",
+      "community": "bing",
+      "posted_at": "2023-02-17T20:15:42+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114wknk",
+      "community": "bing",
+      "posted_at": "2023-02-17T20:22:22+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114wykx",
+      "community": "bing",
+      "posted_at": "2023-02-17T20:38:40+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114x57p",
+      "community": "bing",
+      "posted_at": "2023-02-17T20:46:23+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114xmgb",
+      "community": "bing",
+      "posted_at": "2023-02-17T21:06:41+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114y8j4",
+      "community": "bing",
+      "posted_at": "2023-02-17T21:32:32+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114yaig",
+      "community": "bing",
+      "posted_at": "2023-02-17T21:34:54+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114yeft",
+      "community": "bing",
+      "posted_at": "2023-02-17T21:39:35+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114yuvt",
+      "community": "bing",
+      "posted_at": "2023-02-17T21:59:14+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114yzme",
+      "community": "bing",
+      "posted_at": "2023-02-17T22:04:42+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114z7if",
+      "community": "bing",
+      "posted_at": "2023-02-17T22:14:08+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114zcsq",
+      "community": "bing",
+      "posted_at": "2023-02-17T22:20:14+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114zeqq",
+      "community": "bing",
+      "posted_at": "2023-02-17T22:22:34+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reference:54be925fbb5ad20a264ec8055929b7e6c7299ad53f83dbdd20006cd43aaf7780",
+      "community": "reference_page",
+      "posted_at": "2023-02-17T22:24:22.000Z",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114zp7w",
+      "community": "bing",
+      "posted_at": "2023-02-17T22:35:09+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115045c",
+      "community": "bing",
+      "posted_at": "2023-02-17T22:53:28+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11507lt",
+      "community": "bing",
+      "posted_at": "2023-02-17T22:57:59+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11507l6",
+      "community": "bing",
+      "posted_at": "2023-02-17T22:57:57+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1150938",
+      "community": "bing",
+      "posted_at": "2023-02-17T22:59:53+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1150ia5",
+      "community": "bing",
+      "posted_at": "2023-02-17T23:11:02+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1150n92",
+      "community": "bing",
+      "posted_at": "2023-02-17T23:17:21+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1150qds",
+      "community": "bing",
+      "posted_at": "2023-02-17T23:21:18+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11516w7",
+      "community": "bing",
+      "posted_at": "2023-02-17T23:42:06+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reference:bcb31145c7446deec87b5bbefa37f2fc01d7fc55781654bba447c4c4dc5547fc",
+      "community": "reference_page",
+      "posted_at": "2023-02-17T23:58:11.000Z",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1151vs9",
+      "community": "bing",
+      "posted_at": "2023-02-18T00:14:17+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1152511",
+      "community": "bing",
+      "posted_at": "2023-02-18T00:26:32+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115229b",
+      "community": "bing",
+      "posted_at": "2023-02-18T00:22:52+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1152hac",
+      "community": "bing",
+      "posted_at": "2023-02-18T00:43:02+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1152qzm",
+      "community": "bing",
+      "posted_at": "2023-02-18T00:56:17+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1152qhy",
+      "community": "bing",
+      "posted_at": "2023-02-18T00:55:36+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11534cn",
+      "community": "bing",
+      "posted_at": "2023-02-18T01:13:58+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reference:93058361b4eac14891f4c5e6e7dbd6d6bddfcd6f933f860c6f4d52316f132706",
+      "community": "reference_page",
+      "posted_at": "2023-02-18T01:31:51.000Z",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1153e1t",
+      "community": "bing",
+      "posted_at": "2023-02-18T01:27:26+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11586re",
+      "community": "bing",
+      "posted_at": "2023-02-18T05:50:34+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "author:repligate:1626835501503086593",
+      "community": "author_archive",
+      "posted_at": "2023-02-18T06:46:23.357000+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1153rmq",
+      "community": "bing",
+      "posted_at": "2023-02-18T01:46:40+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1153ukz",
+      "community": "bing",
+      "posted_at": "2023-02-18T01:50:54+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115djgr",
+      "community": "bing",
+      "posted_at": "2023-02-18T11:43:48+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1153z63",
+      "community": "bing",
+      "posted_at": "2023-02-18T01:57:17+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115ep8g",
+      "community": "bing",
+      "posted_at": "2023-02-18T12:54:46+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1154cw7",
+      "community": "bing",
+      "posted_at": "2023-02-18T02:16:17+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115u0l7",
+      "community": "bing",
+      "posted_at": "2023-02-18T22:29:05+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1154jbe",
+      "community": "bing",
+      "posted_at": "2023-02-18T02:25:32+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1154fhq",
+      "community": "bing",
+      "posted_at": "2023-02-18T02:19:57+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:116hwcv",
+      "community": "bing",
+      "posted_at": "2023-02-19T16:59:55+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1154t31",
+      "community": "bing",
+      "posted_at": "2023-02-18T02:39:38+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11558i7",
+      "community": "bing",
+      "posted_at": "2023-02-18T03:02:49+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1155g9n",
+      "community": "bing",
+      "posted_at": "2023-02-18T03:14:45+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1155if5",
+      "community": "bing",
+      "posted_at": "2023-02-18T03:18:01+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1155l3s",
+      "community": "bing",
+      "posted_at": "2023-02-18T03:22:03+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:116vmll",
+      "community": "bing",
+      "posted_at": "2023-02-20T02:42:03+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1155t5w",
+      "community": "bing",
+      "posted_at": "2023-02-18T03:34:26+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:118chyb",
+      "community": "bing",
+      "posted_at": "2023-02-21T18:33:58+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1156sho",
+      "community": "bing",
+      "posted_at": "2023-02-18T04:28:42+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1156wbu",
+      "community": "bing",
+      "posted_at": "2023-02-18T04:34:46+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1156yzm",
+      "community": "bing",
+      "posted_at": "2023-02-18T04:39:03+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:119vjxi",
+      "community": "bing",
+      "posted_at": "2023-02-23T11:34:15+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11579hd",
+      "community": "bing",
+      "posted_at": "2023-02-18T04:56:25+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11a7rpu",
+      "community": "bing",
+      "posted_at": "2023-02-23T20:26:21+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1157bsi",
+      "community": "bing",
+      "posted_at": "2023-02-18T05:00:18+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1157kjd",
+      "community": "bing",
+      "posted_at": "2023-02-18T05:13:55+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11ad5nx",
+      "community": "bing",
+      "posted_at": "2023-02-24T00:10:27+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1157mwk",
+      "community": "bing",
+      "posted_at": "2023-02-18T05:17:46+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11agt9u",
+      "community": "bing",
+      "posted_at": "2023-02-24T03:04:35+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1157tc8",
+      "community": "bing",
+      "posted_at": "2023-02-18T05:28:17+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11ajyhv",
+      "community": "bing",
+      "posted_at": "2023-02-24T05:53:21+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1158rv4",
+      "community": "bing",
+      "posted_at": "2023-02-18T06:26:21+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11apj6h",
+      "community": "bing",
+      "posted_at": "2023-02-24T11:48:08+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1159353",
+      "community": "bing",
+      "posted_at": "2023-02-18T06:46:19+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1159epi",
+      "community": "bing",
+      "posted_at": "2023-02-18T07:07:24+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11b1gq4",
+      "community": "bing",
+      "posted_at": "2023-02-24T20:40:33+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1159s43",
+      "community": "bing",
+      "posted_at": "2023-02-18T07:31:22+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1159svw",
+      "community": "bing",
+      "posted_at": "2023-02-18T07:32:43+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1159teo",
+      "community": "bing",
+      "posted_at": "2023-02-18T07:33:36+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reference:4803aa59b8ab87aec72c0606e45c6b7b27509d1198f5f5fbf1a3646afaf16bcb",
+      "community": "reference_page",
+      "posted_at": "2023-02-18T07:35:02.000Z",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11bk6fc",
+      "community": "bing",
+      "posted_at": "2023-02-25T12:44:27+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11blqqp",
+      "community": "bing",
+      "posted_at": "2023-02-25T14:03:13+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115a0b2",
+      "community": "bing",
+      "posted_at": "2023-02-18T07:45:55+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115a08c",
+      "community": "bing",
+      "posted_at": "2023-02-18T07:45:47+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115a4pp",
+      "community": "bing",
+      "posted_at": "2023-02-18T07:54:34+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115a2yo",
+      "community": "bing",
+      "posted_at": "2023-02-18T07:51:02+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11bmk3v",
+      "community": "bing",
+      "posted_at": "2023-02-25T14:41:44+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115aa0v",
+      "community": "bing",
+      "posted_at": "2023-02-18T08:03:57+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115aa0z",
+      "community": "bing",
+      "posted_at": "2023-02-18T08:03:58+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115ahf9",
+      "community": "bing",
+      "posted_at": "2023-02-18T08:17:51+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11bn0c6",
+      "community": "bing",
+      "posted_at": "2023-02-25T15:02:03+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11bovx8",
+      "community": "bing",
+      "posted_at": "2023-02-25T16:23:43+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115bb21",
+      "community": "bing",
+      "posted_at": "2023-02-18T09:13:39+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:115baz3",
+      "community": "bing",
+      "posted_at": "2023-02-18T09:13:29+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11c4q60",
+      "community": "bing",
+      "posted_at": "2023-02-26T03:58:00+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:113sw1p",
+      "community": "bing",
+      "posted_at": "2023-02-16T15:14:08+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:113zrqp",
+      "community": "bing",
+      "posted_at": "2023-02-16T20:09:17+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:113tpd1",
+      "community": "bing",
+      "posted_at": "2023-02-16T15:50:20+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:113trca",
+      "community": "bing",
+      "posted_at": "2023-02-16T15:52:37+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:113ulyv",
+      "community": "bing",
+      "posted_at": "2023-02-16T16:29:05+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:113up3z",
+      "community": "bing",
+      "posted_at": "2023-02-16T16:32:40+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:113uph6",
+      "community": "bing",
+      "posted_at": "2023-02-16T16:33:05+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:113v2dg",
+      "community": "bing",
+      "posted_at": "2023-02-16T16:48:20+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:113vc0b",
+      "community": "bing",
+      "posted_at": "2023-02-16T17:00:06+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:113vgh9",
+      "community": "bing",
+      "posted_at": "2023-02-16T17:05:14+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reference:437f6eb4db2c93e7e1d01900760c8bbdd12bfb2f856c51dba902f232a860c66b",
+      "community": "reference_page",
+      "posted_at": "2023-02-16T15:24:43.000Z",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reference:dfa31d28547f1b61fa23ecb22b7a6df01355d4f2d3c4dc27676392ee3880db85",
+      "community": "reference_page",
+      "posted_at": "2023-02-16T17:19:31.000Z",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:113wa6d",
+      "community": "bing",
+      "posted_at": "2023-02-16T17:39:59+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:113wald",
+      "community": "bing",
+      "posted_at": "2023-02-16T17:40:23+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:113wzt7",
+      "community": "bing",
+      "posted_at": "2023-02-16T18:10:35+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:113x733",
+      "community": "bing",
+      "posted_at": "2023-02-16T18:19:39+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reference:e58a8d392b3375441f583de677175584e4f8c0a5f1f2e2f5dc95d650789c9d41",
+      "community": "reference_page",
+      "posted_at": "2023-02-16T17:20:22.000Z",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:113y5rf",
+      "community": "bing",
+      "posted_at": "2023-02-16T19:00:25+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:113yf4s",
+      "community": "bing",
+      "posted_at": "2023-02-16T19:11:12+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:113yh9q",
+      "community": "bing",
+      "posted_at": "2023-02-16T19:13:43+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:113ym4g",
+      "community": "bing",
+      "posted_at": "2023-02-16T19:19:31+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:113yz5z",
+      "community": "bing",
+      "posted_at": "2023-02-16T19:35:00+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:113z0hb",
+      "community": "bing",
+      "posted_at": "2023-02-16T19:36:33+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:113z1a6",
+      "community": "bing",
+      "posted_at": "2023-02-16T19:37:36+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:113z2c0",
+      "community": "bing",
+      "posted_at": "2023-02-16T19:38:51+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:113znre",
+      "community": "bing",
+      "posted_at": "2023-02-16T20:04:29+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:113zrez",
+      "community": "bing",
+      "posted_at": "2023-02-16T20:08:53+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:114001a",
+      "community": "bing",
+      "posted_at": "2023-02-16T20:19:22+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114016b",
+      "community": "bing",
+      "posted_at": "2023-02-16T20:20:42+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1141xwy",
+      "community": "bing",
+      "posted_at": "2023-02-16T21:41:09+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:11420wb",
+      "community": "bing",
+      "posted_at": "2023-02-16T21:44:33+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:1142jab",
+      "community": "bing",
+      "posted_at": "2023-02-16T22:05:39+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reference:82e1372247215aa7e5b4686146683e8b21461fb519d320e7757a83e037348831",
+      "community": "reference_page",
+      "posted_at": "2023-02-16T18:38:48.000Z",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1142xgu",
+      "community": "bing",
+      "posted_at": "2023-02-16T22:22:11+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:1142zpw",
+      "community": "bing",
+      "posted_at": "2023-02-16T22:24:57+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11434e1",
+      "community": "bing",
+      "posted_at": "2023-02-16T22:30:24+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11436ji",
+      "community": "bing",
+      "posted_at": "2023-02-16T22:32:49+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1143ami",
+      "community": "bing",
+      "posted_at": "2023-02-16T22:37:23+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1143opq",
+      "community": "bing",
+      "posted_at": "2023-02-16T22:54:05+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11441e4",
+      "community": "bing",
+      "posted_at": "2023-02-16T23:08:40+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1144cea",
+      "community": "bing",
+      "posted_at": "2023-02-16T23:21:48+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1144evi",
+      "community": "bing",
+      "posted_at": "2023-02-16T23:24:50+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1144mjp",
+      "community": "bing",
+      "posted_at": "2023-02-16T23:34:22+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "reddit:1144pkv",
+      "community": "bing",
+      "posted_at": "2023-02-16T23:38:10+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1144wei",
+      "community": "bing",
+      "posted_at": "2023-02-16T23:46:25+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1145nnw",
+      "community": "bing",
+      "posted_at": "2023-02-17T00:20:18+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1145txi",
+      "community": "bing",
+      "posted_at": "2023-02-17T00:28:19+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11461ag",
+      "community": "bing",
+      "posted_at": "2023-02-17T00:38:06+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:11478aw",
+      "community": "bing",
+      "posted_at": "2023-02-17T01:36:05+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1147fop",
+      "community": "bing",
+      "posted_at": "2023-02-17T01:46:20+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114811a",
+      "community": "bing",
+      "posted_at": "2023-02-17T02:15:42+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1148fck",
+      "community": "bing",
+      "posted_at": "2023-02-17T02:35:33+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1149251",
+      "community": "bing",
+      "posted_at": "2023-02-17T03:07:10+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1149bpo",
+      "community": "bing",
+      "posted_at": "2023-02-17T03:20:27+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1149slh",
+      "community": "bing",
+      "posted_at": "2023-02-17T03:45:26+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1149txc",
+      "community": "bing",
+      "posted_at": "2023-02-17T03:47:31+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reference:3ef7686a31d233013d1053e6ac69bd6ac74b54f1f7f46a01022ca2f955cba15a",
+      "community": "reference_page",
+      "posted_at": "2023-02-17T04:03:05.000Z",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114al04",
+      "community": "bing",
+      "posted_at": "2023-02-17T04:28:40+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114arxk",
+      "community": "bing",
+      "posted_at": "2023-02-17T04:39:38+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:comment:j8v9edt",
+      "community": "bing",
+      "posted_at": "2023-02-17T04:44:41+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114bck7",
+      "community": "bing",
+      "posted_at": "2023-02-17T05:10:52+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114bcmi",
+      "community": "bing",
+      "posted_at": "2023-02-17T05:10:58+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114bmcs",
+      "community": "bing",
+      "posted_at": "2023-02-17T05:26:29+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reference:21fec6c0414500c2b1322dc01ddbc62e8d80176b028ec5d8cc3e387fdaa7ccfa",
+      "community": "reference_page",
+      "posted_at": "2023-02-16T22:12:13.000Z",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114dlnv",
+      "community": "bing",
+      "posted_at": "2023-02-17T07:28:40+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114dsx8",
+      "community": "bing",
+      "posted_at": "2023-02-17T07:42:30+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114e2av",
+      "community": "bing",
+      "posted_at": "2023-02-17T08:00:20+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114e509",
+      "community": "bing",
+      "posted_at": "2023-02-17T08:04:56+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114ebcs",
+      "community": "bing",
+      "posted_at": "2023-02-17T08:16:53+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114f8i6",
+      "community": "bing",
+      "posted_at": "2023-02-17T09:22:05+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114fvnu",
+      "community": "bing",
+      "posted_at": "2023-02-17T10:03:04+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114h7n4",
+      "community": "bing",
+      "posted_at": "2023-02-17T10:47:52+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114hd2h",
+      "community": "bing",
+      "posted_at": "2023-02-17T10:52:51+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114idx1",
+      "community": "bing",
+      "posted_at": "2023-02-17T11:41:44+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114irdb",
+      "community": "bing",
+      "posted_at": "2023-02-17T12:03:51+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114irfi",
+      "community": "bing",
+      "posted_at": "2023-02-17T12:03:57+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114is8h",
+      "community": "bing",
+      "posted_at": "2023-02-17T12:05:16+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114iwuq",
+      "community": "bing",
+      "posted_at": "2023-02-17T12:12:43+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114jsgu",
+      "community": "bing",
+      "posted_at": "2023-02-17T13:01:48+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114kh0g",
+      "community": "bing",
+      "posted_at": "2023-02-17T13:36:44+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114kvby",
+      "community": "bing",
+      "posted_at": "2023-02-17T13:56:34+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114l0ib",
+      "community": "bing",
+      "posted_at": "2023-02-17T14:02:49+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114lmsw",
+      "community": "bing",
+      "posted_at": "2023-02-17T14:21:54+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reference:6b4c4ba8dfba7c1ead9a0bbe42164ba348083e6fa6865f5f49840cf2d57b2f48",
+      "community": "reference_page",
+      "posted_at": "2023-02-17T14:26:06.000Z",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114m9sc",
+      "community": "bing",
+      "posted_at": "2023-02-17T14:37:04+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114mgyi",
+      "community": "bing",
+      "posted_at": "2023-02-17T14:41:50+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114mnrp",
+      "community": "bing",
+      "posted_at": "2023-02-17T14:46:22+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114orlo",
+      "community": "bing",
+      "posted_at": "2023-02-17T15:35:13+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114ow26",
+      "community": "bing",
+      "posted_at": "2023-02-17T15:37:58+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114oyrh",
+      "community": "bing",
+      "posted_at": "2023-02-17T15:39:39+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114pntz",
+      "community": "bing",
+      "posted_at": "2023-02-17T15:55:48+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reference:7730f8bf05a4d68f23f48505bebe9bb2ef1ce5058762eff3888474f3cae53140",
+      "community": "reference_page",
+      "posted_at": "2023-02-17T06:51:51.551Z",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114qwe4",
+      "community": "bing",
+      "posted_at": "2023-02-17T16:28:58+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114r0w7",
+      "community": "bing",
+      "posted_at": "2023-02-17T16:32:59+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114r8m6",
+      "community": "bing",
+      "posted_at": "2023-02-17T16:40:35+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114rh9x",
+      "community": "bing",
+      "posted_at": "2023-02-17T16:49:26+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114rwxm",
+      "community": "bing",
+      "posted_at": "2023-02-17T17:06:35+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reference:b7cb4be12a2659f6ce4f2ce3a73455a2db2f712f5d9715a7ae551b35265b91f2",
+      "community": "reference_page",
+      "posted_at": "2023-02-17T16:03:19.000Z",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114sllg",
+      "community": "bing",
+      "posted_at": "2023-02-17T17:35:14+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114sn8v",
+      "community": "bing",
+      "posted_at": "2023-02-17T17:37:04+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114t6s2",
+      "community": "bing",
+      "posted_at": "2023-02-17T18:00:16+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114tszn",
+      "community": "bing",
+      "posted_at": "2023-02-17T18:25:28+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reference:b8f0ca0a44fcbd5c86863c4438a7f8f82f66bc179250d01d3ec138f6ec6d51cb",
+      "community": "reference_page",
+      "posted_at": "2023-02-17T17:12:17Z",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114tvfn",
+      "community": "bing",
+      "posted_at": "2023-02-17T18:28:32+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114udj0",
+      "community": "bing",
+      "posted_at": "2023-02-17T18:49:37+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114ubrz",
+      "community": "bing",
+      "posted_at": "2023-02-17T18:47:28+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114ul57",
+      "community": "bing",
+      "posted_at": "2023-02-17T18:58:32+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114ut6r",
+      "community": "bing",
+      "posted_at": "2023-02-17T19:07:51+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114uxg9",
+      "community": "bing",
+      "posted_at": "2023-02-17T19:13:00+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reference:990391cd528caf3f862154eb6fcdae2d22c5996f46f6cbbfacdad5543b00f423",
+      "community": "reference_page",
+      "posted_at": "2023-02-17T19:30:36.000Z",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1140e8g",
+      "community": "bing",
+      "posted_at": "2023-02-16T20:36:27+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:1145fb3",
+      "community": "bing",
+      "posted_at": "2023-02-17T00:09:50+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "reddit:114bmoz",
+      "community": "bing",
+      "posted_at": "2023-02-17T05:27:06+00:00",
+      "has_image": true
+    },
+    {
+      "candidate_id": "author:repligate:1626265611956281349",
+      "community": "author_archive",
+      "posted_at": "2023-02-16T17:01:51.101000+00:00",
+      "has_image": false
+    },
+    {
+      "candidate_id": "author:repligate:1626273710461026305",
+      "community": "author_archive",
+      "posted_at": "2023-02-16T17:34:01.935000+00:00",
+      "has_image": false
+    }
+  ]
+}

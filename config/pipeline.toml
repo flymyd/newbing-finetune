@@ -38,11 +38,11 @@ priority = 4
 discovery_mode = "targeted_leads"
 
 [budgets]
-# 跨 run 累计；授权新 budget_epoch 后才重置。数值为规划默认值。
+# 跨 run 累计；授权新 budget_epoch 后才重置。数值为规划默认值；用户已明确授权上调 token 上限以扩充微调集。
 epoch = "initial"
 max_candidate_groups = 20000
 max_model_http_attempts = 20000
-max_reported_total_tokens = 30000000
+max_reported_total_tokens = 80000000
 max_source_http_attempts = 50000
 max_download_response_bytes = 21474836480
 min_free_disk_bytes = 10737418240

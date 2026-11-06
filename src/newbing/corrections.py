@@ -17,6 +17,14 @@ def apply_document(project,document):
     correction_id=digest(document)
     if correction_id in c.get('applied_corrections',[]):return 'already_applied'
     for patch in document['patches']:
+        if patch.get('operation')=='mark_conversation_truncation':
+            # Reviewer saw visible evidence of unseen earlier/later turns. Flags can only be raised,
+            # never cleared, so a review cannot promote a record into the strict tier.
+            if patch['asset_id'] not in c['asset_ids'] or not patch.get('evidence_reason'):raise ValueError('truncation mark needs source evidence')
+            for side in ('truncated_start','truncated_end'):
+                if patch.get(side):c[side]=True
+            c.setdefault('truncation_reviews',[]).append({'reason':patch['evidence_reason'],'asset_id':patch['asset_id'],'method':document['reviewer_type']})
+            continue
         message=next(m for m in c['messages'] if m['message_id']==patch['message_id'])
         if patch['asset_id'] not in c['asset_ids']:raise ValueError('patch has no matching source asset')
         parts=message.get('content',message.get('parts',[]))
@@ -25,6 +33,21 @@ def apply_document(project,document):
             if part.get('type')!='ui_notice' or not part.get('text'):raise ValueError('only evidence-backed UI annotation can be appended')
             if part in parts:raise ValueError('UI part already present without correction marker')
             parts.append(part)
+        elif patch.get('operation')=='retype_part_as_ui':
+            # Archive text is kept verbatim; only the part type changes so UI labels (e.g. a citation
+            # list header) are not projected into training text.
+            if patch.get('new_type') not in ('citation','ui_notice','suggestion','search_query'):raise ValueError('retype target must be a UI part type')
+            matches=[p for p in parts if p.get('type')=='text' and p.get('text')==patch['text']]
+            if len(matches)!=patch.get('expected_count',1):raise ValueError('retype precondition does not match')
+            for p in matches:p['type']=patch['new_type']
+        elif patch.get('operation')=='retype_part_as_text':
+            # Reverse case: text inside the assistant bubble that was typed as UI but is evidenced as part
+            # of the reply (e.g. Bing later refers to it as something it said). Text stays verbatim.
+            if not patch.get('evidence_reason'):raise ValueError('retype to text needs an evidence reason')
+            matches=[p for p in parts if p.get('type')==patch.get('from_type') and p.get('text')==patch['text']]
+            if patch.get('from_type') not in ('suggestion','ui_notice') or len(matches)!=patch.get('expected_count',1):
+                raise ValueError('retype precondition does not match')
+            for p in matches:p['type']='text'
         else:
             old,new=patch['old'],patch['new']
             occurrences=sum(p.get('text','').count(old) for p in parts)

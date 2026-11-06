@@ -1,0 +1,19 @@
+{"processed": 25, "succeeded": 12, "deferred_source_unavailable": 9, "failed_terminal": 4}
+{"processed": 50, "succeeded": 16, "deferred_source_unavailable": 21, "failed_terminal": 13}
+{"processed": 75, "succeeded": 29, "deferred_source_unavailable": 33, "failed_terminal": 13}
+{"processed": 100, "succeeded": 43, "deferred_source_unavailable": 44, "failed_terminal": 13}
+{"processed": 125, "succeeded": 43, "deferred_source_unavailable": 69, "failed_terminal": 13}
+{"processed": 150, "succeeded": 44, "deferred_source_unavailable": 93, "failed_terminal": 13}
+{"processed": 175, "succeeded": 51, "deferred_source_unavailable": 111, "failed_terminal": 13}
+{"processed": 200, "succeeded": 61, "deferred_source_unavailable": 124, "failed_terminal": 15}
+{"processed": 225, "succeeded": 73, "deferred_source_unavailable": 137, "failed_terminal": 15}
+{"processed": 250, "succeeded": 89, "deferred_source_unavailable": 146, "failed_terminal": 15}
+{"processed": 275, "succeeded": 114, "deferred_source_unavailable": 146, "failed_terminal": 15}
+{"processed": 300, "succeeded": 139, "deferred_source_unavailable": 146, "failed_terminal": 15}
+{"processed": 325, "succeeded": 164, "deferred_source_unavailable": 146, "failed_terminal": 15}
+{"processed": 350, "succeeded": 189, "deferred_source_unavailable": 146, "failed_terminal": 15}
+{
+  "succeeded": 212,
+  "deferred_source_unavailable": 146,
+  "failed_terminal": 15
+}

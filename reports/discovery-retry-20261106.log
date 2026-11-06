@@ -1,0 +1,89 @@
+== reddit_chatgpt transition
+{
+  "source": "reddit_chatgpt",
+  "window": "transition",
+  "coverage": "partial",
+  "unique_posts": 299,
+  "candidate_posts": 213,
+  "pages": 4,
+  "saturated_seconds": 0,
+  "errors": [
+    {
+      "keyword": "bing",
+      "error": "HTTP 429: {\"data\":null,\"error\":\"Too many requests\"}"
+    }
+  ]
+}
+== reddit_singularity transition
+{
+  "source": "reddit_singularity",
+  "window": "transition",
+  "coverage": "partial",
+  "unique_posts": 0,
+  "candidate_posts": 0,
+  "pages": 0,
+  "saturated_seconds": 0,
+  "errors": [
+    {
+      "keyword": "bing",
+      "error": "host rate-limit cooldown"
+    }
+  ]
+}
+== reddit_chatgpt later_mar_apr
+{
+  "source": "reddit_chatgpt",
+  "window": "later_mar_apr",
+  "coverage": "partial",
+  "unique_posts": 0,
+  "candidate_posts": 0,
+  "pages": 0,
+  "saturated_seconds": 0,
+  "errors": [
+    {
+      "keyword": "bing",
+      "error": "host rate-limit cooldown"
+    }
+  ]
+}
+== reddit_singularity later_mar_apr
+{
+  "source": "reddit_singularity",
+  "window": "later_mar_apr",
+  "coverage": "partial",
+  "unique_posts": 0,
+  "candidate_posts": 0,
+  "pages": 0,
+  "saturated_seconds": 0,
+  "errors": [
+    {
+      "keyword": "bing",
+      "error": "host rate-limit cooldown"
+    }
+  ]
+}
+{"comment_collection": {"posts": 0, "comments": 0, "text_or_media_candidates": 0, "collapsed_groups": 0, "errors": 1}}
+{
+  "posts": 0,
+  "comments": 0,
+  "text_or_media_candidates": 0,
+  "collapsed_groups": 0,
+  "errors": 2
+}
+{"processed": 25, "succeeded": 19, "failed_terminal": 6}
+{"processed": 50, "succeeded": 44, "failed_terminal": 6}
+{"processed": 75, "succeeded": 67, "failed_terminal": 7, "deferred_source_unavailable": 1}
+{"processed": 100, "succeeded": 86, "failed_terminal": 13, "deferred_source_unavailable": 1}
+{"processed": 125, "succeeded": 107, "failed_terminal": 16, "deferred_source_unavailable": 2}
+{"processed": 150, "succeeded": 123, "failed_terminal": 25, "deferred_source_unavailable": 2}
+{"processed": 175, "succeeded": 147, "failed_terminal": 26, "deferred_source_unavailable": 2}
+{"processed": 200, "succeeded": 170, "failed_terminal": 28, "deferred_source_unavailable": 2}
+{"processed": 225, "succeeded": 195, "failed_terminal": 28, "deferred_source_unavailable": 2}
+{"processed": 250, "succeeded": 217, "failed_terminal": 31, "deferred_source_unavailable": 2}
+{"processed": 275, "succeeded": 241, "failed_terminal": 31, "deferred_source_unavailable": 3}
+{"processed": 300, "succeeded": 259, "failed_terminal": 37, "deferred_source_unavailable": 4}
+{
+  "succeeded": 278,
+  "failed_terminal": 39,
+  "deferred_source_unavailable": 5
+}

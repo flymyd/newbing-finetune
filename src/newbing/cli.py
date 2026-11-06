@@ -52,6 +52,8 @@ def main():
     review=sub.add_parser('review');review.add_argument('action',choices=['build','import']);review.add_argument('--path',type=str)
     for name in ('export','validate'):
         command=sub.add_parser(name);command.add_argument('--release',required=True)
+        if name=='export':command.add_argument('--mode',choices=['strict','sft'],default='strict')
+    sub.add_parser('readiness')
     rebuild=sub.add_parser('reconstruct');rebuild.add_argument('--limit',type=int,default=100000);rebuild.add_argument('--dry-run',action='store_true')
     resume=sub.add_parser('resume');resume.add_argument('--run',default=None)
     for command in sub.choices.values():
@@ -126,7 +128,10 @@ def main():
             result=import_correction(p,Path(args.path))
     elif args.command in ('export','validate'):
         from .exporter import export_release,validate_release
-        result=export_release(p,args.release) if args.command=='export' else validate_release(p,args.release)
+        result=export_release(p,args.release,args.mode) if args.command=='export' else validate_release(p,args.release)
+    elif args.command=='readiness':
+        from .exporter import readiness
+        result=readiness(p)
     elif args.command=='reconstruct':
         from .cleaning import reconstruct_baselines,reconstruct_transcriptions,save_corpus,derive_continuous_segments
         if args.dry_run:result={'dry_run':True}

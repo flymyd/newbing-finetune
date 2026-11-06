@@ -1,0 +1,17 @@
+{"kind": "transcribe", "processed": 10, "succeeded": 10}
+{"kind": "transcribe", "processed": 20, "succeeded": 20}
+{"kind": "transcribe", "processed": 30, "succeeded": 30}
+{"kind": "transcribe", "processed": 40, "succeeded": 39, "quarantined": 1}
+{"kind": "transcribe", "processed": 50, "succeeded": 49, "quarantined": 1}
+{"kind": "transcribe", "processed": 60, "succeeded": 59, "quarantined": 1}
+{"kind": "transcribe", "processed": 70, "succeeded": 69, "quarantined": 1}
+{"kind": "transcribe", "processed": 80, "succeeded": 75, "quarantined": 5}
+{"kind": "transcribe", "processed": 90, "succeeded": 85, "quarantined": 5}
+{"kind": "transcribe", "processed": 100, "succeeded": 94, "quarantined": 6}
+{"kind": "transcribe", "processed": 110, "succeeded": 103, "quarantined": 7}
+{"kind": "transcribe", "processed": 120, "succeeded": 112, "quarantined": 7, "superseded_input": 1}
+{
+  "succeeded": 112,
+  "quarantined": 7,
+  "superseded_input": 1
+}

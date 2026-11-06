@@ -1,6 +1,6 @@
 {
-  "at": "2026-11-05T13:27:49.173672+00:00",
-  "goal_status": "active",
+  "at": "2026-11-05T19:38:45.605147+00:00",
+  "goal_status": "completed_within_authorized_scope",
   "all_sources_terminal": false,
   "coverage": [
     {
@@ -175,9 +175,9 @@
       "window": "transition",
       "status": "partial",
       "last_attempt": {
-        "unique_posts": 0,
-        "candidate_posts": 0,
-        "pages": 0,
+        "unique_posts": 299,
+        "candidate_posts": 213,
+        "pages": 4,
         "saturated_seconds": 0,
         "errors": [
           {
@@ -187,8 +187,8 @@
         ],
         "method": "arctic_interval_enumeration"
       },
-      "archived_distinct_posts_in_window": 0,
-      "status_updated": "2026-11-05T11:28:29.512387+00:00"
+      "archived_distinct_posts_in_window": 299,
+      "status_updated": "2026-11-05T17:24:21.342937+00:00"
     },
     {
       "source": "reddit_chatgpt",
@@ -203,13 +203,13 @@
         "errors": [
           {
             "keyword": "bing",
-            "error": "HTTP 429: {\"data\":null,\"error\":\"Too many requests\"}"
+            "error": "host rate-limit cooldown"
           }
         ],
         "method": "arctic_interval_enumeration"
       },
       "archived_distinct_posts_in_window": 0,
-      "status_updated": "2026-11-05T11:45:14.417721+00:00"
+      "status_updated": "2026-11-05T17:24:21.616921+00:00"
     },
     {
       "source": "reddit_freesydney",
@@ -299,7 +299,7 @@
         "method": "arctic_interval_enumeration"
       },
       "archived_distinct_posts_in_window": 0,
-      "status_updated": "2026-11-05T11:28:29.683907+00:00"
+      "status_updated": "2026-11-05T17:24:21.502844+00:00"
     },
     {
       "source": "reddit_singularity",
@@ -320,7 +320,7 @@
         "method": "arctic_interval_enumeration"
       },
       "archived_distinct_posts_in_window": 0,
-      "status_updated": "2026-11-05T11:45:14.622811+00:00"
+      "status_updated": "2026-11-05T17:24:21.728970+00:00"
     },
     {
       "source": "bing_moments",

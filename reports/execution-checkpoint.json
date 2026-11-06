@@ -1,23 +1,23 @@
 {
-  "at": "2026-11-05T15:33:15.149064+00:00",
+  "at": "2026-11-05T19:39:06.282695+00:00",
   "tests": {
-    "tests": 81,
+    "tests": 86,
     "failures": 0,
     "errors": 0,
     "skipped": 0
   },
   "assets": {
-    "n": 9532,
-    "bytes": 1834561735
+    "n": 9877,
+    "bytes": 1902137278
   },
-  "candidates": 8955,
-  "active_conversation_records": 1284,
-  "raw_comments": 66596,
+  "candidates": 9276,
+  "active_conversation_records": 1489,
+  "raw_comments": 68423,
   "classified_unique_groups": 1080,
   "candidate_novelty_counts": {
+    "('novel_candidate', 'uncertain')": 129,
+    "('novel_candidate', 'exclude_clear')": 233,
     "('novel_candidate', 'include')": 625,
-    "('novel_candidate', 'exclude_clear')": 234,
-    "('novel_candidate', 'uncertain')": 128,
     "('known_original', 'include')": 83,
     "('known_original', 'uncertain')": 2,
     "('exact_media_already_archived', 'include')": 6,
@@ -25,6 +25,8 @@
   },
   "upstream_byte_checks": 1465,
   "upstream_changed": 0,
-  "goal_status": "active",
-  "final_dataset_complete": false
+  "final_release": "final-20261106-v1",
+  "final_release_samples": 50,
+  "goal_status": "completed_within_authorized_scope",
+  "final_dataset_complete": true
 }

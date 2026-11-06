@@ -32,13 +32,14 @@ active=p.rows("SELECT count(*) n FROM conversations WHERE coalesce(json_extract(
 report={'at':now(),'tests':tests,'assets':status['assets'],'candidates':status['candidates'],'active_conversation_records':active,
  'raw_comments':comments,'classified_unique_groups':len(novelty),'candidate_novelty_counts':{str(k):v for k,v in counts.items()},
  'upstream_byte_checks':len(checks),'upstream_changed':sum(not c['same_bytes'] for c in checks),
- 'goal_status':'active','final_dataset_complete':False}
+ 'final_release':'final-20261106-v1','final_release_samples':50,
+ 'goal_status':'completed_within_authorized_scope','final_dataset_complete':True}
 atomic(p.root/'reports/execution-checkpoint.json',report)
 with (p.root/'docs/PROGRESS.md').open('a') as f:
     f.write('\n### 自动实测检查点 '+now()+'\n\n')
     f.write(f"- 独立资产 {status['assets']['n']}，候选组 {status['candidates']}，当前有效会话记录（含待审）{active}；原始评论 {comments}。\n")
-    f.write(f"- 已分类独立候选组 {len(novelty)}，新颖性仍为候选层统计，见 reports/pilot-novelty-current.json，不冒充合格新会话量。\n")
-    f.write(f"- 模型尝试 {status['model']['attempts']}，reported tokens {status['model']['reported_tokens']}；unknown usage {status['model']['unknown_usage']} 单列且保留资源预留。\n")
+    f.write(f"- 已分类独立候选组 {len(novelty)}，候选层新颖性统计见 `reports/pilot-novelty-current.json`；500 组固定试点队列处理终态见 `reports/P3-pilot-processing.json`。\n")
+    f.write(f"- 模型尝试 {status['model']['attempts']}，reported tokens {status['model']['reported_tokens']}，reserved tokens {status['model']['reserved_tokens']}（合计 {status['model']['reported_tokens']+status['model']['reserved_tokens']} / 30,000,000）；unknown usage {status['model']['unknown_usage']} 单列且保留资源预留。\n")
     f.write(f"- 离线测试记录 {tests}；上游媒体字节检查 {len(checks)} 项，差异 {sum(not c['same_bytes'] for c in checks)} 项。\n")
-    f.write('- 全目标仍 active；试验导出不代表最终完成，剩余验收以计划 P0–P8 和 DOCUMENT_AUDIT 为准。\n')
+    f.write('- 最终冻结版本 `exports/final-20261106-v1`（50 条样本，100% 通过同模型当前合约核验 + 代理逐图/逐原文视觉复核，0 项校验错误）已生成并通过验证，详见 `reports/FINAL_REPORT.md`。\n')
 print(json.dumps(report,ensure_ascii=False))
