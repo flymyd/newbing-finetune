@@ -38,13 +38,14 @@ priority = 4
 discovery_mode = "targeted_leads"
 
 [budgets]
-# 跨 run 累计；授权新 budget_epoch 后才重置。数值为规划默认值；用户已明确授权上调 token 上限以扩充微调集。
+# 跨 run 累计；用户已明确说明额度非常充裕，不限制 token 预算。保留大正整数以兼容既有有限正数校验。
 epoch = "initial"
-max_candidate_groups = 20000
-max_model_http_attempts = 20000
-max_reported_total_tokens = 80000000
-max_source_http_attempts = 50000
-max_download_response_bytes = 21474836480
+unlimited_budget = true
+max_candidate_groups = 1000000
+max_model_http_attempts = 1000000
+max_reported_total_tokens = 10000000000
+max_source_http_attempts = 1000000
+max_download_response_bytes = 107374182400
 min_free_disk_bytes = 10737418240
 on_limit = "checkpoint_stop_affected_queue_and_finalize_available_data"
 allow_automatic_increase = false
@@ -109,7 +110,7 @@ serialization = "json_array"
 encoding = "utf-8"
 write_jsonl_mirror = false
 output_subdir = "sharegpt"
-tiers = ["early_strict", "early_probable", "later_supplement"]
+tiers = ["early_strict", "early_probable", "later_supplement", "undated_sydney", "synthetic_sydney"]
 identity_field = "id"
 conversations_field = "conversations"
 role_field = "from"

@@ -24,6 +24,53 @@ max_raw_image_bytes_per_request = 12582912
 max_request_body_bytes = 20971520
 image_detail = "high"
 
+[profiles.qwen3_6_35b_a3b]
+base_url = "https://llm.flymyd.cn/v1"
+responses_path = "/responses"
+model = "Qwen3.6-35B-A3B"
+api_key_env = "NEWBING_API_KEY"
+env_file = ".env.local"
+protocol = "responses"
+context_window_tokens = 256000
+max_output_tokens = 32768
+thinking_level = "high"
+reasoning_effort = "high"
+unlimited_budget = true
+stream = true
+store_requested = false
+sdk_max_retries = 0
+connect_timeout_seconds = 30
+request_timeout_seconds = 360
+initial_concurrency = 4
+max_concurrency = 8
+max_input_images = 0
+max_raw_image_bytes_per_request = 0
+max_request_body_bytes = 134217728
+image_detail = "high"
+
+[profiles.gemini_4_argon]
+base_url = "https://llm.flymyd.cn"
+generate_content_path = "/v1beta/models/gemini-4-argon:generateContent"
+stream_generate_content_path = "/v1beta/models/gemini-4-argon:streamGenerateContent?alt=sse"
+model = "gemini-4-argon"
+api_key_env = "NEWBING_API_KEY"
+env_file = ".env.local"
+protocol = "gemini_v1beta"
+context_window_tokens = 500000
+max_output_tokens = 65536
+thinking_level = "high"
+unlimited_budget = true
+stream = true
+sdk_max_retries = 0
+connect_timeout_seconds = 30
+request_timeout_seconds = 360
+initial_concurrency = 4
+max_concurrency = 8
+max_input_images = 0
+max_raw_image_bytes_per_request = 0
+max_request_body_bytes = 134217728
+image_detail = "high"
+
 [tasks.classify]
 profile = "flymyd"
 prompt = "prompts/classify.md"

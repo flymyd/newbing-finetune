@@ -471,7 +471,7 @@ def validate_release(project,release_id):
     return report
 
 
-SFT_MULTITURN_TIERS = ('early_strict', 'early_probable', 'later_supplement', 'undated_sydney')
+SFT_MULTITURN_TIERS = ('early_strict', 'early_probable', 'later_supplement', 'undated_sydney', 'synthetic_sydney')
 FATAL_SFT_EXCLUSIONS = frozenset({
     'not_conversation_kind',
     'bing_product_not_confirmed_by_classification',

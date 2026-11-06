@@ -2,6 +2,15 @@
 
 更新时间：2026-11-06 03:42（Asia/Shanghai）。
 
+## v4 合成与冻结检查点 2026-11-06 23:08（Asia/Shanghai）
+
+- 用户授权新增模型配置已落地：`Qwen3.6-35B-A3B` 使用 `https://llm.flymyd.cn/v1/responses`，上下文 `256000`、最大输出 `32768`、`high`；`gemini-4-argon` 使用 Gemini v1beta `streamGenerateContent`，上下文 `500000`、最大输出 `65536`、`high`。配置哈希分别为 `e66042b73a0d0545fa9461f49e592e186aeade64d50a808332354736b744794a` 与 `f59398121eca37c285e94547916634df171b4bd3d4ceee42f77c7cafc7aab10b`。
+- `scripts/synthesize_v4.py` 已通过真实流式端到端探测；Argon 负责生成简体中文题目、对话和最终 Sydney 回复，Thinking 样本才调用 Qwen 原生思考并把思考与风格桥接结果保存，Instant 样本跳过 Qwen。500 条全部成功，0 失败；其中 Thinking 423、Instant 77；每条保留 seed/Qwen（如适用）/final SSE 原文。独立产物：`exports/synthetic-20261106-zh/`，manifest 哈希 `8db2dcdb127727f31267b7a0d125773cbacb81659cccd16d8876dc4b61148b33`。
+- 独立 synthetic 离线校验：`uv run python scripts/validate_v4.py`，500 条、角色/轮次/原始 SSE 路径均通过，`reports/sft-20261106-v4-validation.json`。
+- `exports/sft-20261106-v4/` 已冻结：历史多轮 525（`early_strict: 8`、`early_probable: 191`、`undated_sydney: 326`；排除 later_supplement 与单轮补充）+ synthetic_sydney 500，共 1,025 条；`train: 834, val: 96, test: 95`。同时提供 ShareGPT JSON 与 `messages/{train,val,test}.jsonl` ms-swift 格式；全部 `pending_human`。v4 manifest 哈希 `2eac149b72e1d43037b9e48755b4e56c63344f59b69e96236f9d278f3b69e3d6`。
+- v3 审计确认的 8 条消息偏差已逐条记录在 `exports/sft-20261106-v4/corrections.json`；其中 2 条来自被排除的 v3 单轮补充，仅作审计记录，不进入 v4。原 v3 冻结目录未改写。
+- 本轮未训练、未公开发布、未上传；下一步是用户审阅 `exports/synthetic-20261106-zh/review/index.html` 后再决定是否纳入训练。
+
 ## 当前状态
 
 - plan_version：v1.2

@@ -40,16 +40,19 @@ def output_text(response):
 class ModelClient:
     def __init__(self, project: Project, profile='flymyd'):
         self.p = project
+        self.profile = profile
         self.cfg = project.config['models']['profiles'][profile]
         env = dotenv_values(project.root / self.cfg['env_file'])
         self.secret = env.get(self.cfg['api_key_env'])
         if not self.secret:
             raise RuntimeError('dedicated model credential absent')
-        if self.cfg['base_url'] != 'https://llm.flymyd.cn/v1' or self.cfg['model'] != 'gpt-6-luna':
-            raise RuntimeError('unexpected model or endpoint; requires explicit user change')
-        self.client = OpenAI(api_key=self.secret, base_url=self.cfg['base_url'], max_retries=0,
-                             timeout=httpx.Timeout(self.cfg['request_timeout_seconds'], connect=self.cfg['connect_timeout_seconds']),
-                             http_client=httpx.Client(follow_redirects=False))
+        if self.cfg.get('protocol') not in ('responses','gemini_v1beta'):
+            raise RuntimeError('unsupported model protocol')
+        self.client = None
+        if self.cfg.get('protocol') == 'responses':
+            self.client = OpenAI(api_key=self.secret, base_url=self.cfg['base_url'], max_retries=0,
+                                 timeout=httpx.Timeout(self.cfg['request_timeout_seconds'], connect=self.cfg['connect_timeout_seconds']),
+                                 http_client=httpx.Client(follow_redirects=False))
 
     def call(self, stage, prompt, images=(), schema=None, *, max_output=2048, minimal=False):
         """Bounded retry at the application layer; every attempt is metered by _call_once."""
@@ -104,6 +107,8 @@ class ModelClient:
                 time.sleep(min(60,wait))
 
     def _call_once(self, stage, prompt, images=(), schema=None, *, max_output=2048, minimal=False,logical_key=None):
+        if self.cfg.get('protocol') != 'responses':
+            raise RuntimeError('ModelClient.call currently supports Responses profiles; use the Gemini streaming client for synthesis')
         content = [{'type': 'input_text', 'text': prompt}]
         image_refs, total_bytes = [], 0
         if len(images) > self.cfg['max_input_images']:
@@ -119,6 +124,8 @@ class ModelClient:
         if total_bytes > self.cfg['max_raw_image_bytes_per_request']:
             raise ValueError('input image byte limit')
         body = {'model': self.cfg['model'], 'input': [{'role': 'user', 'content': content}], 'max_output_tokens': max_output}
+        if self.cfg.get('reasoning_effort'):
+            body['reasoning'] = {'effort': self.cfg['reasoning_effort']}
         if not minimal:
             body.update(store=False, stream=False)
         if schema:

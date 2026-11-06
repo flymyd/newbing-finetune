@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-11-06T15:10:34.569957+00:00",
+  "profiles": {
+    "qwen3_6_35b_a3b": {
+      "model": "Qwen3.6-35B-A3B",
+      "protocol": "responses",
+      "stream_probe": "pass",
+      "native_think_field_present": true
+    },
+    "gemini_4_argon": {
+      "model": "gemini-4-argon",
+      "protocol": "gemini_v1beta",
+      "stream_probe": "pass",
+      "seed_and_final_json": "pass"
+    }
+  },
+  "evidence_record": "exports/synthetic-20261106-zh/records/000000.json",
+  "raw_sse": [
+    "raw/000000.seed.sse",
+    "raw/000000.qwen.sse",
+    "raw/000000.final.sse"
+  ]
+}

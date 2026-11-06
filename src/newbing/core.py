@@ -64,7 +64,8 @@ def validate_config(root,config):
     if any(e.get(k)!=v for k,v in required.items()):raise ValueError('unsupported ShareGPT contract configuration')
     if e['write_jsonl_mirror']:raise ValueError('JSONL mirror is not implemented; use the required JSON arrays')
     if p['download']['cross_host_authorization_forwarding']:raise ValueError('cross-host Authorization forwarding is forbidden')
-    if e['tiers']!=['early_strict','early_probable','later_supplement']:raise ValueError('unsupported tiers')
+    allowed_tiers={'early_strict','early_probable','later_supplement','undated_sydney','synthetic_sydney'}
+    if not e.get('tiers') or any(t not in allowed_tiers for t in e['tiers']):raise ValueError('unsupported tiers')
     for field in ('sample_schema','dataset_schema'):
         if not (Path(root)/e[field]).is_file():raise ValueError('missing export schema')
     if any(p['budgets'][k]<=0 for k in ('max_candidate_groups','max_model_http_attempts','max_reported_total_tokens','max_source_http_attempts','max_download_response_bytes','min_free_disk_bytes')):
@@ -75,6 +76,14 @@ def validate_config(root,config):
     if any(v<0 or v>1 for v in fractions) or abs(sum(fractions)-1)>1e-10:raise ValueError('invalid split fractions')
     if not 1<=model['initial_concurrency']<=model['max_concurrency']<=6:raise ValueError('invalid model concurrency')
     if model['max_input_images']<1 or model['max_raw_image_bytes_per_request']<1:raise ValueError('invalid image limits')
+    if 'qwen3_6_35b_a3b' in config['models']['profiles']:
+        qwen=config['models']['profiles']['qwen3_6_35b_a3b']
+        if qwen['model']!='Qwen3.6-35B-A3B' or qwen['protocol']!='responses' or qwen['context_window_tokens']!=256000 or qwen['max_output_tokens']!=32768 or qwen['thinking_level']!='high':
+            raise ValueError('invalid Qwen3.6-35B-A3B profile configuration')
+    if 'gemini_4_argon' in config['models']['profiles']:
+        argon=config['models']['profiles']['gemini_4_argon']
+        if argon['model']!='gemini-4-argon' or argon['protocol']!='gemini_v1beta' or argon['context_window_tokens']!=500000 or argon['max_output_tokens']!=65536 or argon['thinking_level']!='high':
+            raise ValueError('invalid gemini-4-argon profile configuration')
     ids=[s['id'] for s in sources['sources']]
     if len(ids)!=len(set(ids)):raise ValueError('duplicate source id')
     for source in sources['sources']:
