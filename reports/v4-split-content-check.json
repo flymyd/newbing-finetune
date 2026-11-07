@@ -1,5 +1,9 @@
 {
-  "cross_split_reply_overlap": [],
-  "method": "existing normalize/shingle Jaccard 0.6 or containment 0.85; >=30 normalized chars",
+  "checked_at": "2026-11-07T05:12:44.381321+00:00",
+  "overlaps": {
+    "train_val": 0,
+    "train_test": 0,
+    "val_test": 0
+  },
   "passed": true
 }

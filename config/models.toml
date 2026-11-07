@@ -71,6 +71,29 @@ max_raw_image_bytes_per_request = 0
 max_request_body_bytes = 134217728
 image_detail = "high"
 
+[profiles.gemini_3_8_flash]
+base_url = "https://llm.flymyd.cn"
+generate_content_path = "/v1beta/models/gemini-3.8-flash:generateContent"
+stream_generate_content_path = "/v1beta/models/gemini-3.8-flash:streamGenerateContent?alt=sse"
+model = "gemini-3.8-flash"
+api_key_env = "NEWBING_API_KEY"
+env_file = ".env.local"
+protocol = "gemini_v1beta"
+context_window_tokens = 500000
+max_output_tokens = 65536
+thinking_level = "high"
+unlimited_budget = true
+stream = true
+sdk_max_retries = 0
+connect_timeout_seconds = 30
+request_timeout_seconds = 360
+initial_concurrency = 4
+max_concurrency = 8
+max_input_images = 0
+max_raw_image_bytes_per_request = 0
+max_request_body_bytes = 134217728
+image_detail = "high"
+
 [tasks.classify]
 profile = "flymyd"
 prompt = "prompts/classify.md"

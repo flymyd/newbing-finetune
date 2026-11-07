@@ -84,6 +84,10 @@ def validate_config(root,config):
         argon=config['models']['profiles']['gemini_4_argon']
         if argon['model']!='gemini-4-argon' or argon['protocol']!='gemini_v1beta' or argon['context_window_tokens']!=500000 or argon['max_output_tokens']!=65536 or argon['thinking_level']!='high':
             raise ValueError('invalid gemini-4-argon profile configuration')
+    if 'gemini_3_8_flash' in config['models']['profiles']:
+        flash=config['models']['profiles']['gemini_3_8_flash']
+        if flash['model']!='gemini-3.8-flash' or flash['protocol']!='gemini_v1beta' or flash['context_window_tokens']!=500000 or flash['max_output_tokens']!=65536 or flash['thinking_level']!='high':
+            raise ValueError('invalid gemini-3.8-flash profile configuration')
     ids=[s['id'] for s in sources['sources']]
     if len(ids)!=len(set(ids)):raise ValueError('duplicate source id')
     for source in sources['sources']:

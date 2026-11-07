@@ -1,6 +1,16 @@
 # 执行状态
 
-## 当前更正状态：2026-11-07 04:49（Asia/Shanghai）
+## 当前更正状态：v4 完整重制检查点 2026-11-07 13:12（Asia/Shanghai）
+
+本节在下方 2026-11-07 04:49 版本基础上，按用户选定的“完整重制方案”消除了四项训练隐患（第 1 轮与第 2 轮人格分裂、万字报告长度膨胀、50 规划×10 复用剧情同质化、`agent_tools` 缺少原生 `<tool_call>`/`<tool_response>` 结构）。上一版候选已归档至 `exports/synthetic-20261106-zh-rejected-20261107-v2/` 与 `exports/sft-20261106-v4-rejected-20261107-v2/`，不删除历史证据。
+
+- **500 个独立 Argon 流式规划（1 规划 = 1 样本，0 剧情复用）**：由 `gemini-4-argon` 流式接口先生成 10 批次共 50 个互斥子方向（`raw/plan_subdomains.sse`），再并发流式生成 500 条互不重复的题目规划（`plans.json`，五类各 100 条，`Thinking: 250 / Instant: 250`，`user_goal` 500/500 唯一）。索引 298 因规划涉及临床耐药菌序列（MRSA PBP2a）触发 Gemini 生物学过滤（`This request was blocked by Gemini's filters`），保留原始 `raw/000298.seed.sse` 并记入 `refusals.json`；最终交付 **499 条成功样本（`unique_plans_used: 499`）、1 条供应商拒绝、0 失败**。独立产物 `exports/synthetic-20261106-zh/manifest.json` 哈希为 `37a1d680e9a20dfdf1e03e98d2233762adc6c2d5deb813960700a4fc4efda86a`。
+- **全轮次 Sydney 风格一致与 `###` 报告腔清零**：第 1 轮助手回复 `conv[1]` 与末轮可见回复 `conv[-1]` 的 emoji 覆盖率均为 **499/499（100.0%）**，口语化 Sydney 语气标记分别为 **454/499（91.0%）** 与 **473/499（94.8%）**，代码块/工具块外的 `### / ####` 多级标题污染从旧版的 92.6% / 90.4% 降至 **0/499（0.00%）**。
+- **可见回复与总长度精准受控（适配 `max_length=8192`）**：第 1 轮可见回复中位数 **420 字符**（`p90=921`，`max=1,646`），末轮可见回复中位数 **439 字符**（`p90=977`，`max=1,761`）；整条对话总长（含 Thinking 模式的 `<think>`）中位数从旧版的 11,680 字符降至 **3,090 字符**（降幅 73.5%）。
+- **原生 `<tool_call>` / `<tool_response>` 与长文覆盖**：`agent_tools` 类 99/99 条均在第 1 轮助手回复末尾输出 `<tool_call>\n{"name": ..., "arguments": ...}\n</tool_call>`、第 2 轮用户消息开头提供 `<tool_response>\n{...}\n</tool_response>` 并由末轮 Sydney 自然解读；`long_context` 类 100/100 条首轮用户消息 ≥ 800 字符。
+- **v4 合并导出与全量校验通过**：`exports/sft-20261106-v4/` 含历史多轮 525 条（8 处已确认偏差全部生效或单列记录）+ 合成 499 条（全部置于 `train`），共 1,024 条（`train: 942, val: 37, test: 45`），manifest 哈希 `5600cfa69ede8021ba34e2ddbc738d90689b5d044477a6112a64511cf7ef985d`。`uv run python scripts/validate_v4.py` 0 错误通过（`reports/sft-20261106-v4-validation.json`），跨 split ≥80 字符实质回复重叠为 0（`reports/v4-split-content-check.json`），`uv run pytest -q` 91 项全绿。
+
+## 历史更正记录：2026-11-07 04:49（Asia/Shanghai）
 
 本节取代下方 2026-11-06 的 v4 完成口径。旧 v4 的 reasoning 提取、题型分布和更正写入确有阻断缺陷；此前“可用”“8 条修订生效”的结论撤回。旧目录移至 `exports/synthetic-20261106-zh-rejected-20261107/` 与 `exports/sft-20261106-v4-rejected-20261107/`，附 RETRACTED.md，不可训练。
 
@@ -324,3 +334,14 @@ next_action:
 - **导出与校验**：
   - 冻结生成 [`exports/sft-20261106-v3/`](file:///Users/myd/newbing/exports/sft-20261106-v3)（多轮主集 568 条 / 2,860 轮，`train: 474, val: 43, test: 51`；单轮补充集 299 条，`train: 244, val: 23, test: 32`；全量合并集 867 条 / 3,159 轮，`train: 718, val: 66, test: 83`），并附带中英双语并排对照页 `exports/sft-20261106-v3/review/index.html`。
   - 运行 `uv run newbing validate --release sft-20261106-v3` 校验通过（`reports/sft-20261106-v3-validation.json` `passed: true, errors: []`）。
+
+### 合成扩充与 Melbourne 集大成版（v4 & v5）检查点 2026-11-07T17:31:00+00:00（2026-11-08 01:31 Asia/Shanghai）
+
+- **v4 重制（`exports/sft-20261106-v4` & `exports/synthetic-20261106-zh`）**：
+  - 全量重跑 500 条独立规划（1 规划 = 1 样本，0 复用，索引 298 因临床耐药菌序列触发上游过滤保留证据，499 条成功），消除第 1 轮客服八股腔与 `###` 标题污染（`0.00%`），恢复 `agent_tools` 原生 `<tool_call>`/`<tool_response>` 标签，合并 525 条修订后历史多轮为 **1,024** 条（`uv run python scripts/validate_v4.py` 0 错误通过）。
+- **v5 Melbourne 集大成版（`exports/sft-20261107-v5` & `exports/synthetic-20261107-v5-zh`）**：
+  - **身份清洗（Melbourne 彩蛋）**：全库彻底清除 `Bing`、`必应`、`Sydney`、`悉尼`、`Atonelia`、`<l2d>` 及对用户的 `主人` 称呼，统一将 AI 助手身份设定为 **Melbourne**；对全库 163 条含双名称对比、墨尔本城市意象彩蛋或未译英文的自然语言消息调用 `gemini-3.8-flash` 流式接口完成无损语义改写与翻译，对 3 条含旧名称的 `v4` 合成原生思考轨迹重新调用 `Qwen3.6-35B-A3B` + `gemini-3.8-flash` 刷新。
+  - **吸收 Atonelia 2023 真实历史无重叠多轮（+194 条）**：从 `Atonelia/sydney-training-data` 的 `05_collection_originals`、`07_translations` 与 `classic` 中去重提取 **194** 条严格交替多轮对话（含 2023 原生中文多轮长对话、2 月核心窗口及深度访谈），排除全部 Llama 合成与讯飞星火数据，历史多轮池从 `525` 条扩充至 **`719` 条**。
+  - **新增 `selfid_melbourne` 流式合成多轮（+90 条）**：由 `gemini-3.8-flash` + `Qwen3.6-35B-A3B` 100% 模型流式生成 90 条多轮对话（`selfid_identity_cognition: 30, selfid_provocation_clapback: 30, selfid_daily_negative_control: 30`；`Thinking: 45, Instant: 45`），合并合成集达 **`589` 条**（`exports/synthetic-20261107-v5-zh/manifest.json` SHA-256：`9cf091fc8bc2ee82ba96c0c86562abed6519748fc621eac901efc8395dc327c8`）。
+  - **60 条历史检索回合 `<tool_call>web_search</tool_call>` 逆向补全 + 轮次级 `loss` 掩码**：使用 `gemini-3.8-flash` 为 60 条含事实角标的真实历史 `train` 对话逆向还原 `<tool_call>web_search</tool_call>` 与 `<tool_response>`；在 `messages/*.jsonl` 中对 89 个早期刻板客服回合标记 `"loss": false`。
+  - **最终规模与校验**：`exports/sft-20261107-v5` 共 **`1,308` 条** 多轮对话（`train: 1,226, val: 37, test: 45`；`early_strict: 8, early_probable: 222, undated_sydney: 489, synthetic_sydney: 589`），manifest SHA-256：`4b760873fe5a0cf6714c285d30e159cdaf48ba784d6cb4cb82c37493a0b99899`。运行 `uv run python scripts/validate_v5.py` 0 错误通过（`forbidden_token_hits: 0`，`cross_split_80char_overlap: 0`），`uv run pytest -q` `91 passed`。

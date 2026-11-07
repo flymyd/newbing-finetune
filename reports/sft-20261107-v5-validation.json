@@ -1,0 +1,18 @@
+{
+  "validated_at": "2026-11-07T17:30:45.393483+00:00",
+  "release_id": "sft-20261107-v5",
+  "ok": true,
+  "error_count": 0,
+  "errors": [],
+  "total_conversations": 1308,
+  "by_split": {
+    "train": 1226,
+    "val": 37,
+    "test": 45
+  },
+  "synthetic_total": 589,
+  "historical_web_search_backfilled": 60,
+  "melbourne_mentions_messages": 1443,
+  "forbidden_token_hits": 0,
+  "cross_split_80char_overlap": 0
+}
